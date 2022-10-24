@@ -1,0 +1,8 @@
+04.10.2022 11:32:33 Age is too big or too small
+04.10.2022 11:36:23 Age is too big or too small
+04.10.2022 19:23:33 Test
+04.10.2022 19:23:46 Age is too big or too small
+17.10.2022 19:16:15 Name is too long or too short
+17.10.2022 19:16:36 Name is too long or too short
+17.10.2022 19:17:18 Name is too long or too short
+17.10.2022 19:17:27 Age is too big or too small

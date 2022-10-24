@@ -1,0 +1,15 @@
+E:\student\2 курс\1 семестр\OOП\laba_8\bin\Debug\net6.0\laba_8.exe
+E:\student\2 курс\1 семестр\OOП\laba_8\bin\Debug\net6.0\laba_8.deps.json
+E:\student\2 курс\1 семестр\OOП\laba_8\bin\Debug\net6.0\laba_8.runtimeconfig.json
+E:\student\2 курс\1 семестр\OOП\laba_8\bin\Debug\net6.0\laba_8.dll
+E:\student\2 курс\1 семестр\OOП\laba_8\bin\Debug\net6.0\laba_8.pdb
+E:\student\2 курс\1 семестр\OOП\laba_8\obj\Debug\net6.0\laba_8.csproj.AssemblyReference.cache
+E:\student\2 курс\1 семестр\OOП\laba_8\obj\Debug\net6.0\laba_8.GeneratedMSBuildEditorConfig.editorconfig
+E:\student\2 курс\1 семестр\OOП\laba_8\obj\Debug\net6.0\laba_8.AssemblyInfoInputs.cache
+E:\student\2 курс\1 семестр\OOП\laba_8\obj\Debug\net6.0\laba_8.AssemblyInfo.cs
+E:\student\2 курс\1 семестр\OOП\laba_8\obj\Debug\net6.0\laba_8.csproj.CoreCompileInputs.cache
+E:\student\2 курс\1 семестр\OOП\laba_8\obj\Debug\net6.0\laba_8.dll
+E:\student\2 курс\1 семестр\OOП\laba_8\obj\Debug\net6.0\refint\laba_8.dll
+E:\student\2 курс\1 семестр\OOП\laba_8\obj\Debug\net6.0\laba_8.pdb
+E:\student\2 курс\1 семестр\OOП\laba_8\obj\Debug\net6.0\laba_8.genruntimeconfig.cache
+E:\student\2 курс\1 семестр\OOП\laba_8\obj\Debug\net6.0\ref\laba_8.dll
