@@ -11,7 +11,7 @@ AUDITORIUM.AUDITORIUM as [код]
 FROM AUDITORIUM
 WHERE AUDITORIUM.AUDITORIUM_TYPE LIKE 'ЛК%'
 
-INSERT INTO [Auditor] VALUES ('ЛК','ЛК')
+INSERT  [Auditor] VALUES ('ЛК','ЛК')
 DELETE FROM Auditor where AUDITORIUM='ЛК'
 UPDATE Auditor SET  AUDITORIUM = 'TEST' 
 WHERE AUDITORIUM = 'ЛК'
@@ -28,7 +28,7 @@ AS SELECT БАНК.id [Код],
 БАНК.Назаание_кредита [Название кредита],
 БАНК.Ставка [Ставка]
 FROM БАНК;
-INSERT INTO [Банки_t] 
+INSERT  [Банки_t] 
 VALUES (3,'простой',3000);
 
 DELETE FROM [Банки_t] 

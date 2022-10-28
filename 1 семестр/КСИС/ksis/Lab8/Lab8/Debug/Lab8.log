@@ -1,0 +1,12 @@
+﻿  Main.cpp
+d:\ksis\lab8\lab8\main.cpp(10): warning C4244: инициализация: преобразование "unsigned __int64" в "int", возможна потеря данных
+d:\ksis\lab8\lab8\main.cpp(110): warning C4244: =: преобразование "unsigned __int64" в "unsigned char", возможна потеря данных
+d:\ksis\lab8\lab8\main.cpp(111): warning C4244: =: преобразование "unsigned __int64" в "unsigned char", возможна потеря данных
+d:\ksis\lab8\lab8\main.cpp(129): warning C4244: =: преобразование "unsigned __int64" в "unsigned char", возможна потеря данных
+d:\ksis\lab8\lab8\main.cpp(130): warning C4244: =: преобразование "unsigned __int64" в "unsigned char", возможна потеря данных
+d:\ksis\lab8\lab8\main.cpp(148): warning C4244: =: преобразование "unsigned __int64" в "unsigned char", возможна потеря данных
+d:\ksis\lab8\lab8\main.cpp(149): warning C4244: =: преобразование "unsigned __int64" в "unsigned char", возможна потеря данных
+d:\ksis\lab8\lab8\main.cpp(169): warning C4101: subnet: неиспользованная локальная переменная
+d:\ksis\lab8\lab8\main.cpp(169): warning C4101: broadcast: неиспользованная локальная переменная
+d:\ksis\lab8\lab8\main.cpp(169): warning C4101: host: неиспользованная локальная переменная
+  Lab8.vcxproj -> D:\KSIS\Lab8\Debug\Lab8.exe
