@@ -2,25 +2,29 @@
 Разработать SELECT-запрос, по-лучить план запроса и определить его стоимость. 
 Создать некластеризованный фильтруемый индекс, уменьшаю-щий стоимость SELECT-запроса.
 */
-
-
 USE UNIVER;
-create table #task4Filter
-(
-Info nvarchar (20),
-Iterator int identity(1,1),
-Time datetime
-)
-declare @z int =1;
-while @z <= 11000
-begin
-insert into #task4Filter values
-('Строка' + cast(@z as nvarchar), SYSDATETIME())
-set @z +=1;
-end
 
-create index #Index on #task4Filter(Iterator) where (Iterator > 15000 and Iterator < 20000)
-checkpoint;
-dbcc dropcleanbuffers
-select Iterator from #task4Filter where Iterator between 10000 and 20000 -- 0.0627894 -- 0.0627894
-select Iterator from #task4Filter where Iterator > 15000 and Iterator < 20000 -- 0.0627894 -- 0.0032831
+CREATE TABLE #TASK4
+(
+INFO NVARCHAR (20),
+ITERATOR INT IDENTITY(1,1),
+INDEX_ INT 
+)
+
+DECLARE @X INT =1;
+WHILE @X <= 11000
+BEGIN
+INSERT INTO #TASK4(INFO,INDEX_)
+VALUES ('СТРОКА' + CAST(@X AS NVARCHAR),FLOOR(20000*RAND()))
+SET @X +=1;
+END
+
+CREATE INDEX #INDEX ON #TASK4(ITERATOR)
+WHERE (ITERATOR > 1500 AND ITERATOR < 2000)
+CHECKPOINT;
+DBCC DROPCLEANBUFFERS
+
+SELECT ITERATOR FROM #TASK4 
+WHERE ITERATOR > 1500 AND ITERATOR < 2000
+
+DROP INDEX #INDEX ON #TASK4

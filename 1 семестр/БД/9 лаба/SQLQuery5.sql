@@ -4,34 +4,40 @@
 Выполнить процедуру реоргани-зации индекса, оценить уровень фрагментации. 
 Выполнить процедуру пере-стройки индекса и оценить уровень фрагментации индекса.
 */
-use UNIVER;
-create table #task5 (tkey int, cc int identity(1,1), tf varchar(100))
-set nocount on
-declare @k int = 0
-while @k < 10000
-begin
-insert #task5(tkey, tf) values (floor(30000*rand()), replicate('Задание ', 10))
-set @k = @k + 1
-end
+USE UNIVER;
+CREATE TABLE  #TASK5
+(
+INFO NVARCHAR (20),
+ITERATOR INT IDENTITY(1,1),
+INDEX_ INT 
+)
 
-checkpoint;
-dbcc dropcleanbuffers
+DECLARE @X INT =1;
+WHILE @X <= 11000
+BEGIN
+INSERT INTO  #TASK5(INFO,INDEX_)
+VALUES ('СТРОКА' + CAST(@X AS NVARCHAR),FLOOR(20000*RAND()))
+SET @X +=1;
+END
 
-create index #task5_tkey on #task5(tkey)
+CHECKPOINT;
+DBCC DROPCLEANBUFFERS
 
--- поставить tempdb !!!
+CREATE INDEX #TASK5_KEY ON #TASK5(INDEX_)
 
-select name [Индекс], avg_fragmentation_in_percent [Фрагментация (%)] -- степень фрагментации индекса
-FROM sys.dm_db_index_physical_stats(DB_ID(N'TEMPDB'),
-OBJECT_ID(N'#task5'), NULL, NULL, NULL) ss
-JOIN sys.indexes ii on ss.object_id = ii.object_id and ss.index_id = ii.index_id where name is not null; -- 0 -- 88
+-- ПОСТАВИТЬ TEMPDB !!!
 
-insert top(10000000) #task5(tkey, tf) select tkey, tf from #task5
+SELECT NAME [ИНДЕКС], AVG_FRAGMENTATION_IN_PERCENT [ФРАГМЕНТАЦИЯ (%)] -- СТЕПЕНЬ ФРАГМЕНТАЦИИ ИНДЕКСА
+FROM SYS.DM_DB_INDEX_PHYSICAL_STATS(DB_ID(N'TEMPDB'),
+OBJECT_ID(N'#TASK5'), NULL, NULL, NULL) SS
+JOIN SYS.INDEXES II ON SS.OBJECT_ID = II.OBJECT_ID
+AND SS.INDEX_ID = II.INDEX_ID WHERE NAME IS NOT NULL; 
+INSERT TOP(10000000) #TASK5(INDEX_ ,INFO) SELECT INDEX_, INFO FROM #TASK5
 
-drop index #task5_tkey on #task5
+DROP INDEX #TASK5_KEY ON #TASK5
 
-drop table #task5
+DROP TABLE #TASK5
 
-alter index #task5_tkey on #task5 reorganize --реорганизация - только на самом нижнем уровне
+ALTER INDEX #TASK5_KEY ON #TASK5 REORGANIZE --РЕОРГАНИЗАЦИЯ - ТОЛЬКО НА САМОМ НИЖНЕМ УРОВНЕ
 
-alter index #task5_tkey on #task5 rebuild with (online = off) -- через все дерево
+ALTER INDEX #TASK5_KEY ON #TASK5 REBUILD WITH (ONLINE = OFF) -- ЧЕРЕЗ ВСЕ ДЕРЕВО

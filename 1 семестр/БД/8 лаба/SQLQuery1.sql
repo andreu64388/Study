@@ -6,24 +6,24 @@
  значения одной половины переменных вывести с помощью оператора SELECT, значения другой половины переменных распечатать с помощью оператора PRINT. 
 Проанализировать результаты.
 */
-declare @a char = 'А',
-@b varchar(3) = 'ФИТ',
-@c datetime,
-@d time,
-@e int,
-@f smallint,
-@g tinyint,
-@h numeric(12,5);
+DECLARE @A CHAR = 'А',
+@B VARCHAR(3) = 'ФИТ',
+@C DATETIME,
+@D TIME,
+@E INT,
+@F SMALLINT,
+@G TINYINT,
+@H NUMERIC(12,5);
 
-set @c = getdate();
-set @d = (select convert(varchar(12), getdate(), 114) 'hh:mi:ss:mmm');
+	
+SET @D = (SELECT CONVERT(VARCHAR(12), GETDATE(), 114) 'hh:mi:ss:mmm');
 
-select @e = 21122001, @f = 21, @G = 1;
+SELECT @E = 21122001, @F = 21, @G = 1;
 
-select @a Символ, @b Строка, @c Дата;
+SELECT @A СИМВОЛ, @B СТРОКА, @C ДАТА;
 
-print 'Время = ' + cast(@d as nvarchar);
-print 'Int = ' + convert(nvarchar, @e);
-print 'Smallint = ' + convert(nvarchar, @f);
-print 'Tinyint = ' + convert(nvarchar, @g);
-print 'Numeric = ' + convert(nvarchar, @h);
+PRINT 'ВРЕМЯ = ' + CAST(@D AS NVARCHAR);
+PRINT 'INT = ' + CONVERT(NVARCHAR, @E);
+PRINT 'SMALLINT = ' + CONVERT(NVARCHAR, @F);
+PRINT 'TINYINT = ' + CONVERT(NVARCHAR, @G);
+PRINT 'NUMERIC = ' + CONVERT(NVARCHAR, @H);

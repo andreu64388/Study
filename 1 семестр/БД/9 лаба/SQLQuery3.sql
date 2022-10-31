@@ -1,31 +1,34 @@
-/*3. Создать временную локальную таблицу. Заполнить ее данными (не менее 10000 строк). 
-Разработать SELECT-запрос. По-лучить план запроса и определить его стоимость. 
-Создать некластеризованный ин-декс покрытия, уменьшающий сто-имость SELECT-запроса. 
+/*3. СОЗДАТЬ ВРЕМЕННУЮ ЛОКАЛЬНУЮ ТАБЛИЦУ. ЗАПОЛНИТЬ ЕЕ ДАННЫМИ (НЕ МЕНЕЕ 10000 СТРОК). 
+РАЗРАБОТАТЬ SELECT-ЗАПРОС. ПО-ЛУЧИТЬ ПЛАН ЗАПРОСА И ОПРЕДЕЛИТЬ ЕГО СТОИМОСТЬ. 
+СОЗДАТЬ НЕКЛАСТЕРИЗОВАННЫЙ ИН-ДЕКС ПОКРЫТИЯ, УМЕНЬШАЮЩИЙ СТО-ИМОСТЬ SELECT-ЗАПРОСА. 
 */
 USE UNIVER;
-create table #task3Pok
+CREATE TABLE #TASK3
 (
-Info nvarchar (20),
-Iterator int identity(1,1),
-Time datetime
+INFO NVARCHAR (20),
+ITERATOR INT IDENTITY(1,1),
+INDEX_ INT 
 )
-declare @h int =1;
-while @h <= 11000
-begin
-insert into #task3Pok values
-('Строка' + cast(@h as nvarchar), SYSDATETIME())
-set @h +=1;
-end
 
-select Info from #task3Pok where Iterator >=10000 -- 0.0627894
+DECLARE @X INT =1;
+WHILE @X <= 11000
+BEGIN
+INSERT INTO #TASK3(INFO,INDEX_)
+VALUES ('СТРОКА' + CAST(@X AS NVARCHAR),FLOOR(20000*RAND()))
+SET @X +=1;
+END
 
-checkpoint;
-dbcc dropcleanbuffers
+SELECT INFO FROM #TASK3 WHERE ITERATOR >=10000 
 
-create index #NonClustPok on #task3Pok(Iterator) include (Info)
+CHECKPOINT;
 
-select Info from #task3Pok where Iterator >=10000 -- 0.0080868
+DBCC DROPCLEANBUFFERS
 
-drop index #NonClustPok on #task3Pok
+CREATE INDEX #NONCLUSTPOK ON #TASK3 (ITERATOR) INCLUDE (INFO)
 
-drop table #task3Pok
+SELECT INFO FROM #TASK3 WHERE ITERATOR >=10000 
+
+DROP INDEX #NONCLUSTPOK ON #TASK3POK
+
+DROP TABLE #TASK3
+

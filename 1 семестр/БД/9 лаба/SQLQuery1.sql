@@ -1,28 +1,46 @@
-﻿/*1. С помощью SSMS определить все индексы, которые имеются в БД UNIVER. Определить, какие из них являются кластеризованными, а ка-кие некластеризованными. 
-Создать временную локальную таблицу. Заполнить ее данными (не менее 1000 строк). 
-Разработать SELECT-запрос. По-лучить план запроса и определить его стоимость. 
-Создать кластеризованный индекс, уменьшающий стоимость SELECT-запроса.*/
+﻿/*1. С ПОМОЩЬЮ SSMS ОПРЕДЕЛИТЬ ВСЕ ИНДЕКСЫ, КОТОРЫЕ ИМЕЮТСЯ В БД UNIVER. ОПРЕДЕЛИТЬ, КАКИЕ ИЗ НИХ ЯВЛЯЮТСЯ КЛАСТЕРИЗОВАННЫМИ, А КА-КИЕ НЕКЛАСТЕРИЗОВАННЫМИ. 
+СОЗДАТЬ ВРЕМЕННУЮ ЛОКАЛЬНУЮ ТАБЛИЦУ. ЗАПОЛНИТЬ ЕЕ ДАННЫМИ (НЕ МЕНЕЕ 1000 СТРОК). 
+РАЗРАБОТАТЬ SELECT-ЗАПРОС. ПО-ЛУЧИТЬ ПЛАН ЗАПРОСА И ОПРЕДЕЛИТЬ ЕГО СТОИМОСТЬ. 
+СОЗДАТЬ КЛАСТЕРИЗОВАННЫЙ ИНДЕКС, УМЕНЬШАЮЩИЙ СТОИМОСТЬ SELECT-ЗАПРОСА.*/
 USE UNIVER;
 
-exec sp_helpindex 'AUDITORIUM_TYPE' -- перечень индексов
+EXEC SP_HELPINDEX 'AUDITORIUM_TYPE' -- ПЕРЕЧЕНЬ ИНДЕКСОВ
 
-create table #task1 (first int, second varchar(100))
-set nocount on -- не выводить сообщени¤ о вводе строк
-declare @i int = 0
-while @i < 1000
-begin
-insert #task1(first, second) values (floor(20000*rand()), replicate('строка', 10))
-if (@i % 100 = 0) print @i;
-set @i = @i + 1
-end
+CREATE TABLE #TIMETEST
+(INDEX_ INT, 
+MESSAGES_
+NVARCHAR(20))
+SET NOCOUNT ON -- НЕ ВЫВОДИТЬ СООБЩЕНИ¤ О ВВОДЕ СТРОК
+DECLARE @I INT = 0
+WHILE @I < 1000
+BEGIN
+INSERT #TIMETEST(INDEX_, MESSAGES_) VALUES (FLOOR(20000*RAND()), REPLICATE('СТРОКА ', 3))
+IF (@I % 100 = 0) PRINT @I;
+SET @I = @I + 1
+END
 
-select * from #task1 where first between 1500 and 2500 order by first -- 0.0230752
+SELECT * FROM #TIMETEST WHERE INDEX_ BETWEEN 1000 AND 1500 ORDER BY INDEX_ 
 
-checkpoint; -- фиксаци¤ Ѕƒ
-dbcc dropcleanbuffers
+CHECKPOINT; 
 
-create clustered index #task1_cl on #task1(first asc)
+DBCC DROPCLEANBUFFERS
 
-select * from #task1 where first between 1500 and 2500 order by first -- 0.0033414
+CREATE CLUSTERED INDEX TIMETEST_CL ON #TIMETEST(INDEX_ ASC)
 
-drop index #task1_cl on #task1
+SELECT * FROM #TIMETEST WHERE INDEX_ BETWEEN 1500 AND 2500 ORDER BY INDEX_
+
+DROP INDEX TIMETEST_CL ON TIMETEST
+
+----------------------------------------
+USE BANK;
+EXEC SP_HELPINDEX 'БАНК' 
+
+SELECT * FROM БАНК
+WHERE id = 3
+
+CREATE INDEX MY_BANK ON БАНК(id);
+
+DROP INDEX MY_BANK ON БАНК;
+
+SELECT * FROM БАНК
+WHERE id = 3
