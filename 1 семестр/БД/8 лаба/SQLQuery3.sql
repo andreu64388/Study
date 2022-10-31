@@ -9,11 +9,11 @@
  @@FETCH_STATUS (проверка ре-зультата считывания строк результи-рующего набора); 
  @@NESTLEVEL (уровень вложен-ности текущей процедуры).
 */
-print 'Число обработанных строк: ' + cast(@@ROWCOUNT as nvarchar);
-print 'Версия SQL Server: ' + cast(@@VERSION as varchar);
-print 'Системный идентификатор процесса: ' + cast(@@SPID as nvarchar);
-print 'Код последней ошибки: ' + cast(@@ERROR as varchar);
-print 'Имя сервера: ' + cast(@@SERVERNAME as varchar);
-print 'Уровень вложенности транзакции: ' + cast(@@TRANCOUNT as nvarchar);
-print 'Проверка результата считывания строк результирующего набора: ' + cast(@@FETCH_STATUS as nvarchar);
-print 'Уровень вложенности текущей процедуры: ' + cast(@@NESTLEVEL as nvarchar);
+PRINT 'ЧИСЛО ОБРАБОТАННЫХ СТРОК: ' + CAST(@@ROWCOUNT AS NVARCHAR);
+PRINT 'ВЕРСИЯ SQL SERVER: ' + CAST(@@VERSION AS VARCHAR);
+PRINT 'СИСТЕМНЫЙ ИДЕНТИФИКАТОР ПРОЦЕССА: ' + CAST(@@SPID AS NVARCHAR);
+PRINT 'КОД ПОСЛЕДНЕЙ ОШИБКИ: ' + CAST(@@ERROR AS VARCHAR);
+PRINT 'ИМЯ СЕРВЕРА: ' + CAST(@@SERVERNAME AS VARCHAR);
+PRINT 'УРОВЕНЬ ВЛОЖЕННОСТИ ТРАНЗАКЦИИ: ' + CAST(@@TRANCOUNT AS NVARCHAR);
+PRINT 'ПРОВЕРКА РЕЗУЛЬТАТА СЧИТЫВАНИЯ СТРОК РЕЗУЛЬТИРУЮЩЕГО НАБОРА: ' + CAST(@@FETCH_STATUS AS NVARCHAR);
+PRINT 'УРОВЕНЬ ВЛОЖЕННОСТИ ТЕКУЩЕЙ ПРОЦЕДУРЫ: ' + CAST(@@NESTLEVEL AS NVARCHAR);

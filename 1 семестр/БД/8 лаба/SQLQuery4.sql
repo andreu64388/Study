@@ -6,51 +6,52 @@
  поиск студентов, у которых день рождения в следующем месяце, и опре-деление их возраста;
  поиск дня недели, в который сту-денты некоторой группы сдавали экза-мен по СУБД.
 */
-declare @z float, @t float = 21, @x float = 5;
+DECLARE 
+@Z FLOAT,
+@T FLOAT = 21,
+@X FLOAT = 5;
 
-if @t > @x
-set @z = power(sin(@t), 2);
+IF @T > @X
+SET @Z = POWER(SIN(@T), 2);
 
-else if @t < @x
-set @z = 4*(@t + @x);
+ELSE IF @T < @X
+SET @Z = 4*(@T + @X);
 
-else
-set @z = 1 - exp(@x-2);
+ELSE
+SET @Z = 1 - EXP(@X-2);
 
-select @z;
+SELECT @Z;
 -------------------------------------
-declare @lastName nvarchar(20) = 'Коренчук',
-@firstName nvarchar(20) = 'Андрей',
-@surname nvarchar(20) = 'Васильевич',
-@longName nvarchar(50),
-@shortName nvarchar(30);
+DECLARE @LASTNAME NVARCHAR(20) = 'КОРЕНЧУК',
+@FIRSTNAME NVARCHAR(20) = 'АНДРЕЙ',
+@SURNAME NVARCHAR(20) = 'ВАСИЛЬЕВИЧ',
+@LONGNAME NVARCHAR(50),
+@SHORTNAME NVARCHAR(30);
 
-set @longName = @lastName + ' ' + @firstName + ' ' + @surname;
+SET @LONGNAME = @LASTNAME + ' ' + @FIRSTNAME + ' ' + @SURNAME;
 
-set @firstName = substring(@firstName, 1,1)+'.';
-set @surname = substring(@surname, 1,1)+'.';
-set @shortName = @lastName + ' ' + @firstName + ' ' + @surname;
+SET @FIRSTNAME = SUBSTRING(@FIRSTNAME, 1,1)+'.';
+SET @SURNAME = SUBSTRING(@SURNAME, 1,1)+'.';
+SET @SHORTNAME = @LASTNAME + ' ' + @FIRSTNAME + ' ' + @SURNAME;
 
-select @longName [Полное имя] ,@shortName [Сокращенное имя];
+SELECT @LONGNAME [ПОЛНОЕ ИМЯ] ,@SHORTNAME [СОКРАЩЕННОЕ ИМЯ];
 -----------------------------------
-
-
-select STUDENT.NAME, STUDENT.BDAY, (datediff(YY, STUDENT.BDAY, sysdatetime())) as Возраст
-from STUDENT
-where month(STUDENT.BDAY) = month(sysdatetime()) + 1;
+USE UNIVER;
+SELECT STUDENT.NAME, STUDENT.BDAY, (DATEDIFF(YY, STUDENT.BDAY, SYSDATETIME())) AS ВОЗРАСТ
+FROM STUDENT
+WHERE MONTH(STUDENT.BDAY) = MONTH(SYSDATETIME()) + 1;
 ----------------------------------
+DECLARE @GROUPNUMBER INT = 4;
 
-declare @groupNumber int = 4;
-
-select distinct PROGRESS.PDATE[Дата прохождения экзамена], case
-when DATEPART(dw,PROGRESS.PDATE) = 1 then 'Понедельник'
-when DATEPART(dw,PROGRESS.PDATE) = 2 then 'Вторник'
-when DATEPART(dw,PROGRESS.PDATE) = 3 then 'Среда'
-when DATEPART(dw,PROGRESS.PDATE) = 4 then 'Четверг'
-when DATEPART(dw,PROGRESS.PDATE) = 5 then 'Пятница'
-when DATEPART(dw,PROGRESS.PDATE) = 6 then 'Суббота'
-when DATEPART(dw,PROGRESS.PDATE) = 7 then 'Воскресенье'
-end [День недели]
-from GROUPS inner join STUDENT on STUDENT.IDGROUP = GROUPS.IDGROUP
-inner join PROGRESS on STUDENT.IDSTUDENT= PROGRESS.IDSTUDENT
-where GROUPS.IDGROUP = @groupNumber and PROGRESS.SUBJECT = 'СУБД'
+SELECT DISTINCT PROGRESS.PDATE[ДАТА ПРОХОЖДЕНИЯ ЭКЗАМЕНА], CASE
+WHEN DATEPART(DW,PROGRESS.PDATE) = 1 THEN 'ПОНЕДЕЛЬНИК'
+WHEN DATEPART(DW,PROGRESS.PDATE) = 2 THEN 'ВТОРНИК'
+WHEN DATEPART(DW,PROGRESS.PDATE) = 3 THEN 'СРЕДА'
+WHEN DATEPART(DW,PROGRESS.PDATE) = 4 THEN 'ЧЕТВЕРГ'
+WHEN DATEPART(DW,PROGRESS.PDATE) = 5 THEN 'ПЯТНИЦА'
+WHEN DATEPART(DW,PROGRESS.PDATE) = 6 THEN 'СУББОТА'
+WHEN DATEPART(DW,PROGRESS.PDATE) = 7 THEN 'ВОСКРЕСЕНЬЕ'
+END [ДЕНЬ НЕДЕЛИ]
+FROM GROUPS INNER JOIN STUDENT ON STUDENT.IDGROUP = GROUPS.IDGROUP
+INNER JOIN PROGRESS ON STUDENT.IDSTUDENT= PROGRESS.IDSTUDENT
+WHERE GROUPS.IDGROUP = @GROUPNUMBER AND PROGRESS.SUBJECT = 'СУБД'
