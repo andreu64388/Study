@@ -5,7 +5,7 @@
 (СПНБЕМЭ ЯЕПЭЕГМНЯРХ НЬХАЙХ), ERROR_ STATE (ЛЕРЙЮ НЬХАЙХ). оПНЮМЮКХГХПНБЮРЭ ПЕ-ГСКЭРЮР.*/
 USE UNIVER;
 BEGIN TRY
-UPDATE PROGRESS SET NOTE = 'ярпнйю блеярн INT!!!' WHERE NOTE = 9
+UPDATE PROGRESS SET NOTE = 'ярпнйю блеярн INT!' WHERE NOTE = 9
 END TRY
 BEGIN CATCH
 PRINT ERROR_NUMBER() -- йнд онякедмеи ньхайх
@@ -13,5 +13,5 @@ PRINT ERROR_MESSAGE() -- яннаыемхе на ньхайе
 PRINT ERROR_LINE() -- йнд онякедмеи ньхайх
 PRINT ERROR_PROCEDURE() -- хлъ опнжедспш хкх NULL
 PRINT ERROR_SEVERITY() -- спнбемэ яепэегмнярх ньхайх
-PRINT ERROR_STATE() --
+PRINT ERROR_STATE() 
 END CATCH

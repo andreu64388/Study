@@ -1,0 +1,32 @@
+/*2. Разработать сценарий, демонстри-рующий отличие глобального курсора от локального на 
+примере базы данных X_UNIVER.*/
+USE UNIVER;
+DECLARE LINESLOCAL CURSOR LOCAL FOR SELECT SUBJECT FROM SUBJECT
+DECLARE @FIRST NVARCHAR(10), @ALL NVARCHAR(200) = ' ';
+
+OPEN LINESLOCAL
+FETCH LINESLOCAL INTO @FIRST
+PRINT '1. ' + @FIRST
+GO
+
+DECLARE @FIRST NVARCHAR(10), @ALL NVARCHAR(200) = ' ';
+FETCH LINESLOCAL INTO @FIRST
+PRINT '2. ' + @FIRST
+GO
+------------------------------------------------------
+-- пример использования глобального курсора:
+DECLARE PULS CURSOR GLOBAL FOR  SELECT SUBJECT FROM SUBJECT
+DECLARE @SUB1 NVARCHAR(10);
+OPEN PULS;
+FETCH PULS INTO @SUB1;
+PRINT RTRIM(@SUB1)+' ПРЕДМЕТ ';
+
+DECLARE @SUB2 NVARCHAR(10);
+FETCH PULS INTO @SUB2;
+PRINT RTRIM(@SUB2)+'  ПРЕДМЕТ ';
+
+DECLARE @SUB3 NVARCHAR(10);
+FETCH PULS INTO @SUB3;
+PRINT RTRIM(@SUB3)+' ПРЕДМЕТ ';
+CLOSE PULS;
+DEALLOCATE PULS; -- ОСВОБОЖДАЕТ ПАМЯТЬ ОТ КУРСОРА

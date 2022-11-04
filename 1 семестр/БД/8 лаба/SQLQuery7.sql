@@ -1,19 +1,20 @@
 /*7. Создать временную локальную таблицу из трех столбцов и 10 строк, заполнить ее и вывести содержимое. 
 Использовать оператор WHILE.*/
-CREATE TABLE #MYTABLE(
-ЧИСЛА INT,
-СЛОВА NVARCHAR(50),
-[ЕЩЕ СЛОВА] NVARCHAR(50)
-);
+CREATE TABLE #TASK(
+	ID INT,
+	NAME VARCHAR(20),
+	MESSAGE VARCHAR(10)
+	)
+GO
 
-DECLARE @I INT = 1;
-WHILE @I <11
+DECLARE @INDEX INT = 0
+WHILE @INDEX < 10
 BEGIN
-INSERT INTO #MYTABLE VALUES
-(CAST(@I AS INT), CAST(@I AS NVARCHAR(10)) + ' - ЛАБА ','БД ' + CAST(@I AS NVARCHAR(10)))
-SET @I +=1;
+INSERT #TASK VALUES (@INDEX, 'NAME ' + CAST(@INDEX AS VARCHAR), 'MESSAGE ' + CAST(@INDEX AS VARCHAR))
+SET @INDEX += 1
 END
-SELECT * FROM #MYTABLE
-ORDER BY ЧИСЛА DESC
 
-DROP TABLE #MYTABLE;
+SELECT * FROM #TASK
+
+
+

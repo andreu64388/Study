@@ -14,7 +14,7 @@ namespace laba_11;
     }
 
     //есть ли публичные конструкторы;
-
+  
     public static void GetConstructors(Type type)
     {
         Console.WriteLine("Конструкторы: ");
