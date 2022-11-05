@@ -1,0 +1,7 @@
+{"Name":"FreeSpace","date":"2022-11-05T15:07:40.5742196+03:00","NameClass":"KAVDiskInfo"}
+{"Name":"FreeSpace","date":"2022-11-05T15:07:50.2849026+03:00","NameClass":"KAVDiskInfo"}
+{"Name":"FreeSpace","date":"2022-11-05T15:08:05.7608548+03:00","NameClass":"KAVDiskInfo"}
+{"Name":"FreeSpace","date":"2022-11-05T15:10:45.274542+03:00","NameClass":"KAVDiskInfo"}
+{"Name":"FreeSpace","date":"2022-11-05T15:12:33.5215581+03:00","NameClass":"KAVDiskInfo"}
+{"Name":"FreeSpace","date":"2022-11-05T15:15:41.0677668+03:00","NameClass":"KAVDiskInfo"}
+{"Name":"FreeSpace","date":"2022-11-05T15:26:21.6147332+03:00","NameClass":"KAVDiskInfo"}
