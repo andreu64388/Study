@@ -97,6 +97,43 @@ XXXInspect.*/
     }
     /*Сделайте архив из файлов директория XXXFiles.
 Разархивируйте его в другой директорий.*/
+
+    public static void CreateDirectory(string path, string name)
+    {
+        if (path is null)
+        {
+            throw new ArgumentNullException(nameof(path));
+        }
+        if (name is null)
+        {
+            throw new ArgumentNullException(nameof(name));
+        }
+
+        DirectoryInfo dir = new(path);
+        dir.CreateSubdirectory(name);
+
+        KAVLog.WriteToFile(MethodBase.GetCurrentMethod().Name, MethodBase.GetCurrentMethod().DeclaringType.Name);
+    }
+
+    public static void ReplaceTo(string pathFrom, string pathTo,params string[] extens)
+    {
+        DirectoryInfo dirFrom = new(pathFrom);
+        DirectoryInfo dirTo = new(pathTo);
+
+        var files = dirFrom.GetFiles();
+
+        foreach (var file in files)
+        {
+            if (extens.Length == 0 ||
+                extens.Contains(file.Extension))
+            {
+                Remove(dirTo.FullName + "\\" + file.Name);
+                file.MoveTo(dirTo.FullName + "\\" + file.Name);
+            }
+        }
+
+        KAVLog.WriteToFile(MethodBase.GetCurrentMethod().Name, MethodBase.GetCurrentMethod().DeclaringType.Name);
+    }
     public static void CreateZip(string path)
     {
         DirectoryInfo dir = new(path);
