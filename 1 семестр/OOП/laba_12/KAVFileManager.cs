@@ -119,6 +119,7 @@ XXXInspect.*/
     {
         DirectoryInfo dirFrom = new(pathFrom);
         DirectoryInfo dirTo = new(pathTo);
+     
 
         var files = dirFrom.GetFiles();
 

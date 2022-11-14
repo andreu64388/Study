@@ -1,0 +1,15 @@
+E:\student\2 курс\1 семестр\OOП\Servers\bin\Debug\net6.0\Servers.exe
+E:\student\2 курс\1 семестр\OOП\Servers\bin\Debug\net6.0\Servers.deps.json
+E:\student\2 курс\1 семестр\OOП\Servers\bin\Debug\net6.0\Servers.runtimeconfig.json
+E:\student\2 курс\1 семестр\OOП\Servers\bin\Debug\net6.0\Servers.dll
+E:\student\2 курс\1 семестр\OOП\Servers\bin\Debug\net6.0\Servers.pdb
+E:\student\2 курс\1 семестр\OOП\Servers\obj\Debug\net6.0\Servers.csproj.AssemblyReference.cache
+E:\student\2 курс\1 семестр\OOП\Servers\obj\Debug\net6.0\Servers.GeneratedMSBuildEditorConfig.editorconfig
+E:\student\2 курс\1 семестр\OOП\Servers\obj\Debug\net6.0\Servers.AssemblyInfoInputs.cache
+E:\student\2 курс\1 семестр\OOП\Servers\obj\Debug\net6.0\Servers.AssemblyInfo.cs
+E:\student\2 курс\1 семестр\OOП\Servers\obj\Debug\net6.0\Servers.csproj.CoreCompileInputs.cache
+E:\student\2 курс\1 семестр\OOП\Servers\obj\Debug\net6.0\Servers.dll
+E:\student\2 курс\1 семестр\OOП\Servers\obj\Debug\net6.0\refint\Servers.dll
+E:\student\2 курс\1 семестр\OOП\Servers\obj\Debug\net6.0\Servers.pdb
+E:\student\2 курс\1 семестр\OOП\Servers\obj\Debug\net6.0\Servers.genruntimeconfig.cache
+E:\student\2 курс\1 семестр\OOП\Servers\obj\Debug\net6.0\ref\Servers.dll

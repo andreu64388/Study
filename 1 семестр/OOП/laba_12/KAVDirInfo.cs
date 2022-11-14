@@ -21,6 +21,7 @@ e. Продемонстрируйте работу класса*/
     public static void GetDirInf(string path)
     {
         DirectoryInfo dir = new(path);
+       
         Console.WriteLine($"Directory name: {dir.Name}");
         Console.WriteLine($"Directory creation time: {dir.CreationTime}");
         Console.WriteLine($"Directory parent: {dir.Parent}");
@@ -33,3 +34,5 @@ e. Продемонстрируйте работу класса*/
     #endregion
 
 }
+//директории - это класс, который позволяет получить информацию о директории.
+//что такое директория - это папка, в которой хранятся файлы.

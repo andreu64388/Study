@@ -5,6 +5,8 @@ laba_12.dll
 laba_12.exe
 laba_12.pdb
 laba_12.runtimeconfig.json
+Untitled-1.txt
+Untitled-2.txt
 
 
 KAVFiles

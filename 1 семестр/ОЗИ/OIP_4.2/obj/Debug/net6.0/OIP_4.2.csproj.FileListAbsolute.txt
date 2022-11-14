@@ -1,0 +1,15 @@
+E:\student\2 курс\1 семестр\ОЗИ\OIP_4.2\bin\Debug\net6.0\OIP_4.2.exe
+E:\student\2 курс\1 семестр\ОЗИ\OIP_4.2\bin\Debug\net6.0\OIP_4.2.deps.json
+E:\student\2 курс\1 семестр\ОЗИ\OIP_4.2\bin\Debug\net6.0\OIP_4.2.runtimeconfig.json
+E:\student\2 курс\1 семестр\ОЗИ\OIP_4.2\bin\Debug\net6.0\OIP_4.2.dll
+E:\student\2 курс\1 семестр\ОЗИ\OIP_4.2\bin\Debug\net6.0\OIP_4.2.pdb
+E:\student\2 курс\1 семестр\ОЗИ\OIP_4.2\obj\Debug\net6.0\OIP_4.2.csproj.AssemblyReference.cache
+E:\student\2 курс\1 семестр\ОЗИ\OIP_4.2\obj\Debug\net6.0\OIP_4.2.GeneratedMSBuildEditorConfig.editorconfig
+E:\student\2 курс\1 семестр\ОЗИ\OIP_4.2\obj\Debug\net6.0\OIP_4.2.AssemblyInfoInputs.cache
+E:\student\2 курс\1 семестр\ОЗИ\OIP_4.2\obj\Debug\net6.0\OIP_4.2.AssemblyInfo.cs
+E:\student\2 курс\1 семестр\ОЗИ\OIP_4.2\obj\Debug\net6.0\OIP_4.2.csproj.CoreCompileInputs.cache
+E:\student\2 курс\1 семестр\ОЗИ\OIP_4.2\obj\Debug\net6.0\OIP_4.2.dll
+E:\student\2 курс\1 семестр\ОЗИ\OIP_4.2\obj\Debug\net6.0\refint\OIP_4.2.dll
+E:\student\2 курс\1 семестр\ОЗИ\OIP_4.2\obj\Debug\net6.0\OIP_4.2.pdb
+E:\student\2 курс\1 семестр\ОЗИ\OIP_4.2\obj\Debug\net6.0\OIP_4.2.genruntimeconfig.cache
+E:\student\2 курс\1 семестр\ОЗИ\OIP_4.2\obj\Debug\net6.0\ref\OIP_4.2.dll

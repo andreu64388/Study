@@ -1,16 +1,20 @@
-﻿/*1. С ПОМОЩЬЮ SSMS ОПРЕДЕЛИТЬ ВСЕ ИНДЕКСЫ, КОТОРЫЕ ИМЕЮТСЯ В БД UNIVER. ОПРЕДЕЛИТЬ, КАКИЕ ИЗ НИХ ЯВЛЯЮТСЯ КЛАСТЕРИЗОВАННЫМИ, А КА-КИЕ НЕКЛАСТЕРИЗОВАННЫМИ. 
+﻿/*1. С ПОМОЩЬЮ SSMS ОПРЕДЕЛИТЬ ВСЕ ИНДЕКСЫ, КОТОРЫЕ ИМЕЮТСЯ В БД UNIVER. ОПРЕДЕЛИТЬ,
+КАКИЕ ИЗ НИХ ЯВЛЯЮТСЯ КЛАСТЕРИЗОВАННЫМИ, А КА-КИЕ НЕКЛАСТЕРИЗОВАННЫМИ. 
 СОЗДАТЬ ВРЕМЕННУЮ ЛОКАЛЬНУЮ ТАБЛИЦУ. ЗАПОЛНИТЬ ЕЕ ДАННЫМИ (НЕ МЕНЕЕ 1000 СТРОК). 
 РАЗРАБОТАТЬ SELECT-ЗАПРОС. ПО-ЛУЧИТЬ ПЛАН ЗАПРОСА И ОПРЕДЕЛИТЬ ЕГО СТОИМОСТЬ. 
-СОЗДАТЬ КЛАСТЕРИЗОВАННЫЙ ИНДЕКС, УМЕНЬШАЮЩИЙ СТОИМОСТЬ SELECT-ЗАПРОСА.*/
+СОЗДАТЬ КЛАСТЕРИЗОВАННЫЙ ИНДЕКС, УМЕНЬШАЮЩИЙ СТОИМОСТЬ SELECT-ЗАПРОСА.
+-- ПЕРЕЧЕНЬ ИНДЕКСОВ*/
 USE UNIVER;
 
-EXEC SP_HELPINDEX 'AUDITORIUM_TYPE' -- ПЕРЕЧЕНЬ ИНДЕКСОВ
+EXEC SP_HELPINDEX 'AUDITORIUM_TYPE' 
 
 CREATE TABLE #TIMETEST
 (INDEX_ INT, 
 MESSAGES_
 NVARCHAR(20))
-SET NOCOUNT ON -- НЕ ВЫВОДИТЬ СООБЩЕНИ¤ О ВВОДЕ СТРОК
+
+SET NOCOUNT ON
+
 DECLARE @I INT = 0
 WHILE @I < 1000
 BEGIN
@@ -25,14 +29,15 @@ CHECKPOINT;
 
 DBCC DROPCLEANBUFFERS
 
-CREATE CLUSTERED INDEX TIMETEST_CL ON #TIMETEST(INDEX_ ASC)
+CREATE CLUSTERED INDEX TIMETEST_CL ON #TIMETEST(INDEX_ asc)
 
 SELECT * FROM #TIMETEST WHERE INDEX_ BETWEEN 1500 AND 2500 ORDER BY INDEX_
 
-DROP INDEX TIMETEST_CL ON TIMETEST
+DROP INDEX TIMETEST_CL ON #TIMETEST
 
 ----------------------------------------
 USE BANK;
+
 EXEC SP_HELPINDEX 'БАНК' 
 
 SELECT * FROM БАНК
@@ -40,7 +45,7 @@ WHERE id = 3
 
 CREATE INDEX MY_BANK ON БАНК(id);
 
-DROP INDEX MY_BANK ON БАНК;
-
 SELECT * FROM БАНК
 WHERE id = 3
+
+DROP INDEX MY_BANK ON БАНК;

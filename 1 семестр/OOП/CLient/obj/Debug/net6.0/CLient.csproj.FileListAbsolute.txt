@@ -1,0 +1,15 @@
+E:\student\2 курс\1 семестр\OOП\CLient\bin\Debug\net6.0\CLient.exe
+E:\student\2 курс\1 семестр\OOП\CLient\bin\Debug\net6.0\CLient.deps.json
+E:\student\2 курс\1 семестр\OOП\CLient\bin\Debug\net6.0\CLient.runtimeconfig.json
+E:\student\2 курс\1 семестр\OOП\CLient\bin\Debug\net6.0\CLient.dll
+E:\student\2 курс\1 семестр\OOП\CLient\bin\Debug\net6.0\CLient.pdb
+E:\student\2 курс\1 семестр\OOП\CLient\obj\Debug\net6.0\CLient.csproj.AssemblyReference.cache
+E:\student\2 курс\1 семестр\OOП\CLient\obj\Debug\net6.0\CLient.GeneratedMSBuildEditorConfig.editorconfig
+E:\student\2 курс\1 семестр\OOП\CLient\obj\Debug\net6.0\CLient.AssemblyInfoInputs.cache
+E:\student\2 курс\1 семестр\OOП\CLient\obj\Debug\net6.0\CLient.AssemblyInfo.cs
+E:\student\2 курс\1 семестр\OOП\CLient\obj\Debug\net6.0\CLient.csproj.CoreCompileInputs.cache
+E:\student\2 курс\1 семестр\OOП\CLient\obj\Debug\net6.0\CLient.dll
+E:\student\2 курс\1 семестр\OOП\CLient\obj\Debug\net6.0\refint\CLient.dll
+E:\student\2 курс\1 семестр\OOП\CLient\obj\Debug\net6.0\CLient.pdb
+E:\student\2 курс\1 семестр\OOП\CLient\obj\Debug\net6.0\CLient.genruntimeconfig.cache
+E:\student\2 курс\1 семестр\OOП\CLient\obj\Debug\net6.0\ref\CLient.dll

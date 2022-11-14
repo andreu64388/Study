@@ -32,30 +32,41 @@ static class KAVLog
     {
         using (StreamReader sr = new(PATH_TO_FILE))
         {
-            var data = sr.ReadToEnd();
 
-            var datas = JsonSerializer.Deserialize<Data>(data);
-            List<Data> datas1 = new();
-            datas1.Add(datas);
-        
-            datas1.Where(d => d.date >= start && d.date <= end).ToList().ForEach(d => d.Print());
+
+            /* var datas = JsonSerializer.Deserialize<Data>(data);
+             List<Data> datas1 = new();
+             datas1.Add(datas);
+
+             datas1.Where(d => d.date >= start && d.date <= end).ToList().ForEach(d => d.Print());*/
+            while (!sr.EndOfStream)
+            {
+                var data = sr.ReadLine();
+                var datas = JsonSerializer.Deserialize<Data>(data);
+         
+                List<Data> datas1 = new();
+                datas1.Add(datas);
+             
+                datas1.Where(d => d.date >= start && d.date <= end).ToList().ForEach(d => d.Print());
+            }
+
+            }
+
+
         }
-
-
-    }
     public static void FindDate(DateTime date)
     {
         using (StreamReader sr = new(PATH_TO_FILE))
         {
-            var data = sr.ReadToEnd();
-
-            var datas = JsonSerializer.Deserialize<Data>(data);
-
-            List<Data> datas1 = new();
-            datas1.Add(datas);
-
-            datas1.Where(x => x.date == date).ToList().ForEach(x => x.Print());
-
+            while (!sr.EndOfStream)
+            {
+                var data = sr.ReadLine();
+                var datas = JsonSerializer.Deserialize<Data>(data);
+                List<Data> datas1 = new();
+                datas1.Add(datas);
+                datas1.Where(d => d.date == date).ToList().ForEach(d => d.Print());
+           
+            }
 
         }
 
@@ -65,14 +76,6 @@ static class KAVLog
     }
     #endregion
 }
-//созадть методы методами записи в текстовый файл, чтения, поиска нужной    информации.
-
-
-
-
-
-
-
 
 
 class Data
