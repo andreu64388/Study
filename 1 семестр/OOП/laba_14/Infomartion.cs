@@ -19,11 +19,11 @@ static class Infomartion
     public static void PrintProssecor()
     {
         #region Task 1
-        /*2. Исследуйте текущий домен вашего приложения: имя, детали конфигурации, все сборки,
-загруженные в домен. Создайте новый домен. Загрузите туда сборку. Выгрузите домен.*/
+        /*Определите и выведите на консоль/в файл все запущенные процессы:id, имя, приоритет, 
+время запуска, текущее состояние, сколько всего времени использовал процессор и т.д*/
         #endregion
 
-       
+
 
         var allProcesses = Process.GetProcesses();
 
@@ -32,10 +32,10 @@ static class Infomartion
             try
             {
                 Console.WriteLine($"Id процессора - {process.Id}\n" +
-                              $" Имя процессора - {process.ProcessName}\n" +
-                              $" Время запуска - {process.StartTime}\n" +
-                              $" Время работы - {process.TotalProcessorTime}\n" +
-                              $" Время загрузки - {process.UserProcessorTime}\n");
+                                  $"Имя процессора - {process.ProcessName}\n" +
+                                  $"Время запуска - {process.StartTime}\n" +
+                                  $"Время работы - {process.TotalProcessorTime}\n" +
+                                  $"Время загрузки - {process.UserProcessorTime}\n");
             }
             catch (Exception e)
             {
@@ -198,8 +198,33 @@ static class Infomartion
 
     }
 
+
+    //создать таймер в 5 сек
+    public static void Timer()
+    {
+        #region Task 5
+        /*5. Создайте таймер, который через каждые 5 секунд выводит на консоль текущее 
+        время. При нажатии на любую клавишу таймер должен остановиться.*/
+        #endregion
+
+        TimerCallback tm = new TimerCallback(ShowTime);
+        Timer timer = new Timer(tm, 0, 0,1000);
+        Console.ReadKey();
+        timer.Dispose();
+
+
+
+    }
+
+    public static void ShowTime(object obj)
+    {
+        Console.WriteLine(DateTime.Now);
+
+
+    }
+
     #endregion
-    
+
 }
 
 

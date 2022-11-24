@@ -4,6 +4,12 @@
 РАЗРАБОТАТЬ SELECT-ЗАПРОС. ПО-ЛУЧИТЬ ПЛАН ЗАПРОСА И ОПРЕДЕЛИТЬ ЕГО СТОИМОСТЬ. 
 СОЗДАТЬ КЛАСТЕРИЗОВАННЫЙ ИНДЕКС, УМЕНЬШАЮЩИЙ СТОИМОСТЬ SELECT-ЗАПРОСА.
 -- ПЕРЕЧЕНЬ ИНДЕКСОВ*/
+
+
+-----------------------------------------------
+--------------------UNIVER---------------------
+-----------------------------------------------
+
 USE UNIVER;
 
 EXEC SP_HELPINDEX 'AUDITORIUM_TYPE' 
@@ -23,19 +29,22 @@ IF (@I % 100 = 0) PRINT @I;
 SET @I = @I + 1
 END
 
+
 SELECT * FROM #TIMETEST WHERE INDEX_ BETWEEN 1000 AND 1500 ORDER BY INDEX_ 
 
 CHECKPOINT; 
 
 DBCC DROPCLEANBUFFERS
 
-CREATE CLUSTERED INDEX TIMETEST_CL ON #TIMETEST(INDEX_ asc)
+CREATE CLUSTERED INDEX #TIMETEST_CL ON #TIMETEST(INDEX_ asc)
 
 SELECT * FROM #TIMETEST WHERE INDEX_ BETWEEN 1500 AND 2500 ORDER BY INDEX_
 
-DROP INDEX TIMETEST_CL ON #TIMETEST
+DROP INDEX #TIMETEST_CL ON #TIMETEST
 
-----------------------------------------
+-----------------------------------------------
+--------------------BANK-----------------------
+-----------------------------------------------
 USE BANK;
 
 EXEC SP_HELPINDEX 'БАНК' 
@@ -43,9 +52,9 @@ EXEC SP_HELPINDEX 'БАНК'
 SELECT * FROM БАНК
 WHERE id = 3
 
-CREATE INDEX MY_BANK ON БАНК(id);
+CREATE INDEX #MY_BANK ON БАНК(id);
 
 SELECT * FROM БАНК
 WHERE id = 3
 
-DROP INDEX MY_BANK ON БАНК;
+DROP INDEX #MY_BANK ON БАНК;

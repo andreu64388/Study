@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.IO;
+﻿
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Runtime.Serialization;
 using System.Text.Json;
 using System.Xml.Serialization;
 
 namespace laba_13;
+
+#region Task 1 
 /*1. Из лабораторной №4 выберите класс с наследованием и/или 
 композицией/агрегацией для сериализации. Выполните 
 сериализацию/десериализацию объекта используя форматы: 
@@ -17,9 +14,12 @@ a. Binary,
 b. SOAP, 
 c. JSON, 
 d. XML.*/
-static class Serialization
+
+#endregion
+static class Serialization 
 {
     #region Fields Path
+    
     private static string path_json = "data.json";
     private static string path_xml = "data.xml";
     private static string path_soap = "data.soap";
@@ -27,20 +27,13 @@ static class Serialization
 
     #endregion
 
-    #region Consructor 
- 
-
-    #endregion
     #region Methods
 
     public static void JsonSerializion(Test test)
     {
-        
-
         using StreamWriter sw = new StreamWriter(path_json, true);
         var data = JsonSerializer.Serialize(test);
         sw.WriteLine(data);
-       
         
     }
     public static void JsonDeserializion()
@@ -68,9 +61,9 @@ static class Serialization
     }
     public static void XmlSerializion(TestXml test)
     {
-        //сделать серилизацию в формате XML  
+      
         var formatter = new XmlSerializer(typeof(TestXml));
-        //добовлять в файл
+      
         using (FileStream fs = new FileStream(path_xml, FileMode.OpenOrCreate))
         {
             formatter.Serialize(fs, test);
@@ -78,6 +71,7 @@ static class Serialization
 
 
     }
+    
     public static void XmlDeserializion()
     {
         var formatter = new XmlSerializer(typeof(TestXml));
@@ -91,12 +85,14 @@ static class Serialization
         }
         
     }
+
     public static void SoapSerializion(Test test)
     {
         using FileStream fs = new FileStream(path_soap, FileMode.OpenOrCreate);
         var soapFormatter = new SoapFormatter();
         soapFormatter.Serialize(fs, test);
     }
+    
     public static void SoapDeserializion()
     {
         using FileStream fs = new FileStream(path_soap, FileMode.OpenOrCreate);
@@ -131,7 +127,9 @@ static class Serialization
         
 
     }
-    
+
+  
+
     #endregion
 
 }
@@ -139,7 +137,7 @@ static class Serialization
 /*2. Создайте коллекцию (массив) объектов и выполните 
 сериализацию/десериализацию – возможность сохранения и загрузки 
 спсика объектов в/из файла. */
-class SerializationCollection
+static class SerializationCollection
 {
     #region Fields Path
     private static string path_json = "datas.json";
@@ -165,6 +163,7 @@ class SerializationCollection
 
 
     }
+    
     public static void JsonDeserializion()
     {
         using StreamReader sr = new StreamReader(path_json);
@@ -188,12 +187,11 @@ class SerializationCollection
 
 
     }
-
+    
     public static void XmlSerializion(List<TestXml> test)
     {
-        //сделать серилизацию в формате XML  
         var formatter = new XmlSerializer(typeof(List<TestXml>));
-        //добовлять в файл
+    
         using (FileStream fs = new FileStream(path_xml, FileMode.OpenOrCreate))
         {
             formatter.Serialize(fs, test);
@@ -201,6 +199,7 @@ class SerializationCollection
 
 
     }
+
     public static void XmlDeserializion()
     {
         var formatter = new XmlSerializer(typeof(List<TestXml>));
@@ -220,7 +219,6 @@ class SerializationCollection
 
     public static void BinarySerializion(List<Test> test)
     {
-        //серилизация в бинарный формат
         BinaryFormatter formatter = new BinaryFormatter();
         using (FileStream fs = new FileStream(path_binary, FileMode.OpenOrCreate))
         {
@@ -231,7 +229,6 @@ class SerializationCollection
 
     public static void BinaryDeserializion()
     {
-        //де серилизация в бинарный формат
         BinaryFormatter formatter = new BinaryFormatter();
         using (FileStream fs = new FileStream(path_binary, FileMode.OpenOrCreate))
         {
@@ -248,3 +245,25 @@ class SerializationCollection
 
     #endregion
 }
+
+
+/*Все сериализаторы должен реализовывать общий интерфейс. Выбор и 
+использование сериализатора следует реализовать таким образом, чтобы 
+добавление нового сериализатора не требовало изменения существующего 
+кода*/
+interface ISerialization
+{
+  void JsonSerializion(List<Test> test);
+
+    void JsonDeserializion();
+
+    
+       
+}
+
+
+
+
+
+
+
