@@ -1,3 +1,0 @@
-﻿  Source.cpp
-E:\student\2 курс\1 семестр\ОЗИ\Project1\Source.cpp(68,8): warning C4244: инициализация: преобразование "uint64_t" в "int", возможна потеря данных
-  Project1.vcxproj -> E:\student\2 курс\1 семестр\ОЗИ\Project1\x64\Debug\Project1.exe
