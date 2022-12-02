@@ -9,24 +9,41 @@ SSMS и через контекстное меню создать сценарий на изменение про-цедуры операторо
 равное количеству строк в результирующем наборе, а также возвращать значение к точке вызова,
 равное общему количеству дисциплин (количеству строк в таблице SUBJECT). 
 */
-
+------------------------------------------------
+----------------------UNVER---------------------
+------------------------------------------------
 USE UNIVER;
-
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
 GO
 ALTER PROCEDURE PSUBJECT @P VARCHAR(20) = NULL, @C INT OUTPUT
-AS
-BEGIN
-DECLARE @K INT = (SELECT COUNT(*) FROM SUBJECT WHERE PULPIT = @P);
-PRINT 'ПАРАМЕТРЫ: @P = ' + @P + ', @C = ' + CAST(@C AS VARCHAR(3));
-SELECT SUBJECT [КОД], SUBJECT_NAME [ДИСЦИПЛИНА], PULPIT [КАФЕДРА] FROM SUBJECT WHERE PULPIT = @P;
-SET @C = @@ROWCOUNT;
-RETURN @K;
-END;
+ AS
+   BEGIN
+ SELECT * FROM SUBJECT WHERE SUBJECT.SUBJECT = @P;
+ SET @C = @@ROWCOUNT;
+ DECLARE @K INT = (SELECT COUNT(*) FROM SUBJECT);
+ PRINT 'ПАРАМЕТРЫ: @P='+@P+', @C='+CAST(@C AS VARCHAR(3));
+ RETURN @K;
+   END
 
-DECLARE @Y INT = 0, @Z VARCHAR(20) = 'ИСИТ', @W INT = 0
-EXEC @Y = PSUBJECT @P = @Z, @C = @W OUTPUT
-PRINT 'ВСЕГО СТРОК: ' + CAST(@Y AS NVARCHAR)
-PRINT 'СТРОК С ФАКУЛЬТЕТОМ ' + @Z + ': '+ CAST(@W AS NVARCHAR)
+DECLARE @N INT, @A INT,@X NVARCHAR(20);
+EXEC @N = PSUBJECT 'ООП', @A OUTPUT ;
+PRINT CAST(@A AS NVARCHAR(4))
+PRINT CAST(@N AS NVARCHAR(4))
+
+------------------------------------------------
+----------------------BANK----------------------
+------------------------------------------------
+USE BANK;
+GO
+ALTER PROCEDURE PBANK @ID INT, @C_ INT OUTPUT
+ AS
+   BEGIN
+SELECT * FROM КРЕДИТ WHERE ID_CLIENT = @ID;
+ SET @C_ = @@ROWCOUNT;
+ DECLARE @K_ INT = (SELECT COUNT(*) FROM КЛИЕНТ);
+ RETURN @K_;
+   END
+
+DECLARE @N INT, @A INT,@X NVARCHAR(20);
+EXEC @N = PBANK 10, @A OUTPUT ;
+PRINT CAST(@A AS NVARCHAR(4))
+PRINT CAST(@N AS NVARCHAR(4))

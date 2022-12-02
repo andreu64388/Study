@@ -3,47 +3,48 @@
 В том случае, если по заданному значению @p не-возможно определить код кафедры, процедура должна генерировать ошибку с сообщением ошибка в пара-метрах. 
 Процедура SUBJECT_REPORT должна возвра-щать к точке вызова количество дисциплин, отобра-женных в отчете. 
 */
+------------------------------------------------
+----------------------UNVER---------------------
+------------------------------------------------
 USE UNIVER;
-
-CREATE PROCEDURE SUBJECT_REPORT @P NVARCHAR(10) AS
-BEGIN
-DECLARE @COUNTER INT = 0;
-BEGIN TRY
-DECLARE @SUB NVARCHAR(10), @LINE_SUB NVARCHAR(500) = ''
-DECLARE SUBJECTS CURSOR LOCAL STATIC FOR
-SELECT SUBJECT FROM SUBJECT WHERE PULPIT = @P ORDER BY PULPIT
-IF NOT EXISTS (SELECT PULPIT FROM SUBJECT WHERE PULPIT = @P)
-BEGIN
-RAISERROR('ОШИБКА, НЕТ ТАКИХ КАФЕДР', 11, 1);
-END
-ELSE
-BEGIN
-OPEN SUBJECTS
-FETCH SUBJECTS INTO @SUB
-SET @LINE_SUB = TRIM(@SUB)
-SET @COUNTER +=1
-FETCH SUBJECTS INTO @SUB
-WHILE @@FETCH_STATUS = 0
-BEGIN
-SET @LINE_SUB = '' + TRIM(@SUB) + ', ' + @LINE_SUB
-SET @COUNTER +=1
-FETCH SUBJECTS INTO @SUB
-END
-PRINT 'ПРЕДМЕТЫ НА КАФЕДРЕ ' + @P + ': ' + @LINE_SUB
-RETURN @COUNTER
-END
-END TRY
-BEGIN CATCH
-PRINT 'ОШИБКА В ПАРАМЕТРАХ'
-IF ERROR_PROCEDURE() IS NOT NULL
-PRINT 'ИМЯ ПРОЦЕДУРЫ : ' + ERROR_PROCEDURE()
-RETURN @COUNTER
-END CATCH
-END
+GO
+CREATE PROCEDURE SUBJECT_REPORT @P CHAR(10)
+  AS DECLARE @RC INT = 0;
+	BEGIN TRY
+		IF NOT EXISTS (SELECT SUBJECT FROM SUBJECT WHERE PULPIT = @P)
+			RAISERROR('ОШИБКА В ПАРАМЕТРАХ', 11, 1);
+		DECLARE @SUBS_LIST CHAR(300) = '', @SUB CHAR(10);
+		DECLARE SUBJECTS_LAB12 CURSOR FOR
+			SELECT SUBJECT FROM SUBJECT WHERE PULPIT = @P;
+		OPEN SUBJECTS_LAB12;
+			FETCH SUBJECTS_LAB12 INTO @SUB;
+			WHILE (@@FETCH_STATUS = 0)
+				BEGIN
+					SET @SUBS_LIST = RTRIM(@SUB) + ', ' + @SUBS_LIST;
+					SET @RC += 1;		
+					FETCH SUBJECTS_LAB12 INTO @SUB;
+				END;
+			PRINT 'ДИСЦИПЛИНЫ НА КАФЕДРЕ ' + RTRIM(@P) + ':';
+			PRINT RTRIM(@SUBS_LIST);
+		CLOSE SUBJECTS_LAB12;
+		DEALLOCATE SUBJECTS_LAB12;
+		RETURN @RC;
+	END TRY
+	BEGIN CATCH
+		PRINT 'НОМЕР ОШИБКИ: ' + CONVERT(VARCHAR, ERROR_NUMBER());
+		PRINT 'СООБЩЕНИЕ: ' + ERROR_MESSAGE();
+		PRINT 'УРОВЕНЬ: ' + CONVERT(VARCHAR, ERROR_SEVERITY());
+		PRINT 'МЕТКА: ' + CONVERT(VARCHAR, ERROR_STATE());
+		PRINT 'НОМЕР СТРОКИ: ' + CONVERT(VARCHAR, ERROR_LINE());
+		IF ERROR_PROCEDURE() IS NOT NULL
+			PRINT 'ИМЯ ПРОЦЕДУРЫ: ' + ERROR_PROCEDURE();
+		RETURN @RC;
+	END CATCH;
 GO
 
-DECLARE @C INT
-EXEC @C = SUBJECT_REPORT @P = 'ИСИТ'
-PRINT 'КОЛИЧЕСТВО ПРЕДМЕТОВ НА СПЕЦИАЛЬНОСТИ: ' + CAST(@C AS NVARCHAR)
+DECLARE @TEMP_5 INT;
+EXEC @TEMP_5 = SUBJECT_REPORT 'ИСИТ';
+PRINT 'КОЛИЧЕСТВО ДИСЦИПЛИН: ' + CONVERT(VARCHAR, @TEMP_5);
 
-DROP PROCEDURE SUBJECT_REPORT;
+
+--DROP PROCEDURE SUBJECT_REPORT

@@ -3,10 +3,11 @@
 ДКЪ ДПСЦНИ РЮАКХЖШ.
 */
 SET NOCOUNT ON;
-IF EXISTS (SELECT * FROM SYS.OBJECTS WHERE OBJECT_ID = OBJECT_ID(N'DBO.X')) -- рюакхжю еярэ?
+IF EXISTS (SELECT * FROM SYS.OBJECTS
+WHERE OBJECT_ID = OBJECT_ID(N'DBO.X')) -- рюакхжю еярэ?
 DROP TABLE X;
 
-DECLARE @C INT, @FLAG CHAR = 'R';-- еякх я->R, рюакхжю ме януп
+DECLARE @C INT, @FLAG CHAR = 'C'
 SET IMPLICIT_TRANSACTIONS ON;-- бйкчв. пефхл меъбмни рпюмгюйжхх
 CREATE TABLE X (VAL INT);-- мювюкн рпюмгюйжхх
 INSERT X VALUES (1), (2), (3);
@@ -22,3 +23,21 @@ IF EXISTS (SELECT * FROM SYS.OBJECTS WHERE OBJECT_ID = OBJECT_ID(N'DBO.X'))
 PRINT 'рюакхжю X еярэ';
 ELSE
 PRINT 'рюакхжш X мер';
+
+
+-------------------------------------------------------------
+--------------------------BANK-------------------------------
+-------------------------------------------------------------
+DROP TABLE TEST_X;
+USE BANK;
+DECLARE @LENGHT INT, @FLAG_MY CHAR = 'R'
+SET IMPLICIT_TRANSACTIONS ON;-- бйкчв. пефхл меъбмни рпюмгюйжхх
+CREATE TABLE TEST_X (VAL INT);-- мювюкн рпюмгюйжхх
+INSERT INTO TEST_X VALUES (1), (2), (3);
+SET @LENGHT = (SELECT COUNT(*) FROM TEST_X);
+PRINT 'йнк-бн ярпнй б рюакхже TEST: ' + CONVERT(VARCHAR, @LENGHT);
+IF @FLAG_MY = 'R'
+COMMIT;
+ELSE
+ROLLBACK;-- гюбепьемхе рпюмгюйжхх: нрйюр
+SET IMPLICIT_TRANSACTIONS OFF;-- бшйкчв. пефхл меъбмни рпюмгюйжхх
