@@ -1,0 +1,15 @@
+E:\student\2 курс\1 семестр\КСИС\Calc\bin\Debug\net6.0\Calc.exe
+E:\student\2 курс\1 семестр\КСИС\Calc\bin\Debug\net6.0\Calc.deps.json
+E:\student\2 курс\1 семестр\КСИС\Calc\bin\Debug\net6.0\Calc.runtimeconfig.json
+E:\student\2 курс\1 семестр\КСИС\Calc\bin\Debug\net6.0\Calc.dll
+E:\student\2 курс\1 семестр\КСИС\Calc\bin\Debug\net6.0\Calc.pdb
+E:\student\2 курс\1 семестр\КСИС\Calc\obj\Debug\net6.0\Calc.csproj.AssemblyReference.cache
+E:\student\2 курс\1 семестр\КСИС\Calc\obj\Debug\net6.0\Calc.GeneratedMSBuildEditorConfig.editorconfig
+E:\student\2 курс\1 семестр\КСИС\Calc\obj\Debug\net6.0\Calc.AssemblyInfoInputs.cache
+E:\student\2 курс\1 семестр\КСИС\Calc\obj\Debug\net6.0\Calc.AssemblyInfo.cs
+E:\student\2 курс\1 семестр\КСИС\Calc\obj\Debug\net6.0\Calc.csproj.CoreCompileInputs.cache
+E:\student\2 курс\1 семестр\КСИС\Calc\obj\Debug\net6.0\Calc.dll
+E:\student\2 курс\1 семестр\КСИС\Calc\obj\Debug\net6.0\refint\Calc.dll
+E:\student\2 курс\1 семестр\КСИС\Calc\obj\Debug\net6.0\Calc.pdb
+E:\student\2 курс\1 семестр\КСИС\Calc\obj\Debug\net6.0\Calc.genruntimeconfig.cache
+E:\student\2 курс\1 семестр\КСИС\Calc\obj\Debug\net6.0\ref\Calc.dll
