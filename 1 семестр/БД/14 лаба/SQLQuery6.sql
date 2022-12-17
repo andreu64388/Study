@@ -4,6 +4,9 @@
 
 */
 
+--------------------------------------------
+------------------UNIVER--------------------
+--------------------------------------------
 USE UNIVER
 GO
 CREATE TRIGGER TEACH_AFTER_DEL1 ON TEACHER AFTER DELETE
@@ -29,4 +32,37 @@ SELECT T.NAME, E.TYPE_DESC
 EXEC  SP_SETTRIGGERORDER @TRIGGERNAME = 'TEACH_AFTER_DEL3',
 	                        @ORDER='FIRST', @STMTTYPE = 'DELETE';
 EXEC  SP_SETTRIGGERORDER @TRIGGERNAME = 'TEACH_AFTER_DEL2',
+	                        @ORDER='LAST', @STMTTYPE = 'DELETE';
+
+
+
+
+--------------------------------------------
+--------------------BANK--------------------
+--------------------------------------------
+USE BANK
+GO
+CREATE TRIGGER BANK_AFTER_DEL1 ON ¡¿Õ  AFTER DELETE
+AS PRINT '1';
+ RETURN;
+GO
+CREATE TRIGGER BANK_AFTER_DEL2 ON ¡¿Õ  AFTER DELETE
+AS PRINT '2';
+ RETURN;
+GO
+CREATE TRIGGER BANK_AFTER_DEL3 ON ¡¿Õ  AFTER DELETE
+AS PRINT '3';
+ RETURN;
+GO
+
+DELETE ¡¿Õ  WHERE ID=5
+
+
+SELECT T.NAME, E.TYPE_DESC
+  FROM SYS.TRIGGERS  T JOIN  SYS.TRIGGER_EVENTS E  ON T.OBJECT_ID = E.OBJECT_ID
+  WHERE OBJECT_NAME(T.PARENT_ID)='¡¿Õ ' AND E.TYPE_DESC = 'DELETE' ;
+
+EXEC  SP_SETTRIGGERORDER @TRIGGERNAME = 'BANK_AFTER_DEL3',
+	                        @ORDER='FIRST', @STMTTYPE = 'DELETE';
+EXEC  SP_SETTRIGGERORDER @TRIGGERNAME = 'BANK_AFTER_DEL2',
 	                        @ORDER='LAST', @STMTTYPE = 'DELETE';

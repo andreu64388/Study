@@ -1,21 +1,43 @@
-/*3. Разработать табличную функцию FFACPUL, результа-ты работы которой продемонстрированы на рисунке ниже. 
-Функция принимает два параметра, задающих код фа-культета (столбец FACULTY.FACULTY) и код кафедры (столбец PULPIT.PULPIT). Использует SELECT-запрос c левым внешним соединением между таблицами FACULTY и PULPIT. 
-Если оба параметра функции равны NULL, то она воз-вращает список всех кафедр на всех факультетах. 
-Если задан первый параметр (второй равен NULL), функ-ция возвращает список всех кафедр заданного факультета. 
-Если задан второй параметр (первый равен NULL), функ-ция возвращает результирующий набор, содержащий стро-ку, соответствующую заданной кафедре.
+/*3. РАЗРАБОТАТЬ ТАБЛИЧНУЮ ФУНКЦИЮ FFACPUL, РЕЗУЛЬТА-ТЫ РАБОТЫ КОТОРОЙ ПРОДЕМОНСТРИРОВАНЫ НА РИСУНКЕ НИЖЕ. 
+ФУНКЦИЯ ПРИНИМАЕТ ДВА ПАРАМЕТРА, ЗАДАЮЩИХ КОД ФА-КУЛЬТЕТА (СТОЛБЕЦ FACULTY.FACULTY) И КОД КАФЕДРЫ (СТОЛБЕЦ PULPIT.PULPIT). ИСПОЛЬЗУЕТ SELECT-ЗАПРОС C ЛЕВЫМ ВНЕШНИМ СОЕДИНЕНИЕМ МЕЖДУ ТАБЛИЦАМИ FACULTY И PULPIT. 
+ЕСЛИ ОБА ПАРАМЕТРА ФУНКЦИИ РАВНЫ NULL, ТО ОНА ВОЗ-ВРАЩАЕТ СПИСОК ВСЕХ КАФЕДР НА ВСЕХ ФАКУЛЬТЕТАХ. 
+ЕСЛИ ЗАДАН ПЕРВЫЙ ПАРАМЕТР (ВТОРОЙ РАВЕН NULL), ФУНК-ЦИЯ ВОЗВРАЩАЕТ СПИСОК ВСЕХ КАФЕДР ЗАДАННОГО ФАКУЛЬТЕТА. 
+ЕСЛИ ЗАДАН ВТОРОЙ ПАРАМЕТР (ПЕРВЫЙ РАВЕН NULL), ФУНК-ЦИЯ ВОЗВРАЩАЕТ РЕЗУЛЬТИРУЮЩИЙ НАБОР, СОДЕРЖАЩИЙ СТРО-КУ, СООТВЕТСТВУЮЩУЮ ЗАДАННОЙ КАФЕДРЕ.
 */
-USE UNIVER;
+ ---------------------------------------
+ ---------------UNIVER------------------
+ ---------------------------------------
+USE UNIVER
+GO
 CREATE FUNCTION FFACPUL(@FAC VARCHAR(10), @PUL VARCHAR(10)) RETURNS TABLE
     AS RETURN
+
     SELECT FACULTY.FACULTY, PULPIT.PULPIT
     FROM FACULTY LEFT OUTER JOIN PULPIT
     ON FACULTY.FACULTY = PULPIT.FACULTY
 WHERE FACULTY.FACULTY=ISNULL(@FAC, FACULTY.FACULTY) AND PULPIT.PULPIT=ISNULL(@PUL, PULPIT.PULPIT);
+
 GO
 --DROP FUNCTION DBO.FFACPUL;
-
 SELECT * FROM DBO.FFACPUL(NULL,NULL);
 SELECT * FROM DBO.FFACPUL('ИЭФ',NULL);
 SELECT * FROM DBO.FFACPUL(NULL,'ИСИТ');
 SELECT * FROM DBO.FFACPUL('ТТЛП','ЛМИЛЗ');
 SELECT * FROM DBO.FFACPUL('NO','NO');
+GO
+
+ ---------------------------------------
+ ---------------BANK--------------------
+ ---------------------------------------
+
+ USE BANK
+GO
+CREATE FUNCTION FBANK_3 (@FAC INT, @PUL INT) RETURNS TABLE
+    AS RETURN
+    SELECT БАНК.СТАВКА, ОФОРМЛЕНИЕ.СУММА
+    FROM БАНК LEFT OUTER JOIN ОФОРМЛЕНИЕ
+    ON БАНК.ID = ОФОРМЛЕНИЕ.ID
+WHERE БАНК.ID =ISNULL(@FAC, ОФОРМЛЕНИЕ.СУММА) AND  ОФОРМЛЕНИЕ.ID=ISNULL(@PUL,ОФОРМЛЕНИЕ.ID);
+
+GO
+SELECT * FROM DBO.FBANK_3(1,1);

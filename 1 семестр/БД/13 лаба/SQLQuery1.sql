@@ -1,52 +1,83 @@
 /*1. Разработать скалярную функцию с именем COUNT_STUDENTS, которая вычисляет количество сту-дентов на факультет
 е, код которого задается параметром типа VARCHAR(20) с именем @faculty. Использовать внутреннее соединение таблиц 
 FACULTY, GROUPS, STU-DENT. Опробовать работу функции.
-Внести изменения в текст функции с помощью оператора ALTER с тем, чтобы функция принимала второй параметр @prof
-типа VARCHAR(20), обозначающий специальность студентов. Для параметров определить значения по умолча-нию NULL.
-Опробовать работу функции с помощью SE-LECT-запросов.
 */
+-------------------------------------------------
+---------------------UNIVER----------------------
+-------------------------------------------------
 USE UNIVER;
+GO
 CREATE FUNCTION COUNT_STUDENTS (@FACULTY NVARCHAR(20)) RETURNS INT AS
 BEGIN
-DECLARE @COUNT INT=0;
-SET @COUNT=(SELECT COUNT(STUDENT.IDSTUDENT)
-FROM FACULTY
-INNER JOIN GROUPS ON GROUPS.FACULTY = FACULTY.FACULTY
-INNER JOIN STUDENT ON STUDENT.IDGROUP = GROUPS.IDGROUP
-WHERE FACULTY.FACULTY = @FACULTY)
-RETURN @COUNT;
+    DECLARE @COUNT INT=0;
+    SET @COUNT=(SELECT COUNT(STUDENT.IDSTUDENT)
+    FROM FACULTY
+	JOIN GROUPS ON GROUPS.FACULTY = FACULTY.FACULTY
+	JOIN STUDENT ON STUDENT.IDGROUP = GROUPS.IDGROUP
+	WHERE FACULTY.FACULTY = @FACULTY)
+    RETURN @COUNT;
 END;
 GO
+
+
 --DROP FUNCTION COUNT_STUDENTS;
 
 DECLARE @TEMP_1 INT = DBO.COUNT_STUDENTS('ИДИП');
 PRINT 'КОЛИЧЕСТВО СТУДЕНТОВ НА ФАКУЛЬТЕТЕ ' +CAST(@TEMP_1 AS NVARCHAR(20))+ ' ЧЕЛОВЕК.';
 
+GO
 SELECT FACULTY 'ФАКУЛЬТЕТ',
 DBO.COUNT_STUDENTS(FACULTY) 'КОЛ-ВО СТУДЕНТОВ'
 FROM FACULTY
 GO
 
--- ВНЕСТИ ИЗМЕНЕНИЯ В ТЕКСТ ФУНКЦИИ С ПОМОЩЬЮ ОПЕРАТОРА ALTER С ТЕМ, ЧТОБЫ ФУНКЦИЯ ПРИНИМАЛА ВТОРОЙ ПАРАМЕТР @PROF:
+/*ВНЕСТИ ИЗМЕНЕНИЯ В ТЕКСТ ФУНКЦИИ С ПОМОЩЬЮ ОПЕРАТОРА ALTER С ТЕМ, ЧТОБЫ ФУНКЦИЯ ПРИНИМАЛА 
+ВТОРОЙ ПАРАМЕТР @PROF ТИПА VARCHAR(20), ОБОЗНАЧАЮЩИЙ СПЕЦИАЛЬНОСТЬ СТУДЕНТОВ. ДЛЯ ПАРАМЕТРОВ ОПРЕДЕЛИТЬ
+ЗНАЧЕНИЯ ПО УМОЛЧА-НИЮ NULL. ОПРОБОВАТЬ РАБОТУ ФУНКЦИИ С ПОМОЩЬЮ SE-LECT-ЗАПРОСОВ.*/
+
 ALTER FUNCTION COUNT_STUDENTS (@FACULTY NVARCHAR(20), @PROF NVARCHAR(20)) RETURNS INT AS
 BEGIN
-DECLARE @COUNT INT=0;
-SET @COUNT=(SELECT COUNT(STUDENT.IDSTUDENT)
-FROM FACULTY
-INNER JOIN GROUPS ON GROUPS.FACULTY = FACULTY.FACULTY
-INNER JOIN STUDENT ON STUDENT.IDGROUP = GROUPS.IDGROUP
-WHERE FACULTY.FACULTY = @FACULTY AND GROUPS.PROFESSION = @PROF)
-RETURN @COUNT;
+    DECLARE @COUNT INT=0;
+    SET @COUNT=(SELECT COUNT(STUDENT.IDSTUDENT)
+    FROM FACULTY
+    INNER JOIN GROUPS ON GROUPS.FACULTY = FACULTY.FACULTY
+    INNER JOIN STUDENT ON STUDENT.IDGROUP = GROUPS.IDGROUP
+    WHERE FACULTY.FACULTY = @FACULTY AND GROUPS.PROFESSION = @PROF)
+    RETURN @COUNT;
 END;
 GO
 
-DECLARE @TEMP_1 INT = DBO.COUNT_STUDENTS('ИДИП', '1-40 01 02');
-PRINT 'КОЛИЧЕСТВО СТУДЕНТОВ: ' + CONVERT(VARCHAR, @TEMP_1);
+DECLARE @RESULT INT = DBO.COUNT_STUDENTS('ИЭФ', '1-25 01 07');
+PRINT 'КОЛИЧЕСТВО СТУДЕНТОВ: ' + CONVERT(VARCHAR, @RESULT);
 
 SELECT FACULTY.FACULTY 'ФАКУЛЬТЕТ',
-GROUPS.PROFESSION 'СПЕЦИАЛЬНОСТЬ',
-DBO.COUNT_STUDENTS(FACULTY.FACULTY, GROUPS.PROFESSION) 'КОЛ-ВО СТУДЕНТОВ'
+	GROUPS.PROFESSION 'СПЕЦИАЛЬНОСТЬ',
+	DBO.COUNT_STUDENTS(FACULTY.FACULTY, GROUPS.PROFESSION) 'КОЛ-ВО СТУДЕНТОВ'
 FROM FACULTY
-INNER JOIN GROUPS ON GROUPS.FACULTY = FACULTY.FACULTY
+	INNER JOIN GROUPS ON GROUPS.FACULTY = FACULTY.FACULTY
 GROUP BY FACULTY.FACULTY, GROUPS.PROFESSION
 GO
+
+-------------------------------------------------
+-----------------------BANK----------------------
+-------------------------------------------------
+
+
+CREATE FUNCTION COUNT_CREDITS (@ID_USER INT) RETURNS INT AS 
+BEGIN
+DECLARE @COUNTS INT = 0;
+SET @COUNTS = (SELECT COUNT(Оформление.id) AS КРЕДИТОВ FROM Оформление
+WHERE Оформление.id = @ID_USER)   
+RETURN @COUNTS
+END
+
+DECLARE @RESULT INT = DBO.COUNT_CREDITS(2);
+PRINT 'КО-ВО КРЕДИТОВ НА ЭТОГО ЧЕЛОВЕКА = ' + CAST(@RESULT AS NVARCHAR)
+
+
+SELECT ОФОРМЛЕНИЕ.НОМЕР_КРЕДИТА [НОМЕР КРЕДИТА],
+ DBO.COUNT_CREDITS(ОФОРМЛЕНИЕ.ID) [КОЛ-ВО],
+ ОФОРМЛЕНИЕ.СУММА [СУММА]
+FROM ОФОРМЛЕНИЕ
+
+------------------------------------------------

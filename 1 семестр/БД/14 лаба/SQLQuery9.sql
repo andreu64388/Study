@@ -1,5 +1,8 @@
-/*9. Создать DDL-триггер, реагирующий на все DDL-события в БД UNIVER. Триггер дол-жен запрещать создавать новые таблицы и уда-лять существующие. Свое выполнение триггер должен сопровождать сообщением, которое содержит: тип события, имя и тип объекта, а также пояснительный текст, в случае запреще-ния выполнения оператора. 
-Разработать сценарий, демонстрирующий работу триггера. 
+/*9. СОЗДАТЬ DDL-ТРИГГЕР, РЕАГИРУЮЩИЙ НА ВСЕ DDL-СОБЫТИЯ В БД UNIVER.
+ТРИГГЕР ДОЛ-ЖЕН ЗАПРЕЩАТЬ СОЗДАВАТЬ НОВЫЕ ТАБЛИЦЫ И УДА-ЛЯТЬ СУЩЕСТВУЮЩИЕ. 
+СВОЕ ВЫПОЛНЕНИЕ ТРИГГЕР ДОЛЖЕН СОПРОВОЖДАТЬ СООБЩЕНИЕМ, КОТОРОЕ СОДЕРЖИТ:
+ТИП СОБЫТИЯ, ИМЯ И ТИП ОБЪЕКТА, А ТАКЖЕ ПОЯСНИТЕЛЬНЫЙ ТЕКСТ, В СЛУЧАЕ ЗАПРЕЩЕ-НИЯ ВЫПОЛНЕНИЯ ОПЕРАТОРА. 
+РАЗРАБОТАТЬ СЦЕНАРИЙ, ДЕМОНСТРИРУЮЩИЙ РАБОТУ ТРИГГЕРА. 
 
 */
 
@@ -7,12 +10,23 @@ USE UNIVER
 
 GO
 
-CREATE TRIGGER DDL_UNIVER ON DATABASE
-FOR DDL_DATABASE_LEVEL_EVENTS
-AS
-RAISERROR('ОПЕРАЦИИ С БД ЗАПРЕЩЕНЫ', 10, 1);
-ROLLBACK;
-RETURN;
+CREATE TRIGGER TR_TEACHER_DDL ON DATABASE FOR DDL_DATABASE_LEVEL_EVENTS  
+AS   
+DECLARE @EVENT_TYPE VARCHAR(50) = EVENTDATA().VALUE('(/EVENT_INSTANCE/EVENTTYPE)[1]', 'VARCHAR(50)')
+DECLARE @OBJ_NAME VARCHAR(50) = EVENTDATA().VALUE('(/EVENT_INSTANCE/OBJECTNAME)[1]', 'VARCHAR(50)')
+DECLARE @OBJ_TYPE VARCHAR(50) = EVENTDATA().VALUE('(/EVENT_INSTANCE/OBJECTTYPE)[1]', 'VARCHAR(50)')
+IF @OBJ_NAME = 'TEACHER' 
+BEGIN
+       PRINT 'ТИП СОБЫТИЯ: '+@EVENT_TYPE;
+       PRINT 'ИМЯ ОБЪЕКТА: '+@OBJ_NAME;
+       PRINT 'ТИП ОБЪЕКТА: '+@OBJ_TYPE;
+       RAISERROR( N'ОПЕРАЦИИ С ТАБЛИЦЕЙ ТОВАРЫ ЗАПРЕЩЕНЫ', 16, 1);  
+ROLLBACK  
+END
 
-DELETE FACULTY WHERE FACULTY = 'ИДИП'
-INSERT FACULTY VALUES ('ЛВВ', 'TEST');
+ALTER TABLE TEACHER DROP COLUMN TEACHER_NAME
+
+SELECT * FROM TEACHER
+
+DROP TRIGGER TR_TEACHER_DDL
+DROP TABLE TR_AUDIT

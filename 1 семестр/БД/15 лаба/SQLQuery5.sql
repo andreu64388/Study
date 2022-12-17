@@ -3,38 +3,50 @@
 Разработать другую XML-схему и добавить ее в коллекцию XML-схем в БД UNIVER.
 */
 
+--------------------------------------
+---------------UNIVER-----------------
+--------------------------------------
+USE UNIVER
+GO
+CREATE XML SCHEMA COLLECTION STUDENT AS 
+N'<?XML VERSION="1.0" ENCODING="UTF-16" ?>
+<XS:SCHEMA ATTRIBUTEFORMDEFAULT="UNQUALIFIED" 
+   ELEMENTFORMDEFAULT="QUALIFIED"
+   XMLNS:XS="HTTP://WWW.W3.ORG/2001/XMLSCHEMA">
+<XS:ELEMENT NAME="СТУДЕНТ">
+<XS:COMPLEXTYPE><XS:SEQUENCE>
+<XS:ELEMENT NAME="ПАСПОРТ" MAXOCCURS="1" MINOCCURS="1">
+  <XS:COMPLEXTYPE>
+    <XS:ATTRIBUTE NAME="СЕРИЯ" TYPE="XS:STRING" USE="REQUIRED" />
+    <XS:ATTRIBUTE NAME="НОМЕР" TYPE="XS:UNSIGNEDINT" USE="REQUIRED"/>
+    <XS:ATTRIBUTE NAME="ДАТА"  USE="REQUIRED">
+	<XS:SIMPLETYPE>  <XS:RESTRICTION BASE ="XS:STRING">
+		<XS:PATTERN VALUE="[0-9]{2}.[0-9]{2}.[0-9]{4}"/>
+	 </XS:RESTRICTION> 	</XS:SIMPLETYPE>
+     </XS:ATTRIBUTE>
+  </XS:COMPLEXTYPE>
+</XS:ELEMENT>
+<XS:ELEMENT MAXOCCURS="10" NAME="ТЕЛЕФОН" TYPE="XS:STRING"/>
+<XS:ELEMENT NAME="АДРЕС">   <XS:COMPLEXTYPE><XS:SEQUENCE>
+   <XS:ELEMENT NAME="СТРАНА" TYPE="XS:STRING" />
+   <XS:ELEMENT NAME="ГОРОД" TYPE="XS:STRING" />
+   <XS:ELEMENT NAME="УЛИЦА" TYPE="XS:STRING" />
+   <XS:ELEMENT NAME="ДОМ" TYPE="XS:STRING" />
+   <XS:ELEMENT NAME="КВАРТИРА" TYPE="XS:STRING" />
+</XS:SEQUENCE></XS:COMPLEXTYPE>  </XS:ELEMENT>
+</XS:SEQUENCE></XS:COMPLEXTYPE>
+</XS:ELEMENT></XS:SCHEMA>';
 
-use UNIVER
---Task 5 (валидация XML при помощи XSD)
---drop xml schema collection Student;
-create xml schema collection Student as
-N'<?xml version="1.0" encoding="utf-16" ?>
-<xs:schema attributeFormDefault="unqualified"
-   elementFormDefault="qualified"
-   xmlns:xs="http://www.w3.org/2001/XMLSchema">
-<xs:element name="студент">
-<xs:complexType><xs:sequence>
-<xs:element name="паспорт" maxOccurs="1" minOccurs="1">
-  <xs:complexType>
-    <xs:attribute name="серия" type="xs:string" use="required" />
-    <xs:attribute name="номер" type="xs:unsignedLong" use="required"/>
-    <xs:attribute name="дата"  use="required">
-	<xs:simpleType>  <xs:restriction base ="xs:string">
-		<xs:pattern value="[0-9]{2}.[0-9]{2}.[0-9]{4}"/>
-	 </xs:restriction> 	</xs:simpleType>
-     </xs:attribute>
-  </xs:complexType>
-</xs:element>
-<xs:element maxOccurs="3" name="телефон" type="xs:unsignedLong"/>
-<xs:element name="адрес">   <xs:complexType><xs:sequence>
-   <xs:element name="страна" type="xs:string" />
-   <xs:element name="город" type="xs:string" />
-   <xs:element name="улица" type="xs:string" />
-   <xs:element name="дом" type="xs:string" />
-   <xs:element name="квартира" type="xs:string" />
-</xs:sequence></xs:complexType>  </xs:element>
-</xs:sequence></xs:complexType>
-</xs:element></xs:schema>';
 
-alter table STUDENT alter column INFO xml;
-select Name, INFO from STUDENT
+--DROP XML SCHEMA COLLECTION STUDENT;
+
+SELECT NAME, INFO FROM STUDENT WHERE NAME='КОРЕНЧУК А.В.';
+GO
+ALTER TABLE STUDENT ALTER COLUMN INFO XML;
+GO
+SELECT NAME, INFO FROM STUDENT;
+
+
+--------------------------------------
+-----------------BANK-----------------
+--------------------------------------

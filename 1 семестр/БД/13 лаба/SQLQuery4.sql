@@ -1,9 +1,10 @@
 /*
-4. На рисунке ниже показан сценарий, демонстрирующий работу скалярной функции FCTEACHER.
-Функция прини-мает один параметр, задающий код кафедры. Функция воз-вращает количество преподавателей
-на заданной парамет-ром кафедре.
-Если параметр равен NULL, то возвращается общее количество преподавателей. */
-USE UNIVER;
+4. НА РИСУНКЕ НИЖЕ ПОКАЗАН СЦЕНАРИЙ, ДЕМОНСТРИРУЮЩИЙ РАБОТУ СКАЛЯРНОЙ ФУНКЦИИ FCTEACHER.
+ФУНКЦИЯ ПРИНИ-МАЕТ ОДИН ПАРАМЕТР, ЗАДАЮЩИЙ КОД КАФЕДРЫ. ФУНКЦИЯ ВОЗ-ВРАЩАЕТ КОЛИЧЕСТВО ПРЕПОДАВАТЕЛЕЙ
+НА ЗАДАННОЙ ПАРАМЕТ-РОМ КАФЕДРЕ.
+ЕСЛИ ПАРАМЕТР РАВЕН NULL, ТО ВОЗВРАЩАЕТСЯ ОБЩЕЕ КОЛИЧЕСТВО ПРЕПОДАВАТЕЛЕЙ. */
+USE UNIVER
+GO
 CREATE FUNCTION FCTEACHER(@PUL NVARCHAR(10)) RETURNS INT AS
     BEGIN
         DECLARE @COUNT INT=(SELECT COUNT(*) FROM TEACHER
@@ -13,7 +14,24 @@ CREATE FUNCTION FCTEACHER(@PUL NVARCHAR(10)) RETURNS INT AS
 GO
 -- DROP FUNCTION FCTEACHER;
 
--- ОБРАЩЕНИЕ К ФУНКЦИИ:
 SELECT PULPIT, DBO.FCTEACHER(PULPIT) [КОЛИЧЕСТВО ПРЕПОДАВАТЕЛЕЙ] FROM PULPIT;
 
 SELECT DBO.FCTEACHER(NULL) [ВСЕГО ПРЕПОДАВАТЕЛЕЙ];
+
+ ---------------------------------------
+ ---------------BANK--------------------
+ ---------------------------------------
+USE BANK
+GO
+CREATE FUNCTION FBAKR(@ID INT) RETURNS INT AS
+    BEGIN
+        DECLARE @COUNT INT=(SELECT COUNT(*) FROM БАНК
+        WHERE ID =ISNULL(@ID, ID));
+        RETURN @COUNT;
+    END;
+GO
+
+SELECT DBO.FBAKR(NULL) [ВСЕГО БАНКОВ];
+
+SELECT DBO.FBAKR(1) [ВСЕГО БАНКОВ];
+

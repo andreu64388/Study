@@ -1,8 +1,12 @@
-/*3. Создать AFTER-триггер с именем TR_TEACHER_UPD для таблицы 
-TEA-CHER, реагирующий на событие UPDATE. Триггер должен записывать строку данных в таблицу 
-TR_AUDIT для каждой изменяемой строки. В столбец СС помещаются значения столбцов изменяемой строки 
-до и после изме-нения.*/
+/*3. СОЗДАТЬ AFTER-ТРИГГЕР С ИМЕНЕМ TR_TEACHER_UPD ДЛЯ ТАБЛИЦЫ 
+TEA-CHER, РЕАГИРУЮЩИЙ НА СОБЫТИЕ UPDATE. ТРИГГЕР ДОЛЖЕН ЗАПИСЫВАТЬ СТРОКУ ДАННЫХ В ТАБЛИЦУ 
+TR_AUDIT ДЛЯ КАЖДОЙ ИЗМЕНЯЕМОЙ СТРОКИ. В СТОЛБЕЦ СС ПОМЕЩАЮТСЯ ЗНАЧЕНИЯ СТОЛБЦОВ ИЗМЕНЯЕМОЙ СТРОКИ 
+ДО И ПОСЛЕ ИЗМЕ-НЕНИЯ.*/
 
+
+--------------------------------------------
+------------------UNIVER--------------------
+--------------------------------------------
 USE UNIVER
 GO
     CREATE  TRIGGER TR_TEACHER_UPD
@@ -21,7 +25,32 @@ GO
       RETURN;
       GO
 
-	  UPDATE TEACHER SET GENDER = 'ж' WHERE TEACHER='КРАВ'
+	  UPDATE TEACHER SET GENDER = 'Ж' WHERE TEACHER='КРАВ'
 	  SELECT * FROM TR_AUDIT
 
-	  DELETE FROM TR_AUDIT WHERE STMT = 'UPD'
+
+
+--------------------------------------------
+--------------------BANK--------------------
+--------------------------------------------
+
+USE BANK
+GO
+    CREATE  TRIGGER TR_BANK_UPD
+      ON БАНК AFTER UPDATE
+      AS
+     DECLARE @A1 INT, @A2 VARCHAR(100), @A3 INT , @IN VARCHAR(300);
+      PRINT 'ОБНОВЛЕНИЕ';
+      SET @A1 = (SELECT ID FROM INSERTED);
+      SET @A2= (SELECT НАЗААНИЕ_КРЕДИТА FROM INSERTED);
+      SET @A3= (SELECT СТАВКА FROM INSERTED);
+      SET @IN = CAST(@A1 AS NVARCHAR)+' '+ @A2 +' '+  CAST(@A3 AS NVARCHAR);
+      INSERT INTO TR_BANK(STMT, TRNAME, CC)
+      VALUES('UPD', 'TR_BANK_UPD', @IN);
+      RETURN;
+      GO
+	  UPDATE БАНК SET НАЗААНИЕ_КРЕДИТА ='ЕRR'
+	  WHERE БАНК.ID = 5
+      SELECT * FROM TR_BANK
+	  
+  

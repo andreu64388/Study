@@ -1,9 +1,17 @@
-/*1. Разработать сценарий создания XML-документа в режиме PATH из таблицы TEACHER
-для преподавателей кафедры ИСиТ. */
+/*1. РАЗРАБОТАТЬ СЦЕНАРИЙ СОЗДАНИЯ XML-ДОКУМЕНТА В РЕЖИМЕ PATH ИЗ ТАБЛИЦЫ TEACHER
+ДЛЯ ПРЕПОДАВАТЕЛЕЙ КАФЕДРЫ ИСИТ. */
+
+
+--------------------------------------
+---------------UNIVER-----------------
+--------------------------------------
 
 USE UNIVER;
+GO
+SELECT PULPIT.FACULTY[ФАКУЛЬТЕТ], TEACHER.PULPIT[КАФЕДРА], TEACHER.TEACHER_NAME[ПРЕПОДАВАТЕЛЬ]
+FROM TEACHER INNER JOIN PULPIT ON TEACHER.PULPIT = PULPIT.PULPIT
+WHERE TEACHER.PULPIT = 'ИСИТ' FOR XML PATH, ROOT('ПРЕПОДАВАТЕЛИ_ИСИТ');
 
-
-SELECT * FROM TEACHER 
-JOIN PULPIT ON TEACHER.PULPIT = PULPIT.PULPIT
- WHERE TEACHER.PULPIT = 'ИСИТ' FOR XML PATH, ROOT('СПИСОК_ПРЕПОДАВАТЕЛЕЙ_КАФЕДРЫ_ИСИТ');
+--------------------------------------
+-----------------BANK-----------------
+--------------------------------------

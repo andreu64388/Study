@@ -1,12 +1,18 @@
-/*2. Создать AFTER-триггер с именем TR_TEACHER_DEL для таблицы TEA-CHER, реагирующий на событие 
-DELETE. Триггер должен записывать строку данных в таблицу TR_AUDIT для каждой удаляемой строки. 
-В столбец СС помещаются значения столбца
-TEACHER удаляемой строки. 
+/*2. СОЗДАТЬ AFTER-ТРИГГЕР С ИМЕНЕМ TR_TEACHER_DEL ДЛЯ ТАБЛИЦЫ TEA-CHER, РЕАГИРУЮЩИЙ НА СОБЫТИЕ 
+DELETE. ТРИГГЕР ДОЛЖЕН ЗАПИСЫВАТЬ СТРОКУ ДАННЫХ В ТАБЛИЦУ TR_AUDIT ДЛЯ КАЖДОЙ УДАЛЯЕМОЙ СТРОКИ. 
+В СТОЛБЕЦ СС ПОМЕЩАЮТСЯ ЗНАЧЕНИЯ СТОЛБЦА
+TEACHER УДАЛЯЕМОЙ СТРОКИ. 
 */
+
+
+--------------------------------------------
+------------------UNIVER--------------------
+--------------------------------------------
+
 USE UNIVER
 GO
 
-    CREATE  TRIGGER TR_TEACHER_DEL
+    CREATE TRIGGER TR_TEACHER_DEL
       ON TEACHER AFTER DELETE
       AS
       DECLARE @A1 CHAR(10), @A2 VARCHAR(100), @A3 CHAR(1), @A4 CHAR(20), @IN VARCHAR(300);
@@ -21,5 +27,34 @@ GO
       RETURN;
       GO
 
-	   DELETE TEACHER WHERE TEACHER='КРАВ'
+	  DELETE TEACHER WHERE TEACHER='КРАВ'
 	  SELECT * FROM TR_AUDIT
+
+
+
+--------------------------------------------
+--------------------BANK--------------------
+--------------------------------------------
+
+
+USE BANK
+GO
+
+    CREATE TRIGGER TR_BANK_DEL
+      ON БАНК AFTER DELETE
+      AS
+     DECLARE @A1 INT, @A2 VARCHAR(100), @A3 INT , @IN VARCHAR(300);
+      PRINT 'УДАЛЕНИЕ';
+      SET @A1 = (SELECT ID FROM INSERTED);
+      SET @A2= (SELECT НАЗААНИЕ_КРЕДИТА FROM INSERTED);
+      SET @A3= (SELECT СТАВКА FROM INSERTED);
+      SET @IN = CAST(@A1 AS NVARCHAR)+' '+ @A2 +' '+  CAST(@A3 AS NVARCHAR);
+      INSERT INTO TR_BANK(STMT, TRNAME, CC)
+      VALUES('DEL', 'TR_BANK_DEL', @IN);
+      RETURN;
+      GO
+
+	  DELETE FROM БАНК
+WHERE ID = 6
+
+	  SELECT * FROM TR_BANK
