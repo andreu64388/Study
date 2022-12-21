@@ -11,7 +11,9 @@ SELECT AUDITORIUM.AUDITORIUM [юсдхрнпхъ], AUDITORIUM.AUDITORIUM_TYPE [рхо],AUDIT
 FROM AUDITORIUM JOIN AUDITORIUM_TYPE ON AUDITORIUM.AUDITORIUM_TYPE = AUDITORIUM_TYPE.AUDITORIUM_TYPE
 WHERE AUDITORIUM.AUDITORIUM_TYPE = 'кй' FOR XML AUTO, ROOT('яохянй');
 
-
 --------------------------------------
 -----------------BANK-----------------
 --------------------------------------
+USE BANK;
+GO
+SELECT мнлеп_йпедхрю [мнлеп],ID [ID],ясллю [ясллю] FROM нтнплкемхе FOR XML AUTO, ROOT('нтп');

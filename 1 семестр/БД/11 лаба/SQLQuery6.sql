@@ -5,6 +5,7 @@
 чтения и неповторяющегося чтения, но при этом возможно фантомное чтение. 
 */
 USE UNIVER;
+GO
 --------A---------
 SET TRANSACTION ISOLATION LEVEL REPEATABLE READ
 BEGIN TRANSACTION

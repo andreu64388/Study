@@ -3,25 +3,26 @@
 ŒÔÓ·Ó‚‡Ú¸ ‡·ÓÚÛ ÒˆÂÌ‡Ëˇ ÔË ËÒÔÓÎ¸ÁÓ‚‡ÌËË ‡ÁÎË˜Ì˚ı ÓÔÂ‡ÚÓÓ‚ ÏÓ‰ËÙËÍ‡ˆËË Ú‡·ÎËˆ.
 */
 USE UNIVER;
-BEGIN TRY        
-	BEGIN TRAN                 
-		INSERT AUDITORIUM VALUES ('2', 'À¡- ', '15', '206-1');
-	    INSERT AUDITORIUM VALUES ('206-1', 'À ', '30', '206-1');
-	COMMIT TRAN;               
+GO
+BEGIN TRY
+	BEGIN TRAN                 -- Õ¿◊¿ÀŒ  ﬂ¬ÕŒ… “–¿Õ«¿ ÷»»
+		--INSERT FACULTY VALUES ('»“', '‘¿ ”À‹“≈“ ƒ–”√»’ Õ¿” ');
+	    INSERT FACULTY VALUES ('œ»Ã', '‘¿ ”À‹“≈“ PRINT-“≈’ÕŒÀŒ√»…');
+	COMMIT TRAN;               -- ‘» —¿÷»ﬂ “–¿Õ«¿ ÷»»
 END TRY
 
 BEGIN CATCH
-	PRINT 'ERROR: '+ CASE 
-		WHEN ERROR_NUMBER() = 2627 AND PATINDEX('%AUDITORIUM_PK%', ERROR_MESSAGE()) > 0 
-		THEN 'ERROR'	
-		ELSE 'OTHER ERROR: '+ CAST(ERROR_NUMBER() AS  VARCHAR(5))+ ERROR_MESSAGE()  
+	PRINT 'Œÿ»¡ ¿: '+ CASE
+		WHEN ERROR_NUMBER() = 2627 AND PATINDEX('%FACULTY_PK%', ERROR_MESSAGE()) > 0 THEN 'ƒ”¡À»–Œ¬¿Õ»≈ '	
+		ELSE 'Õ≈»«¬≈—“Õ¿ﬂ Œÿ»¡ ¿: '+ CAST(ERROR_NUMBER() AS  VARCHAR(5))+ ERROR_MESSAGE()
 	END;
-	IF @@TRANCOUNT > 0 ROLLBACK TRAN; 	  
+	IF @@TRANCOUNT > 0 ROLLBACK TRAN; -- ”–.¬ÀŒ∆≈ÕÕŒ—“» “–.>0,  “–¿Õ« Õ≈ «¿¬≈–ÿ≈Õ¿
 END CATCH;
 
-SELECT * FROM AUDITORIUM;
+DELETE FACULTY WHERE FACULTY = 'ƒ‘';
+DELETE FACULTY WHERE FACULTY = 'œ»Ã';
 
-
+SELECT * FROM FACULTY;
 -------------------------------------------------------------
 --------------------------BANK-------------------------------
 -------------------------------------------------------------
