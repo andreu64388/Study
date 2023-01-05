@@ -8,34 +8,34 @@
 --------------------------------------
 USE UNIVER
 GO
-CREATE XML SCHEMA COLLECTION STUDENT AS 
-N'<?XML VERSION="1.0" ENCODING="UTF-16" ?>
-<XS:SCHEMA ATTRIBUTEFORMDEFAULT="UNQUALIFIED" 
-   ELEMENTFORMDEFAULT="QUALIFIED"
-   XMLNS:XS="HTTP://WWW.W3.ORG/2001/XMLSCHEMA">
-<XS:ELEMENT NAME="ÑÒÓÄÅÍÒ">
-<XS:COMPLEXTYPE><XS:SEQUENCE>
-<XS:ELEMENT NAME="ÏÀÑÏÎÐÒ" MAXOCCURS="1" MINOCCURS="1">
-  <XS:COMPLEXTYPE>
-    <XS:ATTRIBUTE NAME="ÑÅÐÈß" TYPE="XS:STRING" USE="REQUIRED" />
-    <XS:ATTRIBUTE NAME="ÍÎÌÅÐ" TYPE="XS:UNSIGNEDINT" USE="REQUIRED"/>
-    <XS:ATTRIBUTE NAME="ÄÀÒÀ"  USE="REQUIRED">
-	<XS:SIMPLETYPE>  <XS:RESTRICTION BASE ="XS:STRING">
-		<XS:PATTERN VALUE="[0-9]{2}.[0-9]{2}.[0-9]{4}"/>
-	 </XS:RESTRICTION> 	</XS:SIMPLETYPE>
-     </XS:ATTRIBUTE>
-  </XS:COMPLEXTYPE>
-</XS:ELEMENT>
-<XS:ELEMENT MAXOCCURS="10" NAME="ÒÅËÅÔÎÍ" TYPE="XS:STRING"/>
-<XS:ELEMENT NAME="ÀÄÐÅÑ">   <XS:COMPLEXTYPE><XS:SEQUENCE>
-   <XS:ELEMENT NAME="ÑÒÐÀÍÀ" TYPE="XS:STRING" />
-   <XS:ELEMENT NAME="ÃÎÐÎÄ" TYPE="XS:STRING" />
-   <XS:ELEMENT NAME="ÓËÈÖÀ" TYPE="XS:STRING" />
-   <XS:ELEMENT NAME="ÄÎÌ" TYPE="XS:STRING" />
-   <XS:ELEMENT NAME="ÊÂÀÐÒÈÐÀ" TYPE="XS:STRING" />
-</XS:SEQUENCE></XS:COMPLEXTYPE>  </XS:ELEMENT>
-</XS:SEQUENCE></XS:COMPLEXTYPE>
-</XS:ELEMENT></XS:SCHEMA>';
+create xml schema collection Student as
+N'<?xml version="1.0" encoding="utf-16" ?>
+<xs:schema attributeFormDefault="unqualified"
+   elementFormDefault="qualified"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="ñòóäåíò">
+<xs:complexType><xs:sequence>
+<xs:element name="ïàñïîðò" maxOccurs="1" minOccurs="1">
+  <xs:complexType>
+    <xs:attribute name="ñåðèÿ" type="xs:string" use="required" />
+    <xs:attribute name="íîìåð" type="xs:unsignedLong" use="required"/>
+    <xs:attribute name="äàòà"  use="required">
+	<xs:simpleType>  <xs:restriction base ="xs:string">
+		<xs:pattern value="[0-9]{2}.[0-9]{2}.[0-9]{4}"/>
+	 </xs:restriction> 	</xs:simpleType>
+     </xs:attribute>
+  </xs:complexType>
+</xs:element>
+<xs:element maxOccurs="3" name="òåëåôîí" type="xs:unsignedLong"/>
+<xs:element name="àäðåñ">   <xs:complexType><xs:sequence>
+   <xs:element name="ñòðàíà" type="xs:string" />
+   <xs:element name="ãîðîä" type="xs:string" />
+   <xs:element name="óëèöà" type="xs:string" />
+   <xs:element name="äîì" type="xs:string" />
+   <xs:element name="êâàðòèðà" type="xs:string" />
+</xs:sequence></xs:complexType>  </xs:element>
+</xs:sequence></xs:complexType>
+</xs:element></xs:schema>';
 
 
 --DROP XML SCHEMA COLLECTION STUDENT;

@@ -9,6 +9,7 @@
 --------------------------------------
 USE  UNIVER;
 GO
+ 
 INSERT INTO STUDENT(IDGROUP, NAME, BDAY, INFO)
 VALUES(4, 'йнпемвсй ю.б.', '2001-10-15',
 	'<ярсдемр>

@@ -1,4 +1,4 @@
-/*6. Разработать два сценария A и B на примере базы данных X_UNIVER. 
+/*6. Разработать два сценария A и B на примере базы данных X_UNIVER. ((фантомное чтение))
 Сценарий A представляет собой явную транзакцию с уровнем изолированности REPEATABLE READ. 
 Сценарий B – явную транзакцию с уровнем изолированности READ COMMITED. 
 Сценарий A должен демонстрировать, что уровень REAPETABLE READ не допускает неподтвержденного
@@ -6,24 +6,15 @@
 */
 USE UNIVER;
 GO
---------A---------
+-- A ---
 SET TRANSACTION ISOLATION LEVEL REPEATABLE READ
 BEGIN TRANSACTION
-SELECT PULPIT FROM PULPIT WHERE FACULTY = 'ТЛ';
---------T1---------
---------T2---------
-SELECT CASE
-WHEN PULPIT = 'ТЛ' THEN 'INSERT'  
-ELSE ' ' 
-END,
-PULPIT FROM PULPIT WHERE FACULTY = 'ТЛ'
-COMMIT
+SELECT COUNT(*) FROM SUBJECT WHERE SUBJECT = 'TEST';
+-------------------------- T1 ------------------
+-------------------------- T2 -----------------
+SELECT COUNT(*) FROM SUBJECT WHERE SUBJECT = 'TEST';
+COMMIT TRAN;
+rollback
 
 
---- B ---	
-BEGIN TRANSACTION 	  
---------T1---------
-UPDATE PULPIT SET FACULTY = 'ИТ' WHERE PULPIT = 'ТЛ';
-COMMIT
---------T2---------
 

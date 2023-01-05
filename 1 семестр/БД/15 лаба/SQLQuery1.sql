@@ -10,9 +10,9 @@ USE UNIVER;
 GO
 SELECT PULPIT.FACULTY[тюйскэрер], TEACHER.PULPIT[йютедпю], TEACHER.TEACHER_NAME[опеондюбюрекэ]
 FROM TEACHER INNER JOIN PULPIT ON TEACHER.PULPIT = PULPIT.PULPIT
-WHERE TEACHER.PULPIT = 'хяхр' FOR XML PATH, ROOT('опеондюбюрекх_хяхр');
+WHERE TEACHER.PULPIT = 'хяхр' FOR XML RAW, ROOT('опеондюбюрекх_хяхр'),ELEMENTS;
 
---------------------------------------
+--------------------------------------╗
 -----------------BANK-----------------
 --------------------------------------
 USE BANK;

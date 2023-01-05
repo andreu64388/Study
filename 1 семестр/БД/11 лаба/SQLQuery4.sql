@@ -2,36 +2,20 @@
 —ценарий A представл€ет собой €вную транзакцию с уровнем изолированности READ UNCOMMITED, 
 сценарий B Ц €вную транзакцию с уровнем изолированности READ COMMITED (по умолчанию). 
 —ценарий A должен демонстрировать, что уровень READ UNCOMMITED допускает неподтвержденное,
-неповтор€ющеес€ и фантомное чтение. 
+неповтор€ющеес€(Ќеподтвержденное чтение)и фантомное чтение. 
 */
 
 USE UNIVER;
 GO
-------A------
+-----A------
+
 SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
-BEGIN TRANSACTION
------T1---------
-SELECT @@SPID, 'INSERT FACULTY' 'RESULT', *
-FROM FACULTY WHERE FACULTY = '‘»“';
-
-SELECT @@SPID, 'UPDATE PULPIT' 'RESULT', *
-FROM PULPIT WHERE FACULTY = '»Ё‘';
-COMMIT;
-
-ROLLBACK;
-
-SELECT * FROM FACULTY;
-SELECT * FROM PULPIT;
-
------BЦ----
-
-BEGIN TRANSACTION
 SELECT @@SPID
-INSERT FACULTY VALUES('‘»“','‘ј ”Ћ№“≈“ »“');
+BEGIN TRANSACTION
+------------------ T1 ------------------
+SELECT * FROM SUBJECT WHERE SUBJECT = 'TEST';
+ROLLBACK TRAN;
 
-UPDATE PULPIT SET FACULTY = '»Ё‘' WHERE PULPIT = '»—»“'
------T1----------
------T2----------
-ROLLBACK;
+--COMMIT TRAN;
+-------t2---------
 
-DELETE FACULTY WHERE FACULTY = '‘»“';

@@ -20,6 +20,8 @@ INSERT SUBJECT SELECT[йнд], [мюгбюмхе], [йютедпю] FROM OPENXML(@H, '/дхяжхокхмш/
 
 SELECT * FROM SUBJECT WHERE PULPIT = 'хяхр'
 
+EXEC SP_XML_REMOVEDOCUMENT @H;                          
+
 --------------------------------------
 -----------------BANK-----------------
 --------------------------------------
