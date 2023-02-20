@@ -133,7 +133,7 @@
 			this.label5.Size = new System.Drawing.Size(158, 29);
 			this.label5.TabIndex = 10;
 			this.label5.Text = "Ваш возраст";
-			this.label5.Click += new System.EventHandler(this.label5_Click);
+		
 			// 
 			// textBox3
 			// 
@@ -178,7 +178,7 @@
 			this.textBox5.Name = "textBox5";
 			this.textBox5.Size = new System.Drawing.Size(169, 22);
 			this.textBox5.TabIndex = 15;
-			this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+			
 			// 
 			// label8
 			// 
@@ -189,7 +189,7 @@
 			this.label8.Size = new System.Drawing.Size(126, 18);
 			this.label8.TabIndex = 16;
 			this.label8.Text = "За сколько дней";
-			this.label8.Click += new System.EventHandler(this.label8_Click);
+			
 			// 
 			// comboBox1
 			// 
@@ -210,7 +210,7 @@
 			this.textBox4.Name = "textBox4";
 			this.textBox4.Size = new System.Drawing.Size(169, 22);
 			this.textBox4.TabIndex = 18;
-			this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+			
 			// 
 			// Form1
 			// 

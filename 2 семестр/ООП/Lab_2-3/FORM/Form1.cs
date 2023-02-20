@@ -19,6 +19,7 @@ namespace Lab_2_5
 		public Form1()
 		{
 			InitializeComponent();
+			toolStripStatustoolStripStatustoolStripStatusLabel2.Text = "Test";			
 		}
 
 		int cost = 2000;
@@ -191,7 +192,7 @@ namespace Lab_2_5
 		{
 			MessageBox.Show(cost.ToString()+"$");
 			DateTime date = DateTime.Now;
-			label2.Text = "Подсчет данных " + date.ToString();
+			toolStripStatustoolStripStatustoolStripStatusLabel2.Text = "Подсчет данных " + date.ToString();
 		}
 
 		private void button3_Click(object sender, EventArgs e)
@@ -218,7 +219,7 @@ namespace Lab_2_5
 					MessageBox.Show(el.ToString());
 				}
 				DateTime date = DateTime.Now;
-				label2.Text = "Получить данные " + date;
+				toolStripStatustoolStripStatustoolStripStatusLabel2.Text = "Получить данные " + date;
 
 			}
 		}
@@ -231,14 +232,14 @@ namespace Lab_2_5
 			}
 			computer = new Computer();
 			DateTime date = DateTime.Now;
-			label2.Text = "Запись в файл" + date.ToString();
+			toolStripStatustoolStripStatustoolStripStatusLabel2.Text = "Запись в файл" + date.ToString();
 		}
 
 		private void оПрогрмаммеToolStripMenuItem_Click(object sender, EventArgs e)
 		{
 			MessageBox.Show($"V.2\n\nРазработчик: Коренчук Андрей Васильевич", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
 			DateTime date = DateTime.Now;
-			label2.Text = "О программе " + date.ToString();
+			toolStripStatustoolStripStatustoolStripStatusLabel2.Text = "О программе " + date.ToString();
 
 		}
 
@@ -246,7 +247,7 @@ namespace Lab_2_5
 		{
 			MessageBox.Show($"V.2\n\nРазработчик: Коренчук Андрей Васильевич", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
 			DateTime date = DateTime.Now;
-			label2.Text = "О программе " + date.ToString();
+			toolStripStatustoolStripStatustoolStripStatusLabel2.Text = "О программе " + date.ToString();
 		}
 
 		private void mToolStripMenuItem_Click(object sender, EventArgs e)
@@ -254,7 +255,7 @@ namespace Lab_2_5
 			Search search = new Search();
 			search.Show();
 			DateTime date = DateTime.Now;
-			label2.Text = "Поиск " + date.ToString();
+			toolStripStatustoolStripStatustoolStripStatusLabel2.Text = "Поиск " + date.ToString();
 
 
 		}
@@ -264,7 +265,7 @@ namespace Lab_2_5
 			Searching searching = new Searching("Частота");
 			searching.Show();
 			DateTime date = DateTime.Now;
-			label2.Text = "Поиск по частоте " + date.ToString();
+			toolStripStatustoolStripStatustoolStripStatusLabel2.Text = "Поиск по частоте " + date.ToString();
 
 		}
 
@@ -273,7 +274,7 @@ namespace Lab_2_5
 			Searching searching = new Searching("ОЗУ");
 			searching.Show();
 			DateTime date = DateTime.Now;
-			label2.Text = "Поиск по ОЗУ " + date.ToString();
+			toolStripStatustoolStripStatustoolStripStatusLabel2.Text = "Поиск по ОЗУ " + date.ToString();
 		}
 
 		private void toolStripMenuItem1_Click(object sender, EventArgs e)
@@ -305,7 +306,17 @@ namespace Lab_2_5
 				button.Text = "Скрыть меню";
 			}
 			DateTime date = DateTime.Now;
-			label2.Text = "Скрыть/Показать меню " + date.ToString();
+			toolStripStatustoolStripStatustoolStripStatusLabel2.Text = "Скрыть/Показать меню " + date.ToString();
+
+		}
+
+		private void toolStripStatusLabel1_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void toolStripStatustoolStripStatustoolStripStatusLabel2_Click(object sender, EventArgs e)
+		{
 
 		}
 	}

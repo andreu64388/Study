@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0036)https://queuev4.vk.com/q_frame.php?7 -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<script type="text/javascript">
+
+var full_domain = location.host;
+var main_domain = full_domain.toString().match(/[a-zA-Z]*\.[a-zA-Z]*$/)[0];
+var requestHolderName = ((location.search.match(/holder=([a-zA-Z0-9_]+)/) || {})[1] || '');
+
+var ajax = {
+  plainpost: function(url, query, done, fail) {
+    var r = new XMLHttpRequest();
+    var q = (typeof(query) != 'string') ? ajx2q(query) : query;
+    r.onreadystatechange = function() {
+      if (r.readyState == 4) {
+        if (r.status >= 200 && r.status < 300) {
+          if (done) done(r.responseText, r);
+        } else {
+          if (fail) fail(r.responseText, r);
+        }
+      }
+    }
+    try {
+      r.open('POST', url, true);
+    } catch(e) {
+      debugLog(e);
+    }
+    r.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    r.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+    r.send(q);
+    return r;
+  }
+}
+
+var _logTimer = (new Date()).getTime();
+function debugLog(msg){
+  try {
+    var t = '[' + (((new Date()).getTime() - _logTimer) / 1000) + '] ';
+    if (window.console && console.log) {
+      Array.prototype.unshift.call(arguments, t);
+      console.log.apply(console, arguments);
+    }
+  } catch (e) {
+  }
+}
+
+function isFunction(obj) {return Object.prototype.toString.call(obj) === '[object Function]'; }
+function isArray(obj) { return Object.prototype.toString.call(obj) === '[object Array]'; }
+function isEmpty(o) { if(Object.prototype.toString.call(o) !== '[object Object]') {return false;} for(var i in o){ if(o.hasOwnProperty(i)){return false;} } return true; }
+
+function ajx2q(qa) {
+  var query = [], enc = function (str) {
+    try {
+      return encodeURIComponent(str);
+    } catch (e) { return str;}
+  };
+
+  for (var key in qa) {
+    if (qa[key] == null || isFunction(qa[key])) continue;
+    if (isArray(qa[key])) {
+      for (var i = 0, c = 0; i < qa[key].length; ++i) {
+        if (qa[key][i] == null || isFunction(qa[key][i])) {
+          continue;
+        }
+        query.push(enc(key) + '[' + c + ']=' + enc(qa[key][i]));
+        ++c;
+      }
+    } else {
+      query.push(enc(key) + '=' + enc(qa[key]));
+    }
+  }
+  query.sort();
+  return query.join('&');
+}
+
+function start() {
+  if (window.ajax) {
+    document.domain = main_domain;
+    try {
+      var requestHolderParent = requestHolderName
+        ? parent.cur
+        : parent;
+      var requestHolder = (requestHolderName == 'notifier')
+        ? 'notifier'
+        : 'curNotifier';
+
+      if (requestHolderParent && requestHolderParent[requestHolder]) {
+        requestHolderParent[requestHolder].lpMakeRequest = function(url, params, onDone, onFail) {
+          if (!url.match(/^im(i)?\d+/)) return;
+          setTimeout(function () {
+            try {
+              document.domain = full_domain;
+              if (window.cur_ajax) {
+                cur_ajax.abort();
+              }
+            } catch(e) {}
+            window.cur_ajax = ajax.plainpost(url, params, onDone, onFail);
+            try {
+              document.domain = main_domain;
+            } catch(e) {}
+          }, 0);
+        }
+      } else {
+        setTimeout(start, 100);
+      }
+    } catch (e) {
+      try {
+        document.domain = full_domain;
+      } catch(e) {}
+      setTimeout(start, 100);
+    }
+  } else {
+    setTimeout(start, 100);
+  }
+}
+start();
+
+</script>
+</head>
+<body>
+
+
+</body></html>

@@ -31,7 +31,7 @@
 			this.textBox1 = new System.Windows.Forms.TextBox();
 			this.panel1 = new System.Windows.Forms.Panel();
 			this.label1 = new System.Windows.Forms.Label();
-			this.label2 = new System.Windows.Forms.Label();
+			this.toolStripStatustoolStripStatusLabel2 = new System.Windows.Forms.Label();
 			this.textBox2 = new System.Windows.Forms.TextBox();
 			this.button1 = new System.Windows.Forms.Button();
 			this.listBox1 = new System.Windows.Forms.ListBox();
@@ -54,7 +54,7 @@
 			this.panel1.Controls.Add(this.button2);
 			this.panel1.Controls.Add(this.listBox1);
 			this.panel1.Controls.Add(this.button1);
-			this.panel1.Controls.Add(this.label2);
+			this.panel1.Controls.Add(this.toolStripStatustoolStripStatusLabel2);
 			this.panel1.Controls.Add(this.textBox2);
 			this.panel1.Controls.Add(this.label1);
 			this.panel1.Controls.Add(this.textBox1);
@@ -74,16 +74,16 @@
 			this.label1.TabIndex = 1;
 			this.label1.Text = "Производитель";
 			// 
-			// label2
+			// toolStripStatustoolStripStatusLabel2
 			// 
-			this.label2.AutoSize = true;
-			this.label2.BackColor = System.Drawing.Color.White;
-			this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label2.Location = new System.Drawing.Point(567, 47);
-			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(59, 18);
-			this.label2.TabIndex = 3;
-			this.label2.Text = "Модель";
+			this.toolStripStatustoolStripStatusLabel2.AutoSize = true;
+			this.toolStripStatustoolStripStatusLabel2.BackColor = System.Drawing.Color.White;
+			this.toolStripStatustoolStripStatusLabel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.toolStripStatustoolStripStatusLabel2.Location = new System.Drawing.Point(567, 47);
+			this.toolStripStatustoolStripStatusLabel2.Name = "toolStripStatustoolStripStatusLabel2";
+			this.toolStripStatustoolStripStatusLabel2.Size = new System.Drawing.Size(59, 18);
+			this.toolStripStatustoolStripStatusLabel2.TabIndex = 3;
+			this.toolStripStatustoolStripStatusLabel2.Text = "Модель";
 			// 
 			// textBox2
 			// 
@@ -151,7 +151,7 @@
 		private System.Windows.Forms.Panel panel1;
 		private System.Windows.Forms.ListBox listBox1;
 		private System.Windows.Forms.Button button1;
-		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.Label toolStripStatustoolStripStatusLabel2;
 		private System.Windows.Forms.TextBox textBox2;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Button button3;

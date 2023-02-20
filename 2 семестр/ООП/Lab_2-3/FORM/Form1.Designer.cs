@@ -81,14 +81,19 @@
 			this.сортировкуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.поискToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.оПрогрмаммеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			this.label2 = new System.Windows.Forms.Label();
 			this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripStatustoolStripStatusLabel2 = new System.Windows.Forms.Label();
 			this.button5 = new System.Windows.Forms.Button();
+			this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+			this.statusStrip2 = new System.Windows.Forms.StatusStrip();
+			this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+			this.toolStripStatustoolStripStatustoolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
 			this.panel1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.OZU)).BeginInit();
 			this.panel2.SuspendLayout();
 			this.menuStrip2.SuspendLayout();
+			this.statusStrip2.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// panel1
@@ -581,14 +586,14 @@
 			// частотеToolStripMenuItem
 			// 
 			this.частотеToolStripMenuItem.Name = "частотеToolStripMenuItem";
-			this.частотеToolStripMenuItem.Size = new System.Drawing.Size(224, 28);
+			this.частотеToolStripMenuItem.Size = new System.Drawing.Size(155, 28);
 			this.частотеToolStripMenuItem.Text = "Частоте";
 			this.частотеToolStripMenuItem.Click += new System.EventHandler(this.частотеToolStripMenuItem_Click);
 			// 
 			// оЗУToolStripMenuItem
 			// 
 			this.оЗУToolStripMenuItem.Name = "оЗУToolStripMenuItem";
-			this.оЗУToolStripMenuItem.Size = new System.Drawing.Size(224, 28);
+			this.оЗУToolStripMenuItem.Size = new System.Drawing.Size(155, 28);
 			this.оЗУToolStripMenuItem.Text = "ОЗУ";
 			this.оЗУToolStripMenuItem.Click += new System.EventHandler(this.оЗУToolStripMenuItem_Click);
 			// 
@@ -620,16 +625,6 @@
 			this.оПрогрмаммеToolStripMenuItem.Text = "О прогрмамме";
 			this.оПрогрмаммеToolStripMenuItem.Click += new System.EventHandler(this.оПрогрмаммеToolStripMenuItem_Click_1);
 			// 
-			// label2
-			// 
-			this.label2.AutoSize = true;
-			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label2.Location = new System.Drawing.Point(70, 622);
-			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(16, 25);
-			this.label2.TabIndex = 159;
-			this.label2.Text = "l";
-			// 
 			// toolStripMenuItem1
 			// 
 			this.toolStripMenuItem1.Name = "toolStripMenuItem1";
@@ -643,6 +638,16 @@
 			this.toolStripMenuItem2.Size = new System.Drawing.Size(36, 27);
 			this.toolStripMenuItem2.Text = ">";
 			// 
+			// toolStripStatustoolStripStatusLabel2
+			// 
+			this.toolStripStatustoolStripStatusLabel2.AutoSize = true;
+			this.toolStripStatustoolStripStatusLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.toolStripStatustoolStripStatusLabel2.Location = new System.Drawing.Point(70, 622);
+			this.toolStripStatustoolStripStatusLabel2.Name = "toolStripStatustoolStripStatusLabel2";
+			this.toolStripStatustoolStripStatusLabel2.Size = new System.Drawing.Size(16, 25);
+			this.toolStripStatustoolStripStatusLabel2.TabIndex = 159;
+			this.toolStripStatustoolStripStatusLabel2.Text = "l";
+			// 
 			// button5
 			// 
 			this.button5.BackColor = System.Drawing.SystemColors.Desktop;
@@ -655,13 +660,49 @@
 			this.button5.UseVisualStyleBackColor = false;
 			this.button5.Click += new System.EventHandler(this.button5_Click);
 			// 
+			// statusStrip1
+			// 
+			this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+			this.statusStrip1.Location = new System.Drawing.Point(0, 634);
+			this.statusStrip1.Name = "statusStrip1";
+			this.statusStrip1.Size = new System.Drawing.Size(1154, 22);
+			this.statusStrip1.TabIndex = 161;
+			this.statusStrip1.Text = "statusStrip1";
+			// 
+			// statusStrip2
+			// 
+			this.statusStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
+			this.statusStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1,
+            this.toolStripStatustoolStripStatustoolStripStatusLabel2});
+			this.statusStrip2.Location = new System.Drawing.Point(0, 605);
+			this.statusStrip2.Name = "statusStrip2";
+			this.statusStrip2.Size = new System.Drawing.Size(1154, 29);
+			this.statusStrip2.TabIndex = 162;
+			this.statusStrip2.Text = "statusStrip2";
+			// 
+			// toolStripStatusLabel1
+			// 
+			this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+			this.toolStripStatusLabel1.Size = new System.Drawing.Size(0, 23);
+			this.toolStripStatusLabel1.Click += new System.EventHandler(this.toolStripStatusLabel1_Click);
+			// 
+			// toolStripStatustoolStripStatustoolStripStatusLabel2
+			// 
+			this.toolStripStatustoolStripStatustoolStripStatusLabel2.Name = "toolStripStatustoolStripStatustoolStripStatusLabel2";
+			this.toolStripStatustoolStripStatustoolStripStatusLabel2.Size = new System.Drawing.Size(19, 23);
+			this.toolStripStatustoolStripStatustoolStripStatusLabel2.Text = "1";
+			this.toolStripStatustoolStripStatustoolStripStatusLabel2.Click += new System.EventHandler(this.toolStripStatustoolStripStatustoolStripStatusLabel2_Click);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(1154, 656);
+			this.Controls.Add(this.statusStrip2);
+			this.Controls.Add(this.statusStrip1);
 			this.Controls.Add(this.button5);
-			this.Controls.Add(this.label2);
+			this.Controls.Add(this.toolStripStatustoolStripStatusLabel2);
 			this.Controls.Add(this.menuStrip1);
 			this.Controls.Add(this.menuStrip2);
 			this.Controls.Add(this.button4);
@@ -678,6 +719,8 @@
 			this.panel2.PerformLayout();
 			this.menuStrip2.ResumeLayout(false);
 			this.menuStrip2.PerformLayout();
+			this.statusStrip2.ResumeLayout(false);
+			this.statusStrip2.PerformLayout();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -737,10 +780,14 @@
 		private System.Windows.Forms.ToolStripMenuItem оПрогрмаммеToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem сортировкуToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem поискToolStripMenuItem;
-		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.Label toolStripStatustoolStripStatusLabel2;
 		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
 		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
 		private System.Windows.Forms.Button button5;
+		private System.Windows.Forms.StatusStrip statusStrip1;
+		private System.Windows.Forms.StatusStrip statusStrip2;
+		private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+		private System.Windows.Forms.ToolStripStatusLabel toolStripStatustoolStripStatustoolStripStatusLabel2;
 	}
 }
 

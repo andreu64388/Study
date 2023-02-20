@@ -1,3 +1,6 @@
 {"Type":"\u0420\u0430\u0431\u043E\u0447\u0430\u044F \u0441\u0442\u0430\u043D\u0446\u0438\u044F","Videocard":"2","Ram":2,"Hdd":"SDD","Date":3232,"Prossecor":{"Manufacturer":"test","Series":"test","Model":"test","Cores":2,"MaxRate":2,"L1":true,"L2":false,"L3":false}}
 {"Type":"Рабочая станция","Videocard":"2","Ram":6,"Hdd":"HDD","Date":2222,"Prossecor":{"Manufacturer":"ew","Series":"2","Model":"2","Cores":2,"MaxRate":2,"L1":true,"L2":false,"L3":false}}
 {"Type":" ","Videocard":" ","Ram":0,"Hdd":" ","Date":0,"Prossecor":{"Manufacturer":"Intel","Series":"Core i7","Model":"i7-6700K","Cores":4,"MaxRate":4,"L1":false,"L2":false,"L3":false}}
+{"Type":" ","Videocard":" ","Ram":0,"Hdd":" ","Date":0,"Prossecor":{"Manufacturer":"Intel","Series":"Core i7","Model":"i7-6700K","Cores":4,"MaxRate":4,"L1":false,"L2":false,"L3":false}}
+{"Type":"Рабочая станция","Videocard":"32","Ram":6,"Hdd":"HDD","Date":2332,"Prossecor":{"Manufacturer":"la","Series":"32","Model":"32","Cores":32,"MaxRate":32,"L1":true,"L2":false,"L3":false}}
+{"Type":"3","Videocard":"3","Ram":6,"Hdd":"SDD","Date":3333,"Prossecor":{"Manufacturer":"3","Series":"3","Model":"3","Cores":3,"MaxRate":3,"L1":true,"L2":false,"L3":false}}

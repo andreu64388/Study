@@ -1,0 +1,31 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+
+    <v:String x:Key="Name">WebShop</v:String>
+
+    <v:String x:Key="AddProduct">Add product</v:String>
+    <v:String x:Key="ViewAll">Vew all</v:String>
+
+    <v:String x:Key="fillData">Fill data</v:String>
+    <v:String x:Key="EnterName">Enter name product</v:String>
+    <v:String x:Key="EnterDescription">Enter  description product</v:String>
+    <v:String x:Key="EnterImage">Enter image product</v:String>
+    <v:String x:Key="EnterPrice">Enter price product</v:String>
+    <v:String x:Key="EnterRaiting">Enter raiting product</v:String>
+    <v:String x:Key="EnterCategory">Enter category product</v:String>
+    <v:String x:Key="Add">Add</v:String>
+    <v:String x:Key="Clear">Clear</v:String>
+    <v:String x:Key="Reset">Reset</v:String>
+
+    <v:String x:Key="AllProduct">All products</v:String>
+    <v:String x:Key="SearchFromName">Search From Name</v:String>
+    <v:String x:Key="FilterByPrice">Filter by Price</v:String>
+    <v:String x:Key="ByPrice">By Price</v:String>
+    <v:String x:Key="ByName">By Name</v:String>
+    <v:String x:Key="ByRaiting">By raiting</v:String>
+    <v:String x:Key="AddProd">Add product</v:String>
+    <v:String x:Key="ChoiseProduct">ChoisProduct</v:String>
+    <v:String x:Key="Delete">Delete</v:String>
+    <v:String x:Key="Edit">Edit</v:String>
+</ResourceDictionary>
