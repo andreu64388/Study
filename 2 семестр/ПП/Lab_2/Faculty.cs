@@ -104,7 +104,7 @@ public class Faculty:Organization
 		return count;
 
 	}
-	public int assJobTitle(Job title)
+	public int addJobTitle(Job title)
 	{ 
 		int count = 0;
 		foreach (var item in Departments)
@@ -143,7 +143,7 @@ public class Faculty:Organization
 		return empoloee;
 
 	}
-	public void Deasmes()
+	public void Dismiss()
 	{
 		Departments.Clear();
 		_name = string.Empty;
@@ -177,35 +177,6 @@ public class Faculty:Organization
 	}
 }
 
-public class Department
-{
-
-	public string NameDepartament {   get; set; }
-
-
-	public string ShortNameDepartament { get; set; }
-
-
-	public string AddressDepartament { get; set; }
-
-	public Department(string nameDepartament, string shortNameDepartament, string addressDepartament)
-	{
-		NameDepartament = nameDepartament;
-		ShortNameDepartament = shortNameDepartament;
-		AddressDepartament = addressDepartament;
-	}
-
-	public Department()
-	{
-		NameDepartament = " ";
-		ShortNameDepartament = " ";
-		AddressDepartament = " ";
-	}
-
-	public string GetInfo()
-	{
-		return $"NameDepartament: {NameDepartament}, ShortNameDepartament: {ShortNameDepartament}, AddressDepartament: {AddressDepartament}";
-	}
 
 
 
@@ -214,35 +185,4 @@ public class Department
 
 
 
-}
 
-
-public class JobVacancy
-{
-	public string NameDepartament { get;
-	set;
-	}
-}
-
-public class Job
-{
-	public string NameDepartament { get;
-	}
-}
-
-public class Empoloee
-{
-	public string NameDepartament { get;}
-}
-
-
-interface IStaff
-{
-	int getJobVacancies();
-	void getEmploee();
-
-	void getJobTitle();
-	bool openJob();
-	int closeJob();
-	
-}

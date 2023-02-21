@@ -1,0 +1,207 @@
+﻿<Window x:Class="Lab_4_5.Windows.AllProducts"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab_4_5.Windows"
+        mc:Ignorable="d"
+           Icon="/sha.png"
+        Title="AllProducts" Height="550" Width="900"
+        WindowStartupLocation="CenterScreen"
+    ResizeMode="CanResizeWithGrip"
+    Background="#F5F5F5"
+    Foreground="Black"
+       
+    BorderThickness="1"
+    BorderBrush="#CCCCCC"
+        >
+    <Window.Resources>
+        
+        <Style TargetType="TextBlock" x:Key="text">
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontFamily" Value="Segoe UI" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="Margin" Value="0 5" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#2196F3" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="Padding" Value="10 5" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontFamily" Value="Segoe UI" />
+            <Setter Property="Cursor" Value="Hand" />
+            <Setter Property="Margin" Value="10" />
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#1976D2" />
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#0D47A1" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="Background" Value="White" />
+            <Setter Property="BorderBrush" Value="#CCC" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="Padding" Value="5" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontFamily" Value="Segoe UI" />
+            <Setter Property="Margin" Value="10" />
+            <Style.Triggers>
+                <Trigger Property="IsFocused" Value="True">
+                    <Setter Property="BorderBrush" Value="#2196F3" />
+                </Trigger>
+            </Style.Triggers>
+            </Style>
+            <Style x:Key="BackButtonStyle" TargetType="Button">
+                <Setter Property="Background" Value="White" />
+                <Setter Property="BorderThickness" Value="0" />
+                <Setter Property="Foreground" Value="#2196F3" />
+            <Setter Property="FontFamily" Value="Segoe UI" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="Cursor" Value="Hand" />
+            <Setter Property="Margin" Value="0 10 0 0" />
+            <Setter Property="Padding" Value="5" />
+            <Setter Property="Content">
+                <Setter.Value>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Image Source="/Windows/arrow.png" Width="12" Height="12" Margin="0 0 5 0" />
+                        <TextBlock Text="Back" Grid.Column="1" />
+                    </Grid>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Foreground" Value="#0D47A1" />
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Foreground" Value="#1976D2" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+      
+        <StackPanel HorizontalAlignment="Center" Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
+            <Button Background="Red" Click="Button_Click_2" Content="{DynamicResource Delete}">
+               
+            </Button>
+            <Button Click="Button_Click_3" Content="{DynamicResource Edit}">
+               
+            </Button>
+
+        </StackPanel>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" Text="{DynamicResource AllProduct}" Style="{DynamicResource text_all}">
+            
+        </TextBlock>
+        <StackPanel Grid.Row="1">
+            <StackPanel>
+                <TextBlock Text="{DynamicResource SearchFromName}" Style="{DynamicResource text_all}">
+          
+            </TextBlock>
+                <TextBox Name="SearchTextBox" TextChanged="SearchTextBox_TextChanged" />
+
+            </StackPanel>
+            <StackPanel>
+                <TextBlock Text="{DynamicResource FilterByPrice}" Style="{DynamicResource text_all}">
+             
+                </TextBlock>
+                <Button Click="Button_Click_4" Name="Price" Content="{DynamicResource ByPrice}">
+                   
+                </Button>
+                <Button Click="Button_Click_5" Name="Name"  Content="{DynamicResource ByName}">
+                  
+                </Button>
+                <Button Click="Button_Click_6" Cursor="Hand" Name="Raiting" Content="{DynamicResource ByRaiting}">
+                
+                </Button>
+            </StackPanel>
+            <StackPanel>
+                
+                <Button Click="Button_Click_1" Content="{DynamicResource AddProduct}">
+                    
+                </Button>
+            </StackPanel>
+            <StackPanel>
+                <TextBlock Text="{DynamicResource ChoiseProduct}" Style="{DynamicResource text_all}">
+                
+                </TextBlock>
+                <ComboBox ItemsSource="{Binding MyCollections}" Name="Category_product" DisplayMemberPath="Name"
+          SelectionChanged="Category_product_SelectionChanged">
+                </ComboBox>
+
+            </StackPanel>
+            <StackPanel>
+              
+                <Button Background="red" Click="Button_Click_7" Content="{DynamicResource Reset}">
+                
+                </Button>
+            </StackPanel>
+
+        </StackPanel>
+        <Button Content="Next"  Grid.Column="2" Grid.Row="0" Width="50" Height="50" HorizontalAlignment="Right" Click="Button_Click_9"/>
+        <Button Content="Prev"  Grid.Column="2" Grid.Row="0" Width="50" Height="50" HorizontalAlignment="Right" Margin="0 0 70 0" Click="Button_Click_8"/>
+        <Button Style="{StaticResource BackButtonStyle}" Grid.Column="1" Grid.Row="0" Width="100" Height="40"  HorizontalAlignment="Left" Click="Button_Click" VerticalAlignment="Top" Margin="0">
+           
+        </Button>
+        <Border Grid.RowSpan="1" Style="{DynamicResource back_all}" Panel.ZIndex="-1" Grid.ColumnSpan="2"/>
+
+        <Border Grid.RowSpan="2" Style="{DynamicResource back_all}" Panel.ZIndex="-1"/>
+        <Grid Grid.Row="2" Grid.Column="1">
+            <Grid.RowDefinitions>
+            
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+
+            <ListView ItemsSource="{Binding Products}" Grid.Row="1" Grid.ColumnSpan="6" Name="Choise" Background="Bisque" >
+               
+                <ListView.View>
+                    <GridView>
+                       
+                        <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}" Width="100"   />
+                        <GridViewColumn Header="Description" DisplayMemberBinding="{Binding Description}" Width="100" />
+                        <GridViewColumn Header="Price" DisplayMemberBinding="{Binding Price}" Width="100" />
+                        <GridViewColumn Header="Category" DisplayMemberBinding="{Binding Category}" Width="130"/>
+                        <GridViewColumn Header="Rating" DisplayMemberBinding="{Binding Rating}" Width="100" />
+                        <GridViewColumn Header="Image"   Width="130" >
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Image Source="{Binding Img}" Width="50" Height="50"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+
+
+        </Grid>
+        
+    </Grid>
+</Window>
