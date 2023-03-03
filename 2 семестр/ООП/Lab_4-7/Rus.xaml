@@ -1,0 +1,34 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+
+
+
+
+    <v:String x:Key="AddProduct">Добавить продукт</v:String>
+    <v:String x:Key="ViewAll">Посмотреть все</v:String>
+
+
+    <v:String x:Key="fillData">Заполните данные</v:String>
+    <v:String x:Key="EnterName">Введите название товара</v:String>
+    <v:String x:Key="EnterDescription">Введите описание товара</v:String>
+    <v:String x:Key="EnterImage">Выберите картинку</v:String>
+    <v:String x:Key="EnterPrice">Введите цену товара</v:String>
+    <v:String x:Key="EnterRaiting">Введите рейтинг (1-10)</v:String>
+    <v:String x:Key="EnterCategory">Введите категорию товара</v:String>
+    <v:String x:Key="Add">Добавить</v:String>
+    <v:String x:Key="Clear">Очистить</v:String>
+
+    <v:String x:Key="AllProduct">Все товары</v:String>
+    <v:String x:Key="SearchFromName">Поиск по названию</v:String>
+    <v:String x:Key="FilterByPrice">Фильтрация товаров</v:String>
+    <v:String x:Key="ByPrice">По цене</v:String>
+    <v:String x:Key="ByName">По имени</v:String>
+    <v:String x:Key="ByRaiting">По рейтингу</v:String>
+    <v:String x:Key="AddProd">Добавить товар</v:String>
+    <v:String x:Key="ChoiseProduct">Выберите категорию</v:String>
+    <v:String x:Key="Reset">Сбросить</v:String>
+
+    <v:String x:Key="Delete">Удалить</v:String>
+    <v:String x:Key="Edit">Редактировать</v:String>
+</ResourceDictionary>

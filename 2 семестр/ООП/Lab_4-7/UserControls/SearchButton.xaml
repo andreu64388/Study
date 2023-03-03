@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="Lab_4_5.UserControls.SearchButton"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Lab_4_5.UserControls"
+             mc:Ignorable="d"
+             d:DesignHeight="40" d:DesignWidth="180">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80*" />
+            <ColumnDefinition Width="20*" />
+        </Grid.ColumnDefinitions>
+
+        <TextBox Name="text" Grid.Column="0" TextChanged="text_TextChanged" />
+        <Button Content="X" Background="White"
+                Foreground="Black"
+                Click="Button_Click"
+                Grid.Column="1"
+                HorizontalAlignment="Stretch"
+                Cursor="Hand" />
+    </Grid>
+</UserControl>
