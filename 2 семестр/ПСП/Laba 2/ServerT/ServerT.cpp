@@ -24,7 +24,7 @@ void main() {
 			throw SetErrorMsgText("socket:", WSAGetLastError());
 		//.............................................................	
 
-		SOCKADDR_I	N serv; 
+		SOCKADDR_IN serv; 
 		serv.sin_family = AF_INET; 
 		serv.sin_port = htons(2000); 
 		serv.sin_addr.s_addr = inet_addr("127.0.0.1"); 
