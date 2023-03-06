@@ -83,6 +83,7 @@ namespace Lab_8
 			AddUser userWindow = new AddUser();
 			userWindow.Show();
 		}
+
 		private void Button_Image(object sender, RoutedEventArgs e)
 		{
 			AddUser userWindow = new AddUser();

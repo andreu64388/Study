@@ -71,7 +71,7 @@
        Grid.ColumnSpan="2"
        Grid.Column="1"
        Margin="10"
-                 
+
        AutoGenerateColumns="False">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="UserID" Binding="{Binding UserID}" Width="80" />

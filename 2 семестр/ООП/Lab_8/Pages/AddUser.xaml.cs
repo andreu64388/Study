@@ -3,7 +3,6 @@ using Microsoft.Win32;
 using System;
 using System.IO;
 using System.Windows;
-using System.Windows.Controls;
 using System.Windows.Media.Imaging;
 
 namespace Lab_8.Pages
@@ -28,7 +27,7 @@ namespace Lab_8.Pages
 				string phone = Phone.Text.Trim();
 				string email = Email.Text.Trim();
 				int id_user = Convert.ToInt32(id.Text.Trim());
-				
+
 				if (firstname.Length == 0 || lastname.Length == 0 ||
 					address.Length == 0 || phone.Length == 0 || email.Length == 0)
 				{
@@ -55,7 +54,7 @@ namespace Lab_8.Pages
 					Address = address,
 					Phone = phone,
 					Email = email,
-					Image= imageData,
+					Image = imageData,
 				};
 
 				DB.DB.AddUser(user);
@@ -81,11 +80,9 @@ namespace Lab_8.Pages
 			{
 				try
 				{
-
 					preview.Source = new BitmapImage(new Uri(openFileDialog.FileName, UriKind.Absolute));
 					preview.Width = 100;
-					preview.Height= 100;
-
+					preview.Height = 100;
 				}
 				catch
 				{

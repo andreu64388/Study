@@ -1,18 +1,14 @@
-﻿using System.Windows.Controls;
-using System.Windows.Media.Imaging;
-
-namespace Lab_8.Class
+﻿namespace Lab_8.Class
 {
 	public class User
 	{
-		
 		public int UserID { get; set; }
 		public string FirstName { get; set; }
 		public string LastName { get; set; }
 		public string Email { get; set; }
 		public string Phone { get; set; }
 		public string Address { get; set; }
-		public byte[] Image{ get; set; }
+		public byte[] Image { get; set; }
 
 		public User()
 		{

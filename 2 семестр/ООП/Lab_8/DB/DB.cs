@@ -100,7 +100,6 @@ namespace Lab_8.DB
 					string address = reader.GetString(5);
 					byte[] image = (byte[])reader["Image"];
 
-
 					User userIDS = new User
 					{
 						FirstName = firstName,
@@ -236,7 +235,7 @@ namespace Lab_8.DB
 								Phone = phone,
 								Address = address,
 								UserID = id,
-								Image= image
+								Image = image
 							};
 
 							users.Add(user);
@@ -252,6 +251,74 @@ namespace Lab_8.DB
 				return null;
 			}
 			finally { CloseConnection(); }
+		}
+
+		public interface ISortStrategy
+		{
+			IEnumerable<User> Sort(IEnumerable<User> users);
+		}
+
+		public class SortById : ISortStrategy
+		{
+			public IEnumerable<User> Sort(IEnumerable<User> users)
+			{
+				return users.OrderBy(u => u.UserID);
+			}
+		}
+
+		public class SortByFirstName : ISortStrategy
+		{
+			public IEnumerable<User> Sort(IEnumerable<User> users)
+			{
+				return users.OrderBy(u => u.FirstName);
+			}
+		}
+
+		public class SortByLastName : ISortStrategy
+		{
+			public IEnumerable<User> Sort(IEnumerable<User> users)
+			{
+				return users.OrderBy(u => u.LastName);
+			}
+		}
+
+		public class SortByEmail : ISortStrategy
+		{
+			public IEnumerable<User> Sort(IEnumerable<User> users)
+			{
+				return users.OrderBy(u => u.Email);
+			}
+		}
+
+		public class SortByPhone : ISortStrategy
+		{
+			public IEnumerable<User> Sort(IEnumerable<User> users)
+			{
+				return users.OrderBy(u => u.Phone);
+			}
+		}
+
+		public class SortByAddress : ISortStrategy
+		{
+			public IEnumerable<User> Sort(IEnumerable<User> users)
+			{
+				return users.OrderBy(u => u.Address);
+			}
+		}
+
+		public class UserSorter
+		{
+			private readonly ISortStrategy _strategy;
+
+			public UserSorter(ISortStrategy strategy)
+			{
+				_strategy = strategy;
+			}
+
+			public IEnumerable<User> Sort(IEnumerable<User> users)
+			{
+				return _strategy.Sort(users);
+			}
 		}
 	}
 }
