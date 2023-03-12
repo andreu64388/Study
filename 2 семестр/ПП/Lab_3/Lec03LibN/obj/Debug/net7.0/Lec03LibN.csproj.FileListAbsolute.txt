@@ -1,0 +1,5 @@
+E:\student\2 курс\2 семестр\ПП\Lab__3\Lec03LibN\obj\Debug\net7.0\Lec03LibN.csproj.AssemblyReference.cache
+E:\student\2 курс\2 семестр\ПП\Lab__3\Lec03LibN\obj\Debug\net7.0\Lec03LibN.GeneratedMSBuildEditorConfig.editorconfig
+E:\student\2 курс\2 семестр\ПП\Lab__3\Lec03LibN\obj\Debug\net7.0\Lec03LibN.AssemblyInfoInputs.cache
+E:\student\2 курс\2 семестр\ПП\Lab__3\Lec03LibN\obj\Debug\net7.0\Lec03LibN.AssemblyInfo.cs
+E:\student\2 курс\2 семестр\ПП\Lab__3\Lec03LibN\obj\Debug\net7.0\Lec03LibN.csproj.CoreCompileInputs.cache
