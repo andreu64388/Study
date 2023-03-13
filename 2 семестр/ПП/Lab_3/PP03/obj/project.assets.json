@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\student\\2 курс\\2 семестр\\ПП\\Lab__3\\PP03\\PP03.csproj",
+      "projectUniqueName": "E:\\student\\2 курс\\2 семестр\\ПП\\Lab_3\\PP03\\PP03.csproj",
       "projectName": "PP03",
-      "projectPath": "E:\\student\\2 курс\\2 семестр\\ПП\\Lab__3\\PP03\\PP03.csproj",
+      "projectPath": "E:\\student\\2 курс\\2 семестр\\ПП\\Lab_3\\PP03\\PP03.csproj",
       "packagesPath": "C:\\Users\\andry\\.nuget\\packages\\",
-      "outputPath": "E:\\student\\2 курс\\2 семестр\\ПП\\Lab__3\\PP03\\obj\\",
+      "outputPath": "E:\\student\\2 курс\\2 семестр\\ПП\\Lab_3\\PP03\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andry\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\student\\2 курс\\2 семестр\\ПП\\Lab__3\\Lec03LibN\\Lec03LibN.csproj": {
-              "projectPath": "E:\\student\\2 курс\\2 семестр\\ПП\\Lab__3\\Lec03LibN\\Lec03LibN.csproj"
+            "E:\\student\\2 курс\\2 семестр\\ПП\\Lab_3\\Lec03LibN\\Lec03LibN.csproj": {
+              "projectPath": "E:\\student\\2 курс\\2 семестр\\ПП\\Lab_3\\Lec03LibN\\Lec03LibN.csproj"
             }
           }
         }

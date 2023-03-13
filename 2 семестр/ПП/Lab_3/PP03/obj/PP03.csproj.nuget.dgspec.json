@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\student\\2 курс\\2 семестр\\ПП\\Lab__3\\PP03\\PP03.csproj": {}
+    "E:\\student\\2 курс\\2 семестр\\ПП\\Lab_3\\PP03\\PP03.csproj": {}
   },
   "projects": {
-    "E:\\student\\2 курс\\2 семестр\\ПП\\Lab__3\\Lec03LibN\\Lec03LibN.csproj": {
+    "E:\\student\\2 курс\\2 семестр\\ПП\\Lab_3\\Lec03LibN\\Lec03LibN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\student\\2 курс\\2 семестр\\ПП\\Lab__3\\Lec03LibN\\Lec03LibN.csproj",
+        "projectUniqueName": "E:\\student\\2 курс\\2 семестр\\ПП\\Lab_3\\Lec03LibN\\Lec03LibN.csproj",
         "projectName": "Lec03LibN",
-        "projectPath": "E:\\student\\2 курс\\2 семестр\\ПП\\Lab__3\\Lec03LibN\\Lec03LibN.csproj",
+        "projectPath": "E:\\student\\2 курс\\2 семестр\\ПП\\Lab_3\\Lec03LibN\\Lec03LibN.csproj",
         "packagesPath": "C:\\Users\\andry\\.nuget\\packages\\",
-        "outputPath": "E:\\student\\2 курс\\2 семестр\\ПП\\Lab__3\\Lec03LibN\\obj\\",
+        "outputPath": "E:\\student\\2 курс\\2 семестр\\ПП\\Lab_3\\Lec03LibN\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andry\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "E:\\student\\2 курс\\2 семестр\\ПП\\Lab__3\\PP03\\PP03.csproj": {
+    "E:\\student\\2 курс\\2 семестр\\ПП\\Lab_3\\PP03\\PP03.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\student\\2 курс\\2 семестр\\ПП\\Lab__3\\PP03\\PP03.csproj",
+        "projectUniqueName": "E:\\student\\2 курс\\2 семестр\\ПП\\Lab_3\\PP03\\PP03.csproj",
         "projectName": "PP03",
-        "projectPath": "E:\\student\\2 курс\\2 семестр\\ПП\\Lab__3\\PP03\\PP03.csproj",
+        "projectPath": "E:\\student\\2 курс\\2 семестр\\ПП\\Lab_3\\PP03\\PP03.csproj",
         "packagesPath": "C:\\Users\\andry\\.nuget\\packages\\",
-        "outputPath": "E:\\student\\2 курс\\2 семестр\\ПП\\Lab__3\\PP03\\obj\\",
+        "outputPath": "E:\\student\\2 курс\\2 семестр\\ПП\\Lab_3\\PP03\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andry\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\student\\2 курс\\2 семестр\\ПП\\Lab__3\\Lec03LibN\\Lec03LibN.csproj": {
-                "projectPath": "E:\\student\\2 курс\\2 семестр\\ПП\\Lab__3\\Lec03LibN\\Lec03LibN.csproj"
+              "E:\\student\\2 курс\\2 семестр\\ПП\\Lab_3\\Lec03LibN\\Lec03LibN.csproj": {
+                "projectPath": "E:\\student\\2 курс\\2 семестр\\ПП\\Lab_3\\Lec03LibN\\Lec03LibN.csproj"
               }
             }
           }

@@ -8,6 +8,64 @@ using System.Threading.Tasks;
 
 namespace Lab_9.DB
 {
+	/*	public class DB : DbContext
+		{
+			public DB() : base("name=Test")
+			{
+			}
+
+			public DbSet<User> Users { get; set; }
+			public DbSet<Orders> Orders { get; set; }
+
+			public User GetUserById(int id)
+			{
+				return Users.FirstOrDefault(u => u.UserID == id);
+			}
+
+			public async Task<List<User>> SortByAsync(string param)
+			{
+				using (var context = new DB())
+				{
+					IQueryable<User> query = context.Users.AsQueryable();
+
+					switch (param)
+					{
+						case "firstname":
+							query = query.OrderBy(u => u.FirstName);
+							break;
+
+						case "phone":
+							query = query.OrderBy(u => u.Phone);
+							break;
+
+						case "id":
+							query = query.OrderBy(u => u.UserID);
+							break;
+
+						case "lastname":
+							query = query.OrderBy(u => u.LastName);
+							break;
+
+						case "address":
+							query = query.OrderBy(u => u.Address);
+							break;
+
+						case "email":
+							query = query.OrderBy(u => u.Email);
+							break;
+
+						default:
+							throw new ArgumentException($"Unknown parameter '{param}'");
+					}
+
+					return await query.ToListAsync();
+				}
+			}
+		}*/
+
+
+
+
 	public class DB : DbContext
 	{
 		public DB() : base("name=Test")
@@ -17,75 +75,15 @@ namespace Lab_9.DB
 		public DbSet<User> Users { get; set; }
 		public DbSet<Orders> Orders { get; set; }
 
-		public User GetUserById(int id)
-		{
-			return Users.FirstOrDefault(u => u.UserID == id);
-		}
-
-		public async Task<List<User>> SortByAsync(string param)
-		{
-			using (var context = new DB())
-			{
-				IQueryable<User> query = context.Users.AsQueryable();
-
-				switch (param)
-				{
-					case "firstname":
-						query = query.OrderBy(u => u.FirstName);
-						break;
-
-					case "phone":
-						query = query.OrderBy(u => u.Phone);
-						break;
-
-					case "id":
-						query = query.OrderBy(u => u.UserID);
-						break;
-
-					case "lastname":
-						query = query.OrderBy(u => u.LastName);
-						break;
-
-					case "address":
-						query = query.OrderBy(u => u.Address);
-						break;
-
-					case "email":
-						query = query.OrderBy(u => u.Email);
-						break;
-
-					default:
-						throw new ArgumentException($"Unknown parameter '{param}'");
-				}
-
-				return await query.ToListAsync();
-			}
-		}
+		public IRepository<User> UserRepository => new UserRepository(this);
+		public IRepository<Orders> OrdersRepository => new OrdersRepository(this);
 	}
 
-	/*	public class DB : DbContext
-		{
-			private readonly IRepository<User> _userRepository;
-			private readonly IRepository<Orders> _orderRepository;
 
-			public DB() : base("name=Test")
-			{
-				_userRepository = new Repository<User>(this);
-				_orderRepository = new Repository<Orders>(this);
-			}
-
-			public IRepository<User> Users => _userRepository;
-			public IRepository<Orders> Orders => _orderRepository;
-		}
-
-	*/
 
 	public interface IRepository<T> where T : class
 	{
-		T GetById(int id);
-
-		Task<T> GetByIdAsync(int id);
-
+	
 		IEnumerable<T> GetAll();
 
 		Task<IEnumerable<T>> GetAllAsync();
@@ -96,153 +94,155 @@ namespace Lab_9.DB
 
 		void Remove(T entity);
 
-		IEnumerable<T> ToList();
-
 		T Find(object val);
 
-		IEnumerable<T> GetAllWithNavigationProperties(params Expression<Func<T, object>>[] includeProperties);
 	}
 
-	public class Repository<T> : IRepository<T> where T : class
+	public class UserRepository : IRepository<User>
 	{
-		private readonly DbContext _context;
-		private readonly DbSet<T> _set;
+		private readonly DB _dbContext;
 
-		public Repository(DbContext context)
+		public UserRepository(DB dbContext)
 		{
-			_context = context;
-			_set = context.Set<T>();
+			_dbContext = dbContext;
 		}
 
-		public T GetById(int id)
+		public IEnumerable<User> GetAll()
 		{
-			return _set.Find(id);
+			return _dbContext.Users.ToList();
 		}
 
-		public IEnumerable<T> ToList()
+		public async Task<IEnumerable<User>> GetAllAsync()
 		{
-			return _set.ToList();
+			return await _dbContext.Users.ToListAsync();
 		}
 
-		public async Task<T> GetByIdAsync(int id)
+		public void Add(User user)
 		{
-			return await _set.FindAsync(id);
+			_dbContext.Users.Add(user);
+			_dbContext.SaveChanges();
 		}
 
-		public IEnumerable<T> GetAll()
+		public void Update(User user)
 		{
-			return _set.ToList();
+			_dbContext.Entry(user).State = EntityState.Modified;
+			_dbContext.SaveChanges();
 		}
 
-		public T Find(object val)
+		public void Remove(User user)
 		{
-			return _set.Find(val);
+			_dbContext.Users.Remove(user);
+			_dbContext.SaveChanges();
 		}
 
-		public async Task<IEnumerable<T>> GetAllAsync()
+		public User Find(object id)
 		{
-			return await _set.ToListAsync();
-		}
-
-		public void Add(T entity)
-		{
-			_set.Add(entity);
-		}
-
-		public void Update(T entity)
-		{
-			_set.Attach(entity);
-			_context.Entry(entity).State = EntityState.Modified;
-		}
-
-		public void Remove(T entity)
-		{
-			if (_context.Entry(entity).State == EntityState.Detached)
-			{
-				_set.Attach(entity);
-			}
-
-			_set.Remove(entity);
-		}
-
-		public IEnumerable<T> GetAllWithNavigationProperties(params Expression<Func<T, object>>[] includeProperties)
-		{
-			IQueryable<T> query = _set;
-			foreach (var includeProperty in includeProperties)
-			{
-				query = query.Include(includeProperty);
-			}
-			return query.ToList();
+			return _dbContext.Users.Find(id);
 		}
 	}
 
-	public interface IUnitOfWork : IDisposable
+	public class OrdersRepository : IRepository<Orders>
 	{
-		IRepository<User> Users { get; }
-		IRepository<Orders> Orders { get; }
+		private readonly DB _dbContext;
 
-		void BeginTransaction();
+		public OrdersRepository(DB dbContext)
+		{
+			_dbContext = dbContext;
+		}
 
-		void Commit();
+		public IEnumerable<Orders> GetAll()
+		{
+			return _dbContext.Orders.ToList();
+		}
 
-		void Rollback();
+		public async Task<IEnumerable<Orders>> GetAllAsync()
+		{
+			return await _dbContext.Orders.ToListAsync();
+		}
 
-		Task SaveChangesAsync();
+		public void Add(Orders orders)
+		{
+			_dbContext.Orders.Add(orders);
+			_dbContext.SaveChanges();
+		}
+
+		public void Update(Orders orders)
+		{
+			_dbContext.Entry(orders).State = EntityState.Modified;
+			_dbContext.SaveChanges();
+		}
+
+		public void Remove(Orders orders)
+		{
+			_dbContext.Orders.Remove(orders);
+			_dbContext.SaveChanges();
+		}
+
+		public Orders Find(object id)
+		{
+			return _dbContext.Orders.Find(id);
+		}
 	}
 
-	public class UnitOfWork : IUnitOfWork
+	public class UnitOfWork : IDisposable
 	{
-		private readonly DbContext _context;
-		private readonly IRepository<User> _userRepository;
-		private readonly IRepository<Orders> _orderRepository;
-		private DbContextTransaction _transaction;
+		private readonly DB _dbContext;
+		private bool disposed = false;
 
-		public UnitOfWork(DbContext context)
+		public UnitOfWork()
 		{
-			_context = context;
-			_userRepository = new Repository<User>(context);
-			_orderRepository = new Repository<Orders>(context);
+			_dbContext = new DB();
 		}
 
-		public IRepository<User> Users => _userRepository;
-		public IRepository<Orders> Orders => _orderRepository;
-
-		public void BeginTransaction()
+		private IRepository<User> _userRepository;
+		public IRepository<User> UserRepository
 		{
-			_transaction = _context.Database.BeginTransaction();
-		}
-
-		public void Commit()
-		{
-			try
+			get
 			{
-				_context.SaveChanges();
-				_transaction?.Commit();
-			}
-			catch
-			{
-				Rollback();
-				throw;
+				if (_userRepository == null)
+					_userRepository = new UserRepository(_dbContext);
+				return _userRepository;
 			}
 		}
 
-		public void Rollback()
+		private IRepository<Orders> _ordersRepository;
+		public IRepository<Orders> OrdersRepository
 		{
-			_transaction?.Rollback();
-			_transaction = null;
+			get
+			{
+				if (_ordersRepository == null)
+					_ordersRepository = new OrdersRepository(_dbContext);
+				return _ordersRepository;
+			}
 		}
 
-		public async Task SaveChangesAsync()
+		public void Save()
 		{
-			await _context.SaveChangesAsync();
+			_dbContext.SaveChanges();
+		}
+
+		protected virtual void Dispose(bool disposing)
+		{
+			if (!disposed)
+			{
+				if (disposing)
+				{
+					_dbContext.Dispose();
+				}
+				disposed = true;
+			}
 		}
 
 		public void Dispose()
 		{
-			_transaction?.Dispose();
-			_context.Dispose();
+			Dispose(true);
+			GC.SuppressFinalize(this);
 		}
 	}
+
+
+
+
 
 	/*public class DB : DbContext
 	{

@@ -1,6 +1,8 @@
 ﻿using Lab_9.Class;
+using Lab_9.DB;
 using Lab_9.WIndows;
 using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -20,9 +22,9 @@ namespace Lab_9
 			try
 			{
 				InitializeComponent();
-				using (Lab_9.DB.DB context = new Lab_9.DB.DB())
+				using (var context = new Lab_9.DB.UnitOfWork())
 				{
-					/*User user = new User
+					User user = new User
 					{
 						FirstName = "Test",
 						LastName = "Test",
@@ -31,9 +33,9 @@ namespace Lab_9
 						Email = "test"
 					};
 
-					context.Users.Add(user);
-					context.SaveChanges();*/
 
+					context.UserRepository.Add(user);
+					context.Save();
 					/*var user = context.GetUserById(9);
 					Orders order = new Orders()
 					{
@@ -54,19 +56,23 @@ namespace Lab_9
 		private void Button_Delete(object sender, RoutedEventArgs e)
 		{
 			var myValue = ((Button)sender).Tag;
+			var bd = new Lab_9.DB.DB();
 
+			List<User> users = (List<User>)bd.UserRepository.GetAll();
+
+			productDataGrid.ItemsSource = users;
 			try
 			{
 				using (var context = new Lab_9.DB.DB())
 				{
-					var user = context.Users.Find(myValue);
+					var user = context.UserRepository.Find(myValue);
 
-					if (user != null) context.Users.Remove(user);
+					if (user != null) context.UserRepository.Remove(user);
 					context.SaveChanges();
 
-					List<User> users = context.Users.ToList();
+			
 
-					productDataGrid.ItemsSource = users;
+
 				}
 
 				/*Lab_8.DB.DB.DeleteUser((int)myValue);
@@ -84,6 +90,11 @@ namespace Lab_9
 		{
 			var myValue = ((Button)sender).Tag;
 
+
+			var bd = new Lab_9.DB.DB();
+
+			List<Orders> orders = (List<Orders>)bd.OrdersRepository.GetAll();
+			dataGrid.ItemsSource = orders;
 			try
 			{
 				using (var context = new Lab_9.DB.DB())
@@ -92,10 +103,9 @@ namespace Lab_9
 
 					if (order != null) context.Orders.Remove(order);
 
-					context.SaveChanges();
-
-					List<Orders> orders = context.Orders.ToList();
-					dataGrid.ItemsSource = orders;
+					
+				
+					
 				}
 
 				/*Lab_8.DB.DB.DeleteUser((int)myValue);
@@ -117,6 +127,7 @@ namespace Lab_9
 
 			edit.Show();
 		}
+
 
 		private async void LoadDataButton_Click(object sender, RoutedEventArgs e)
 		{
@@ -143,11 +154,10 @@ namespace Lab_9
 			List<User> users;
 			using (var context = new Lab_9.DB.DB())
 			{
-				users = context.Users.ToList();
+				users = (List<User>)context.Users.ToList();
 			}
 			return users;
 		}
-
 		private void Button_Click_1(object sender, RoutedEventArgs e)
 		{
 			AddUser userWindow = new AddUser();
@@ -164,10 +174,15 @@ namespace Lab_9
 		{
 			try
 			{
+				/*		var bd = new Lab_9.DB.DB();
+
+						List<User> users = (List<User>)bd.Users.ToList();
+						productDataGrid.ItemsSource = users;*/
+
 				using (var context = new Lab_9.DB.DB())
 				{
-					List<User> users = context.Users.ToList();
-					productDataGrid.ItemsSource = users;
+					List<User> users = (List<User>)context.Users.ToList();
+
 				}
 			}
 			catch (Exception ex)
@@ -180,10 +195,11 @@ namespace Lab_9
 		{
 			try
 			{
-				var myValue = ((Button)sender).Tag;
+				/*var myValue = ((Button)sender).Tag;
 				var res = new DB.DB();
 				List<User> result = await res.SortByAsync(myValue.ToString());
-				productDataGrid.ItemsSource = result;
+				productDataGrid.ItemsSource = result;*/
+			
 			}
 			catch (Exception ex)
 			{

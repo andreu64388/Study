@@ -1,5 +1,8 @@
 ﻿using Lab_9.Class;
+using Lab_9.DB;
 using System;
+using System.Collections.Generic;
+using System.Runtime.Remoting.Contexts;
 using System.Windows;
 
 namespace Lab_9.WIndows
@@ -18,9 +21,17 @@ namespace Lab_9.WIndows
 
 			try
 			{
+				
+				
+
+
+
 				using (var context = new Lab_9.DB.DB())
 				{
-					User user = context.GetUserById(id);
+
+					User user = context.Users.Find(Id);
+					/*	User user = context.Users.Find(Id);*/
+
 					FirsName.Text = user.FirstName;
 					LastName.Text = user.LastName;
 					Phone.Text = user.Phone;
@@ -52,9 +63,11 @@ namespace Lab_9.WIndows
 				}
 				try
 				{
+				
 					using (var context = new Lab_9.DB.DB())
 					{
-						User user = context.GetUserById(Id);
+						/*User user = context.Users.GetById(Id);*/
+						User user = context.Users.Find(Id);
 						if (user != null)
 						{
 							user.FirstName = firstname;
