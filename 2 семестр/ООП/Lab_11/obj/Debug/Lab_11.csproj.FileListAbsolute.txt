@@ -59,3 +59,33 @@ E:\student\2 курс\2 семестр\ООП\Lab_11\obj\Debug\Lab_11.csproj.Cor
 E:\student\2 курс\2 семестр\ООП\Lab_11\obj\Debug\Lab_11.csproj.CopyComplete
 E:\student\2 курс\2 семестр\ООП\Lab_11\obj\Debug\Lab_11.exe
 E:\student\2 курс\2 семестр\ООП\Lab_11\obj\Debug\Lab_11.pdb
+E:\Course2_\2 семестр\ООП\Lab_11\bin\Debug\Lab_11.exe.config
+E:\Course2_\2 семестр\ООП\Lab_11\bin\Debug\Lab_11.exe
+E:\Course2_\2 семестр\ООП\Lab_11\bin\Debug\Lab_11.pdb
+E:\Course2_\2 семестр\ООП\Lab_11\bin\Debug\EntityFramework.dll
+E:\Course2_\2 семестр\ООП\Lab_11\bin\Debug\EntityFramework.SqlServer.dll
+E:\Course2_\2 семестр\ООП\Lab_11\bin\Debug\System.ComponentModel.Annotations.dll
+E:\Course2_\2 семестр\ООП\Lab_11\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\Course2_\2 семестр\ООП\Lab_11\bin\Debug\System.Security.AccessControl.dll
+E:\Course2_\2 семестр\ООП\Lab_11\bin\Debug\System.Security.Permissions.dll
+E:\Course2_\2 семестр\ООП\Lab_11\bin\Debug\System.Security.Principal.Windows.dll
+E:\Course2_\2 семестр\ООП\Lab_11\bin\Debug\EntityFramework.xml
+E:\Course2_\2 семестр\ООП\Lab_11\bin\Debug\EntityFramework.SqlServer.xml
+E:\Course2_\2 семестр\ООП\Lab_11\bin\Debug\System.Configuration.ConfigurationManager.xml
+E:\Course2_\2 семестр\ООП\Lab_11\bin\Debug\System.Security.AccessControl.xml
+E:\Course2_\2 семестр\ООП\Lab_11\bin\Debug\System.Security.Permissions.xml
+E:\Course2_\2 семестр\ООП\Lab_11\bin\Debug\System.Security.Principal.Windows.xml
+E:\Course2_\2 семестр\ООП\Lab_11\obj\Debug\Lab_11.csproj.AssemblyReference.cache
+E:\Course2_\2 семестр\ООП\Lab_11\obj\Debug\Lab_11.csproj.SuggestedBindingRedirects.cache
+E:\Course2_\2 семестр\ООП\Lab_11\obj\Debug\Views\MainWindow.g.cs
+E:\Course2_\2 семестр\ООП\Lab_11\obj\Debug\App.g.cs
+E:\Course2_\2 семестр\ООП\Lab_11\obj\Debug\Lab_11_MarkupCompile.cache
+E:\Course2_\2 семестр\ООП\Lab_11\obj\Debug\Lab_11_MarkupCompile.lref
+E:\Course2_\2 семестр\ООП\Lab_11\obj\Debug\Views\MainWindow.baml
+E:\Course2_\2 семестр\ООП\Lab_11\obj\Debug\Lab_11.g.resources
+E:\Course2_\2 семестр\ООП\Lab_11\obj\Debug\Lab_11.Properties.Resources.resources
+E:\Course2_\2 семестр\ООП\Lab_11\obj\Debug\Lab_11.csproj.GenerateResource.cache
+E:\Course2_\2 семестр\ООП\Lab_11\obj\Debug\Lab_11.csproj.CoreCompileInputs.cache
+E:\Course2_\2 семестр\ООП\Lab_11\obj\Debug\Lab_11.csproj.CopyComplete
+E:\Course2_\2 семестр\ООП\Lab_11\obj\Debug\Lab_11.exe
+E:\Course2_\2 семестр\ООП\Lab_11\obj\Debug\Lab_11.pdb

@@ -27,12 +27,10 @@ namespace Lab_11.ViewModels
 
 		public MainViewModel()
 		{
-			
 			context = new CourseContext();
-			courses = new ObservableCollection<Course>(context.Courses.Include(c => c.Lecturer).Include(c => c.Students));
-			students = new ObservableCollection<Student>(context.Students);
-			enrollStudentCommand = new RelayCommand(EnrollStudent);
-			disenrollStudentCommand = new RelayCommand(DisenrollStudent);
+			LoadData();
+			enrollStudentCommand = new RelayCommand(EnrollStudent, CanEnrollStudent);
+			disenrollStudentCommand = new RelayCommand(DisenrollStudent, CanDisenrollStudent);
 		}
 
 		public ObservableCollection<Course> Courses
@@ -41,7 +39,7 @@ namespace Lab_11.ViewModels
 			set
 			{
 				courses = value;
-				OnPropertyChanged("Courses");
+				OnPropertyChanged(nameof(Courses));
 			}
 		}
 
@@ -51,7 +49,7 @@ namespace Lab_11.ViewModels
 			set
 			{
 				students = value;
-				OnPropertyChanged("Students");
+				OnPropertyChanged(nameof(Students));
 			}
 		}
 
@@ -61,9 +59,7 @@ namespace Lab_11.ViewModels
 			set
 			{
 				selectedCourse = value;
-				OnPropertyChanged("SelectedCourse");
-				OnPropertyChanged("CanEnrollStudent");
-				OnPropertyChanged("CanDisenrollStudent");
+				OnPropertyChanged(nameof(SelectedCourse));
 			}
 		}
 
@@ -73,9 +69,7 @@ namespace Lab_11.ViewModels
 			set
 			{
 				selectedStudent = value;
-				OnPropertyChanged("SelectedStudent");
-				OnPropertyChanged("CanEnrollStudent");
-				OnPropertyChanged("CanDisenrollStudent");
+				OnPropertyChanged(nameof(SelectedStudent));
 			}
 		}
 
@@ -89,45 +83,46 @@ namespace Lab_11.ViewModels
 			get { return disenrollStudentCommand; }
 		}
 
+		private void LoadData()
+		{
+			Courses = new ObservableCollection<Course>(context.Courses.Include(c => c.Lecturer).Include(c => c.Students));
+			Students = new ObservableCollection<Student>(context.Students.Include(s => s.Courses));
+		}
 
+		private bool CanEnrollStudent(object parameter)
+		{
+			return SelectedCourse != null && SelectedStudent != null && !SelectedCourse.Students.Contains(SelectedStudent);
+		}
+
+		private bool CanDisenrollStudent(object parameter)
+		{
+			return SelectedCourse != null && SelectedStudent != null && SelectedCourse.Students.Contains(SelectedStudent);
+		}
 
 		private void EnrollStudent()
 		{
-			try
+			if (SelectedCourse != null && SelectedStudent != null)
 			{
-				if (selectedCourse != null && selectedStudent != null)
-				{
-
-					context.EnrollStudent(selectedCourse.Id, selectedStudent.Id);
-					selectedCourse.Students.Add(selectedStudent);
-				}
-			}
-			catch(Exception ex)
-			{
-				MessageBox.Show(ex.Message);
-			}
-			
-			}
-
-		
-
-		private void DisenrollStudent()
-		{
-			try
-			{
-				if (selectedCourse != null && selectedStudent != null)
-			{
-				context.WithdrawStudent(selectedCourse.Id, selectedStudent.Id);
-				selectedCourse.Students.Remove(selectedStudent);
-			}
-			}
-			catch (Exception ex)
-			{
-				MessageBox.Show(ex.Message);
+				OnPropertyChanged(nameof(SelectedStudent));
+				SelectedCourse.Students.Add(SelectedStudent);
+				context.SaveChanges();
+				OnPropertyChanged(nameof(SelectedCourse)); // добавляем вызов OnPropertyChanged
+				OnPropertyChanged(nameof(SelectedStudent));
 			}
 		}
 
-		
+		private void DisenrollStudent()
+		{
+			if (SelectedCourse != null && SelectedStudent != null)
+			{
+				SelectedCourse.Students.Remove(SelectedStudent);
+				context.SaveChanges();
+				OnPropertyChanged(nameof(SelectedCourse));
+				OnPropertyChanged(nameof(SelectedStudent));
+			}
+		}
+
+
 		public event PropertyChangedEventHandler PropertyChanged;
 
 		protected virtual void OnPropertyChanged(string propertyName)

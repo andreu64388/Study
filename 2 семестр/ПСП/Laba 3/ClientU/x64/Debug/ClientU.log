@@ -1,0 +1,6 @@
+﻿  ClientU.cpp
+E:\student\2 курс\2 семестр\ПСП\Laba 3\ClientU\ClientU.cpp(15,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+E:\student\2 курс\2 семестр\ПСП\Laba 3\ClientU\ClientU.cpp(49,7): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+E:\student\2 курс\2 семестр\ПСП\Laba 3\ClientU\ClientU.cpp(39,7): warning C4101: lb: неиспользованная локальная переменная
+E:\student\2 курс\2 семестр\ПСП\Laba 3\ClientU\ClientU.cpp(40,8): warning C4101: ibuf: неиспользованная локальная переменная
+  ClientU.vcxproj -> E:\student\2 курс\2 семестр\ПСП\Laba 3\ServerU\x64\Debug\ClientU.exe

@@ -34,7 +34,7 @@ void main() {
 		if ((connect(sS, (sockaddr*)&serv, sizeof(serv))) == SOCKET_ERROR)
 			throw SetErrorMsgText("connect:", WSAGetLastError());
 		//..............................................................
-		int n = 1000;
+		int n = 100000;
 		string msg;
 		int lb;
 		char ibuf[50];

@@ -50,7 +50,8 @@ void main() {
 			int lc = sizeof(clnt);
 			char ibuf[50]; 
 			int lb = 0; 
-			for (int i = 0; i < 1000; i++)
+			clock_t time = clock();
+			for (int i = 0; i <= 100000; i++)
 			{
 
 				if ((lb = recvfrom(cS, ibuf, sizeof(ibuf), NULL, (sockaddr*)&clnt, &lc)) == SOCKET_ERROR)
@@ -61,7 +62,11 @@ void main() {
 				if ((lobuf = sendto(cS, ibuf, strlen(ibuf) + 1, NULL, (sockaddr*)&clnt, sizeof(clnt))) == SOCKET_ERROR)
 					throw  SetErrorMsgText("recv:", WSAGetLastError());
 			}
+			time = clock() - time;
+			cout << time;
+
 			closesocket(cS);
+
 		}
 		if (closesocket(sS) == SOCKET_ERROR)
 			throw SetErrorMsgText("closesocket:", WSAGetLastError());
