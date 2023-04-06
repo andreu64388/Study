@@ -1,0 +1,15 @@
+E:\student\2 курс\1 семестр\OOП\Control_work_2\bin\Debug\net6.0\Control_work_2.exe
+E:\student\2 курс\1 семестр\OOП\Control_work_2\bin\Debug\net6.0\Control_work_2.deps.json
+E:\student\2 курс\1 семестр\OOП\Control_work_2\bin\Debug\net6.0\Control_work_2.runtimeconfig.json
+E:\student\2 курс\1 семестр\OOП\Control_work_2\bin\Debug\net6.0\Control_work_2.dll
+E:\student\2 курс\1 семестр\OOП\Control_work_2\bin\Debug\net6.0\Control_work_2.pdb
+E:\student\2 курс\1 семестр\OOП\Control_work_2\obj\Debug\net6.0\Control_work_2.csproj.AssemblyReference.cache
+E:\student\2 курс\1 семестр\OOП\Control_work_2\obj\Debug\net6.0\Control_work_2.GeneratedMSBuildEditorConfig.editorconfig
+E:\student\2 курс\1 семестр\OOП\Control_work_2\obj\Debug\net6.0\Control_work_2.AssemblyInfoInputs.cache
+E:\student\2 курс\1 семестр\OOП\Control_work_2\obj\Debug\net6.0\Control_work_2.AssemblyInfo.cs
+E:\student\2 курс\1 семестр\OOП\Control_work_2\obj\Debug\net6.0\Control_work_2.csproj.CoreCompileInputs.cache
+E:\student\2 курс\1 семестр\OOП\Control_work_2\obj\Debug\net6.0\Control_work_2.dll
+E:\student\2 курс\1 семестр\OOП\Control_work_2\obj\Debug\net6.0\refint\Control_work_2.dll
+E:\student\2 курс\1 семестр\OOП\Control_work_2\obj\Debug\net6.0\Control_work_2.pdb
+E:\student\2 курс\1 семестр\OOП\Control_work_2\obj\Debug\net6.0\Control_work_2.genruntimeconfig.cache
+E:\student\2 курс\1 семестр\OOП\Control_work_2\obj\Debug\net6.0\ref\Control_work_2.dll

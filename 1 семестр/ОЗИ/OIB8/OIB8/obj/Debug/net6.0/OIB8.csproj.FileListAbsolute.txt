@@ -1,0 +1,30 @@
+C:\Users\Stanislaw\Desktop\ОЗИ\OIB8\OIB8\obj\Debug\net6.0\OIB8.csproj.AssemblyReference.cache
+C:\Users\Stanislaw\Desktop\ОЗИ\OIB8\OIB8\obj\Debug\net6.0\OIB8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stanislaw\Desktop\ОЗИ\OIB8\OIB8\obj\Debug\net6.0\OIB8.AssemblyInfoInputs.cache
+C:\Users\Stanislaw\Desktop\ОЗИ\OIB8\OIB8\obj\Debug\net6.0\OIB8.AssemblyInfo.cs
+C:\Users\Stanislaw\Desktop\ОЗИ\OIB8\OIB8\obj\Debug\net6.0\OIB8.csproj.CoreCompileInputs.cache
+C:\Users\Stanislaw\Desktop\ОЗИ\OIB8\OIB8\bin\Debug\net6.0\OIB8.exe
+C:\Users\Stanislaw\Desktop\ОЗИ\OIB8\OIB8\bin\Debug\net6.0\OIB8.deps.json
+C:\Users\Stanislaw\Desktop\ОЗИ\OIB8\OIB8\bin\Debug\net6.0\OIB8.runtimeconfig.json
+C:\Users\Stanislaw\Desktop\ОЗИ\OIB8\OIB8\bin\Debug\net6.0\OIB8.dll
+C:\Users\Stanislaw\Desktop\ОЗИ\OIB8\OIB8\bin\Debug\net6.0\OIB8.pdb
+C:\Users\Stanislaw\Desktop\ОЗИ\OIB8\OIB8\obj\Debug\net6.0\OIB8.dll
+C:\Users\Stanislaw\Desktop\ОЗИ\OIB8\OIB8\obj\Debug\net6.0\refint\OIB8.dll
+C:\Users\Stanislaw\Desktop\ОЗИ\OIB8\OIB8\obj\Debug\net6.0\OIB8.pdb
+C:\Users\Stanislaw\Desktop\ОЗИ\OIB8\OIB8\obj\Debug\net6.0\OIB8.genruntimeconfig.cache
+C:\Users\Stanislaw\Desktop\ОЗИ\OIB8\OIB8\obj\Debug\net6.0\ref\OIB8.dll
+E:\student\2 курс\1 семестр\ОЗИ\OIB8\OIB8\bin\Debug\net6.0\OIB8.exe
+E:\student\2 курс\1 семестр\ОЗИ\OIB8\OIB8\bin\Debug\net6.0\OIB8.deps.json
+E:\student\2 курс\1 семестр\ОЗИ\OIB8\OIB8\bin\Debug\net6.0\OIB8.runtimeconfig.json
+E:\student\2 курс\1 семестр\ОЗИ\OIB8\OIB8\bin\Debug\net6.0\OIB8.dll
+E:\student\2 курс\1 семестр\ОЗИ\OIB8\OIB8\bin\Debug\net6.0\OIB8.pdb
+E:\student\2 курс\1 семестр\ОЗИ\OIB8\OIB8\obj\Debug\net6.0\OIB8.csproj.AssemblyReference.cache
+E:\student\2 курс\1 семестр\ОЗИ\OIB8\OIB8\obj\Debug\net6.0\OIB8.GeneratedMSBuildEditorConfig.editorconfig
+E:\student\2 курс\1 семестр\ОЗИ\OIB8\OIB8\obj\Debug\net6.0\OIB8.AssemblyInfoInputs.cache
+E:\student\2 курс\1 семестр\ОЗИ\OIB8\OIB8\obj\Debug\net6.0\OIB8.AssemblyInfo.cs
+E:\student\2 курс\1 семестр\ОЗИ\OIB8\OIB8\obj\Debug\net6.0\OIB8.csproj.CoreCompileInputs.cache
+E:\student\2 курс\1 семестр\ОЗИ\OIB8\OIB8\obj\Debug\net6.0\OIB8.dll
+E:\student\2 курс\1 семестр\ОЗИ\OIB8\OIB8\obj\Debug\net6.0\refint\OIB8.dll
+E:\student\2 курс\1 семестр\ОЗИ\OIB8\OIB8\obj\Debug\net6.0\OIB8.pdb
+E:\student\2 курс\1 семестр\ОЗИ\OIB8\OIB8\obj\Debug\net6.0\OIB8.genruntimeconfig.cache
+E:\student\2 курс\1 семестр\ОЗИ\OIB8\OIB8\obj\Debug\net6.0\ref\OIB8.dll

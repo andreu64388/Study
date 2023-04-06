@@ -1,0 +1,5 @@
+﻿  Ex2.cpp
+D:\курс_2\Сем2\МП\Lab4\Ex2\Ex2.cpp(6,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Levenshtein.cpp
+  Создание кода...
+  Ex2.vcxproj -> D:\курс_2\Сем2\МП\Lab4\x64\Debug\Ex2.exe

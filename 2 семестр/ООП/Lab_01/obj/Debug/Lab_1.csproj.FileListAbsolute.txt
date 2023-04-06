@@ -1,0 +1,11 @@
+E:\student\2 курс\2 семестр\ООП\Lab_1\bin\Debug\Lab_1.exe.config
+E:\student\2 курс\2 семестр\ООП\Lab_1\bin\Debug\Lab_1.exe
+E:\student\2 курс\2 семестр\ООП\Lab_1\bin\Debug\Lab_1.pdb
+E:\student\2 курс\2 семестр\ООП\Lab_1\obj\Debug\Lab_1.csproj.AssemblyReference.cache
+E:\student\2 курс\2 семестр\ООП\Lab_1\obj\Debug\Lab_1.csproj.SuggestedBindingRedirects.cache
+E:\student\2 курс\2 семестр\ООП\Lab_1\obj\Debug\Lab_1.Properties.Resources.resources
+E:\student\2 курс\2 семестр\ООП\Lab_1\obj\Debug\Lab_1.csproj.GenerateResource.cache
+E:\student\2 курс\2 семестр\ООП\Lab_1\obj\Debug\Lab_1.csproj.CoreCompileInputs.cache
+E:\student\2 курс\2 семестр\ООП\Lab_1\obj\Debug\Lab_1.exe
+E:\student\2 курс\2 семестр\ООП\Lab_1\obj\Debug\Lab_1.pdb
+E:\student\2 курс\2 семестр\ООП\Lab_1\obj\Debug\Lab_1.Form1.resources

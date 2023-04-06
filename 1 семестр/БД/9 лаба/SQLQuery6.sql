@@ -1,15 +1,30 @@
 ﻿/*6. Разработать пример, демон-стрирующий применение параметра FILLFACTOR 
 при создании некла-стеризованного индекса.
 */
-use UNIVER;
--- PAD_INDEX ON означает «Применить FILLFACTOR ко всем слоям»
+CREATE TABLE  #TASK5
+(
+INFO NVARCHAR (20),
+ITERATOR INT IDENTITY(1,1),
+INDEX_ INT 
+)
 
-drop index #task5_tkey on #task5 
-create index #task5_tkey on #task5(tkey) with fillfactor = 65 -- ïðîöåíò çàïîëíåíèÿ èíäåêñíûõ ñòðàíèö íèæíåãî óðîâíÿ
+DECLARE @X INT =0;
+WHILE @X <= 100000
+BEGIN
+INSERT INTO  #TASK5(INFO,INDEX_)
+VALUES ('СТРОКА' + CAST(@X AS NVARCHAR),FLOOR(20000*RAND()))
+SET @X +=1;
+END
 
-insert top(50)percent #task5(tkey, tf) select tkey, tf from #task5
 
-select name [Èíäåêñ], avg_fragmentation_in_percent [Ôðàãìåíòàöèÿ (%)]
-        FROM sys.dm_db_index_physical_stats(DB_ID(N'TEMPDB'),
-        OBJECT_ID(N'#task5'), NULL, NULL, NULL) ss
-        JOIN sys.indexes ii on ss.object_id = ii.object_id and ss.index_id = ii.index_id where name is not null;
+CREATE INDEX #TASK5_TKEY ON #TASK5(INDEX_) WITH FILLFACTOR = 65 
+
+INSERT TOP(50) PERCENT #TASK5(INDEX_, INFO)
+SELECT INDEX_, INFO FROM #TASK5
+
+SELECT NAME [Индекс], AVG_FRAGMENTATION_IN_PERCENT [Фрагментация (%)]
+        FROM SYS.DM_DB_INDEX_PHYSICAL_STATS(DB_ID(N'TEMPDB'),
+        OBJECT_ID(N'#TASK5'), NULL, NULL, NULL) SS
+        JOIN SYS.INDEXES II ON SS.OBJECT_ID = II.OBJECT_ID AND SS.INDEX_ID = II.INDEX_ID WHERE NAME IS NOT NULL;
+
+		DROP INDEX #TASK5_TKEY ON #TASK5 

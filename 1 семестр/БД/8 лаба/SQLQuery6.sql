@@ -1,17 +1,17 @@
 /*6. Разработать сценарий, в котором с помощью CASE анализируются оценки, полученные
 студентами некоторого фа-культета при сдаче экзаменов.*/
 
-use UNIVER;
+USE UNIVER;
 
-select (case
-when NOTE between 0 and 3 then 'Не сдал'
-when NOTE between 4 and 5 then 'Плохо'
-when NOTE between 6 and 7 then 'Нормально'
-when NOTE between 8 and 10 then 'Хорошо'
-end) Оценка, count(*) [Количество] from PROGRESS
-group by (case
-when NOTE between 0 and 3 then 'Не сдал'
-when NOTE between 4 and 5 then 'Плохо'
-when NOTE between 6 and 7 then 'Нормально'
-when NOTE between 8 and 10 then 'Хорошо'
-end)
+SELECT (CASE
+WHEN NOTE BETWEEN 0 AND 3 THEN 'НЕ СДАЛ'
+WHEN NOTE BETWEEN 4 AND 5 THEN 'НОРМАЛЬНО'
+WHEN NOTE BETWEEN 6 AND 7 THEN 'ХОРОШО'
+WHEN NOTE BETWEEN 8 AND 10 THEN 'ГЕНИЙ'
+END) ОЦЕНКА, COUNT(*) [КОЛИЧЕСТВО] FROM PROGRESS
+GROUP BY (CASE
+WHEN NOTE BETWEEN 0 AND 3 THEN 'НЕ СДАЛ'
+WHEN NOTE BETWEEN 4 AND 5 THEN 'НОРМАЛЬНО'
+WHEN NOTE BETWEEN 6 AND 7 THEN 'ХОРОШО'
+WHEN NOTE BETWEEN 8 AND 10 THEN 'ГЕНИЙ'
+END)

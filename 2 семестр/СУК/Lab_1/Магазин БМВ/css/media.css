@@ -1,0 +1,255 @@
+/* Для экранов с шириной до 1140 */
+@media (max-width: 1140px) {
+  .card {
+    width: calc(50% - 15px);
+  }
+
+  .footer-row {
+    flex-direction: column-reverse;
+    align-items: center;
+
+    text-align: center;
+  }
+
+  .footer-icons-row > a {
+    margin-bottom: 40px;
+  }
+
+  .title::after {
+    content: "";
+    width: 0px;
+  }
+}
+@media (max-width: 1024px) {
+  .project__content {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .project__title {
+    margin-bottom: 15px;
+  }
+
+  .header__images {
+    width: 80%;
+    position: static;
+  }
+
+  .services {
+    padding-top: 41px;
+  }
+
+  .services__inner {
+    flex-wrap: wrap-reverse;
+    margin-bottom: 25px;
+  }
+
+  .project {
+    padding-top: 41px;
+  }
+
+  .project__title {
+    font-size: 25px;
+  }
+
+  .transparent {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .project__inner {
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+  }
+  .services__list {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .services__item {
+    width: 100%;
+  }
+
+  .services__content {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .title {
+    margin-bottom: 13px;
+  }
+
+  .body {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .services__item::before {
+    top: 22px;
+  }
+
+  .benefits__images {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .phone {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .header__title {
+    font-size: 54px;
+    line-height: 74px;
+  }
+
+  .header__subtitle {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+
+  .header__text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .benefits__inner {
+    text-align: center;
+  }
+  .benefits__list {
+    padding: 25px 15px;
+  }
+
+  .benefits__item {
+    width: 100%;
+  }
+  .benefits__title {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .header__content {
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .header__title {
+    padding-top: 0;
+  }
+
+  .button {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 520px) {
+  .header__top {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .logo {
+    margin-bottom: 20px;
+    width: 100px;
+  }
+
+  .services__item {
+    padding-left: 60px;
+  }
+
+  .services__item::before {
+    left: 11px;
+  }
+
+  .form-inner h3 {
+    font-size: 20px;
+  }
+
+  .button__submit {
+    font-size: 10px;
+  }
+}
+
+/*до 760px */
+@media (max-width: 760px) {
+  .header__title {
+    font-size: 36px;
+    line-height: 60px;
+  }
+  .phone {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .header__subtitle {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+
+  .shop {
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+
+  .shop__header {
+    font-size: 32px;
+    padding-bottom: 30px;
+  }
+
+  .card {
+    max-width: 530px;
+    width: 100%;
+  }
+
+  .shop__cards-wrapper {
+    justify-self: center;
+  }
+
+  .card-link {
+    padding: 15px;
+  }
+
+  .card:nth-last-child(2) {
+    margin-bottom: 30px;
+  }
+
+  .card-img {
+    margin-bottom: 10px;
+  }
+
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .card p {
+    font-size: 14px;
+  }
+
+  .footer-copyright-name {
+    font-size: 18px;
+    margin-top: 30px;
+  }
+
+  .footer-copyright p {
+    font-size: 14px;
+  }
+
+  .footer-icons p {
+    font-size: 14px;
+    margin-top: 50px;
+  }
+
+  .footer-contacts p {
+    font-size: 14px;
+    margin: 0;
+    margin-top: 15px;
+  }
+}

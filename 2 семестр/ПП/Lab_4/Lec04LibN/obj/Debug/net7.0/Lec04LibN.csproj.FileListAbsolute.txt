@@ -1,0 +1,15 @@
+E:\student\2 курс\2 семестр\ПП\Lab_4\Lec04LibN\bin\Debug\net7.0\Lec04LibN.exe
+E:\student\2 курс\2 семестр\ПП\Lab_4\Lec04LibN\bin\Debug\net7.0\Lec04LibN.deps.json
+E:\student\2 курс\2 семестр\ПП\Lab_4\Lec04LibN\bin\Debug\net7.0\Lec04LibN.runtimeconfig.json
+E:\student\2 курс\2 семестр\ПП\Lab_4\Lec04LibN\bin\Debug\net7.0\Lec04LibN.dll
+E:\student\2 курс\2 семестр\ПП\Lab_4\Lec04LibN\bin\Debug\net7.0\Lec04LibN.pdb
+E:\student\2 курс\2 семестр\ПП\Lab_4\Lec04LibN\obj\Debug\net7.0\Lec04LibN.csproj.AssemblyReference.cache
+E:\student\2 курс\2 семестр\ПП\Lab_4\Lec04LibN\obj\Debug\net7.0\Lec04LibN.GeneratedMSBuildEditorConfig.editorconfig
+E:\student\2 курс\2 семестр\ПП\Lab_4\Lec04LibN\obj\Debug\net7.0\Lec04LibN.AssemblyInfoInputs.cache
+E:\student\2 курс\2 семестр\ПП\Lab_4\Lec04LibN\obj\Debug\net7.0\Lec04LibN.AssemblyInfo.cs
+E:\student\2 курс\2 семестр\ПП\Lab_4\Lec04LibN\obj\Debug\net7.0\Lec04LibN.csproj.CoreCompileInputs.cache
+E:\student\2 курс\2 семестр\ПП\Lab_4\Lec04LibN\obj\Debug\net7.0\Lec04LibN.dll
+E:\student\2 курс\2 семестр\ПП\Lab_4\Lec04LibN\obj\Debug\net7.0\refint\Lec04LibN.dll
+E:\student\2 курс\2 семестр\ПП\Lab_4\Lec04LibN\obj\Debug\net7.0\Lec04LibN.pdb
+E:\student\2 курс\2 семестр\ПП\Lab_4\Lec04LibN\obj\Debug\net7.0\Lec04LibN.genruntimeconfig.cache
+E:\student\2 курс\2 семестр\ПП\Lab_4\Lec04LibN\obj\Debug\net7.0\ref\Lec04LibN.dll

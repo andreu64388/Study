@@ -1,0 +1,3 @@
+﻿  ClientT.cpp
+E:\student\2 курс\2 семестр\ПСП\Laba 2\ClientT\ClientT.cpp(11,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  ClientT.vcxproj -> E:\student\2 курс\2 семестр\ПСП\Laba 2\ClientT\Debug\ClientT.exe

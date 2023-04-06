@@ -1,0 +1,157 @@
+﻿  ServerT.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ws2def.h(103,1): warning C4005: AF_IPX: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(457,1): message : см. предыдущее определение "AF_IPX"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ws2def.h(147,1): warning C4005: AF_MAX: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(476,1): message : см. предыдущее определение "AF_MAX"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ws2def.h(187,1): warning C4005: SO_DONTLINGER: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(399,1): message : см. предыдущее определение "SO_DONTLINGER"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ws2def.h(240,25): error C2011: sockaddr: переопределение типа "struct"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(482,8): message : см. объявление "sockaddr"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ws2def.h(442,5): error C2143: синтаксическая ошибка: отсутствие "}" перед "константа"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ws2def.h(442,5): error C2059: синтаксическая ошибка: константа
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ws2def.h(496,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ws2def.h(496,10): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ws2def.h(496,20): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ws2def.h(577,1): warning C4005: IN_CLASSA: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(284,1): message : см. предыдущее определение "IN_CLASSA"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ws2def.h(583,1): warning C4005: IN_CLASSB: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(290,1): message : см. предыдущее определение "IN_CLASSB"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ws2def.h(589,1): warning C4005: IN_CLASSC: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(296,1): message : см. предыдущее определение "IN_CLASSC"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ws2def.h(600,1): warning C4005: INADDR_ANY: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(301,1): message : см. предыдущее определение "INADDR_ANY"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ws2def.h(602,1): warning C4005: INADDR_BROADCAST: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(303,1): message : см. предыдущее определение "INADDR_BROADCAST"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ws2def.h(638,28): error C2011: sockaddr_in: переопределение типа "struct"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(309,8): message : см. объявление "sockaddr_in"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(136,23): error C2011: fd_set: переопределение типа "struct"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(65,16): message : см. объявление "fd_set"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(156,1): warning C4005: FD_CLR: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(94,1): message : см. предыдущее определение "FD_CLR"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(171,1): warning C4005: FD_SET: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(99,1): message : см. предыдущее определение "FD_SET"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(180,16): error C2011: timeval: переопределение типа "struct"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(108,8): message : см. объявление "timeval"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(236,17): error C2011: hostent: переопределение типа "struct"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(164,9): message : см. объявление "hostent"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(249,16): error C2011: netent: переопределение типа "struct"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(177,9): message : см. объявление "netent"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(256,17): error C2011: servent: переопределение типа "struct"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(184,9): message : см. объявление "servent"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(268,18): error C2011: protoent: переопределение типа "struct"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(196,9): message : см. объявление "protoent"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(364,24): error C2011: WSAData: переопределение типа "struct"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(319,16): message : см. объявление "WSAData"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(462,18): error C2011: sockproto: переопределение типа "struct"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(491,8): message : см. объявление "sockproto"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(504,16): error C2011: linger: переопределение типа "struct"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(528,9): message : см. объявление "linger"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(517,1): warning C4005: SOMAXCONN: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(541,1): message : см. предыдущее определение "SOMAXCONN"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(552,1): warning C4005: FD_READ: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(559,1): message : см. предыдущее определение "FD_READ"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(555,1): warning C4005: FD_WRITE: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(560,1): message : см. предыдущее определение "FD_WRITE"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(558,1): warning C4005: FD_OOB: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(561,1): message : см. предыдущее определение "FD_OOB"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(561,1): warning C4005: FD_ACCEPT: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(562,1): message : см. предыдущее определение "FD_ACCEPT"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(564,1): warning C4005: FD_CONNECT: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(563,1): message : см. предыдущее определение "FD_CONNECT"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(567,1): warning C4005: FD_CLOSE: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(564,1): message : см. предыдущее определение "FD_CLOSE"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(1625,1): error C2375: accept: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(739,19): message : см. объявление "accept"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(1647,1): error C2375: bind: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(744,16): message : см. объявление "bind"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(1668,1): error C2375: closesocket: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(749,16): message : см. объявление "closesocket"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(1685,1): error C2375: connect: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(751,16): message : см. объявление "connect"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(1706,1): error C2375: ioctlsocket: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(756,16): message : см. объявление "ioctlsocket"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(1729,1): error C2375: getpeername: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(761,16): message : см. объявление "getpeername"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(1750,1): error C2375: getsockname: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(766,16): message : см. объявление "getsockname"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(1771,1): error C2375: getsockopt: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(771,16): message : см. объявление "getsockopt"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(1796,1): error C2375: htonl: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(778,19): message : см. объявление "htonl"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(1813,1): error C2375: htons: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(780,20): message : см. объявление "htons"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(1831,1): error C2375: inet_addr: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(782,26): message : см. объявление "inet_addr"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(1849,1): error C2375: inet_ntoa: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(784,23): message : см. объявление "inet_ntoa"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(1949,1): error C2375: listen: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(786,16): message : см. объявление "listen"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(1968,1): error C2375: ntohl: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(790,19): message : см. объявление "ntohl"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(1985,1): error C2375: ntohs: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(792,20): message : см. объявление "ntohs"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2002,1): error C2375: recv: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(794,16): message : см. объявление "recv"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2025,1): error C2375: recvfrom: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(800,16): message : см. объявление "recvfrom"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2052,1): error C2375: select: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(808,16): message : см. объявление "select"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2077,1): error C2375: send: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(815,16): message : см. объявление "send"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2100,1): error C2375: sendto: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(821,16): message : см. объявление "sendto"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2127,1): error C2375: setsockopt: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(829,16): message : см. объявление "setsockopt"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2152,1): error C2375: shutdown: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(836,16): message : см. объявление "shutdown"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2172,1): error C2375: socket: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(840,19): message : см. объявление "socket"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2197,1): error C2375: gethostbyaddr: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(847,33): message : см. объявление "gethostbyaddr"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2219,1): error C2375: gethostbyname: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(852,33): message : см. объявление "gethostbyname"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2236,1): error C2375: gethostname: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(854,16): message : см. объявление "gethostname"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2276,1): error C2375: getservbyport: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(858,33): message : см. объявление "getservbyport"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2295,1): error C2375: getservbyname: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(862,33): message : см. объявление "getservbyname"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2314,1): error C2375: getprotobynumber: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(866,34): message : см. объявление "getprotobynumber"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2331,1): error C2375: getprotobyname: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(868,34): message : см. объявление "getprotobyname"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2351,1): error C2375: WSAStartup: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(872,16): message : см. объявление "WSAStartup"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2371,1): error C2375: WSACleanup: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(876,16): message : см. объявление "WSACleanup"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2388,1): error C2375: WSASetLastError: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(878,17): message : см. объявление "WSASetLastError"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2405,1): error C2375: WSAGetLastError: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(880,16): message : см. объявление "WSAGetLastError"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2426,1): error C2375: WSAIsBlocking: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(882,17): message : см. объявление "WSAIsBlocking"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2444,1): error C2375: WSAUnhookBlockingHook: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(884,16): message : см. объявление "WSAUnhookBlockingHook"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2462,1): error C2375: WSASetBlockingHook: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(886,20): message : см. объявление "WSASetBlockingHook"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2480,1): error C2375: WSACancelBlockingCall: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(888,16): message : см. объявление "WSACancelBlockingCall"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2498,1): error C2375: WSAAsyncGetServByName: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(890,19): message : см. объявление "WSAAsyncGetServByName"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2526,1): error C2375: WSAAsyncGetServByPort: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(898,19): message : см. объявление "WSAAsyncGetServByPort"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2554,1): error C2375: WSAAsyncGetProtoByName: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(906,19): message : см. объявление "WSAAsyncGetProtoByName"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2580,1): error C2375: WSAAsyncGetProtoByNumber: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(913,19): message : см. объявление "WSAAsyncGetProtoByNumber"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2606,1): error C2375: WSAAsyncGetHostByName: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(920,19): message : см. объявление "WSAAsyncGetHostByName"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2632,1): error C2375: WSAAsyncGetHostByAddr: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(927,19): message : см. объявление "WSAAsyncGetHostByAddr"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2662,1): error C2375: WSACancelAsyncRequest: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(936,16): message : см. объявление "WSACancelAsyncRequest"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(2680,1): error C2375: WSAAsyncSelect: переопределение; другое связывание
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h(938,16): message : см. объявление "WSAAsyncSelect"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(4206,1): error C2059: синтаксическая ошибка: }
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Winsock2.h(4206,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+E:\student\2 курс\2 семестр\ПСП\2\ServerT\ServerT.cpp(11,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"

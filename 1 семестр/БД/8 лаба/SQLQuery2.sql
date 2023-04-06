@@ -2,25 +2,29 @@
 Когда общая вместимость пре-вышает 200, то вывести количество аудиторий, среднюю вместимость ауди-торий,
 количество аудиторий, вмести-мость которых меньше средней, и про-цент таких аудиторий. Когда общая вместимость
 аудиторий меньше 200, то вывести сообщение о размере общей вместимости.*/
-use UNIVER;
+USE UNIVER;
 
-declare @capacity int = (select cast(sum(AUDITORIUM_CAPACITY) as int) from AUDITORIUM),
-@total int,
-@avgCapacity int,
-@totalLessThanAvg int,
-@procent numeric(4,2);
+DECLARE 
+@CAPACITY INT = (SELECT SUM(AUDITORIUM_CAPACITY) FROM AUDITORIUM),
+@TOTAL INT,
+@AVGCAPACITY INT,
+@TOTALLESS INT,
+@PROCENT INT;
 
-if @capacity > 200
-begin
-set @total = (select count(*) from AUDITORIUM);
-set @avgCapacity = (select avg(AUDITORIUM_CAPACITY) from AUDITORIUM);
-set @totalLessThanAvg = (select count(*) from AUDITORIUM where AUDITORIUM_CAPACITY < @avgCapacity);
-set @procent = @totalLessThanAvg * 100 / @total;
-select @capacity 'Общая вместимость',
-@total 'Всего аудиторий',
-@avgCapacity 'Средняя вместимость',
-@totalLessThanAvg 'Аудиторий с вместимостью ниже среднего',
-@procent 'Процент таких аудиторий'
-end
 
-else print 'Общая вместимость < 200'
+IF @CAPACITY > 200
+BEGIN
+SET @TOTAL = (SELECT COUNT(*) FROM AUDITORIUM);
+SET @AVGCAPACITY = (SELECT AVG(AUDITORIUM_CAPACITY) FROM AUDITORIUM);
+SET @TOTALLESS= (SELECT COUNT(*) FROM AUDITORIUM
+WHERE AUDITORIUM_CAPACITY < @AVGCAPACITY);
+SET @PROCENT = @TOTALLESS * 100 / @TOTAL;
+SELECT @CAPACITY [ВМЕСТИМОСТЬ],
+@TOTAL [ВСЕГО АУДИТОРИЙ],
+@AVGCAPACITY [СРЕДНЯЯ ВМЕСТИМОСТЬ],
+@TOTALLESS [АУДИТОРИЙ НИЖЕ СТРЕДНЕГО КОЛ-ВО],
+@PROCENT [ПРОЦЕНТ]
+END
+
+ELSE PRINT 'ОБЩАЯ ВМЕСТИМОСТЬ < 200'
+

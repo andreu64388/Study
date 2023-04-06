@@ -1,0 +1,217 @@
+﻿<Window x:Class="Lab_4_5.Windows.Edit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab_4_5.Windows"
+        mc:Ignorable="d"
+        Title="Edit"  Height="780" Width="500"  WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style TargetType="ComboBox">
+            <Setter Property="Padding" Value="5" />
+            <Setter Property="Margin" Value="10" />
+            <Setter Property="Background" Value="#F2F2F2" />
+            <Setter Property="BorderBrush" Value="Black" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="Foreground" Value="#333333" />
+            <Setter Property="FontFamily" Value="Segoe UI" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="MaxWidth" Value="300"/>
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+        </Style>
+        <Style  TargetType="TextBlock">
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="TextTrimming" Value="None"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+
+        <Style  TargetType="TextBox">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="Gray"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="SelectionBrush" Value="#FF6DBDD1"/>
+            <Setter Property="CaretBrush" Value="Black"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontFamily" Value="Arial"/>
+            <Setter Property="MinWidth" Value="100"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="MaxWidth" Value="300"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Grid>
+                            <Border Name="border" 
+                            Background="{TemplateBinding Background}" 
+                            BorderThickness="{TemplateBinding BorderThickness}" 
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            CornerRadius="5"/>
+                            <ScrollViewer x:Name="PART_ContentHost" 
+                                  HorizontalAlignment="Left" 
+                                  VerticalAlignment="Center"
+                                  Margin="3"
+                                  IsTabStop="False"
+                                  SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter TargetName="border" Property="Opacity" Value="0.6"/>
+                                <Setter Property="Foreground" Value="Gray"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="BorderBrush" Value="#FF4699DB"/>
+                            </Trigger>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter TargetName="border" Property="BorderBrush" Value="#FF4699DB"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style  TargetType="Button">
+            <Setter Property="Background" Value="#FF1BA1E2"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Margin" Value="3"/>
+            <Setter Property="FontFamily" Value="Arial"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#FF1BA1E2"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border" 
+                        Background="{TemplateBinding Background}" 
+                        BorderThickness="{TemplateBinding BorderThickness}" 
+                        BorderBrush="{TemplateBinding BorderBrush}" 
+                        CornerRadius="5">
+                            <ContentPresenter Margin="{TemplateBinding Padding}" 
+                                      VerticalAlignment="Center" 
+                                      HorizontalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#FF3399FF"/>
+                                <Setter TargetName="border" Property="BorderBrush" Value="#FF3399FF"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#FF005CAF"/>
+                                <Setter TargetName="border" Property="BorderBrush" Value="#FF005CAF"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter TargetName="border" Property="Opacity" Value="0.6"/>
+                                <Setter Property="Foreground" Value="Gray"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBlock FontSize="20"  HorizontalAlignment="Center" VerticalAlignment="Center" Background="Teal" Foreground="White" Grid.ColumnSpan="2"  Grid.Row="0" Padding="80 20" >
+             Редактировать данные
+        </TextBlock>
+
+        <StackPanel Grid.ColumnSpan="2" Grid.Row="1">
+            <StackPanel>
+                <TextBlock>
+                Введите название товара
+                </TextBlock>
+                <TextBox Name="Name_product">
+
+                </TextBox>
+            </StackPanel>
+            <StackPanel>
+                <TextBlock>
+                Введите описание товара
+                </TextBlock>
+                <TextBox Name="Description_product">
+
+                </TextBox>
+            </StackPanel>
+
+
+            <Grid  Height="200" RenderTransformOrigin="0.525,0.352">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <StackPanel>
+                    <TextBlock>
+               Выберите картинку
+                    </TextBlock>
+                    <Button Width="190" Click="Button_Click">
+                        Загрузить
+                    </Button>
+                </StackPanel>
+                <Image Name="preview" 
+               Grid.Row="1" 
+               MinHeight="170" MinWidth="100"
+               HorizontalAlignment="Center"
+               Margin="10"/>
+            </Grid>
+
+
+
+
+            <StackPanel>
+                <TextBlock>
+                Введите цену товара
+                </TextBlock>
+                <TextBox Name="Price_product">
+
+                </TextBox>
+            </StackPanel>
+
+            <StackPanel>
+                <TextBlock>
+                Введите рейтинг (1-10) товара
+                </TextBlock>
+                <TextBox Name="Rating_product">
+
+                </TextBox>
+            </StackPanel>
+            <StackPanel>
+                <TextBlock>
+                Введите категорию товара
+                </TextBlock>
+                <ComboBox ItemsSource="{Binding MyCollections}"  SelectedIndex="0" Name="Category_product"
+          DisplayMemberPath="Name"
+         >
+                </ComboBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+
+                <Button Cursor="Hand" Click="Button_Click_2">
+                  Сохранить
+                </Button>
+                <Button Cursor="Hand" Background="red" Click="Button_Click_1">
+                    Очистить
+                </Button>
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+
+</Window>
+

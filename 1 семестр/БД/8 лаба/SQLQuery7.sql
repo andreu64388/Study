@@ -1,16 +1,20 @@
 /*7. Создать временную локальную таблицу из трех столбцов и 10 строк, заполнить ее и вывести содержимое. 
 Использовать оператор WHILE.*/
-create table #MyTable(Числа int, Слова nvarchar(50), [Еще слова] nvarchar(50));
-set nocount on;
-declare @i int = 1;
-while @i <11
-begin
-insert into #MyTable values
-(cast(@i as int), cast(@i as nvarchar(10)) + ' - Лаба ','БД ' + cast(@i as nvarchar(10)))
-set @i +=1;
-end
-select * from #MyTable
-order by Числа desc
-go
+CREATE TABLE #TASK(
+	ID INT,
+	NAME VARCHAR(20),
+	MESSAGE VARCHAR(10)
+	)
+GO
 
-drop table #MyTable;
+DECLARE @INDEX INT = 0
+WHILE @INDEX < 10
+BEGIN
+INSERT #TASK VALUES (@INDEX, 'NAME ' + CAST(@INDEX AS VARCHAR), 'MESSAGE ' + CAST(@INDEX AS VARCHAR))
+SET @INDEX += 1
+END
+
+SELECT * FROM #TASK
+
+
+

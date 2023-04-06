@@ -3,29 +3,58 @@
 Создать некластеризованный не-уникальный составной индекс. 
 Оценить процедуры поиска ин-формации.
 */
+-----------------------------------------------
+--------------------UNIVER---------------------
+-----------------------------------------------
+
+
 USE UNIVER;
-create table #test2
+CREATE TABLE #TEST2
 (
-Info nvarchar (20),
-Iterator int identity(1,1),
-Time datetime
+INFO NVARCHAR (20),
+ITERATOR INT IDENTITY(1,1),
+INDEX_ INT 
 )
 
-declare @x int =1;
-while @x <= 11000
-begin
-insert into #test2 values
-('Строка' + cast(@x as nvarchar), SYSDATETIME())
-set @x +=1;
-end
+DECLARE @X INT =0;
+WHILE @X <= 10000
+BEGIN
+INSERT INTO #TEST2(INFO,INDEX_)
+VALUES ('СТРОКА' + CAST(@X AS NVARCHAR),FLOOR(20000*RAND()))
+SET @X +=1;
+END
 
-select * from #test2 where Info = 'Строка21' and Time <= SYSDATETIME() -- 0.0627894
+SELECT * FROM #TEST2 WHERE INFO = 'СТРОКА2' AND INDEX_ >= 1000 
 
-checkpoint;
-dbcc dropcleanbuffers
+CHECKPOINT;
 
-create index #test2_nonCl on #test2(Info, Time)
+DBCC DROPCLEANBUFFERS
 
-select * from #test2 where Info = 'Строка21' and Time <= SYSDATETIME() -- 0.0065704
+CREATE INDEX #TEST2_NONCL ON #TEST2(INFO,INDEX_)
 
-drop index #test2_nonCl on #test2
+SELECT * FROM #TEST2 WHERE INFO = 'СТРОКА2' AND INDEX_ >= 1000
+
+DROP INDEX #TEST2_NONCL ON #TEST2
+
+
+
+-----------------------------------------------
+--------------------BANK-----------------------
+-----------------------------------------------
+USE BANK;
+
+------------------BEFORE----------------------
+
+SELECT * FROM КРЕДИТ
+WHERE НОМЕР_КРЕДИТА = 101 AND ID_CLIENT = 10
+
+CREATE INDEX MY_NOMER ON КРЕДИТ(НОМЕР_КРЕДИТА,ID_CLIENT);
+
+--------------------AFTER---------------------
+
+SELECT * FROM КРЕДИТ
+WHERE НОМЕР_КРЕДИТА = 101 AND ID_CLIENT = 10
+
+DROP INDEX MY_NOMER ON КРЕДИТ;
+
+----------------------------------------------

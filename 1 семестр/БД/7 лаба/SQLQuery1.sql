@@ -17,7 +17,9 @@ FROM TEACHER;
 SELECT * FROM [Преподаватель]
 GO
 DROP VIEW [Преподаватель]
+
 -------------------------------------
+
 USE BANK;
 GO
 CREATE VIEW [Банки] 

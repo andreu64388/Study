@@ -1,0 +1,15 @@
+E:\student\2 курс\1 семестр\КСИС\EXAM\bin\Debug\net6.0\EXAM.exe
+E:\student\2 курс\1 семестр\КСИС\EXAM\bin\Debug\net6.0\EXAM.deps.json
+E:\student\2 курс\1 семестр\КСИС\EXAM\bin\Debug\net6.0\EXAM.runtimeconfig.json
+E:\student\2 курс\1 семестр\КСИС\EXAM\bin\Debug\net6.0\EXAM.dll
+E:\student\2 курс\1 семестр\КСИС\EXAM\bin\Debug\net6.0\EXAM.pdb
+E:\student\2 курс\1 семестр\КСИС\EXAM\obj\Debug\net6.0\EXAM.csproj.AssemblyReference.cache
+E:\student\2 курс\1 семестр\КСИС\EXAM\obj\Debug\net6.0\EXAM.GeneratedMSBuildEditorConfig.editorconfig
+E:\student\2 курс\1 семестр\КСИС\EXAM\obj\Debug\net6.0\EXAM.AssemblyInfoInputs.cache
+E:\student\2 курс\1 семестр\КСИС\EXAM\obj\Debug\net6.0\EXAM.AssemblyInfo.cs
+E:\student\2 курс\1 семестр\КСИС\EXAM\obj\Debug\net6.0\EXAM.csproj.CoreCompileInputs.cache
+E:\student\2 курс\1 семестр\КСИС\EXAM\obj\Debug\net6.0\EXAM.dll
+E:\student\2 курс\1 семестр\КСИС\EXAM\obj\Debug\net6.0\refint\EXAM.dll
+E:\student\2 курс\1 семестр\КСИС\EXAM\obj\Debug\net6.0\EXAM.pdb
+E:\student\2 курс\1 семестр\КСИС\EXAM\obj\Debug\net6.0\EXAM.genruntimeconfig.cache
+E:\student\2 курс\1 семестр\КСИС\EXAM\obj\Debug\net6.0\ref\EXAM.dll

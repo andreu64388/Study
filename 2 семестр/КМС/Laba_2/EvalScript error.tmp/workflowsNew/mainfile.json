@@ -1,0 +1,23 @@
+{ 
+   "version":"1",
+   "workflows":[ 
+      { 
+         "name":"Анимация «Прыгающий мяч»",
+         "guid":"734710B4-FFE8-49A7-8F83-CA85B7A3EC78",
+         "version":"3",
+         "url":"https://animate.adobe.com/an/Coachmark/20.0/ru_RU/734710B4-FFE8-49A7-8F83-CA85B7A3EC78/734710B4-FFE8-49A7-8F83-CA85B7A3EC78.zip",
+         "video":"https://animate.adobe.com/an/Coachmark/20.0/en_US/734710B4-FFE8-49A7-8F83-CA85B7A3EC78/intro_video.mp4",
+         "title":"Анимация «Прыгающий мяч»",
+         "message":"Сделав 12 простых действий, вы освоите основы работы с Animate и создадите прыгающий мяч. Посмотрите видео, чтобы ознакомиться с основами работы, прежде чем приступать к проекту."
+      },
+	  { 
+         "name":"Танцующие языки пламени",
+         "guid":"2033f26e-077e-4b95-8ae7-5faf3c7f2142",
+         "version":"4",
+         "url":"https://animate.adobe.com/an/Coachmark/20.0/ru_RU/2033f26e-077e-4b95-8ae7-5faf3c7f2142/2033f26e-077e-4b95-8ae7-5faf3c7f2142.zip",
+         "video":"https://animate.adobe.com/an/Coachmark/20.0/en_US/2033f26e-077e-4b95-8ae7-5faf3c7f2142/intro_video.mp4",
+         "title":"Танцующие языки пламени",
+         "message":"Посмотрев этот видеоролик, вы познакомитесь с базовыми структурными элементами анимации ключевых кадров, такими как «символ» и «анимация движения»"
+      }
+   ]
+}

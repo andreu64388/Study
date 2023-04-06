@@ -4,23 +4,54 @@
 */
 
 
-USE UNIVER;
-create table #task4Filter
-(
-Info nvarchar (20),
-Iterator int identity(1,1),
-Time datetime
-)
-declare @z int =1;
-while @z <= 11000
-begin
-insert into #task4Filter values
-('Ñòðîêà' + cast(@z as nvarchar), SYSDATETIME())
-set @z +=1;
-end
+-----------------------------------------------
+--------------------UNIVER---------------------
+-----------------------------------------------
 
-create index #Index on #task4Filter(Iterator) where (Iterator > 15000 and Iterator < 20000)
-checkpoint;
-dbcc dropcleanbuffers
-select Iterator from #task4Filter where Iterator between 10000 and 20000 -- 0.0627894 -- 0.0627894
-select Iterator from #task4Filter where Iterator > 15000 and Iterator < 20000 -- 0.0627894 -- 0.0032831
+USE UNIVER;
+
+CREATE TABLE #TASK4
+(
+INFO NVARCHAR (20),
+ITERATOR INT IDENTITY(1,1),
+INDEX_ INT 
+)
+
+DECLARE @X INT =0;
+WHILE @X <= 10000
+BEGIN
+INSERT INTO #TASK4(INFO,INDEX_)
+VALUES ('ÑÒÐÎÊÀ' + CAST(@X AS NVARCHAR),FLOOR(20000*RAND()))
+SET @X +=1;
+END
+
+
+SELECT ITERATOR FROM #TASK4 
+WHERE ITERATOR > 1500 AND ITERATOR < 2000
+
+CREATE INDEX #INDEX ON #TASK4(ITERATOR)
+WHERE (ITERATOR > 1500 AND ITERATOR < 2000)
+
+CHECKPOINT;
+DBCC DROPCLEANBUFFERS
+
+SELECT ITERATOR FROM #TASK4 
+WHERE ITERATOR > 1500 AND ITERATOR < 2000
+
+DROP INDEX #INDEX ON #TASK4
+
+-----------------------------------------------
+---------------------BANK----------------------
+-----------------------------------------------
+
+USE BANK;
+
+SELECT * FROM ÊËÈÅÍÒ
+WHERE ID_CLIENT = 10 AND ÊÎÍÒÀÊÒÎÅ_ËÈÖÎ = 'ÄÎÌ'
+
+CREATE INDEX MY_BANK_2 ON ÊËÈÅÍÒ(ID_CLIENT) WHERE 
+
+SELECT * FROM Êëèåíò
+WHERE ID_CLIENT = 10 AND ÊÎÍÒÀÊÒÎÅ_ËÈÖÎ = 'ÄÎÌ'
+
+DROP INDEX MY_BANK_2 ON ÁÀÍÊ;

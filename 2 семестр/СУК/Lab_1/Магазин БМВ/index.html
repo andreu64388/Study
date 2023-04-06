@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Техас</title>
+  <link rel="shortcut icon" href="images/logo/BMW_logo_(gray).svg.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <script src="js/chat.js"></script>
+  
+</head>
+<body>
+
+  <header class=" header"
+   
+  >
+    <div class="container">
+      <div class="header__top">
+        
+       
+          <div class="header_logo">
+            <img class="logo__img" src="images/logo/BMW_logo_(gray).svg.png" style="width: 150px;" alt="logo">
+          </div>  
+      
+          <nav class="nav" id="nav">
+            <a href="#" class="link">Главная</a>
+            <a class="link" href="auto.html">Авто</a>
+            <a class="link" href="service.html">Наши услуги</a>
+            <a class="link" href="contact.html">Контакты</a>
+          </nav>
+      
+          <button class="menu_" id="menu_"></button>
+     
+          
+        
+      </div>
+      <div class="header__content">
+        <h1 class="header__title">Автосалон "Техас"</h1>
+        <h2 class="header__subtitle">ЗАКАЖИ СЕБЕ АВТО прямо из дома</h2>
+        <p class="header__text">Подбор, покупка, доставка, растаможка, ремонт, оформление по договору</p>
+        <a class="button" href="#benefits" >КОНСУЛЬТАЦИЯ ЭКСПЕРТА</a>
+        <img src="images/decor/header_car.png" alt="header_car" class="header__images">
+        
+      </div>
+    </div>
+  </header>
+  
+ 
+    
+
+  <!-- чат с консультантом -->
+  <button class="open-button" onclick="openForm()">Чат</button>
+    <div class="chat-popup" id="myForm">
+      <form action="#" class="form-container">
+        <h1>Чат с консультантом</h1>
+
+        <label for="msg"></label>
+        <textarea placeholder="Задайте мне свой вопрос..." name="msg" required></textarea>
+
+        <button type="submit" class="btn">Отправить</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Закрыть</button>
+      </form>
+    </div>
+
+
+
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="title">НАШИ УСЛУГИ</h2>
+      <div class="services__inner">
+        <div class="services__content">
+          <div class="srvices__content-box">
+              <h6 class="services__content-title">Программа Trade-in</h6>
+              <div class="services__content-textbox">
+                  <p class="services__content-text">Trade-in – это замена любого старого автомобиля 
+                    на новый с доплатой. Услуга позволяет не только максимально упростить, но и 
+                    обезопасить для себя процесс продажи старого автомобиля, а также сэкономить 
+                    время на приобретение нового.Все затраты, связанные с поиском покупателя 
+                    подержанного автомобиля, размещением рекламы
+                     и оформлением конечных документов, компания берет на себя.</p>
+                  <p class="services__content-text">Интересует вопрос, что нужно сделать, чтобы 
+                    воспользоваться этой программой? В первую очередь выберите модель машины, 
+                    которую желаете приобрести. Далее вам нужно отдать свое старое авто продавцу и
+                     внести недостающую сумму в стоимость нового. 
+                    На заключительном этапе остается только забрать новую машину.</p>
+              </div>
+          </div>
+          <div class="srvices__content-box">
+            <h6 class="services__content-title">Страхование автомобиля</h6>
+            <p class="services__content-text">Для удобства наших клиентов, в помещении 
+              автосалона Техас работают представительства нескольких крупнейших 
+              страховых компаний России. Приобретая у нас новый автомобиль, вы можете 
+              оформить страховой полис прямо в автосалоне, чтобы без страха отправляться 
+              штурмовать улицы мегаполиса. Наши партнеры - это лидеры российского рынка страхования.</p>
+          </div>
+        </div>
+        <ol class="services__list">
+          <li class="services__item">
+            <p class="services__item-title">Покупка авто</p>
+            <p class="services__item-text">Подбор автомобиля и экспертная проверка</p>
+          </li>
+          <li class="services__item">
+            <p class="services__item-title">Доставка авто</p>
+            <p class="services__item-text">Расчет оптимальной стоимости доставки авто</p>
+          </li>
+          <li class="services__item">
+            <p class="services__item-title">Растоможка авто</p>
+            <p class="services__item-text">Прохождение таможенного оформления</p>
+          </li>
+          <li class="services__item">
+            <p class="services__item-title">Ремонт авто</p>
+            <p class="services__item-text">Комплексный ремонт автомобиля</p>
+          </li>
+          <li class="services__item">
+            <p class="services__item-title">Сертификация</p>
+            <p class="services__item-text">Услуга предоставления по желанию</p>
+          </li>
+          <li class="services__item">
+            <p class="services__item-title">Постановка на учет</p>
+            <p class="services__item-text">Оформление автомобиля в России</p>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="benefits" id="benefits">
+    <div class="container">
+      <div class="benefits__inner">
+        <img class="benefits__images" src="./images/decor/desc_car.png" alt="car">
+        <div class="benefits__content">
+          <h2 class="title benefits__title">ПОЧЕМУ МЫ?</h2>
+          <ul class="benefits__list">
+            <li class="benefits__item">
+              <p class="benefits__item-num">10000</p>
+              <p class="benefits__item-title">успешно доставленных авто</p>
+              <p class="benefits__item-text">большой опыт доставки автомобилей по России. Все клиенты остались довольны на 100%.</p>
+            </li>
+            <li class="benefits__item">
+              <p class="benefits__item-num">18</p>
+              <p class="benefits__item-title">лет на рынке России</p>
+              <p class="benefits__item-text">Работаем по всей территории России.</p>
+            </li>
+            <li class="benefits__item">
+              <p class="benefits__item-num">100 %</p>
+              <p class="benefits__item-title">доверия клиентов</p>
+              <p class="benefits__item-text">Онлайн отчетность. Вы всегда в курсе статуса подбора вашего авто.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section> 
+
+ 
+
+ 
+
+  <footer class="" id="Contacts">
+    <div class="container">
+        <div class="footer-row">
+            <div class="footer-copyright">
+                <div class="footer-copyright-name">
+                  © Автосалон
+                </div>
+                  <p> 18 лет безупречной работы</p>
+            </div>
+            <div class="footer-icons">
+                <p>Наши профили в социальных сетях:</p>
+                <div class="footer-icons-row" style="margin: 10px;">
+                    <a href="https://www.instagram.com/nekiynekit_/">
+                         <img src="./images/icons/instagram.svg" alt="">
+                    </a>
+
+                   
+  <div class="mobile_phone">
+                    <a href="tel:+7(999)999-99-99">+7(999)999-99-99</a>
+                </div>
+                    <a href="https://vk.com/nekiynikets">
+                        <img src="./images/icons/vk-brands.svg" alt="">
+                    </a>
+
+                   
+                </div>
+              
+                
+            </div>
+
+            <div class="footer-contacts">
+                <a href="https://vk.me/nekiynikets" class="footer-button-vk">
+                Связаться Вконтакте
+                 </a>
+                <p>Напишите нам, чтобы заказать или узнать стоимость вашего автомобиля.</p>
+            </div>
+          
+
+
+        </div>
+    </div>
+</footer>
+  
+</body>
+</html>

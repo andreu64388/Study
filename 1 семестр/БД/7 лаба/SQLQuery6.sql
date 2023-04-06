@@ -14,7 +14,9 @@ ON FACULTY.FACULTY = PULPIT.FACULTY
 GROUP BY FACULTY.FACULTY_NAME
 
 SELECT * FROM [Количество кафедр]
+
 -------------------------------------------
+
 USE BANK;
 GO
 ALTER VIEW [Количество кредитов] with schemabinding

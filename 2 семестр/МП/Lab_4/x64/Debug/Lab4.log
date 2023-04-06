@@ -1,0 +1,4 @@
+﻿  Ex1.cpp
+D:\курс_2\Сем2\МП\Lab4\Ex1.cpp(8,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+D:\курс_2\Сем2\МП\Lab4\Ex1.cpp(10,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Lab4.vcxproj -> D:\курс_2\Сем2\МП\Lab4\x64\Debug\Lab4.exe
