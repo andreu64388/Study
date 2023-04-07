@@ -16,6 +16,7 @@
             <Setter Property="Foreground" Value="#333333" />
             <Setter Property="FontFamily" Value="Segoe UI" />
             <Setter Property="FontSize" Value="14" />
+<<<<<<< HEAD
             <Setter Property="MaxWidth" Value="300"/>
             <Setter Property="VerticalContentAlignment" Value="Center" />
         </Style>
@@ -44,10 +45,41 @@
             <Setter Property="Height" Value="40"/>
             <Setter Property="Margin" Value="10"/>
             <Setter Property="MaxWidth" Value="300"/>
+=======
+            <Setter Property="MaxWidth" Value="300" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+        </Style>
+        <Style  TargetType="TextBlock">
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontWeight" Value="Normal" />
+            <Setter Property="Margin" Value="5" />
+            <Setter Property="Padding" Value="0" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="TextTrimming" Value="None" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+        </Style>
+
+        <Style  TargetType="TextBox">
+            <Setter Property="Background" Value="White" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="BorderBrush" Value="Gray" />
+            <Setter Property="Padding" Value="5" />
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="SelectionBrush" Value="#FF6DBDD1" />
+            <Setter Property="CaretBrush" Value="Black" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontFamily" Value="Arial" />
+            <Setter Property="MinWidth" Value="100" />
+            <Setter Property="Height" Value="40" />
+            <Setter Property="Margin" Value="10" />
+            <Setter Property="MaxWidth" Value="300" />
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="TextBox">
                         <Grid>
+<<<<<<< HEAD
                             <Border Name="border" 
                             Background="{TemplateBinding Background}" 
                             BorderThickness="{TemplateBinding BorderThickness}" 
@@ -70,6 +102,30 @@
                             </Trigger>
                             <Trigger Property="IsFocused" Value="True">
                                 <Setter TargetName="border" Property="BorderBrush" Value="#FF4699DB"/>
+=======
+                            <Border Name="border"
+                            Background="{TemplateBinding Background}"
+                            BorderThickness="{TemplateBinding BorderThickness}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            CornerRadius="5" />
+                            <ScrollViewer x:Name="PART_ContentHost"
+                                  HorizontalAlignment="Left"
+                                  VerticalAlignment="Center"
+                                  Margin="3"
+                                  IsTabStop="False"
+                                  SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" />
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter TargetName="border" Property="Opacity" Value="0.6" />
+                                <Setter Property="Foreground" Value="Gray" />
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="BorderBrush" Value="#FF4699DB" />
+                            </Trigger>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter TargetName="border" Property="BorderBrush" Value="#FF4699DB" />
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
                             </Trigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
@@ -78,6 +134,7 @@
         </Style>
 
         <Style  TargetType="Button">
+<<<<<<< HEAD
             <Setter Property="Background" Value="#FF1BA1E2"/>
             <Setter Property="Foreground" Value="White"/>
             <Setter Property="FontSize" Value="14"/>
@@ -111,12 +168,48 @@
                             <Trigger Property="IsEnabled" Value="False">
                                 <Setter TargetName="border" Property="Opacity" Value="0.6"/>
                                 <Setter Property="Foreground" Value="Gray"/>
+=======
+            <Setter Property="Background" Value="#FF1BA1E2" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="Margin" Value="3" />
+            <Setter Property="FontFamily" Value="Arial" />
+            <Setter Property="Padding" Value="10" />
+            <Setter Property="Cursor" Value="Hand" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="BorderBrush" Value="#FF1BA1E2" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border"
+                        Background="{TemplateBinding Background}"
+                        BorderThickness="{TemplateBinding BorderThickness}"
+                        BorderBrush="{TemplateBinding BorderBrush}"
+                        CornerRadius="5">
+                            <ContentPresenter Margin="{TemplateBinding Padding}"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#FF3399FF" />
+                                <Setter TargetName="border" Property="BorderBrush" Value="#FF3399FF" />
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#FF005CAF" />
+                                <Setter TargetName="border" Property="BorderBrush" Value="#FF005CAF" />
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter TargetName="border" Property="Opacity" Value="0.6" />
+                                <Setter Property="Foreground" Value="Gray" />
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
                             </Trigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
         </Style>
+<<<<<<< HEAD
 
     </Window.Resources>
     <Grid>
@@ -129,6 +222,19 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <TextBlock FontSize="20"  HorizontalAlignment="Center" VerticalAlignment="Center" Background="Teal" Foreground="White" Grid.ColumnSpan="2"  Grid.Row="0" Padding="80 20" >
+=======
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <TextBlock FontSize="20"  HorizontalAlignment="Center" VerticalAlignment="Center" Background="Teal" Foreground="White" Grid.ColumnSpan="2"  Grid.Row="0" Padding="80 20">
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
              Редактировать данные
         </TextBlock>
 
@@ -138,7 +244,10 @@
                 Введите название товара
                 </TextBlock>
                 <TextBox Name="Name_product">
+<<<<<<< HEAD
 
+=======
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
                 </TextBox>
             </StackPanel>
             <StackPanel>
@@ -146,6 +255,7 @@
                 Введите описание товара
                 </TextBlock>
                 <TextBox Name="Description_product">
+<<<<<<< HEAD
 
                 </TextBox>
             </StackPanel>
@@ -155,6 +265,15 @@
                 <Grid.RowDefinitions>
                     <RowDefinition Height="80"/>
                     <RowDefinition/>
+=======
+                </TextBox>
+            </StackPanel>
+
+            <Grid  Height="200" RenderTransformOrigin="0.525,0.352">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80" />
+                    <RowDefinition />
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
                 </Grid.RowDefinitions>
                 <StackPanel>
                     <TextBlock>
@@ -164,6 +283,7 @@
                         Загрузить
                     </Button>
                 </StackPanel>
+<<<<<<< HEAD
                 <Image Name="preview" 
                Grid.Row="1" 
                MinHeight="170" MinWidth="100"
@@ -174,12 +294,24 @@
 
 
 
+=======
+                <Image Name="preview"
+               Grid.Row="1"
+               MinHeight="170" MinWidth="100"
+               HorizontalAlignment="Center"
+               Margin="10" />
+            </Grid>
+
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
             <StackPanel>
                 <TextBlock>
                 Введите цену товара
                 </TextBlock>
                 <TextBox Name="Price_product">
+<<<<<<< HEAD
 
+=======
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
                 </TextBox>
             </StackPanel>
 
@@ -188,7 +320,10 @@
                 Введите рейтинг (1-10) товара
                 </TextBlock>
                 <TextBox Name="Rating_product">
+<<<<<<< HEAD
 
+=======
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
                 </TextBox>
             </StackPanel>
             <StackPanel>
@@ -196,8 +331,12 @@
                 Введите категорию товара
                 </TextBlock>
                 <ComboBox ItemsSource="{Binding MyCollections}"  SelectedIndex="0" Name="Category_product"
+<<<<<<< HEAD
           DisplayMemberPath="Name"
          >
+=======
+          DisplayMemberPath="Name">
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
                 </ComboBox>
             </StackPanel>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
@@ -210,8 +349,13 @@
                 </Button>
             </StackPanel>
         </StackPanel>
+<<<<<<< HEAD
 
     </Grid>
 
 </Window>
 
+=======
+    </Grid>
+</Window>
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced

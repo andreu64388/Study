@@ -1,0 +1,2 @@
+E:\student\2 курс\2 семестр\ПСП\Laba 3\ServerB\x64\Debug\ServerB.exe
+E:\student\2 курс\2 семестр\ПСП\Laba 5\ServerB\x64\Debug\ServerB.exe

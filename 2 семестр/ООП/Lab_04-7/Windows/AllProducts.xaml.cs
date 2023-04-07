@@ -26,29 +26,48 @@ namespace Lab_4_5.Windows
 		public bool isSort { get; set; }
 		public static ObservableCollection<Product> Products { get; set; }
 		public ObservableCollection<Category> MyCollections { get; set; }
+<<<<<<< HEAD
 		public AllProducts()
 		{
 
 
+=======
+
+		public AllProducts()
+		{
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 			InitializeComponent();
 			MyCollections = new ObservableCollection<Category>();
 			MyCollections.Add(new Category() { Name = "Toys" });
 			MyCollections.Add(new Category() { Name = "Clothes" });
 			MyCollections.Add(new Category() { Name = "Phone" });
+<<<<<<< HEAD
 			
 			Products = Class.DataFile.JsonDeseriazeProducts();
 			StateOld = Products;
 			DataContext = this;
 
+=======
+
+			Products = Class.DataFile.JsonDeseriazeProducts();
+			StateOld = Products;
+			DataContext = this;
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 		}
 
 		private void Button_Click(object sender, RoutedEventArgs e)
 		{
+<<<<<<< HEAD
 
 			MainWindow mainWindow = new MainWindow();
 			mainWindow.Show();
 			this.Close();
 
+=======
+			MainWindow mainWindow = new MainWindow();
+			mainWindow.Show();
+			this.Close();
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 		}
 
 		private void Button_Click_1(object sender, RoutedEventArgs e)
@@ -56,7 +75,10 @@ namespace Lab_4_5.Windows
 			AddProduct addProduct = new AddProduct();
 			addProduct.Closing += Edit_Closing;
 			addProduct.Show();
+<<<<<<< HEAD
 
+=======
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 		}
 
 		private void Button_Click_2(object sender, RoutedEventArgs e)
@@ -71,9 +93,12 @@ namespace Lab_4_5.Windows
 				DataFile.JsonSerializeProductsCollection(Products);
 				MessageBox.Show("Продукт удален", "Успешно!", MessageBoxButton.OK);
 			}
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 		}
 
 		private void Button_Click_3(object sender, RoutedEventArgs e)
@@ -93,6 +118,7 @@ namespace Lab_4_5.Windows
 
 		private void Edit_Closing(object sender, System.ComponentModel.CancelEventArgs e)
 		{
+<<<<<<< HEAD
 	
 			Products = Class.DataFile.JsonDeseriazeProducts();
 			Choise.ItemsSource= Products;
@@ -103,40 +129,67 @@ namespace Lab_4_5.Windows
 		private void Button_Click_4(object sender, RoutedEventArgs e)
 		{
 
+=======
+			Products = Class.DataFile.JsonDeseriazeProducts();
+			Choise.ItemsSource = Products;
+		}
+
+		private void Button_Click_4(object sender, RoutedEventArgs e)
+		{
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 			Raiting.Content = "По рейтингу";
 			Name.Content = "По имени";
 			if (isSort)
 			{
+<<<<<<< HEAD
 
+=======
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 				Price.Content = "По цене ↑";
 				isSort = false;
 				Choise.ItemsSource = Products.OrderBy(x => x.Price).ToList();
 				StateOld = Products;
+<<<<<<< HEAD
 
 			}
 			else
 			{
 
+=======
+			}
+			else
+			{
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 				Price.Content = "По цене ↓";
 				isSort = true;
 
 				Choise.ItemsSource = Products.OrderByDescending(x => x.Price).ToList();
 				StateOld = Products;
+<<<<<<< HEAD
 
 			}
 
 
 
+=======
+			}
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 		}
 
 		private void Button_Click_5(object sender, RoutedEventArgs e)
 		{
+<<<<<<< HEAD
 
+=======
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 			Raiting.Content = "По рейтингу";
 			Price.Content = "По цене";
 			if (isSort)
 			{
+<<<<<<< HEAD
 
+=======
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 				Name.Content = "По имени ↑";
 				isSort = false;
 				Choise.ItemsSource = Products.OrderBy(x => x.Name).ToList();
@@ -144,12 +197,19 @@ namespace Lab_4_5.Windows
 			}
 			else
 			{
+<<<<<<< HEAD
 
 				Name.Content = "По имени ↓";
 				isSort = true;
 				Choise.ItemsSource = Products.OrderByDescending(x => x.Name).ToList();
 				StateOld = Products;	
 
+=======
+				Name.Content = "По имени ↓";
+				isSort = true;
+				Choise.ItemsSource = Products.OrderByDescending(x => x.Name).ToList();
+				StateOld = Products;
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 			}
 		}
 
@@ -157,7 +217,10 @@ namespace Lab_4_5.Windows
 		{
 			if (Category_product.SelectedItem != null)
 			{
+<<<<<<< HEAD
 
+=======
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 				string selectedItem = Category_product.SelectedIndex.ToString();
 				Raiting.Content = "По рейтингу";
 				Price.Content = "По цене";
@@ -165,6 +228,7 @@ namespace Lab_4_5.Windows
 				var type = dictCategories[selectedItem];
 				Choise.ItemsSource = Products.Where(x => x.Category == type);
 				StateOld = Products;
+<<<<<<< HEAD
 
 
 			}
@@ -172,13 +236,21 @@ namespace Lab_4_5.Windows
 
 
 
+=======
+			}
+		}
+
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 		private void Button_Click_6(object sender, RoutedEventArgs e)
 		{
 			Price.Content = "По цене";
 			Name.Content = "По имени";
 			if (isSort)
 			{
+<<<<<<< HEAD
 
+=======
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 				Raiting.Content = "По рейтингу ↑";
 				isSort = false;
 				Choise.ItemsSource = Products.OrderBy(x => x.Rating).ToList();
@@ -186,14 +258,21 @@ namespace Lab_4_5.Windows
 			}
 			else
 			{
+<<<<<<< HEAD
 
+=======
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 				Raiting.Content = "По рейтингу ↓";
 				isSort = true;
 				Choise.ItemsSource = Products.OrderByDescending(x => x.Rating).ToList();
 				StateOld = Products;
+<<<<<<< HEAD
 
 			}
 
+=======
+			}
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 		}
 
 		private void SearchTextBox_TextChanged(object sender, TextChangedEventArgs e)
@@ -203,16 +282,23 @@ namespace Lab_4_5.Windows
 
 			foreach (Product el in Products)
 			{
+<<<<<<< HEAD
 
 				if (el.Name.ToLower() == searchText.ToLower())
 				{
 					testProduct.Add(el);
 
+=======
+				if (el.Name.ToLower() == searchText.ToLower())
+				{
+					testProduct.Add(el);
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 				}
 				else if (el.Name.ToLower().Contains(searchText.ToLower()))
 				{
 					testProduct.Add(el);
 				}
+<<<<<<< HEAD
 
 			}
 			Choise.ItemsSource = testProduct;
@@ -222,19 +308,33 @@ namespace Lab_4_5.Windows
 		private void Button_Click_7(object sender, RoutedEventArgs e)
 		{
 
+=======
+			}
+			Choise.ItemsSource = testProduct;
+		}
+
+		private void Button_Click_7(object sender, RoutedEventArgs e)
+		{
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 			Category_product.Text = "";
 			Raiting.Content = "По рейтингу";
 			Price.Content = "По цене";
 			Name.Content = "По имени";
 			Choise.ItemsSource = Products;
 			SearchTextBox.Text = "";
+<<<<<<< HEAD
 
+=======
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 		}
 
 		private void Button_Click_8(object sender, RoutedEventArgs e)
 		{
 			Choise.ItemsSource = StateOld;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 		}
 
 		private void Button_Click_9(object sender, RoutedEventArgs e)
@@ -243,5 +343,9 @@ namespace Lab_4_5.Windows
 			Choise.ItemsSource = Products;
 		}
 	}
+<<<<<<< HEAD
 
 }
+=======
+}
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced

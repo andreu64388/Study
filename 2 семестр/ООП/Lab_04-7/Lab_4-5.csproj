@@ -72,9 +72,23 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+<<<<<<< HEAD
     <Compile Include="UserControls\MyButton.xaml.cs">
       <DependentUpon>MyButton.xaml</DependentUpon>
     </Compile>
+=======
+    <Compile Include="Class\CustomCommands.cs" />
+    <Compile Include="Class\NumericTextBox.cs" />
+    <Compile Include="UserControls\Input.xaml.cs">
+      <DependentUpon>Input.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\MyButton.xaml.cs">
+      <DependentUpon>MyButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SearchButton.xaml.cs">
+      <DependentUpon>SearchButton.xaml</DependentUpon>
+    </Compile>
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
     <Compile Include="Windows\AddProduct.xaml.cs">
       <DependentUpon>AddProduct.xaml</DependentUpon>
     </Compile>
@@ -84,6 +98,12 @@
     <Compile Include="Windows\Edit.xaml.cs">
       <DependentUpon>Edit.xaml</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+=======
+    <Compile Include="Windows\Evemt.xaml.cs">
+      <DependentUpon>Evemt.xaml</DependentUpon>
+    </Compile>
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
     <Page Include="DarkTheme.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -126,10 +146,24 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+<<<<<<< HEAD
+=======
+    <Page Include="UserControls\Input.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
     <Page Include="UserControls\MyButton.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+<<<<<<< HEAD
+=======
+    <Page Include="UserControls\SearchButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
     <Page Include="WhiteTheme.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -146,6 +180,13 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+<<<<<<< HEAD
+=======
+    <Page Include="Windows\Evemt.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">

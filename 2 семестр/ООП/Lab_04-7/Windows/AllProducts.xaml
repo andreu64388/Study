@@ -4,6 +4,10 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lab_4_5.Windows"
+<<<<<<< HEAD
+=======
+        xmlns:MyInput="clr-namespace:Lab_4_5.UserControls"
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
         mc:Ignorable="d"
            Icon="/sha.png"
         Title="AllProducts" Height="550" Width="900"
@@ -11,12 +15,20 @@
     ResizeMode="CanResizeWithGrip"
     Background="#F5F5F5"
     Foreground="Black"
+<<<<<<< HEAD
        
     BorderThickness="1"
     BorderBrush="#CCCCCC"
         >
     <Window.Resources>
         
+=======
+
+    BorderThickness="1"
+    BorderBrush="#CCCCCC">
+    <Window.Resources>
+
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
         <Style TargetType="TextBlock" x:Key="text">
             <Setter Property="Foreground" Value="White" />
             <Setter Property="FontFamily" Value="Segoe UI" />
@@ -24,7 +36,11 @@
             <Setter Property="Margin" Value="0 5" />
             <Setter Property="HorizontalAlignment" Value="Center" />
         </Style>
+<<<<<<< HEAD
         <Style TargetType="Button">
+=======
+        <Style TargetType="Button" x:Key="but">
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
             <Setter Property="Background" Value="#2196F3" />
             <Setter Property="Foreground" Value="White" />
             <Setter Property="BorderThickness" Value="0" />
@@ -87,6 +103,7 @@
                 </Trigger>
             </Style.Triggers>
         </Style>
+<<<<<<< HEAD
 
     </Window.Resources>
     <Grid>
@@ -137,15 +154,62 @@
                 
                 <Button Click="Button_Click_1" Content="{DynamicResource AddProduct}">
                     
+=======
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <StackPanel HorizontalAlignment="Center" Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
+            <Button Background="Red" Click="Button_Click_2" Content="{DynamicResource Delete}" Style="{StaticResource but}">
+            </Button>
+            <Button Click="Button_Click_3" Content="{DynamicResource Edit}" Style="{StaticResource but}">
+            </Button>
+        </StackPanel>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" Text="{DynamicResource AllProduct}" Style="{DynamicResource text_all}">
+        </TextBlock>
+        <StackPanel Grid.Row="1">
+            <!--
+            <MyInput:SearchButton   x:Name="searchBox" />-->
+            <StackPanel>
+                <TextBlock Text="{DynamicResource SearchFromName}" Style="{DynamicResource text_all}">
+            </TextBlock>
+
+                <TextBox Name="SearchTextBox" TextChanged="SearchTextBox_TextChanged" />
+            </StackPanel>
+            <StackPanel>
+                <TextBlock Text="{DynamicResource FilterByPrice}" Style="{DynamicResource text_all}">
+                </TextBlock>
+                <Button Click="Button_Click_4" Name="Price" Content="{DynamicResource ByPrice}" Style="{StaticResource but}">
+                </Button>
+                <Button Click="Button_Click_5" Name="Name"  Content="{DynamicResource ByName}" Style="{StaticResource but}">
+                </Button>
+                <Button Click="Button_Click_6" Cursor="Hand" Name="Raiting" Content="{DynamicResource ByRaiting}" Style="{StaticResource but}">
+                </Button>
+            </StackPanel>
+            <StackPanel>
+
+                <Button Click="Button_Click_1" Content="{DynamicResource AddProduct}" Style="{StaticResource but}">
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
                 </Button>
             </StackPanel>
             <StackPanel>
                 <TextBlock Text="{DynamicResource ChoiseProduct}" Style="{DynamicResource text_all}">
+<<<<<<< HEAD
                 
+=======
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
                 </TextBlock>
                 <ComboBox ItemsSource="{Binding MyCollections}" Name="Category_product" DisplayMemberPath="Name"
           SelectionChanged="Category_product_SelectionChanged">
                 </ComboBox>
+<<<<<<< HEAD
 
             </StackPanel>
             <StackPanel>
@@ -193,15 +257,71 @@
                             <GridViewColumn.CellTemplate>
                                 <DataTemplate>
                                     <Image Source="{Binding Img}" Width="50" Height="50"/>
+=======
+            </StackPanel>
+            <StackPanel>
+
+                <Button Background="red" Click="Button_Click_7" Content="{DynamicResource Reset}" Style="{StaticResource but}">
+                </Button>
+            </StackPanel>
+        </StackPanel>
+        <Button Content="Next"
+                Grid.Column="2"
+                Grid.Row="0" Width="50"
+                Height="50"
+                HorizontalAlignment="Right"
+                Click="Button_Click_9"
+                Style="{StaticResource but}" />
+        <Button Content="Prev"  Grid.Column="2" Grid.Row="0" Width="50" Style="{StaticResource but}" Height="50" HorizontalAlignment="Right" Margin="0 0 70 0" Click="Button_Click_8" />
+        <Button Style="{StaticResource BackButtonStyle}" Grid.Column="1" Grid.Row="0" Width="100" Height="40"  HorizontalAlignment="Left" Click="Button_Click" VerticalAlignment="Top" Margin="0">
+        </Button>
+        <Border Grid.RowSpan="1" Style="{DynamicResource back_all}" Panel.ZIndex="-1" Grid.ColumnSpan="2" />
+
+        <Border Grid.RowSpan="2" Style="{DynamicResource back_all}" Panel.ZIndex="-1" />
+        <Grid Grid.Row="2" Grid.Column="1">
+            <Grid.RowDefinitions>
+
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <ListView ItemsSource="{Binding Products}" Grid.Row="1" Grid.ColumnSpan="6" Name="Choise" Background="Bisque">
+
+                <ListView.View>
+                    <GridView>
+
+                        <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}" Width="100" />
+                        <GridViewColumn Header="Description" DisplayMemberBinding="{Binding Description}" Width="100" />
+                        <GridViewColumn Header="Price" DisplayMemberBinding="{Binding Price}" Width="100" />
+                        <GridViewColumn Header="Category" DisplayMemberBinding="{Binding Category}" Width="130" />
+                        <GridViewColumn Header="Rating" DisplayMemberBinding="{Binding Rating}" Width="100" />
+                        <GridViewColumn Header="Image"   Width="130">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Image Source="{Binding Img}" Width="50" Height="50" />
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
                                 </DataTemplate>
                             </GridViewColumn.CellTemplate>
                         </GridViewColumn>
                     </GridView>
                 </ListView.View>
             </ListView>
+<<<<<<< HEAD
 
 
         </Grid>
         
     </Grid>
 </Window>
+=======
+        </Grid>
+    </Grid>
+</Window>
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced

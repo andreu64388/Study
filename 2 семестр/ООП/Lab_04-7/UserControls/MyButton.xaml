@@ -1,6 +1,7 @@
 ﻿<UserControl x:Class="Lab_4_5.UserControls.MyButton"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+<<<<<<< HEAD
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Lab_4_5.UserControls"
@@ -13,6 +14,20 @@
             <Setter Property="Foreground" Value="Black"/>
             <Setter Property="Padding" Value="20"/>
             
+=======
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Lab_4_5.UserControls"
+             mc:Ignorable="d"
+              d:DesignHeight="50" d:DesignWidth="150">
+
+ <UserControl.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="LightGray" />
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="Padding" Value="20" />
+
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
@@ -20,13 +35,22 @@
                                 BorderBrush="{TemplateBinding BorderBrush}"
                                 BorderThickness="{TemplateBinding BorderThickness}">
                             <ContentPresenter HorizontalAlignment="Center"
+<<<<<<< HEAD
                                               VerticalAlignment="Center"/>
+=======
+                                              VerticalAlignment="Center" />
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
                         </Border>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
         </Style>
     </UserControl.Resources>
+<<<<<<< HEAD
     <Button Content="{Binding Content}"
           />
 </UserControl>
+=======
+    <Button Content="{Binding Content}" />
+</UserControl>
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced

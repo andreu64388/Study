@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -16,6 +17,18 @@ public static class DataFile
 	{
 		
 		private static string _path = "products.json";
+=======
+﻿using Newtonsoft.Json;
+using System.Collections.ObjectModel;
+using System.IO;
+
+namespace Lab_4_5.Class
+{
+	public static class DataFile
+	{
+		private static string _path = "products.json";
+
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 		public static void JsonSerializeProducts(Product product)
 		{
 			using (var sw = new StreamWriter(_path, true))
@@ -24,11 +37,19 @@ public static class DataFile
 				sw.WriteLine(jsonProduct);
 			}
 		}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 		public static void JsonSerializeProductsCollection(ObservableCollection<Product> products)
 		{
 			using (var sw = new StreamWriter(_path))
 			{
+<<<<<<< HEAD
 				foreach(var el in products)
+=======
+				foreach (var el in products)
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 				{
 					var json = JsonConvert.SerializeObject(el);
 					sw.WriteLine(json);
@@ -38,8 +59,13 @@ public static class DataFile
 
 		public static ObservableCollection<Product> JsonDeseriazeProducts()
 		{
+<<<<<<< HEAD
 		var products = new ObservableCollection<Product>();
 			
+=======
+			var products = new ObservableCollection<Product>();
+
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 			using (var sr = new StreamReader(_path))
 			{
 				while (!sr.EndOfStream)
@@ -50,7 +76,10 @@ public static class DataFile
 				}
 			}
 			return products;
+<<<<<<< HEAD
 				
+=======
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 		}
 	}
 }

@@ -7,7 +7,11 @@
         xmlns:custom="clr-namespace:Lab_4_5.UserControls"
         mc:Ignorable="d"
 
+<<<<<<< HEAD
         Title="Shop" Height="450" Width="800"
+=======
+        Title="Shop" Height="460" Width="800"
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
         
            WindowStartupLocation="CenterScreen"
         Icon="/sha.png"
@@ -120,7 +124,11 @@
                     </Button.Style>
                 </Button>
 
+<<<<<<< HEAD
              <Button Cursor="Hand" Width="200" Height="50" Background="Green" Foreground="White" Content="{DynamicResource ViewAll}" Margin="5" Click="Button_Click_1">
+=======
+                <Button Cursor="Hand" Width="200" Height="50" Background="Green" Foreground="White" Content="{DynamicResource ViewAll}" Margin="5" Click="Button_Click_1">
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
                     <Button.Style>
                         <Style TargetType="Button">
                             <Setter Property="Background" Value="Green"/>
@@ -157,8 +165,15 @@
             </StackPanel>
 
         </Grid>
+<<<<<<< HEAD
 
         <custom:MyButton Grid.Column="1" Grid.Row="3" Background="red" Height="30" Content="Кастомная кнопка"  BorderBrush="AliceBlue" BorderThickness="1"  HorizontalAlignment="Center" VerticalAlignment="Center"/>
+=======
+        <custom:SearchButton Grid.Row="1" Margin="230,213,205,59" Loaded="SearchButton_Loaded" Grid.Column="1"  />
+
+
+      
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
         <Grid Grid.Row="0"  Grid.ColumnSpan="3">
             <StackPanel HorizontalAlignment="Right" Margin="5">
                 <Button
@@ -190,6 +205,20 @@
 
 
         </Grid>
+<<<<<<< HEAD
 
+=======
+        <Button Content="Event"
+                Grid.Column="1" 
+                Grid.Row="2"
+                Width="100" 
+                Height="30" 
+                Cursor="Hand" 
+                Background="Black" 
+                Foreground="White"
+                VerticalAlignment="Top" Click="Button_Click_2"
+                
+                />
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
     </Grid>
 </Window>

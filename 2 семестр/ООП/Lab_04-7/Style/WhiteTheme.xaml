@@ -1,10 +1,15 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
+<<<<<<< HEAD
  
 
     <Style x:Key="mainback" TargetType="Grid">
         <Setter Property="Background" Value="#1affa4"/>
+=======
+    <Style x:Key="mainback" TargetType="Grid">
+        <Setter Property="Background" Value="#1affa4" />
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
     </Style>
 
 
@@ -14,8 +19,13 @@
 
 
     <Style x:Key="logo"  TargetType="TextBlock">
+<<<<<<< HEAD
         <Setter Property="Foreground" Value="Black"/>
     </Style>
 
 
+=======
+        <Setter Property="Foreground" Value="Black" />
+    </Style>
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 </ResourceDictionary>

@@ -10,11 +10,19 @@ none
 false
 DEBUG;TRACE
 E:\student\2 курс\2 семестр\ООП\Lab_4-6\App.xaml
+<<<<<<< HEAD
 13-2135878966
 
 12567861332
 201425064852
 DarkTheme.xaml;Diactionary\Eng.xaml;Diactionary\Rus.xaml;Eng.xaml;MainWindow.xaml;Rus.xaml;Style\DarkTheme.xaml;Style\WhiteTheme.xaml;UserControls\MyButton.xaml;WhiteTheme.xaml;Windows\AddProduct.xaml;Windows\AllProducts.xaml;Windows\Edit.xaml;
+=======
+16-1761051710
+
+171829452418
+201425064852
+DarkTheme.xaml;Diactionary\Eng.xaml;Diactionary\Rus.xaml;Eng.xaml;MainWindow.xaml;Rus.xaml;Style\DarkTheme.xaml;Style\WhiteTheme.xaml;UserControls\Input.xaml;UserControls\MyButton.xaml;UserControls\SearchButton.xaml;WhiteTheme.xaml;Windows\AddProduct.xaml;Windows\AllProducts.xaml;Windows\Edit.xaml;Windows\Evemt.xaml;
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 
 True
 

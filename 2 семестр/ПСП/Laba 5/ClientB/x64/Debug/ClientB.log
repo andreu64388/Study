@@ -1,0 +1,4 @@
+﻿  ClientB.cpp
+E:\student\2 курс\2 семестр\ПСП\Laba 5\ClientB\ClientB.cpp(16,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+E:\student\2 курс\2 семестр\ПСП\Laba 5\ClientB\ClientB.cpp(76,5): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  ClientB.vcxproj -> E:\student\2 курс\2 семестр\ПСП\Laba 5\ServerB\x64\Debug\ClientB.exe

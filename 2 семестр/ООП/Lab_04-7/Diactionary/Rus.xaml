@@ -1,13 +1,21 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+<<<<<<< HEAD
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:v="clr-namespace:System;assembly=mscorlib">
 
 
 
+=======
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 
     <v:String x:Key="AddProduct">Добавить продукт</v:String>
     <v:String x:Key="ViewAll">Посмотреть все</v:String>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
     <v:String x:Key="fillData">Заполните данные</v:String>
     <v:String x:Key="EnterName">Введите название товара</v:String>
     <v:String x:Key="EnterDescription">Введите описание товара</v:String>

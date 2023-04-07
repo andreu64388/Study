@@ -3,6 +3,7 @@ using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+<<<<<<< HEAD
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,6 +15,10 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+=======
+using System.Windows;
+using System.Windows.Media.Imaging;
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 
 namespace Lab_4_5.Windows
 {
@@ -27,17 +32,28 @@ namespace Lab_4_5.Windows
 		public ObservableCollection<Product> Products { get; set; }
 
 		private string ID { get; set; }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 		private Dictionary<string, Class.Category> dictCategories = new Dictionary<string, Class.Category>()
 		{
 			{ "Toys", Class.Category.Toys },
 			{ "Clothes", Class.Category.Clothes },
 			{ "Phone", Class.Category.Phone }
 		};
+<<<<<<< HEAD
+=======
+
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 		public Edit(Product product)
 		{
 			InitializeComponent();
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 			Name_product.Text = product.Name;
 			Description_product.Text = product.Description;
 			Price_product.Text = product.Price.ToString();
@@ -51,7 +67,10 @@ namespace Lab_4_5.Windows
 			MyCollections.Add(new Category() { Name = "Phone" });
 
 			DataContext = this;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 		}
 
 		private void Button_Click(object sender, RoutedEventArgs e)
@@ -63,7 +82,10 @@ namespace Lab_4_5.Windows
 				try
 				{
 					preview.Source = new BitmapImage(new Uri(openFileDialog.FileName, UriKind.Absolute));
+<<<<<<< HEAD
 
+=======
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 				}
 				catch
 				{
@@ -79,8 +101,11 @@ namespace Lab_4_5.Windows
 			Price_product.Text = "";
 			Rating_product.Text = "";
 			preview.Source = null;
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 		}
 
 		private void Button_Click_2(object sender, RoutedEventArgs e)
@@ -96,22 +121,34 @@ namespace Lab_4_5.Windows
 
 				string img = preview.Source.ToString();
 
+<<<<<<< HEAD
 
 				if (name.Length == 0)
 				{
 					throw new Exception("Введите имя");
 
+=======
+				if (name.Length == 0)
+				{
+					throw new Exception("Введите имя");
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 				}
 				else if (description.Length == 0)
 				{
 					throw new Exception("Введите описание");
+<<<<<<< HEAD
 
+=======
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 				}
 				else if (raiting == 0 || raiting > 10)
 				{
 					throw new Exception("Введите диапазон значений от 1 до 10");
 				}
+<<<<<<< HEAD
 
+=======
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 				else if (img == null)
 				{
 					throw new Exception("Загрузите фотографию");
@@ -122,6 +159,7 @@ namespace Lab_4_5.Windows
 
 					foreach (Product p in Products)
 					{
+<<<<<<< HEAD
 						if(ID==p.Id)
 						{
 							p.Name= name;
@@ -133,22 +171,39 @@ namespace Lab_4_5.Windows
 
 						}
 
+=======
+						if (ID == p.Id)
+						{
+							p.Name = name;
+							p.Description = description;
+							p.Price = price;
+							p.Rating = raiting;
+							p.Category = dictCategories[Category_product.Text];
+							p.Img = img;
+						}
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 					}
 
 					Class.DataFile.JsonSerializeProductsCollection(Products);
 
 					MessageBox.Show("Данные были изменены");
 
+<<<<<<< HEAD
 
 					this.Close();
 
 				}
 
 
+=======
+					this.Close();
+				}
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 			}
 			catch (Exception ex)
 			{
 				MessageBox.Show(ex.Message);
+<<<<<<< HEAD
 
 			}
 
@@ -156,3 +211,9 @@ namespace Lab_4_5.Windows
 	}
 	
 }
+=======
+			}
+		}
+	}
+}
+>>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
