@@ -7,6 +7,9 @@
 
 using namespace std;
 
+
+
+
 string SetErrorMsgText(string msgText, int code);
 string GetErrorMsgText(int code);
 bool  GetServerByName(const char* name, const char* call, struct sockaddr* from, int* flen);
@@ -33,7 +36,7 @@ void main() {
 
 		sockaddr from;
 		int length = sizeof(from);
-		GetServerByName("PavelArts", "Hello", &from, &length);
+		GetServerByName("ANDREY", "Hello", &from, &length);
 
 
 		if (closesocket(cS) == SOCKET_ERROR)

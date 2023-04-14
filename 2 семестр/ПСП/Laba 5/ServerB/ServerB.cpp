@@ -7,7 +7,7 @@
 
 
 
-int countServers = 1;
+int countServers = 0;
 using namespace std;
 
 string SetErrorMsgText(string msgText, int code);
@@ -60,36 +60,33 @@ void main() {
 			throw SetErrorMsgText("bind:", WSAGetLastError());
 		
 
-			//memset(&client, 0, sizeof(client));
-
 		while (true) {
 
 
 		
 			
-		if (GetRequestFromClient(name, cS, (sockaddr*)&client, &lclient))
-		{
-
-
-			auto clntInfo = gethostbyaddr((const char*)&client.sin_addr, 4, AF_INET);
-			cout << "Client socket:" << endl;
-			cout << "Hostname: " << clntInfo->h_name << endl;
-			cout << "IP: " << inet_ntoa(client.sin_addr) << endl;
-			cout << "Port: " << htons(client.sin_port) << endl;
-			cout << endl;
-
-
-			if (!PutAnswerToClient((char*)name /*32"*/, cS, (sockaddr*)&client, &lclient))
+			if (GetRequestFromClient(name, cS, (sockaddr*)&client, &lclient))
 			{
-				cout << "Ошибка" << endl;
+				countServers++;
+				auto clntInfo = gethostbyaddr((const char*)&client.sin_addr, 4, AF_INET);
+				cout << "Client socket:" << endl;
+				cout << "Hostname: " << clntInfo->h_name << endl;
+				cout << "IP: " << inet_ntoa(client.sin_addr) << endl;
+				cout << "Port: " << htons(client.sin_port) << endl;
+				cout << "Count: " << countServers << endl;
+				cout << endl;
+
+				if (!PutAnswerToClient((char*)name /*32"*/, cS, (sockaddr*)&client, &lclient))
+				{
+					cout << "Ошибка" << endl;
+				}
+
+				countServers--;
 			}
-			
 
-		}
-
-		else {
-			cout << "Dont connected by name";
-		}
+			else {
+				cout << "Dont connected by name";
+			}
 			}
 		
 			

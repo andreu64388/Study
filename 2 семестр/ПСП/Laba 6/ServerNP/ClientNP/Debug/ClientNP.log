@@ -1,0 +1,3 @@
+﻿  MainClient.cpp
+E:\student\2 курс\2 семестр\ПСП\Laba 6\ServerNP\ClientNP\MainClient.cpp(12,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  ClientNP.vcxproj -> E:\student\2 курс\2 семестр\ПСП\Laba 6\ServerNP\Debug\ClientNP.exe
