@@ -1,0 +1,98 @@
+﻿  dllmain.cpp
+D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\Global.h(100,35): warning C4312:  приведение типов: преобразование из "DWORD" в "Contact *" большего размера
+D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\Global.h(116,35): warning C4312:  приведение типов: преобразование из "DWORD" в "Contact *" большего размера
+D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\EchoServer.h(9,70): warning C4311:  приведение типов: усечение указателя из "Contact *" в "DWORD"
+D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\EchoServer.h(9,70): warning C4302:  приведение типов: усечение из "Contact *" к "DWORD"
+D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\EchoServer.h(9,70): error C2664:  "DWORD QueueUserAPC(PAPCFUNC,HANDLE,ULONG_PTR)": невозможно преобразовать аргумент 1 из "void (__cdecl *)(DWORD)" в "PAPCFUNC"
+D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\EchoServer.h(9,17): message :  Конечному типу не соответствует ни одной функции с данным именем в области видимости
+D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\EchoServer.h(47,75): warning C4311:  приведение типов: усечение указателя из "Contact *" в "DWORD"
+D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\EchoServer.h(47,75): warning C4302:  приведение типов: усечение из "Contact *" к "DWORD"
+D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\EchoServer.h(47,75): error C2664:  "DWORD QueueUserAPC(PAPCFUNC,HANDLE,ULONG_PTR)": невозможно преобразовать аргумент 1 из "void (__cdecl *)(DWORD)" в "PAPCFUNC"
+D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\EchoServer.h(47,21): message :  Конечному типу не соответствует ни одной функции с данным именем в области видимости
+D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\RandServer.h(9,70): warning C4311:  приведение типов: усечение указателя из "Contact *" в "DWORD"
+D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\RandServer.h(9,70): warning C4302:  приведение типов: усечение из "Contact *" к "DWORD"
+D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\RandServer.h(9,70): error C2664:  "DWORD QueueUserAPC(PAPCFUNC,HANDLE,ULONG_PTR)": невозможно преобразовать аргумент 1 из "void (__cdecl *)(DWORD)" в "PAPCFUNC"
+D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\RandServer.h(9,17): message :  Конечному типу не соответствует ни одной функции с данным именем в области видимости
+D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\RandServer.h(32,22): warning C4244:  аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\RandServer.h(53,75): warning C4311:  приведение типов: усечение указателя из "Contact *" в "DWORD"
+D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\RandServer.h(53,75): warning C4302:  приведение типов: усечение из "Contact *" к "DWORD"
+D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\RandServer.h(53,75): error C2664:  "DWORD QueueUserAPC(PAPCFUNC,HANDLE,ULONG_PTR)": невозможно преобразовать аргумент 1 из "void (__cdecl *)(DWORD)" в "PAPCFUNC"
+D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\RandServer.h(53,21): message :  Конечному типу не соответствует ни одной функции с данным именем в области видимости
+D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\TimeServer.h(9,70): warning C4311:  приведение типов: усечение указателя из "Contact *" в "DWORD"
+D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\TimeServer.h(9,70): warning C4302:  приведение типов: усечение из "Contact *" к "DWORD"
+D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\TimeServer.h(9,70): error C2664:  "DWORD QueueUserAPC(PAPCFUNC,HANDLE,ULONG_PTR)": невозможно преобразовать аргумент 1 из "void (__cdecl *)(DWORD)" в "PAPCFUNC"
+D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\TimeServer.h(9,17): message :  Конечному типу не соответствует ни одной функции с данным именем в области видимости
+D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\TimeServer.h(49,75): warning C4311:  приведение типов: усечение указателя из "Contact *" в "DWORD"
+D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\TimeServer.h(49,75): warning C4302:  приведение типов: усечение из "Contact *" к "DWORD"
+D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\TimeServer.h(49,75): error C2664:  "DWORD QueueUserAPC(PAPCFUNC,HANDLE,ULONG_PTR)": невозможно преобразовать аргумент 1 из "void (__cdecl *)(DWORD)" в "PAPCFUNC"
+D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\TimeServer.h(49,21): message :  Конечному типу не соответствует ни одной функции с данным именем в области видимости
+
+Итоги по проекту:
+     1390 мс вызовов   1 D:\_Labs_3_course\_Labs_1_sem\SHIMAN\PRACTICE\SH_Laba_8_10\Service_Library\Service_Library.vcxproj
+               1390 мс вызовов   1 Build                                   
+
+Итоги по целям:
+        0 мс вызовов   1 BuildGenerateSourcesTraverse            
+        0 мс вызовов   1 ComputeCustomBuildOutput                
+        0 мс вызовов   1 SelectCustomBuild                       
+        0 мс вызовов   1 _SelectedFiles                          
+        0 мс вызовов   1 PreBuildEvent                           
+        0 мс вызовов   1 BeforeBuildGenerateSources              
+        0 мс вызовов   1 ComputeMIDLGeneratedCompileInputs       
+        0 мс вызовов   1 ResolveReferences                       
+        0 мс вызовов   1 AfterResolveReferences                  
+        0 мс вызовов   1 ResolveAssemblyReferences               
+        0 мс вызовов   1 AfterMidl                               
+        0 мс вызовов   1 ExpandSDKReferences                     
+        0 мс вызовов   1 ResolveSDKReferences                    
+        0 мс вызовов   1 _Midl                                   
+        0 мс вызовов   1 MakeDirsForMidl                         
+        0 мс вызовов   1 SetCABuildNativeEnvironmentVariables    
+        0 мс вызовов   1 GetResolvedWinMD                        
+        0 мс вызовов   1 AfterBuildGenerateSourcesEvent          
+        0 мс вызовов   1 _BuildGenerateSourcesAction             
+        0 мс вызовов   1 GetFrameworkPaths                       
+        0 мс вызовов   1 PrepareProjectReferences                
+        0 мс вызовов   1 BuildGenerateSources                    
+        0 мс вызовов   1 _SplitProjectReferencesByFileExistence  
+        0 мс вызовов   1 BeforeResolveReferences                 
+        0 мс вызовов   1 _PrepareForReferenceResolution          
+        0 мс вызовов   1 BeforeClCompile                         
+        0 мс вызовов   1 ComputeCLInputPDBName                   
+        0 мс вызовов   1 AfterBuildGenerateSources               
+        0 мс вызовов   1 _Xsd                                    
+        1 мс вызовов   1 AssignProjectConfiguration              
+        1 мс вызовов   1 SelectClCompile                         
+        1 мс вызовов   1 ResolveProjectReferences                
+        1 мс вызовов   1 FixupCLCompileOptions                   
+        1 мс вызовов   1 _HandlePackageFileConflicts             
+        1 мс вызовов   1 GetReferenceAssemblyPaths               
+        1 мс вызовов   1 BuildCompileTraverse                    
+        1 мс вызовов   1 _GetProjectReferenceTargetFrameworkProperties
+        1 мс вызовов   1 _CheckWindowsSDKInstalled               
+        1 мс вызовов   1 CopyFileToFolders                       
+        1 мс вызовов   1 SetTelemetryEnvironmentVariables        
+        1 мс вызовов   1 SetBuildDefaultEnvironmentVariables     
+        1 мс вызовов   1 MakeDirsForCl                           
+        1 мс вызовов   1 _PrepareForBuild                        
+        2 мс вызовов   1 WarnCompileDuplicatedFilename           
+        2 мс вызовов   1 CustomBuild                             
+        2 мс вызовов   1 ComputeReferenceCLInput                 
+        7 мс вызовов   1 InitializeBuildStatus                   
+        9 мс вызовов   1 _CheckForInvalidConfigurationAndPlatform
+        9 мс вызовов   1 PrepareForBuild                         
+     1339 мс вызовов   1 ClCompile                               
+
+Итоги по задачам:
+        0 мс вызовов   2 Message                                 
+        0 мс вызовов   8 SetEnv                                  
+        0 мс вызовов   1 AssignProjectConfiguration              
+        1 мс вызовов   5 MakeDir                                 
+        1 мс вызовов   1 ReadLinesFromFile                       
+        1 мс вызовов   1 ResolvePackageFileConflicts             
+        1 мс вызовов   1 CheckVCToolsetVersion                   
+        1 мс вызовов   1 MSBuild                                 
+        2 мс вызовов   1 Touch                                   
+        3 мс вызовов   3 GetOutOfDateItems                       
+        3 мс вызовов   1 WriteLinesToFile                        
+     1337 мс вызовов   2 CL                                      
