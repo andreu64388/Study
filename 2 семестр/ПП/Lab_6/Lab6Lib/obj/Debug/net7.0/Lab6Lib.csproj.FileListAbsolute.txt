@@ -1,0 +1,27 @@
+E:\student\2 курс\2 семестр\ПП\Lab_6\Lab6Lib\bin\Debug\net7.0\Lab6Lib.deps.json
+E:\student\2 курс\2 семестр\ПП\Lab_6\Lab6Lib\bin\Debug\net7.0\Lab6Lib.dll
+E:\student\2 курс\2 семестр\ПП\Lab_6\Lab6Lib\bin\Debug\net7.0\Lab6Lib.pdb
+E:\student\2 курс\2 семестр\ПП\Lab_6\Lab6Lib\obj\Debug\net7.0\Lab6Lib.csproj.AssemblyReference.cache
+E:\student\2 курс\2 семестр\ПП\Lab_6\Lab6Lib\obj\Debug\net7.0\Lab6Lib.GeneratedMSBuildEditorConfig.editorconfig
+E:\student\2 курс\2 семестр\ПП\Lab_6\Lab6Lib\obj\Debug\net7.0\Lab6Lib.AssemblyInfoInputs.cache
+E:\student\2 курс\2 семестр\ПП\Lab_6\Lab6Lib\obj\Debug\net7.0\Lab6Lib.AssemblyInfo.cs
+E:\student\2 курс\2 семестр\ПП\Lab_6\Lab6Lib\obj\Debug\net7.0\Lab6Lib.csproj.CoreCompileInputs.cache
+E:\student\2 курс\2 семестр\ПП\Lab_6\Lab6Lib\obj\Debug\net7.0\Lab6Lib.dll
+E:\student\2 курс\2 семестр\ПП\Lab_6\Lab6Lib\obj\Debug\net7.0\refint\Lab6Lib.dll
+E:\student\2 курс\2 семестр\ПП\Lab_6\Lab6Lib\obj\Debug\net7.0\Lab6Lib.pdb
+E:\student\2 курс\2 семестр\ПП\Lab_6\Lab6Lib\obj\Debug\net7.0\ref\Lab6Lib.dll
+C:\Users\Stanislaw\Desktop\Патерны\лабы\lab06\Lab6Lib\bin\Debug\net7.0\Lab6Lib.exe
+C:\Users\Stanislaw\Desktop\Патерны\лабы\lab06\Lab6Lib\bin\Debug\net7.0\Lab6Lib.deps.json
+C:\Users\Stanislaw\Desktop\Патерны\лабы\lab06\Lab6Lib\bin\Debug\net7.0\Lab6Lib.runtimeconfig.json
+C:\Users\Stanislaw\Desktop\Патерны\лабы\lab06\Lab6Lib\bin\Debug\net7.0\Lab6Lib.dll
+C:\Users\Stanislaw\Desktop\Патерны\лабы\lab06\Lab6Lib\bin\Debug\net7.0\Lab6Lib.pdb
+C:\Users\Stanislaw\Desktop\Патерны\лабы\lab06\Lab6Lib\obj\Debug\net7.0\Lab6Lib.csproj.AssemblyReference.cache
+C:\Users\Stanislaw\Desktop\Патерны\лабы\lab06\Lab6Lib\obj\Debug\net7.0\Lab6Lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stanislaw\Desktop\Патерны\лабы\lab06\Lab6Lib\obj\Debug\net7.0\Lab6Lib.AssemblyInfoInputs.cache
+C:\Users\Stanislaw\Desktop\Патерны\лабы\lab06\Lab6Lib\obj\Debug\net7.0\Lab6Lib.AssemblyInfo.cs
+C:\Users\Stanislaw\Desktop\Патерны\лабы\lab06\Lab6Lib\obj\Debug\net7.0\Lab6Lib.csproj.CoreCompileInputs.cache
+C:\Users\Stanislaw\Desktop\Патерны\лабы\lab06\Lab6Lib\obj\Debug\net7.0\Lab6Lib.dll
+C:\Users\Stanislaw\Desktop\Патерны\лабы\lab06\Lab6Lib\obj\Debug\net7.0\refint\Lab6Lib.dll
+C:\Users\Stanislaw\Desktop\Патерны\лабы\lab06\Lab6Lib\obj\Debug\net7.0\Lab6Lib.pdb
+C:\Users\Stanislaw\Desktop\Патерны\лабы\lab06\Lab6Lib\obj\Debug\net7.0\Lab6Lib.genruntimeconfig.cache
+C:\Users\Stanislaw\Desktop\Патерны\лабы\lab06\Lab6Lib\obj\Debug\net7.0\ref\Lab6Lib.dll

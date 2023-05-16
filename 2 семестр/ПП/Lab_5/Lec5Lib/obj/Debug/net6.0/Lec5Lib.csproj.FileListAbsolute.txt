@@ -1,0 +1,36 @@
+D:\PP_4sem\lab5\Lec5Lib\bin\Debug\net6.0\Lec5Lib.deps.json
+D:\PP_4sem\lab5\Lec5Lib\bin\Debug\net6.0\Lec5Lib.dll
+D:\PP_4sem\lab5\Lec5Lib\bin\Debug\net6.0\Lec5Lib.pdb
+D:\PP_4sem\lab5\Lec5Lib\obj\Debug\net6.0\Lec5Lib.csproj.AssemblyReference.cache
+D:\PP_4sem\lab5\Lec5Lib\obj\Debug\net6.0\Lec5Lib.GeneratedMSBuildEditorConfig.editorconfig
+D:\PP_4sem\lab5\Lec5Lib\obj\Debug\net6.0\Lec5Lib.AssemblyInfoInputs.cache
+D:\PP_4sem\lab5\Lec5Lib\obj\Debug\net6.0\Lec5Lib.AssemblyInfo.cs
+D:\PP_4sem\lab5\Lec5Lib\obj\Debug\net6.0\Lec5Lib.csproj.CoreCompileInputs.cache
+D:\PP_4sem\lab5\Lec5Lib\obj\Debug\net6.0\Lec5Lib.dll
+D:\PP_4sem\lab5\Lec5Lib\obj\Debug\net6.0\refint\Lec5Lib.dll
+D:\PP_4sem\lab5\Lec5Lib\obj\Debug\net6.0\Lec5Lib.pdb
+D:\PP_4sem\lab5\Lec5Lib\obj\Debug\net6.0\ref\Lec5Lib.dll
+D:\Универ\4 сем\ПП\lab5\Lec5Lib\bin\Debug\net6.0\Lec5Lib.deps.json
+D:\Универ\4 сем\ПП\lab5\Lec5Lib\bin\Debug\net6.0\Lec5Lib.dll
+D:\Универ\4 сем\ПП\lab5\Lec5Lib\bin\Debug\net6.0\Lec5Lib.pdb
+D:\Универ\4 сем\ПП\lab5\Lec5Lib\obj\Debug\net6.0\Lec5Lib.csproj.AssemblyReference.cache
+D:\Универ\4 сем\ПП\lab5\Lec5Lib\obj\Debug\net6.0\Lec5Lib.GeneratedMSBuildEditorConfig.editorconfig
+D:\Универ\4 сем\ПП\lab5\Lec5Lib\obj\Debug\net6.0\Lec5Lib.AssemblyInfoInputs.cache
+D:\Универ\4 сем\ПП\lab5\Lec5Lib\obj\Debug\net6.0\Lec5Lib.AssemblyInfo.cs
+D:\Универ\4 сем\ПП\lab5\Lec5Lib\obj\Debug\net6.0\Lec5Lib.csproj.CoreCompileInputs.cache
+D:\Универ\4 сем\ПП\lab5\Lec5Lib\obj\Debug\net6.0\Lec5Lib.dll
+D:\Универ\4 сем\ПП\lab5\Lec5Lib\obj\Debug\net6.0\refint\Lec5Lib.dll
+D:\Универ\4 сем\ПП\lab5\Lec5Lib\obj\Debug\net6.0\Lec5Lib.pdb
+D:\Универ\4 сем\ПП\lab5\Lec5Lib\obj\Debug\net6.0\ref\Lec5Lib.dll
+E:\student\2 курс\2 семестр\ПП\Lab_5\Lec5Lib\bin\Debug\net6.0\Lec5Lib.deps.json
+E:\student\2 курс\2 семестр\ПП\Lab_5\Lec5Lib\bin\Debug\net6.0\Lec5Lib.dll
+E:\student\2 курс\2 семестр\ПП\Lab_5\Lec5Lib\bin\Debug\net6.0\Lec5Lib.pdb
+E:\student\2 курс\2 семестр\ПП\Lab_5\Lec5Lib\obj\Debug\net6.0\Lec5Lib.csproj.AssemblyReference.cache
+E:\student\2 курс\2 семестр\ПП\Lab_5\Lec5Lib\obj\Debug\net6.0\Lec5Lib.GeneratedMSBuildEditorConfig.editorconfig
+E:\student\2 курс\2 семестр\ПП\Lab_5\Lec5Lib\obj\Debug\net6.0\Lec5Lib.AssemblyInfoInputs.cache
+E:\student\2 курс\2 семестр\ПП\Lab_5\Lec5Lib\obj\Debug\net6.0\Lec5Lib.AssemblyInfo.cs
+E:\student\2 курс\2 семестр\ПП\Lab_5\Lec5Lib\obj\Debug\net6.0\Lec5Lib.csproj.CoreCompileInputs.cache
+E:\student\2 курс\2 семестр\ПП\Lab_5\Lec5Lib\obj\Debug\net6.0\Lec5Lib.dll
+E:\student\2 курс\2 семестр\ПП\Lab_5\Lec5Lib\obj\Debug\net6.0\refint\Lec5Lib.dll
+E:\student\2 курс\2 семестр\ПП\Lab_5\Lec5Lib\obj\Debug\net6.0\Lec5Lib.pdb
+E:\student\2 курс\2 семестр\ПП\Lab_5\Lec5Lib\obj\Debug\net6.0\ref\Lec5Lib.dll
