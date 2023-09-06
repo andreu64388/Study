@@ -1,0 +1,39 @@
+﻿<Window x:Class="Client_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client_4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="300">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0">X</Label>
+        <Label Grid.Row="1" Grid.Column="0">Y</Label>
+
+        <TextBox Grid.Row="0" Grid.Column="1" Width="100"  Height="25" VerticalAlignment="Top" x:Name="X" 
+                 Background="LightGray" Foreground="Black" FontSize="16" Margin="5"></TextBox>
+        <TextBox Grid.Row="1" Grid.Column="1" Width="100"  Height="25" VerticalAlignment="Top" x:Name="Y" 
+                 Background="LightGray" Foreground="Black" FontSize="16" Margin="5"></TextBox>
+
+
+        <Button Grid.Column="0" Grid.Row="2" Width="80" Height="30" Click="Button_Click" 
+                Background="Green" Foreground="White" FontSize="16" Margin="5">Calculate</Button>
+
+        <Label Grid.Row="3" Grid.Column="0" x:Name="result"  Grid.ColumnSpan="2"
+               Background="LightBlue" Foreground="Black" FontSize="16" Margin="55,48,-45,-38"></Label>
+
+    </Grid>
+</Window>

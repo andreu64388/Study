@@ -1,0 +1,205 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="850.4,2575.2" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/ocr" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:sd2="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Triggers</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Triggers</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Vision.OCR</x:String>
+      <x:String>UiPath.OCR.Contracts</x:String>
+      <x:String>UiPath.OCR.Contracts.Activities</x:String>
+      <x:String>UiPath.Core.Activities.OCR.Engines</x:String>
+      <x:String>UiPath.OCR.Activities</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.CSV</x:String>
+      <x:String>UiPath.CSV.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="608,2510.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="545.6,2398.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="sd2:DataTable" Name="ResultDT" />
+        <Variable x:TypeArguments="x:String" Name="InvoiceTotal" />
+        <Variable x:TypeArguments="x:String" Name="EmailAddress" />
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: explorer.exe" sap:VirtualizedContainerService.HintSize="483.2,1756" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="1b827fed-3bf9-4101-b759-f12d44b743a6" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Сделать" sap:VirtualizedContainerService.HintSize="449.6,1461.6" sap2010:WorkflowViewState.IdRef="Sequence_6">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="387.2,179.2" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_9" ScopeIdentifier="1b827fed-3bf9-4101-b759-f12d44b743a6" Shortcuts="[d(hk)][d(lwin)]r[u(lwin)][u(hk)]" Version="V3" />
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,229.6" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="1b827fed-3bf9-4101-b759-f12d44b743a6" Text="E:\student\learn\3_course\1_sem\РПР\Lab_3\SampleTest.png" Version="V3" />
+              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="387.2,179.2" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_8" ScopeIdentifier="1b827fed-3bf9-4101-b759-f12d44b743a6" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V3" />
+              <ui:GetOCRText Text="{x:Null}" WordsInfo="{x:Null}" DisplayName="Get OCR Text 'push button'" sap:VirtualizedContainerService.HintSize="387.2,172" sap2010:WorkflowViewState.IdRef="GetOCRText_1">
+                <ui:GetOCRText.OCREngine>
+                  <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                    <ActivityFunc.Argument>
+                      <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                    </ActivityFunc.Argument>
+                    <ui:GoogleOCR AllowedCharacters="{x:Null}" DeniedCharacters="{x:Null}" FilterRegion="{x:Null}" Invert="{x:Null}" Output="{x:Null}" PredictionId="{x:Null}" Profile="{x:Null}" Scale="{x:Null}" ComputeSkewAngle="False" DisplayName="Tesseract OCR" ExtractWords="False" sap:VirtualizedContainerService.HintSize="200,24.8" sap2010:WorkflowViewState.IdRef="GoogleOCR_4" Image="[Image]" Language="eng" Text="[InvoiceTotal]" />
+                  </ActivityFunc>
+                </ui:GetOCRText.OCREngine>
+                <ui:GetOCRText.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="fc1a4cef-4d47-4b92-94a6-e24b43190d30" InformativeScreenshot="5c33a5041211f90fe85a264f4ed4f1f5" Selector="&lt;wnd app='applicationframehost.exe' appid='Microsoft.Windows.Photos_8wekyb3d8bbwe!App' title='SampleTest.png ‎- Фотографии' /&gt;&lt;uia automationid='D2DImageControl' role='настраиваемый' /&gt;">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:GetOCRText.Target>
+              </ui:GetOCRText>
+              <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="387.2,87.2" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[InvoiceTotal]" />
+              <ui:GetOCRText Text="{x:Null}" WordsInfo="{x:Null}" DisplayName="Get OCR Text 'настраиваемый  D2DImage...'" sap:VirtualizedContainerService.HintSize="387.2,172" sap2010:WorkflowViewState.IdRef="GetOCRText_2">
+                <ui:GetOCRText.OCREngine>
+                  <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                    <ActivityFunc.Argument>
+                      <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                    </ActivityFunc.Argument>
+                    <p:UiPathScreenOCR ApiKey="{x:Null}" Endpoint="{x:Null}" Output="{x:Null}" PredictionId="{x:Null}" UseLocalServer="{x:Null}" ComputeSkewAngle="False" DisplayName="UiPath Screen OCR" ExtractWords="False" sap:VirtualizedContainerService.HintSize="200,24.8" sap2010:WorkflowViewState.IdRef="UiPathScreenOCR_3" Image="[Image]" Language="auto" Profile="Screen" Scale="1" Text="[EmailAddress]" Timeout="100000" />
+                  </ActivityFunc>
+                </ui:GetOCRText.OCREngine>
+                <ui:GetOCRText.Target>
+                  <ui:Target Element="{x:Null}" Id="77aeffa4-d444-4171-b1af-c2d05eaff118" InformativeScreenshot="017a0bc6ec36d5a9d8aa86c51d99f588" Selector="&lt;wnd app='applicationframehost.exe' appid='Microsoft.Windows.Photos_8wekyb3d8bbwe!App' title='SampleTest.png ‎- Фотографии' /&gt;&lt;uia automationid='D2DImageControl' role='настраиваемый' /&gt;">
+                    <ui:Target.ClippingRegion>
+                      <ui:Region Rectangle="311, 10, 440, 134" />
+                    </ui:Target.ClippingRegion>
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:GetOCRText.Target>
+              </ui:GetOCRText>
+              <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="387.2,87.2" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[EmailAddress]" />
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="0, 0, 1920, 1080" FilePath="C:\Windows\explorer.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAARASURBVFhH7ZDdT5tlGMb7J/g3eLI4YjQ6dGiUkAEtHR+Wlo8OpjNGYzQmO1nigQdo1BgTRWP0yMQDE0+MGrONMMBtQCmlLZSWjg0dX66AcxtlMEBo3/fyvl4e8hh8p6OUpAdcyZU0733f1/V76jjQgQpFM9842sTIwWnxKRWzP5KCh/5RmKv3D1LC8wFI7x/k1NcO7MWp7x+GMfsZMP3u3jzzAXDrxzaFpTXxpQO5euY7gZtpBybeyo+n34fC0kq2O5CLf/+hBNnpTyX4zfz519P/BsTkO8jJ198Grr2RdyssLVx7XQaFY4WlhauvoZCssLRw9VUZFI4VlhbGX0EhWWFpYfxlGRSOFZYWrpzC/WzSyZfy6x0dO62wtHDlRRlom0n6JIyxk8iKMwm6FZl4Kzb34K2crUxms4NdO/sVlhaSraBNeqwV2USLwLRgI3YC6yN+rEb9uBdpxkp4y8vhpl15xXKzlbEabcb6sN/KZge72MnubQ6FpYVkiwy4eEIOeOyXEMI0YinUgMWgD7cDPtzq9+JPum+XlhveMmMx2GBlMpsdm6N+q5Pd2xwKSwtjXPDDiMtBrAlr0UYsh3yYDp7Gex1JeL+dzauZOSXZ7GAXO41Es8VAFoWlhbEmmIkmZOON+GtYXjfkxZ2AB2d+SuCZryb3xcxmB7vYyW4ykEVhaSEhw3gDMjEf1iNe3B304OblWuu1duH5MLNv9vtxN+jBetRrdZOBLApLCwkOfbJUj7WwB+mBOixcrLYNzqfneo5bXexktxH3CqDPBjBeD3O0HpkRD1aH6pAO1GD+F7dtaD6d6nZbXexktyEMZFFYWoh7BPAFWaqT5Vo5qhbAKtvQfDrV7bK62MluQxjIorC0MFoHMyavGJbXhKqR7ndjvsdpG0r/drYck+fKMXW+AtMd9uaMO9y1y6BTXU6ri53sNmK1IIvC0sJojQDWyJK8JiR/e79LACsl5LqtZzvL8cfFStzpdWEpUIXlgSqsBN2W+ZvfOOPOjQsVthl0qqvC6mInuw1hIIvC0kKsGubIcWSifE2VHDkFsBwlX0zY+kbnMdy+XCkwLqzJ/kbYjU25pTcibqwNEdolkJWY67p/Tkpm7GInuw1hIIvC0sKIC+awC5mILA9WIt1XjvnuMhz9fNzWqc4yLPYew71ghcA5kY06Ycg9nR12Wt84485813/kXCizutjJbt6TRWFpIVoKM1KKTOh5rAaeQ/rSs5jvLMHT7QlbpzqOWjvc3ZQbI1wKyD1tym9+220Ou7dzFJYWhophhoqRGTiC1d4nke55AgvnH8dTn8RsnTr3mLXDXd4Yg8WA3OcrR2FpIfhomzlQhEzfYaxdOoylrkewcPYQij+O2Hru50NIyw53eWMEigC5R7AIe80xhUVh/b+KPwrBzmr8wLLLoNU4dx35MAA7q/EDyy6DVuMDHehAucnh+Bvf66PP+l4jvQAAAABJRU5ErkJggg==" Selector="&lt;wnd app='explorer.exe' cls='WorkerW' idx='*' /&gt;" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+      <ui:BuildDataTable DataTable="[ResultDT]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="483.2,60" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;IvoiceTotal&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;10000&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;EmailAddress&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;1000&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;" />
+      <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{InvoiceTotal, EmailAddress}]" DataTable="[ResultDT]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="483.2,190.4" sap2010:WorkflowViewState.IdRef="AddDataRow_1" />
+      <ui:WriteCsvFile AddHeaders="True" DataTable="[ResultDT]" Delimitator="Comma" DisplayName="Write CSV" FilePath="ResultCSV.csv" sap:VirtualizedContainerService.HintSize="483.2,160" sap2010:WorkflowViewState.IdRef="WriteCsvFile_1" ShouldQuote="True" />
+    </Sequence>
+  </Sequence>
+</Activity>
