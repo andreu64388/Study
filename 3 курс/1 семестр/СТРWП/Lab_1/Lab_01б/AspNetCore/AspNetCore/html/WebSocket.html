@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>WebSocket Example</title>
+    <style>
+        body {
+            color: white;
+            background-color: cadetblue; 
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            padding: 20px;
+        }
+
+        button {
+            background-color: #4CAF50; 
+            color: white; 
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            
+        }
+        #stopButton{
+            background-color: red;
+        }
+        #stopButton:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+
+        button:disabled {
+            background-color: #cccccc; 
+            cursor: not-allowed;
+        }
+
+  
+        #output .message{
+            padding: 20px;
+            color: white;
+            max-width: 300px;
+            background: #4CAF50;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+<div>Laba 1b. Websocket 
+</div>
+<div id="messageCount">Сообщений: 0</div>
+<button id="startButton">Пуск</button>
+<button id="stopButton"  disabled>Стоп</button>
+<div id="output"></div>
+
+<script>
+    const startButton = document.getElementById('startButton');
+    const stopButton = document.getElementById('stopButton');
+    const outputDiv = document.getElementById('output');
+    const messageCountDiv = document.getElementById('messageCount');
+    let socket;
+    let messageCount = 0;
+
+    startButton.addEventListener('click', () => {
+        socket = new WebSocket('ws://localhost:5236/websocket');
+        socket.onmessage = (event) => {
+            const message = event.data;
+            outputDiv.innerHTML += `<p class="message">${message}</p>`;
+            messageCount++; 
+            messageCountDiv.textContent = `Сообщений: ${messageCount}`;
+        };
+        startButton.disabled = true;
+        stopButton.disabled = false;
+        
+    });
+
+    stopButton.addEventListener('click', () => {
+        if (socket) {
+            socket.close();
+            startButton.disabled = false;
+            stopButton.disabled = true;
+        }
+    });
+</script>
+</body>
+</html>

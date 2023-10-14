@@ -1,7 +1,7 @@
 {
   "name": "SimpleTryCatch",
-  "projectId": "1902bc3e-1dda-47b4-b011-346077e72faa",
-  "description": "4-1\r\n",
+  "projectId": "37fb2c5e-bc5f-420c-9bc8-40eea6d1f540",
+  "description": "4-1",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.22.0-preview]",
@@ -50,7 +50,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "1e4562f7-6446-4811-ab01-863daaefd63d",
+      "uniqueId": "f26415ef-d4d4-4ed9-b9ef-a470a636efaa",
       "input": [],
       "output": []
     }

@@ -1,41 +1,67 @@
--- Создание триггера UpdateOrderStatus
--- Этот триггер будет вызываться после обновления записи в таблице Orders.
+-- Создание представления UserOrderStatus
+CREATE OR REPLACE VIEW UserOrderStatus AS
+SELECT
+    C.Customer_id,
+    C.First_Name,
+    C.Last_Name,
+    O.Order_id,
+    O.Start_Date,
+    O.End_Date,
+    S.Status_name
+FROM
+    Customers C
+JOIN
+    Orders O ON C.Customer_id = O.Customer_ID
+JOIN
+    Status_ S ON O.Status_id = S.Status_id;
 
-CREATE OR REPLACE TRIGGER UpdateOrderStatus
-AFTER UPDATE ON Orders
-FOR EACH ROW
+-- Просмотр данных из представления UserOrderStatus
+SELECT * FROM UserOrderStatus;
+
+-- Создание представления CarOrderStatus
+CREATE OR REPLACE VIEW CarOrderStatus AS
+SELECT
+    C.Car_id,
+    C.Model,
+    O.Order_id,
+    O.Start_Date,
+    O.End_Date,
+    S.Status_name
+FROM
+    Cars C
+JOIN
+    Orders O ON C.Car_id = O.Car_ID
+JOIN
+    Status_ S ON O.Status_id = S.Status_id;
+
+-- Просмотр данных из представления CarOrderStatus
+SELECT * FROM CarOrderStatus;
+
+-- Создание индекса на поле Email в таблице Customers
+CREATE drop  index IX_Customers_Email ON Customers (Email);
+
+-- Создание индекса на поле Model в таблице Cars
+CREATE INDEX IX_Cars_Model ON Cars (Model);
+
+CREATE OR REPLACE PROCEDURE InsertOrder(
+    p_Start_Date IN DATE,
+    p_End_Date IN DATE,
+    p_Customer_ID IN NUMBER,
+    p_Car_id IN NUMBER,
+    p_Status_id IN NUMBER
+)
+IS
 BEGIN
-    -- Обновляем статус заказа на "Активен" для заказов, которые стали активными.
-    IF :NEW.Start_Date <= SYSDATE AND :NEW.End_Date >= SYSDATE THEN
-        :NEW.Order_Status := 'Активен';
-    END IF;
-
-    -- Обновляем статус заказа на "Завершен" для заказов, которые завершились.
-    IF :NEW.End_Date < SYSDATE THEN
-        :NEW.Order_Status := 'Завершен';
-    END IF;
-END;
+    INSERT INTO Orders (Order_id, Start_Date, End_Date, Customer_ID, Car_id, Status_id)
+    VALUES (Order_id_sequence.NEXTVAL, p_Start_Date, p_End_Date, p_Customer_ID, p_Car_id, p_Status_id);
+    
+    COMMIT;
+EXCEPTION
+    WHEN OTHERS THEN
+        ROLLBACK;
+        RAISE;
+END InsertOrder;
 /
 
--- Создание представления OrderCustomerView
-CREATE OR REPLACE VIEW OrderCustomerView AS
-SELECT o.Order_ID, o.Start_Date, o.End_Date, c.First_Name, c.Last_Name
-FROM Orders o
-JOIN Customers c ON o.Customer_ID = c.Customer_ID;
-
--- Создание индекса на столбце Customer_ID таблицы Orders
-CREATE INDEX IX_Orders_Customer_ID ON Orders (Customer_ID);
 
 
-
--- Создание последовательности для Car_ID
-CREATE SEQUENCE Car_ID_Seq START WITH 1 INCREMENT BY 1;
-
--- Создание последовательности для Customer_ID
-CREATE SEQUENCE Customer_ID_Seq START WITH 1 INCREMENT BY 1;
-
--- Создание последовательности для Order_ID
-CREATE SEQUENCE Order_ID_Seq START WITH 1 INCREMENT BY 1;
-
--- Создание последовательности для Payment_ID
-CREATE SEQUENCE Payment_ID_Seq START WITH 1 INCREMENT BY 1;

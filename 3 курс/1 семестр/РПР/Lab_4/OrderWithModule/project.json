@@ -1,7 +1,7 @@
 {
   "name": "OrderWithModule",
-  "projectId": "8c1df513-391c-4a67-a346-33dfe7f97857",
-  "description": "4-3\r\n",
+  "projectId": "202af18b-b2bf-4d4c-b533-4a736a167178",
+  "description": "4-3",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.22.0-preview]",
@@ -50,7 +50,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "b65c00e4-8964-488d-b981-87d9ebca5736",
+      "uniqueId": "23762293-f6d8-425a-a2d5-a3e99272cf84",
       "input": [],
       "output": []
     }

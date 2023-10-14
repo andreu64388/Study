@@ -19,6 +19,28 @@
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
+    },
+    {
+      "Path": "C:/Users/andry/AppData/Local/Programs/UiPath/Studio/Snippets/Windows/SnippetsVBasic/Samples/Calculator Automation.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "winFolder&Sequence_1",
+        "resultValue&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "C:/Users/andry/AppData/Local/Programs/UiPath/Studio/Snippets/Windows/SnippetsVBasic/Samples/Ping Monitor.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strPing&Flowchart_1",
+        "output&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
     }
   ]
 }

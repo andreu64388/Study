@@ -1,0 +1,4 @@
+﻿  OS05_02x.cpp
+E:\student\learn\3_course\1_sem\ОС\Lab_5\OS05_02x\OS05_02x.cpp(55,10): warning C4244: аргумент: преобразование "DWORD_PTR" в "int", возможна потеря данных
+E:\student\learn\3_course\1_sem\ОС\Lab_5\OS05_02x\OS05_02x.cpp(58,10): warning C4244: аргумент: преобразование "DWORD_PTR" в "int", возможна потеря данных
+  OS05_02x.vcxproj -> E:\student\learn\3_course\1_sem\ОС\Lab_5\OS05_01\x64\Debug\OS05_02x.exe

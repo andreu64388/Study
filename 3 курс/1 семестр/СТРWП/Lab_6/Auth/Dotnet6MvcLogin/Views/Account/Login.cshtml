@@ -1,0 +1,134 @@
+﻿@model Dotnet6MvcLogin.Models.DTO.LoginModel
+@{
+    Layout = null;
+}
+
+<style>
+   
+    a{
+          text-decoration: none;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+    }
+
+    .container {
+        margin: 10% auto;
+        width: 50%;
+        padding: 20px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-weight: bold;
+        display: block;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .text-danger {
+        color: red;
+    }
+
+    .text-info {
+        color: blue;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 10px 20px;
+        margin-right: 10px;
+        border: none;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+
+    .btn-info {
+        background-color: #009688; 
+        color: #fff;
+    }
+
+    .btn-primary {
+        font-size: 16px;
+        padding:0px;
+       margin:0;
+        border: none;
+        cursor: pointer;
+        border-radius: 0px;
+        background:none;
+    }
+
+
+    .btn-info:hover,
+    .btn-primary:hover {
+        opacity: 0.8;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+    .img{
+        width:40px;
+        height:40px;
+    }
+</style>
+
+<div class="container">
+    <h3 class="text-center">Login</h3>
+    <form asp-action="Login" method="post">
+        <div class="form-group">
+            <label>Email</label>
+            <input type="text" class="form-control" asp-for="Email" />
+            <span class="text-danger" asp-validation-for="Email"></span>
+        </div>
+
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" class="form-control" asp-for="Password" />
+            <span class="text-danger" asp-validation-for="Password"></span>
+        </div>
+
+        @if (TempData["msg"] != null)
+        {
+            <div class="form-group">
+                <span class="text-info">@TempData["msg"]</span>
+            </div>
+        }
+
+        <button type="submit" class="btn btn-info">Login</button>
+        <a class="btn btn-info" href="/Account/Register">Register</a>
+       
+
+    </form>
+<form asp-controller="Account" asp-action="ExternalLogin" asp-route-returnUrl="Google" method="post" role="form">
+    <div>
+        <p>
+            <button type="submit" class="btn btn-primary" name="provider" value="Google">
+                <img src="~/images/google.png" class="img" alt="Google" />
+            </button>
+        </p>
+    </div>
+</form>
+
+</div>

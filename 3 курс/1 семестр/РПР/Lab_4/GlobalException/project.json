@@ -1,6 +1,6 @@
 {
   "name": "GlobalException",
-  "projectId": "a61b3601-edf4-4dfb-b893-deb8822ae73e",
+  "projectId": "69d3590b-7fe7-450c-9050-0b80f516da33",
   "description": "4-2",
   "main": "Main.xaml",
   "dependencies": {
@@ -16,7 +16,7 @@
   "studioVersion": "23.8.0.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
-    "exceptionHandlerWorkflow": "Глобальныйобработчик.xaml",
+    "exceptionHandlerWorkflow": "GlobalHandler.xaml",
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
     "isPausable": true,
@@ -51,7 +51,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "e26e0eda-211d-472f-b9b2-afc9e639af7b",
+      "uniqueId": "082433db-214f-414c-9d0d-287e797add7d",
       "input": [],
       "output": []
     }

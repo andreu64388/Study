@@ -1,0 +1,12 @@
+E:\student\learn\3_course\1_sem\СТРWП\Lab_5\TelephoneDirectory_2\ContactRepository.DB\bin\Debug\net7.0\ContactRepository.DB.deps.json
+E:\student\learn\3_course\1_sem\СТРWП\Lab_5\TelephoneDirectory_2\ContactRepository.DB\bin\Debug\net7.0\ContactRepository.DB.dll
+E:\student\learn\3_course\1_sem\СТРWП\Lab_5\TelephoneDirectory_2\ContactRepository.DB\bin\Debug\net7.0\ContactRepository.DB.pdb
+E:\student\learn\3_course\1_sem\СТРWП\Lab_5\TelephoneDirectory_2\ContactRepository.DB\obj\Debug\net7.0\ContactRepository.DB.csproj.AssemblyReference.cache
+E:\student\learn\3_course\1_sem\СТРWП\Lab_5\TelephoneDirectory_2\ContactRepository.DB\obj\Debug\net7.0\ContactRepository.DB.GeneratedMSBuildEditorConfig.editorconfig
+E:\student\learn\3_course\1_sem\СТРWП\Lab_5\TelephoneDirectory_2\ContactRepository.DB\obj\Debug\net7.0\ContactRepository.DB.AssemblyInfoInputs.cache
+E:\student\learn\3_course\1_sem\СТРWП\Lab_5\TelephoneDirectory_2\ContactRepository.DB\obj\Debug\net7.0\ContactRepository.DB.AssemblyInfo.cs
+E:\student\learn\3_course\1_sem\СТРWП\Lab_5\TelephoneDirectory_2\ContactRepository.DB\obj\Debug\net7.0\ContactRepository.DB.csproj.CoreCompileInputs.cache
+E:\student\learn\3_course\1_sem\СТРWП\Lab_5\TelephoneDirectory_2\ContactRepository.DB\obj\Debug\net7.0\ContactRepository.DB.dll
+E:\student\learn\3_course\1_sem\СТРWП\Lab_5\TelephoneDirectory_2\ContactRepository.DB\obj\Debug\net7.0\refint\ContactRepository.DB.dll
+E:\student\learn\3_course\1_sem\СТРWП\Lab_5\TelephoneDirectory_2\ContactRepository.DB\obj\Debug\net7.0\ContactRepository.DB.pdb
+E:\student\learn\3_course\1_sem\СТРWП\Lab_5\TelephoneDirectory_2\ContactRepository.DB\obj\Debug\net7.0\ref\ContactRepository.DB.dll
