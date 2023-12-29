@@ -1,0 +1,83 @@
+{
+<<<<<<< HEAD:3 курс/1 семестр/РПР/Lab_3/MailActivities/project.json
+  "name": "MailActivities",
+  "projectId": "17964865-6559-4ca7-9402-6c21ffd896b7",
+  "description": "3-5",
+=======
+<<<<<<<< HEAD:3 курс/1 семестр/РПР/Lab_4/OrderWithModule/project.json
+  "name": "OrderWithModule",
+  "projectId": "202af18b-b2bf-4d4c-b533-4a736a167178",
+  "description": "4-3",
+========
+  "name": "MailActivities",
+  "projectId": "17964865-6559-4ca7-9402-6c21ffd896b7",
+  "description": "3-5",
+>>>>>>>> eacde637 (last):Course_3/Sem_1/RPR/Lab_3/MailActivities/project.json
+>>>>>>> eacde637 (last):Course_3/Sem_1/RPR/Lab_3/MailActivities/project.json
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Credentials.Activities": "[2.0.0]",
+    "UiPath.Excel.Activities": "[2.22.0-preview]",
+    "UiPath.Mail.Activities": "[1.20.3]",
+    "UiPath.System.Activities": "[23.8.1-preview]",
+    "UiPath.Testing.Activities": "[23.8.0-preview]",
+    "UiPath.UIAutomation.Activities": "[23.6.2-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.8.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+<<<<<<< HEAD:3 курс/1 семестр/РПР/Lab_3/MailActivities/project.json
+      "uniqueId": "50c7d4c1-262c-4661-9549-4c776d2cac6d",
+=======
+<<<<<<<< HEAD:3 курс/1 семестр/РПР/Lab_4/OrderWithModule/project.json
+      "uniqueId": "23762293-f6d8-425a-a2d5-a3e99272cf84",
+========
+      "uniqueId": "50c7d4c1-262c-4661-9549-4c776d2cac6d",
+>>>>>>>> eacde637 (last):Course_3/Sem_1/RPR/Lab_3/MailActivities/project.json
+>>>>>>> eacde637 (last):Course_3/Sem_1/RPR/Lab_3/MailActivities/project.json
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab5", "lab5\lab5.csproj", "{9051CA16-7F62-4C51-9F20-FB39D87161BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lec5Lib", "Lec5Lib\Lec5Lib.csproj", "{AC62175A-0DEC-46A0-B73F-9483C1AF3351}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9051CA16-7F62-4C51-9F20-FB39D87161BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9051CA16-7F62-4C51-9F20-FB39D87161BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9051CA16-7F62-4C51-9F20-FB39D87161BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9051CA16-7F62-4C51-9F20-FB39D87161BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC62175A-0DEC-46A0-B73F-9483C1AF3351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC62175A-0DEC-46A0-B73F-9483C1AF3351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC62175A-0DEC-46A0-B73F-9483C1AF3351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC62175A-0DEC-46A0-B73F-9483C1AF3351}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C9AD6EF-52F6-40DD-8070-0D6E9C5B5068}
+	EndGlobalSection
+EndGlobal

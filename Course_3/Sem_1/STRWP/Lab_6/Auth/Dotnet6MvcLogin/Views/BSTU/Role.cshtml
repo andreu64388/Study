@@ -1,0 +1,37 @@
+﻿@using Dotnet6MvcLogin.Models.Domain;
+@using Microsoft.AspNetCore.Identity;
+@model List<IdentityRole>
+
+
+@{
+    ViewBag.Title = "Role";
+}
+
+<h1>Role Management</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Role</th>
+      
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var role in Model)
+        {
+            <tr>
+                <td>
+                    <span class="display-mode">@role.Name</span>
+
+                </td>
+              
+                <td>
+                    
+                    <a asp-action="UpdateRole" asp-route-id="@role.Id" class="btn btn-success">Update</a>
+                    <a asp-action="DeleteRole" asp-route-id="@role.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

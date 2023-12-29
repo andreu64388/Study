@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="E:/Rubish/sqlite/cars.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="125"/><column_width id="3" width="2480"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,9:maincustomers"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="cars" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="2" mode="0"/></sort><column_widths><column index="1" value="63"/><column index="2" value="58"/><column index="3" value="70"/><column index="4" value="52"/><column index="5" value="52"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="customers" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="117"/><column index="2" value="103"/><column index="3" value="99"/><column index="4" value="219"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="orders" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="83"/><column index="2" value="117"/><column index="3" value="63"/><column index="4" value="105"/><column index="5" value="90"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">
+CREATE TABLE customers (
+    customer_id INTEGER PRIMARY KEY,
+    first_name TEXT NOT NULL,
+    last_name TEXT NOT NULL,
+    email TEXT UNIQUE NOT NULL
+);
+
+CREATE TABLE cars (
+    car_id INTEGER PRIMARY KEY,
+    make TEXT NOT NULL,
+    model TEXT NOT NULL,
+    year INTEGER NOT NULL,
+    price INTEGER NOT NULL
+);
+
+CREATE TABLE status (
+    status_id INTEGER PRIMARY KEY,
+    status_name TEXT NOT NULL
+);
+
+CREATE TABLE orders (
+    order_id INTEGER PRIMARY KEY,
+    customer_id INTEGER REFERENCES customers(customer_id),
+    car_id INTEGER REFERENCES cars(car_id),
+    order_date DATE NOT NULL,
+    status_id INTEGER REFERENCES status(status_id)
+);
+
+
+
+INSERT INTO customers (first_name, last_name, email) VALUES
+    ('Иван', 'Иванов', 'ivan@example.com'),
+    ('Мария', 'Петрова', 'maria@example.com'),
+    ('Алексей', 'Сидоров', 'alex@example.com');
+
+INSERT INTO cars (make, model, year, price) VALUES
+    ('Toyota', 'Camry', 2022, 25000),
+    ('Honda', 'Civic', 2021, 22000),
+    ('Ford', 'Mustang', 2023, 35000);
+
+
+INSERT INTO status (status_name) VALUES
+    ('В обработке'),
+    ('Выполнен'),
+    ('Отменен');
+
+
+INSERT INTO orders (customer_id, car_id, order_date, status_id) VALUES
+    (1, 1, '2023-01-15', 1),
+    (2, 2, '2023-02-20', 2),
+    (3, 3, '2023-03-25', 1);
+
+
+UPDATE customers SET first_name = 'Новое Имя' WHERE customer_id = 1;
+COMMIT;
+
+
+SELECT * FROM customers;
+
+CREATE VIEW customer_order_view AS
+SELECT
+    o.order_id,
+    c.first_name || ' ' || c.last_name AS customer_name,
+    ca.make || ' ' || ca.model AS car_info,
+    o.order_date,
+    s.status_name
+FROM
+    orders o
+    JOIN customers c ON o.customer_id = c.customer_id
+    JOIN cars ca ON o.car_id = ca.car_id
+    JOIN status s ON o.status_id = s.status_id;
+
+
+SELECT * FROM customer_order_view;
+
+
+CREATE INDEX idx_customers_email ON customers (email);
+
+
+CREATE INDEX idx_cars_make ON cars (make);
+CREATE INDEX idx_cars_model ON cars (model);
+
+
+
+CREATE TRIGGER update_order_date
+AFTER UPDATE ON orders
+FOR EACH ROW
+WHEN NEW.status_id &lt;&gt; OLD.status_id
+BEGIN
+    UPDATE orders
+    SET order_date = CURRENT_DATE
+    WHERE order_id = NEW.order_id;
+END;
+
+UPDATE orders
+SET status_id = 2
+WHERE order_id = 3;
+
+SELECT * from orders;
+
+SELECT * FROM orders WHERE order_id = 3;
+</sql><sql name="SQL 2"></sql><current_tab id="0"/></tab_sql></sqlb_project>

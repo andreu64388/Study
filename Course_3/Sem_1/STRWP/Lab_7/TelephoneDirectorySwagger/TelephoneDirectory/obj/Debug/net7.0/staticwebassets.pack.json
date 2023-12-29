@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\student\\learn\\3_course\\1_sem\\СТРWП\\Lab_7\\TelephoneDirectorySwagger\\TelephoneDirectory\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TelephoneDirectory.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TelephoneDirectory.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\student\\learn\\3_course\\1_sem\\СТРWП\\Lab_7\\TelephoneDirectorySwagger\\TelephoneDirectory\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\student\\learn\\3_course\\1_sem\\СТРWП\\Lab_7\\TelephoneDirectorySwagger\\TelephoneDirectory\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.TelephoneDirectory.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.TelephoneDirectory.props",
+      "PackagePath": "build\\TelephoneDirectory.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.TelephoneDirectory.props",
+      "PackagePath": "buildMultiTargeting\\TelephoneDirectory.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.TelephoneDirectory.props",
+      "PackagePath": "buildTransitive\\TelephoneDirectory.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,976 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  /* учитывает отступы */
+}
+
+.none {
+  display: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 300;
+  color: #2c2b2b;
+  font-family: "Open Sans", sans-serif;
+  /* подключение шрифта */
+}
+
+html {
+  scroll-behavior: smooth; /*плавная прокрутка*/
+}
+
+a {
+  text-decoration: none;
+  /* отключение подчеркивания у ссылок */
+  color: inherit;
+  /* цвет наследуется у родителя (белый) */
+  display: inline-block;
+}
+
+.container {
+  max-width: 1200px;
+  /* максимум 1200,но на меньшем устройстве сколько влезет */
+  margin-left: auto;
+  margin-right: auto;
+  /* выравнивание по центру */
+  padding-left: 10px;
+  padding-right: 10px;
+  /* внутренние отступы */
+}
+
+.header {
+  background-image: url("../images/decor/header_bg.jpg");
+  /* фоновая картинка хедера */
+  background-repeat: no-repeat;
+  /* чтобы картинка не повторялась */
+  background-size: cover;
+  /* растягивание картинки */
+  background-position: top center;
+  /* выравнивание фона */
+  min-height: 700px;
+  /* чтобы картинка фона не вылезала за блок */
+  color: #fff;
+  /* белый цвет для всего хедера */
+}
+
+.header__top {
+  padding: 47px 0 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+}
+
+/* отступы между ссылками меню */
+.link {
+  margin-left: 30px;
+}
+
+.menu_ {
+  display: none;
+}
+
+.phone {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.header__content {
+  position: relative;
+}
+
+.header__title {
+  padding-top: 60px;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 107px;
+  text-transform: uppercase;
+}
+
+.header-arrow {
+  position: absolute;
+
+  width: 48px;
+  height: 48px;
+  bottom: 0px;
+  left: 25%;
+}
+
+.header__subtitle {
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.header__text {
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 37px;
+}
+
+/* Анимация кнопки при наведении */
+.button:hover {
+  color: #5a0d67;
+  background-color: #fff;
+}
+/* кнопка */
+.button {
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  padding: 14px 54px 15px;
+  background-color: #020966;
+  transition: all.5s;
+}
+
+.header__images {
+  position: absolute;
+  right: 0;
+  bottom: -300px;
+}
+
+.services {
+  padding-top: 350px;
+}
+
+.title {
+  color: #21062a;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 53px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+
+  position: relative;
+}
+
+/* для линий около заголовков */
+.title::after {
+  content: "";
+  width: 80px;
+  height: 3px;
+  background-color: #2c2b2b;
+  position: absolute;
+  top: 25px;
+  margin-left: 20px;
+}
+
+.services__inner {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.services__content {
+  width: 505px;
+  margin-right: 96px;
+}
+
+.services__content-textbox {
+  margin-bottom: 57px;
+}
+.services__content-title {
+  color: #11319c;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 300;
+  margin-bottom: 12px;
+}
+
+.services__content-text {
+  margin-bottom: 12px;
+}
+
+.buttom-dec {
+  margin-top: 50px;
+  color: #fff;
+}
+
+.button-dec:hover {
+  color: #11319c;
+}
+
+.services__list {
+  list-style: none;
+  counter-reset: my-counter;
+}
+
+.services__item {
+  counter-increment: my-counter;
+  border: 1px solid #c4c4c4;
+  margin-bottom: 12px;
+  width: 460px;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 113px;
+  position: relative;
+  transition: all.5s;
+}
+.services__item:hover {
+  border: 5px solid #11319c;
+
+  cursor: pointer;
+}
+
+.services__item:hover .services__item-title {
+  color: #11319c;
+}
+
+.services__item::before {
+  content: counter(my-counter);
+  position: absolute;
+  left: 20px;
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: 400;
+  color: #c4c4c4;
+}
+
+.services__item-title {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.benefits {
+  margin-bottom: 100px;
+}
+
+.benefits__inner {
+  display: flex;
+}
+
+.benefits__images {
+  margin-right: 95px;
+}
+
+.benefits__content {
+  width: 100%;
+  color: #fff;
+}
+
+.benefits__title {
+  padding-left: 185px;
+}
+
+.benefits__list {
+  list-style: none;
+  background-color: #11319c;
+  padding: 25px 0 25px 185px;
+}
+
+.benefits__item {
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+.benefits__item-num {
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 53px;
+}
+
+.benefits__item-title {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.benefits__item-text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  color: #c4c4c4;
+}
+
+/* карточки машин */
+
+.shop {
+  padding-top: 80px;
+  padding-bottom: 115px;
+}
+
+.shop__header {
+  padding-bottom: 70px;
+  margin: 0;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 130%;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.shop__cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+}
+
+.card {
+  margin-bottom: 30px;
+
+  max-width: 540px;
+
+  background-color: white;
+
+  transition: transform 0.2s ease-in;
+}
+
+.card:hover {
+  transform: translateY(-15px);
+}
+
+.card-link {
+  padding: 20px;
+
+  text-decoration: none;
+  display: block;
+
+  color: black;
+
+  transition: color 0.2s ease-in;
+}
+
+.card-link:hover {
+  color: rgb(39, 91, 236);
+}
+
+.card:last-child,
+.card:nth-last-child(2) {
+  margin-bottom: 0;
+}
+
+.card-img {
+  margin-bottom: 20px;
+}
+
+.card-title {
+  margin: 0;
+  margin-bottom: 13px;
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 130%;
+}
+
+.card p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 130%;
+}
+
+/* footer */
+
+footer {
+  background: #11319c;
+  color: white;
+
+  padding-top: 45px;
+  padding-bottom: 129px;
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+
+.footer-copyright {
+  color: #7e9ec9;
+  line-height: 1.3;
+  max-width: 350px;
+  flex-grow: 1;
+}
+
+.footer-copyright-name {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 1.3;
+
+  margin-bottom: 15px;
+}
+
+.footer-copyright p {
+  margin: 0;
+  margin-bottom: 15px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.footer-icons {
+  max-width: 350px;
+}
+
+.footer-icons p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130%;
+}
+
+.footer-icons-row {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-contacts {
+  max-width: 350px;
+  flex-grow: 1;
+}
+
+.footer-contacts p {
+  margin: 15px 0;
+
+  font-size: 16px;
+  line-height: 130%;
+
+  color: #7e9ec9;
+
+  letter-spacing: -1px;
+}
+
+.footer-button-vk {
+  display: inline-block;
+
+  border: 3px solid #ffffff;
+  border-radius: 50px;
+
+  height: 50px;
+  color: white;
+
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 11px;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 130%;
+
+  text-transform: uppercase;
+
+  text-decoration: none;
+
+  transition: all 0.2s ease-in;
+}
+
+.footer-button-vk:hover {
+  background-color: white;
+  color: #11319c;
+}
+
+/* car */
+
+.project {
+  padding-bottom: 36px;
+  padding-top: 80px;
+  color: #000000;
+}
+
+.project__title {
+  color: #21062a;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 53px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+
+  position: relative;
+}
+
+.project-img {
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.project__inner {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.project__content {
+  width: 505px;
+  margin-right: 96px;
+}
+
+.project__content-textbox {
+  margin-bottom: 57px;
+}
+.project__content-title {
+  color: #11319c;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 300;
+  margin-bottom: 12px;
+}
+
+.project__content-text {
+  margin-bottom: 12px;
+}
+
+.button_back {
+  text-align: center;
+}
+
+.project-button-back {
+  border: 3px solid #275bec;
+  border-radius: 50px;
+
+  height: 60px;
+  color: #275bec;
+
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 18px;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 130%;
+
+  text-transform: uppercase;
+
+  text-decoration: none;
+
+  transition: all 0.2s ease-in;
+}
+
+.project-button-back:hover {
+  background-color: #275bec;
+  color: white;
+}
+
+.transparent {
+  position: relative;
+  max-width: 400px;
+  max-height: 500px;
+  padding: 60px 50px;
+  margin: 0 auto;
+  background-color: #11319c;
+  background-size: cover;
+  border-radius: 30px;
+}
+
+.form-inner {
+  position: relative;
+}
+.form-inner h3 {
+  position: relative;
+  margin-top: 0;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+.form-inner label {
+  display: block;
+  padding-left: 15px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.form-inner input {
+  display: block;
+  width: 100%;
+  padding: 0 15px;
+  margin: 10px 0 15px;
+  border-width: 0;
+  line-height: 40px;
+  border-radius: 20px;
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  font-family: "Roboto", sans-serif;
+}
+.form-inner input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+}
+#custom-checkbox + label {
+  position: relative;
+  margin: 20px 0;
+  text-transform: none;
+  cursor: pointer;
+}
+#custom-checkbox + label:before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: text-top;
+  background: white;
+}
+#custom-checkbox:checked + label:before {
+  background: #1762ee;
+}
+#custom-checkbox:checked + label:after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  left: 20px;
+  top: 14px;
+  background: white;
+  box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white,
+    4px -6px 0 white, 4px -8px 0 white;
+  transform: rotate(45deg);
+}
+
+/* кнопка открытия чата*/
+.open-button {
+  background-color: #020966;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.6;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 100px;
+  z-index: 1;
+  border-radius: 25px;
+}
+
+/* Всплывающий чат - скрыт по умолчанию */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Добавление стилей в контейнер формы */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Полноразмерная текстовая область */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+  border-radius: 25px;
+}
+
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+  border-radius: 25px;
+}
+
+/* Добавьте красный цвет фона к кнопке отмена */
+.form-container .cancel {
+  background-color: blue;
+}
+
+/* Добавьте некоторые эффекты наведения на кнопки */
+.form-container .btn:hover,
+.open-button:hover {
+  opacity: 1;
+}
+
+.sec {
+  display: flex;
+  justify-content: center;
+}
+
+.button__submit,
+.tick {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.button__submit {
+  width: 240px;
+  height: 80px;
+  background: #11319c;
+  border-radius: 6px;
+  transition: all 0.3s cubic-bezier(0.67, 0.17, 0.4, 0.83);
+}
+
+.button__submit svg {
+  transform: rotate(180deg);
+  transition: all 0.5s;
+}
+
+.button__circle {
+  width: 90px;
+  height: 80px;
+  background: mediumseagreen;
+  border-radius: 50%;
+  transform: rotate(-180deg);
+}
+
+.button__submit:hover {
+  cursor: pointer;
+}
+
+.tick {
+  color: white;
+  font-size: 2em;
+  transition: all 0.9s;
+}
+
+/* 
+
+  .slider-next {
+    background: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: .9rem;
+    
+}
+
+button:hover {
+    background: blue;
+}
+
+button:active {
+    background: black;
+    color: #fff;
+}
+
+
+
+.slider {
+    
+    width: 650px;
+    height: 400px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.slider-line {
+    width: 3250px;
+    height: 400px;
+    display: flex;
+    
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+    
+} */
+
+/* <section class="contacts" id="Contacts"
+   >
+
+      <div class="container">
+         <div class="contacts__row">
+         <div class="contacts__column">
+            <div class="contacts__title">
+               <h2>Контакты</h2>
+            </div>
+            <div class="contacts__text">
+               <p>Адрес: г. Москва, ул. Ленина, д. 1</p>
+               <p>Телефон: +7(999)999-99-99</p>
+               <p>Почта:
+                  <a href="mailto:  
+                  ">
+                  @mail.ru
+                  </a>
+               </p>
+            </div>
+         </div>
+
+         <div class="contacts__column">
+            <div class="contacts__title">
+               <h2>Связаться с нами</h2>
+            </div>
+            <div class="contacts__form">
+               <form action="">
+                  <input type="text" placeholder="Ваше имя">
+                  <input type="email" placeholder="Ваша почта">
+                  <textarea name="" id="" cols="30" rows="10" placeholder="Ваше сообщение"></textarea>
+                  <button class="button">Отправить</button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </section>
+*/
+
+.contacts {
+  padding: 100px 0;
+  background-color: #f2f2f2;
+}
+
+.contacts__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contacts__column {
+  width: 50%;
+  text-align: center;
+}
+
+.contacts__title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  animation: fadeIn 1s ease-out;
+}
+
+.contacts__text {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  animation: slideInFromLeft 1s ease-out;
+}
+
+.contacts__form {
+  animation: slideInFromRight 1s ease-out;
+}
+
+.contacts__form input,
+.contacts__form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contacts__form input[type="text"],
+.contacts__form input[type="email"] {
+  height: 50px;
+}
+
+.contacts__form textarea {
+  height: 150px;
+  resize: none;
+}
+
+.contacts__form button {
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .contacts__column {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .contacts__title {
+    font-size: 30px;
+  }
+
+  .contacts__text {
+    font-size: 16px;
+  }
+
+  .contacts__form input,
+  .contacts__form textarea,
+  .contacts__form button {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contacts__title {
+    font-size: 24px;
+  }
+
+  .contacts__text {
+    font-size: 14px;
+  }
+
+  .contacts__form input,
+  .contacts__form textarea,
+  .contacts__form button {
+    font-size: 14px;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

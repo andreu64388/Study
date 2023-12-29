@@ -1,0 +1,31 @@
+﻿@model Dotnet6MvcLogin.Models.Domain.ApplicationUser
+
+<style>
+    /* Your existing styles */
+    .edit-mode {
+        display: none;
+    }
+</style>
+
+<h1>Edit User</h1>
+
+<form asp-action="UpdateUser" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="UserName"></label>
+        <input asp-for="UserName" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+
+    <!-- Add other fields as needed -->
+
+    <button type="submit" class="btn btn-primary">Update</button>
+    <a asp-action="User" class="btn btn-secondary">Cancel</a>
+</form>
+
+

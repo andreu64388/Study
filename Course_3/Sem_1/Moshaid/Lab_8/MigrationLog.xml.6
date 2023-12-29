@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<log>
+<record>
+  <date>2023-12-08T20:44:26.562247500Z</date>
+  <nanos>247500</nanos>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Capture
+Enterprise Capture
+Capture failed</message>
+  <param>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask.doOnlineEnterpriseCapture(FullMigrateTask.java:765)</param>
+  <param>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask.doCapture(FullMigrateTask.java:608)</param>
+  <param>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask.doMaskBasedActions(FullMigrateTask.java:407)</param>
+  <param>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask.doWork(FullMigrateTask.java:321)</param>
+  <param>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask.doWork(FullMigrateTask.java:154)</param>
+  <param>oracle.dbtools.raptor.backgroundTask.RaptorTask.call(RaptorTask.java:199)</param>
+  <param>java.base/java.util.concurrent.FutureTask.run(Unknown Source)</param>
+  <param>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask.run(RaptorTaskManager.java:702)</param>
+  <param>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)</param>
+  <param>java.base/java.util.concurrent.FutureTask.run(Unknown Source)</param>
+  <param>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</param>
+  <param>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</param>
+  <param>java.base/java.lang.Thread.run(Unknown Source)</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@393892bb</param>
+  <exception>
+    <message>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask$FullMigrateTaskException: Capture
+Enterprise Capture
+Capture failed</message>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>765</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>608</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>407</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2023-12-08T20:44:26.564242200Z</date>
+  <nanos>242200</nanos>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+  <message>Error:ORA-06550: Строка 1, столбец 14:
+PLS-00201: идентификатор 'SS2K5ALLPLATFORM.STAGECAPTURE' должен быть объявлен
+ORA-06550: Строка 1, столбец 7:
+PL/SQL: Statement ignored
+: FAILED : Database Migration : FAILED</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@1bdd29c6</param>
+
+</record>
+</log>

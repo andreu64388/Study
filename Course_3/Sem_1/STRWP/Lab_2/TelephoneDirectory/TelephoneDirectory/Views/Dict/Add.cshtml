@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Add contact";
+}
+
+<div class="container">
+    <h1 class="title">
+        Add form contact
+    </h1>
+    <div class="add_main">
+        <form asp-controller="Dict" asp-action="AddSave">
+            <p>Name</p>
+            <input type="text" placeholder="Name" name="Name"/>
+            <span></span>
+            <p>Contact</p>
+            <input type="text" placeholder="Contact" name="PhoneNumber"/>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</div>

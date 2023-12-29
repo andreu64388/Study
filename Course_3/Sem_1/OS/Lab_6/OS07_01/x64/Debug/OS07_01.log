@@ -1,0 +1,16 @@
+﻿  OS07_01.cpp
+E:\student\learn\3_course\1_sem\ОС\Lab_6\OS_Lab7\OS07_01\OS07_01.cpp(25,2): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+E:\student\learn\3_course\1_sem\ОС\Lab_6\OS_Lab7\OS07_01\OS07_01.cpp(28,3): error C2065: lock: необъявленный идентификатор
+E:\student\learn\3_course\1_sem\ОС\Lab_6\OS_Lab7\OS07_01\OS07_01.cpp(28,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "bts"
+E:\student\learn\3_course\1_sem\ОС\Lab_6\OS_Lab7\OS07_01\OS07_01.cpp(28,8): error C2065: bts: необъявленный идентификатор
+E:\student\learn\3_course\1_sem\ОС\Lab_6\OS_Lab7\OS07_01\OS07_01.cpp(28,12): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "check"
+E:\student\learn\3_course\1_sem\ОС\Lab_6\OS_Lab7\OS07_01\OS07_01.cpp(29,3): error C2065: jc: необъявленный идентификатор
+E:\student\learn\3_course\1_sem\ОС\Lab_6\OS_Lab7\OS07_01\OS07_01.cpp(29,6): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "CriticalSection"
+E:\student\learn\3_course\1_sem\ОС\Lab_6\OS_Lab7\OS07_01\OS07_01.cpp(29,6): error C2065: CriticalSection: необъявленный идентификатор
+E:\student\learn\3_course\1_sem\ОС\Lab_6\OS_Lab7\OS07_01\OS07_01.cpp(30,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+E:\student\learn\3_course\1_sem\ОС\Lab_6\OS_Lab7\OS07_01\OS07_01.cpp(38,2): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+E:\student\learn\3_course\1_sem\ОС\Lab_6\OS_Lab7\OS07_01\OS07_01.cpp(38,8): error C2065: lock: необъявленный идентификатор
+E:\student\learn\3_course\1_sem\ОС\Lab_6\OS_Lab7\OS07_01\OS07_01.cpp(38,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "btr"
+E:\student\learn\3_course\1_sem\ОС\Lab_6\OS_Lab7\OS07_01\OS07_01.cpp(38,13): error C2065: btr: необъявленный идентификатор
+E:\student\learn\3_course\1_sem\ОС\Lab_6\OS_Lab7\OS07_01\OS07_01.cpp(38,17): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "check"
+E:\student\learn\3_course\1_sem\ОС\Lab_6\OS_Lab7\OS07_01\OS07_01.cpp(39,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"

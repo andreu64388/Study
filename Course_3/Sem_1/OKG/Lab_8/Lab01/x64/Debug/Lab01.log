@@ -1,0 +1,3 @@
+﻿  ChildView.cpp
+E:\student\learn\3_course\1_sem\ОКГ\Lab_8\Lab01\ChildView.cpp(132,8): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  Lab01.vcxproj -> E:\student\learn\3_course\1_sem\ОКГ\Lab_8\x64\Debug\Lab09.exe

@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\student\\learn\\3_course\\1_sem\\СТРWП\\Lab_5\\TelephoneDirectory\\ContactRepository\\ContactRepository.csproj": {}
+  },
+  "projects": {
+    "E:\\student\\learn\\3_course\\1_sem\\СТРWП\\Lab_5\\TelephoneDirectory\\ContactRepository\\ContactRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\student\\learn\\3_course\\1_sem\\СТРWП\\Lab_5\\TelephoneDirectory\\ContactRepository\\ContactRepository.csproj",
+        "projectName": "ContactRepository",
+        "projectPath": "E:\\student\\learn\\3_course\\1_sem\\СТРWП\\Lab_5\\TelephoneDirectory\\ContactRepository\\ContactRepository.csproj",
+        "packagesPath": "C:\\Users\\andry\\.nuget\\packages\\",
+        "outputPath": "E:\\student\\learn\\3_course\\1_sem\\СТРWП\\Lab_5\\TelephoneDirectory\\ContactRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

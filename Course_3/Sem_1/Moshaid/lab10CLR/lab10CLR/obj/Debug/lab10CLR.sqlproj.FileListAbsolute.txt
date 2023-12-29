@@ -1,0 +1,10 @@
+C:\Users\Lenovo\source\repos\lab10CLR\lab10CLR\bin\Debug\lab10CLR.dacpac
+C:\Users\Lenovo\source\repos\lab10CLR\lab10CLR\bin\Debug\lab10CLR.dll
+C:\Users\Lenovo\source\repos\lab10CLR\lab10CLR\bin\Debug\lab10CLR.pdb
+C:\Users\Lenovo\source\repos\lab10CLR\lab10CLR\obj\Debug\lab10CLR.sqlproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\lab10CLR\lab10CLR\obj\Debug\lab10CLR.dll
+C:\Users\Lenovo\source\repos\lab10CLR\lab10CLR\obj\Debug\lab10CLR.pdb
+C:\Users\Lenovo\source\repos\lab10CLR\lab10CLR\obj\Debug\Model.xml
+C:\Users\Lenovo\source\repos\lab10CLR\lab10CLR\obj\Debug\refactor.xml
+C:\Users\Lenovo\source\repos\lab10CLR\lab10CLR\obj\Debug\postdeploy.sql
+C:\Users\Lenovo\source\repos\lab10CLR\lab10CLR\obj\Debug\predeploy.sql

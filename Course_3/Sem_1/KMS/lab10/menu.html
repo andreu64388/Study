@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <title>Меню</title>
+    <style>
+        body {
+            background-image: url('./images/photo_2023-09-21_11-36-29.jpg');
+            background-size: cover;
+            margin: 0; /* Убираем отступы по умолчанию */
+            font-family: Arial, sans-serif; /* Задаем шрифт */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            justify-content: center;
+            position: relative;
+        
+        }
+
+        .block{
+            position: fixed;
+            width: 100%;
+            top:50%;
+            z-index: -1;
+            
+            height: 100px;
+            background-color: green;
+        }
+        .menu-page {
+            text-align: center;
+            color: white; /* Задаем цвет текста */
+            padding: 50px;
+            max-width: 500px;
+            width: 100%;
+            height: 500px;
+            margin: 0 auto;
+            background-color: white;
+             display: flex;
+          
+            overflow: hidden;
+              flex-direction: column;
+            align-items: center;
+    
+            justify-content: center;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+
+        .student-info {
+            margin-top: 30px;
+        }
+
+        p {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu-page">
+        <h2>Меню</h2>
+        <ul>
+            <li><a href="theoretical.html">Теоретические сведения</a></li>
+            <li><a href="struct.html">Структура установки</a></li>
+            <li><a href="http://localhost:8360">Симулятор установки</a></li>
+            <li><a href="aboutme.html">Обо мне</a></li>
+        </ul>
+        <div class="student-info">
+            <p>Студент: Коренчук Андрей Васильевич</p>
+        </div>
+    </div>
+
+</body>
+</html>

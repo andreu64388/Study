@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="laba.local" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\student\\learn\\3_course\\1_sem\\СТРWП\\Lab_2\\TelephoneDirectory\\TelephoneDirectory\\obj\\Release\\net7\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Симулятор установки</title>
+    <style>
+        body {
+            background-image: url('./images/photo_2023-09-21_11-36-29.jpg');
+            background-size: cover;
+            margin: 0; /* Убираем отступы по умолчанию */
+            font-family: Arial, sans-serif; /* Задаем шрифт */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            justify-content: center;
+            position: relative;
+          
+        
+        }
+
+        .block{
+            position: fixed;
+            width: 100%;
+            top:50%;
+            z-index: -1;
+            filter: blur(10px);
+            height: 100px;
+            background-color: black;
+        }
+        .title-page {
+              z-index:1000;
+            
+            text-align: center;
+            color: white; /* Задаем цвет текста */
+            padding: 50px;
+            max-width: 500px;
+            width: 100%;
+            height: 500px;
+            margin: 0 auto;
+            background-color: black;
+             display: flex;
+                border-radius: 100%;
+            overflow: hidden;
+              flex-direction: column;
+            align-items: center;
+    
+            justify-content: center;
+         opacity: 0; /* Начальное значение прозрачности */
+    transform: translateY(50px); /* Начальное положение по вертикали */
+    animation: fadeInUp 1s ease-out forwards; /* Применяем анимацию */
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+        h1 {
+            font-size: 2em; /* Задаем размер заголовка */
+        }
+
+        p {
+            font-size: 1.2em; /* Задаем размер текста */
+            margin-bottom: 20px; /* Добавляем отступ снизу */
+        }
+
+        button {
+            background-color: #4CAF50; /* Задаем цвет кнопки */
+            color: white; /* Задаем цвет текста на кнопке */
+            padding: 10px 20px; /* Задаем внутренние отступы кнопки */
+            font-size: 1em; /* Задаем размер текста на кнопке */
+            text-decoration: none; /* Убираем подчеркивание текста на кнопке */
+            border: none; /* Убираем границы кнопки */
+            cursor: pointer; /* Делаем курсор указателя при наведении на кнопку */
+        }
+
+        button:hover {
+            background-color: #45a049; /* Задаем цвет кнопки при наведении */
+        }
+    </style>
+</head>
+<body>
+<div class="block"></div>
+    <div class="title-page">
+        <h1>Симулятор установки</h1>
+        <p>Автор: Коренчук Андрей Васильевич</p>
+        <a href="menu.html"><button>Перейти к основному содержанию</button></a>
+    </div>
+
+</body>
+</html>

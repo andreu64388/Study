@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "Sn+v2HNHrdOuMh5VZA61pBzMtSAuRXGtYrRSlVSzO9Q=",
+  "Source": "TelephoneDirectory",
+  "BasePath": "_content/TelephoneDirectory",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TelephoneDirectory\\wwwroot",
+      "Source": "TelephoneDirectory",
+      "ContentRoot": "E:\\student\\learn\\3_course\\1_sem\\СТРWП\\Lab_7\\TelephoneDirectorySwagger\\TelephoneDirectory\\wwwroot\\",
+      "BasePath": "_content/TelephoneDirectory",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\student\\learn\\3_course\\1_sem\\СТРWП\\Lab_7\\TelephoneDirectorySwagger\\TelephoneDirectory\\obj\\Debug\\net7.0\\scopedcss\\bundle\\TelephoneDirectory.styles.css",
+      "SourceId": "TelephoneDirectory",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\student\\learn\\3_course\\1_sem\\СТРWП\\Lab_7\\TelephoneDirectorySwagger\\TelephoneDirectory\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/TelephoneDirectory",
+      "RelativePath": "TelephoneDirectory.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\student\\learn\\3_course\\1_sem\\СТРWП\\Lab_7\\TelephoneDirectorySwagger\\TelephoneDirectory\\obj\\Debug\\net7.0\\scopedcss\\bundle\\TelephoneDirectory.styles.css"
+    },
+    {
+      "Identity": "E:\\student\\learn\\3_course\\1_sem\\СТРWП\\Lab_7\\TelephoneDirectorySwagger\\TelephoneDirectory\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TelephoneDirectory.bundle.scp.css",
+      "SourceId": "TelephoneDirectory",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\student\\learn\\3_course\\1_sem\\СТРWП\\Lab_7\\TelephoneDirectorySwagger\\TelephoneDirectory\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/TelephoneDirectory",
+      "RelativePath": "TelephoneDirectory.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\student\\learn\\3_course\\1_sem\\СТРWП\\Lab_7\\TelephoneDirectorySwagger\\TelephoneDirectory\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TelephoneDirectory.bundle.scp.css"
+    },
+    {
+      "Identity": "E:\\student\\learn\\3_course\\1_sem\\СТРWП\\Lab_7\\TelephoneDirectorySwagger\\TelephoneDirectory\\wwwroot\\css\\site.css",
+      "SourceId": "TelephoneDirectory",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\student\\learn\\3_course\\1_sem\\СТРWП\\Lab_7\\TelephoneDirectorySwagger\\TelephoneDirectory\\wwwroot\\",
+      "BasePath": "_content/TelephoneDirectory",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "E:\\student\\learn\\3_course\\1_sem\\СТРWП\\Lab_7\\TelephoneDirectorySwagger\\TelephoneDirectory\\wwwroot\\js\\site.js",
+      "SourceId": "TelephoneDirectory",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\student\\learn\\3_course\\1_sem\\СТРWП\\Lab_7\\TelephoneDirectorySwagger\\TelephoneDirectory\\wwwroot\\",
+      "BasePath": "_content/TelephoneDirectory",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ]
+}

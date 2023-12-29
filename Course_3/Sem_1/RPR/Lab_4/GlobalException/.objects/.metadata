@@ -1,0 +1,15 @@
+﻿{
+  "Type": "Library",
+<<<<<<< HEAD:3 курс/1 семестр/РПР/Lab_4/SimpleTryCatch/.objects/.metadata
+  "Id": "Di738eiZ5kKmRbVyxjYr6w",
+  "Created": "2023-09-03T17:35:41.7586698Z",
+  "Updated": "2023-09-03T17:35:41.7586698Z",
+=======
+  "Id": "l5wa-o-2n0KAb6W9JcM4Ag",
+  "Created": "2023-09-03T17:47:14.1421041Z",
+  "Updated": "2023-09-03T17:47:14.1421041Z",
+>>>>>>> eacde637 (last):Course_3/Sem_1/RPR/Lab_4/GlobalException/.objects/.metadata
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.8.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

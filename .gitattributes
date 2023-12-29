@@ -1,1 +1,6 @@
 2[[:space:]]семестр/КМС/Laba_10/StandardAssets20184.unitypackage filter=lfs diff=lfs merge=lfs -text
+Course_3/Sem_1/OKG/Lab_5/lab6/lab6/Lab01/x64/Debug/Lab5.pch filter=lfs diff=lfs merge=lfs -text
+Course_3/Sem_1/OKG/Lab_3/Lab3_2/Lab01/x64/Debug/Lab03.pch filter=lfs diff=lfs merge=lfs -text
+Course_3/Sem_1/OKG/Lab_7/Lab01/x64/Debug/Lab08.pch filter=lfs diff=lfs merge=lfs -text
+Course_3/Sem_1/OKG/Lab_3/Lab3_2/Lab01/x64/Debug/Lab04.pch[[:space:]] filter=lfs diff=lfs merge=lfs -text
+Course_3/Sem_1/OKG/Lab_8/Lab01/x64/Debug/Lab09.pch filter=lfs diff=lfs merge=lfs -text

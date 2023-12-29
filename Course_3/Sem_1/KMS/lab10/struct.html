@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sp.css">
+    <title>Структура установки</title>  
+</head>
+<body>
+        
+<button id="toggleButton"></button>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="theoretical.html">Теоритические сведения</a></li>
+                <li><a href="struct.html">Структура установки</a></li>
+            <li><a href="http://localhost:8360">Симулятор установки</a></li>
+                <li><a href="aboutme.html">Обо мне</a></li>
+                 <li><a href="simulator.html">База знаний</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <h2>Структура установки</h2>
+        <div class="photo-container">
+            <div class="photo-item">
+                <p>Катушка индуктивности</p> 
+                <img src="./images/photo_2023-09-21_14-09-01.jpg" id="myImage" width="200" height="150" alt="Ракурс 1">
+            </div>
+            <div class="photo-item">
+                <p>Миллиамперметр</p>
+                <img src="./images/miliampermetr.jpg" id="myImage" width="200" height="150" alt="Ракурс 2">
+            </div>
+            <div class="photo-item">
+                <p>Реостат</p>
+                <img src="./images/reostat.jpg" id="myImage" width="200" height="150" alt="Ракурс 3">
+            </div>
+             <div class="photo-item">
+                <p>Тумблеры К1 и К2</p>
+                <img src="./images/tumbler.jpg" id="myImage" width="200" height="150" alt="Ракурс 2">
+            </div>
+             <div class="photo-item">
+                <p>Универсальный источник питания</p>
+                <img src="./images/powe.jpg" id="myImage" width="200" height="150" alt="Ракурс 2">
+            </div>
+             <div class="photo-item">
+                <p>Переключатель ПК</p>
+                <img src="./images/switch.jpg" id="myImage" width="200" height="150" alt="Ракурс 2">
+            </div>
+                <div class="photo-item">
+                <p>Tрансформатора тока</p>
+                <img src="./images/transformater.jpg" id="myImage" width="200" height="150" alt="Ракурс 2">
+            </div>
+            <div>
+       <h3>Озвученная карта назначения</h3>
+        <div id="animation_container" style="background-color:thistle;">
+			<button class="button1"></button>
+            <button class="button2"></button>
+            <button class="button3"></button>
+                   <button class="button4"></button>
+            <button class="button5"></button>
+                   <button class="button6"></button>
+            <button class="button7"></button>
+                   <button class="button8"></button>
+      
+            <img src="./images/photo_2023-09-21_11-36-29.jpg">
+            </div>
+        </div>
+        <h3>Анимационный ролик</h3>
+        <video width="600" height="400" controls >
+            <source src="video.avi.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        </div>
+        
+    </div></div>
+        
+ 
+
+    </div>
+
+      
+</body>
+
+<script>
+
+
+
+const button = document.querySelector(".button1");
+
+button.addEventListener("click", () => {
+	
+	var audio = new Audio('./sounds/https___apihostru_storage_temp_is_free_extra_651da81cf3907399757363wav.mp3');
+	audio.play();
+
+});
+
+const button1 = document.querySelector(".button2");
+
+button1.addEventListener("click", () => {
+	
+	var audio = new Audio('./sounds/https___apihostru_storage_temp_is_free_extra_651da9cc21040542607127wav.mp3');
+	audio.play();
+
+});
+
+
+const button2 = document.querySelector(".button3");
+
+button2.addEventListener("click", () => {
+
+	var audio = new Audio('./sounds/https___apihostru_storage_temp_is_free_extra_651da90ce21a4565144862wav.mp3');
+	audio.play();
+
+});
+const button3 = document.querySelector(".button4");
+
+button3.addEventListener("click", () => {
+
+	var audio = new Audio('./sounds/https___apihostru_storage_temp_is_free_extra_651da90ce21a4565144862wav.mp3');
+	audio.play();
+
+});
+const button4 = document.querySelector(".button5");
+
+button4.addEventListener("click", () => {
+
+	var audio = new Audio('./sounds/https___apihostru_storage_temp_is_free_extra_651da90ce21a4565144862wav.mp3');
+	audio.play();
+
+});
+const button5 = document.querySelector(".button6");
+
+button5.addEventListener("click", () => {
+
+	var audio = new Audio('./sounds/https___apihostru_storage_temp_is_free_extra_651da90ce21a4565144862wav.mp3');
+	audio.play();
+
+});
+const button6 = document.querySelector(".button7");
+
+button6.addEventListener("click", () => {
+
+	var audio = new Audio('./sounds/https___apihostru_storage_temp_is_free_extra_651da90ce21a4565144862wav.mp3');
+	audio.play();
+
+});
+const button7 = document.querySelector(".button8");
+
+button7.addEventListener("click", () => {
+	var audio = new Audio('./sounds/https___apihostru_storage_temp_is_free_extra_651da90ce21a4565144862wav.mp3');
+	audio.play();
+
+});
+
+
+function zoomIn() {
+    var image = document.getElementById('myImage');
+    image.style.transform = 'scale(2)'; 
+}
+</script>
+    <script>
+        // JavaScript для определения текущей страницы
+        document.addEventListener("DOMContentLoaded", function () {
+            var currentPage = window.location.pathname.split("/").pop(); // Получаем текущий путь страницы
+
+            // Проходим по всем ссылкам и добавляем класс "current-page" к активной странице
+            document.querySelectorAll("nav ul li a").forEach(function (link) {
+                if (link.getAttribute("href") === currentPage) {
+                    link.classList.add("current-page");
+                }
+            });
+        });
+    </script>
+        <script>
+     
+
+document.addEventListener('DOMContentLoaded', function () {
+    const toggleButton = document.getElementById('toggleButton');
+    const header = document.querySelector('header');
+
+    toggleButton.addEventListener('click', () => {
+        header.classList.toggle('header-visible');
+        toggleButton.innerText = header.classList.contains('header-visible') ? 'Open' : 'Close';
+    });
+
+
+    header.classList.add('header-visible');
+    toggleButton.innerText = 'Open';
+});
+
+
+
+</script>
+</script>
+
+</html>

@@ -1,0 +1,61 @@
+﻿@{
+    Layout = null;
+    string currentAction = ViewBag.CurrentAction;
+    string press = (string)ViewBag.press;
+
+    if (!String.IsNullOrEmpty(press))
+    {
+        switch (press)
+        {
+            case "+":
+                currentAction = "Sum";
+                break;
+            case "-":
+                currentAction = "Sub";
+                break;
+            case "*":
+                currentAction = "Mul";
+                break;
+            case "/":
+                currentAction = "Div";
+                break;
+            default:
+                currentAction = "Index";
+                break;
+        }
+    }
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Calc</title>
+</head>
+<body>
+@await Html.PartialAsync("CalcLink")
+    @if (currentAction == "Index")
+    {
+        <p>Please select an operation to perform.</p>
+    }
+    else
+    {
+        using (Html.BeginForm(currentAction, "Calc", FormMethod.Post))
+        {
+
+            @await Html.PartialAsync("Calc")
+            
+               <button type="submit" name="press" value="@press">@currentAction</button>
+        }
+    }
+
+    @if (!String.IsNullOrEmpty(ViewBag.Error))
+    {
+        <p>@ViewBag.Error</p>
+    }
+    @if (ViewBag.Result != null)
+    {
+        <p>Result: @ViewBag.Result</p>
+    }
+</body>
+</html>

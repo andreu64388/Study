@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>About Me</title>
+    <style>
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: thistle;
+  height: 100vh;
+  display: flex;
+}
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  width: 200px; /* Ширина хедера */
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%; /* Занимает всю высоту экрана */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-bottom: 15px; /* Расстояние между пунктами меню */
+}
+
+.content {
+  flex: 1; /* Занимает оставшееся пространство справа */
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+  padding-top: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #ccc;
+}
+
+.content {
+  width: 100%;
+  padding: 10px;
+  padding-top: 40px;
+  border-radius: 8px;
+  height: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  opacity: 0; /* Устанавливаем начальную прозрачность 0 */
+  animation: fadeInUp 0.4s ease-out forwards; /* Применяем анимацию */
+}
+
+/* Создаем keyframes для анимации появления */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(
+      -400px
+    ); /* Начальное положение по вертикали, например, -20px для смещения вверх */
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+#toggleButton {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 100;
+  background-color: black;
+  color: white;
+}
+.header-visible {
+  background-color: red;
+  width: 0%;
+  transform: translateX(-100px);
+  overflow: hidden;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.content .about{
+    display: flex;
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.content .about img {
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 10px;
+  border: 20px solid black; /* Начальный цвет бордера */
+  animation: borderAnimation 10s linear infinite; /* Анимация цвета бордера */
+}
+
+/* Создаем keyframes для анимации изменения цвета бордера */
+@keyframes borderAnimation {
+  0% {
+    border-color: black; /* Начальный цвет бордера */
+  }
+  25% {
+    border-color: red; /* Промежуточный цвет бордера */
+  }
+  50% {
+    border-color: blue; /* Промежуточный цвет бордера */
+  }
+  75% {
+    border-color: green; /* Промежуточный цвет бордера */
+  }
+  100% {
+    border-color: black; /* Конечный цвет бордера */
+  }
+}
+
+
+.content .about p{
+  width: 100%;
+  margin: 0 auto;
+
+}
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.6;
+  color: #555;
+}
+
+span {
+  cursor: pointer;
+  border-bottom: 1px dotted #007bff;
+  color: #007bff;
+  transition: color 0.3s;
+}
+
+span:hover {
+  color: #0056b3;
+}
+
+span img {
+  vertical-align: middle;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+.image-container {
+  width: 100px;
+  height: 50px;
+}
+
+#myImage {
+  transition: transform 0.5s;
+}
+   nav ul li a.current-page {
+            color: red;
+            font-weight: bold;
+        }
+#myImage:hover {
+  height: 170%;
+  width: 170%;
+}
+
+@media screen and (max-width: 600px) {
+  span img {
+    border-radius: 0;
+  }
+}
+
+    </style>
+</head>
+<body>
+      
+<button id="toggleButton"></button>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="theoretical.html">Теоретические сведения</a></li>
+                <li><a href="struct.html">Структура установки</a></li>
+                <li><a href="http://localhost:8360">Симулятор установки</a></li>
+                <li><a href="aboutme.html">Обо мне</a></li>
+                <li><a href="simulator.html">База знаний</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h2>Обо мне</h2>
+
+        
+        <div class="about">     <img src="images/300781635_1569309463485984_1448301887953358103_n.jpg">
+        <p>
+          Я, студент 3 курса 2 группы ИСиТ, Коренчук Андрей Васильевич, в качестве темы выбрал "ИЗУЧЕНИЕ ЦЕПИ ПЕРЕМЕННОГО
+ЭЛЕКТРИЧЕСКОГО ТОКА". На протияжении всех лабораторны работ изучал данную тему. Разработал модель установки в Blender,
+ создал соответствующие анимации и таблицы. Разработанный мною сайт позволяет разместить весь материал на страницах, 
+тем самым предоставить возможность другим студентам подробно изучить весь материал. На странице "Меню" расположены ссылки на другие страницы с 
+соответсвующим материалом. При переходе на страницу "Теоритические сведения" вам предоставится возможность больше узнать о принципе работы установки, изучить соответствующие формулы и переменного синусоидального электрического тока в цепи с последовательным
+116 МАГНЕТИЗМ
+соединением резистора. На странице "Структура установки" можно рассмотреть установку со всех ракурсов, там же находится анимационный ролик по принципу работы установки и озвученная карта. На странице 
+"Симулятор установки" был размещен основное проект, перенесенный из кроссплатформенной среды разработки Unity.
+        </p></div>
+   
+    </div>
+</body>
+    <script>
+        // JavaScript для определения текущей страницы
+        document.addEventListener("DOMContentLoaded", function () {
+            var currentPage = window.location.pathname.split("/").pop(); // Получаем текущий путь страницы
+
+            // Проходим по всем ссылкам и добавляем класс "current-page" к активной странице
+            document.querySelectorAll("nav ul li a").forEach(function (link) {
+                if (link.getAttribute("href") === currentPage) {
+                    link.classList.add("current-page");
+                }
+            });
+        });
+    </script>
+        <script>
+ document.addEventListener('DOMContentLoaded', function () {
+    const toggleButton = document.getElementById('toggleButton');
+    const header = document.querySelector('header');
+
+    toggleButton.addEventListener('click', () => {
+        header.classList.toggle('header-visible');
+        toggleButton.innerText = header.classList.contains('header-visible') ? 'Open' : 'Close';
+    });
+
+
+    header.classList.add('header-visible');
+    toggleButton.innerText = 'Open';
+});
+
+
+</script>
+</html>

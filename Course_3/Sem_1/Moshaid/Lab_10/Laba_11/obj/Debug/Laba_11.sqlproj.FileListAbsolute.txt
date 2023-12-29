@@ -1,0 +1,6 @@
+E:\student\learn\3_course\1_sem\МСХОиАД\Lab_10\Laba_11\bin\Debug\Laba_11.dacpac
+E:\student\learn\3_course\1_sem\МСХОиАД\Lab_10\Laba_11\bin\Debug\Laba_11.dll
+E:\student\learn\3_course\1_sem\МСХОиАД\Lab_10\Laba_11\bin\Debug\Laba_11.pdb
+E:\student\learn\3_course\1_sem\МСХОиАД\Lab_10\Laba_11\obj\Debug\Laba_11.sqlproj.AssemblyReference.cache
+E:\student\learn\3_course\1_sem\МСХОиАД\Lab_10\Laba_11\obj\Debug\Laba_11.dll
+E:\student\learn\3_course\1_sem\МСХОиАД\Lab_10\Laba_11\obj\Debug\Laba_11.pdb

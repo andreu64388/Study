@@ -1,0 +1,6 @@
+PROMPT Dropping user MIGRATE_MSSQL
+DROP USER MIGRATE_MSSQL CASCADE;
+
+PROMPT Dropping user Emulation
+DROP USER Emulation CASCADE;
+

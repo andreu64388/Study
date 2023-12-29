@@ -1,0 +1,52 @@
+﻿@{
+ 
+    ViewBag.Title = "User";
+}
+
+
+  
+<style>
+            
+    </style>
+
+    <h1>BSTU</h1>
+    <table>
+        <tr>
+            <th>Описание</th>
+            <th>Значение</th>
+        </tr>
+     
+        <tr>
+            <td>Текущий пользователь</td>
+            <td>@(!String.IsNullOrEmpty(User.Identity.Name) ? User.Identity.Name : "--")</td>
+        </tr>
+        <tr>
+            <td>Текущие роли пользователя</td>
+            <td>
+                @if (User.IsInRole("Administrator"))
+                {
+                    <text>Administrator</text>
+
+                    <br />
+                }
+                @if (User.IsInRole("Employer"))
+                {
+                    <text>Employer</text>
+
+                    <br />
+                }
+                @if (User.IsInRole("Guest"))
+                {
+                    <text>Guest</text>
+
+                    <br />
+                }
+            </td>
+        </tr>
+    </table>
+<div class="link">
+   
+ <
+</div>
+
+

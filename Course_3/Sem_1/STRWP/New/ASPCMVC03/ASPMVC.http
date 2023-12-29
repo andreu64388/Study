@@ -1,0 +1,22 @@
+﻿@hostname=localhost
+@port=7050
+
+###
+GET https://localhost:7050
+###
+GET https://localhost:7050/Start/Index
+###
+GET https://localhost:7050/Start/One
+###
+GET https://localhost:7050/Start/Two
+###
+GET https://localhost:7050/Start/Three
+###
+POST https://localhost:7050/Start/Index
+###
+POST https://localhost:7050/Start/One
+###
+POST http://localhost:7050/Start/Two
+###
+POST https://localhost:7050/Start/Three
+###

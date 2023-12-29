@@ -1,0 +1,14 @@
+﻿﻿@using Auth.Models.DTO
+@model ExternalLoginViewModel
+
+@{
+    ViewData["Title"] = "External Login";
+}
+
+<div class="text-center">
+    <h1> @ViewData["LoginProvider"]</h1>
+    <form asp-controller="Account" asp-action="ExternalLoginConfirmation" asp-route-returnUrl="@ViewData["ReturnUrl"]" method="post" role="form">
+        <input asp-for="Email" />
+        <button type="submit">Log in</button>
+    </form>
+</div>

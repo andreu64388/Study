@@ -1,0 +1,30 @@
+﻿@using Dotnet6MvcLogin.Models.Domain;
+@using Microsoft.AspNetCore.Identity;
+@model IdentityRole;
+
+<style>
+    /* Your existing styles */
+    .edit-mode {
+        display: none;
+    }
+</style>
+
+<h1>Edit Role</h1>
+
+<form asp-action="UpdateRole" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+
+    <
+
+    <!-- Add other fields as needed -->
+
+    <button type="submit" class="btn btn-primary">Update</button>
+    <a asp-action="User" class="btn btn-secondary">Cancel</a>
+</form>
+
+

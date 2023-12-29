@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Home Page</title>
+</head>
+<body>
+  <h1>Welcome to the Home Page</h1>
+  
+  <form action="/api/cars" method="post" class="car-form">
+    <label for="make">Make:</label>
+    <input type="text" id="make" name="make" required>
+    
+    <label for="model">Model:</label>
+    <input type="text" id="model" name="model" required>
+    
+    <label for="year">Year:</label>
+    <input type="number" id="year" name="year" required>
+    
+    <label for="price">Price:</label>
+    <input type="number" id="price" name="price" required>
+    
+    <button type="submit">Add Car</button>
+  </form>
+
+  <div class="navigation">
+    <a href="cars">Cars Page</a>
+    <a href="customers">Customers Page</a>
+  </div>
+</body>
+</html>

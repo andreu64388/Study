@@ -1,0 +1,37 @@
+﻿D:\Programs\Visual Studio Community 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (Lab04.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  LibBlade.cpp
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(119,33): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(119,29): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(119,25): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(119,20): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(124,37): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(124,32): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(124,27): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(124,21): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(213,75): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(213,58): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(213,41): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(213,24): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(218,75): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(218,58): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(218,41): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(218,24): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(223,75): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(223,58): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(223,41): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(223,24): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(228,75): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(228,58): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(228,41): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(228,24): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(234,33): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(234,20): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(252,39): warning C4838: Преобразование из "double" в "LONG" требует сужающего преобразования.
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(252,39): warning C4244: инициализация: преобразование "double" в "LONG", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(252,52): warning C4838: Преобразование из "double" в "LONG" требует сужающего преобразования.
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(252,52): warning C4244: инициализация: преобразование "double" в "LONG", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(252,67): warning C4838: Преобразование из "double" в "LONG" требует сужающего преобразования.
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(252,67): warning C4244: инициализация: преобразование "double" в "LONG", возможна потеря данных
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(252,80): warning C4838: Преобразование из "double" в "LONG" требует сужающего преобразования.
+D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\Lab01\LibBlade.cpp(252,80): warning C4244: инициализация: преобразование "double" в "LONG", возможна потеря данных
+  Lab01.vcxproj -> D:\_УЧЁБА_\Лабораторные\КГ (MathCad)\CG_Lab3.2\laba3\x64\Debug\Lab03.exe

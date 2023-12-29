@@ -1,0 +1,264 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: thistle;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+}
+input {
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 300px;
+  width: 100%;
+}
+
+.question-button {
+  margin: 0 auto;
+  max-width: 300px;
+  width: 100%;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: red;
+  color: white;
+}
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  width: 200px; /* Ширина хедера */
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%; /* Занимает всю высоту экрана */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-bottom: 15px; /* Расстояние между пунктами меню */
+}
+
+.content {
+  flex: 1; /* Занимает оставшееся пространство справа */
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+  padding-top: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #ccc;
+}
+
+.content {
+  width: 100%;
+  padding: 10px;
+  padding-top: 40px;
+  border-radius: 8px;
+  height: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  opacity: 0; /* Устанавливаем начальную прозрачность 0 */
+  animation: fadeInUp 0.4s ease-out forwards; /* Применяем анимацию */
+}
+
+/* Создаем keyframes для анимации появления */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(
+      -400px
+    ); /* Начальное положение по вертикали, например, -20px для смещения вверх */
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+#toggleButton {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 100;
+  background-color: black;
+  color: white;
+}
+.header-visible {
+  background-color: red;
+  width: 0%;
+  transform: translateX(-100px);
+  overflow: hidden;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.content .about {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content .about img {
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 10px;
+  border: 20px solid black; /* Начальный цвет бордера */
+  animation: borderAnimation 10s linear infinite; /* Анимация цвета бордера */
+}
+
+/* Создаем keyframes для анимации изменения цвета бордера */
+@keyframes borderAnimation {
+  0% {
+    border-color: black; /* Начальный цвет бордера */
+  }
+  25% {
+    border-color: red; /* Промежуточный цвет бордера */
+  }
+  50% {
+    border-color: blue; /* Промежуточный цвет бордера */
+  }
+  75% {
+    border-color: green; /* Промежуточный цвет бордера */
+  }
+  100% {
+    border-color: black; /* Конечный цвет бордера */
+  }
+}
+
+.content .about p {
+  width: 100%;
+  margin: 0 auto;
+}
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.6;
+  color: #555;
+}
+
+span {
+  cursor: pointer;
+  border-bottom: 1px dotted #007bff;
+  color: #007bff;
+  transition: color 0.3s;
+}
+
+span:hover {
+  color: #0056b3;
+}
+
+span img {
+  vertical-align: middle;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+.image-container {
+  width: 100px;
+  height: 50px;
+}
+  table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: auto;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+#myImage {
+  transition: transform 0.5s;
+}
+nav ul li a.current-page {
+  color: red;
+  font-weight: bold;
+}
+#myImage:hover {
+  height: 170%;
+  width: 170%;
+}
+
+@media screen and (max-width: 600px) {
+  span img {
+    border-radius: 0;
+  }
+}
+
+h6 {
+  font-size: 20px;
+}
+
+.wrapper-answer {
+  margin-top: 10px;
+  background-color: black;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 10px;
+  color: white;
+  min-height: 100px;
+}

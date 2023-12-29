@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <style>
+        a{
+            text-decoration:none;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #337ab7;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        .container-fluid {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            margin:0 !important;
+        }
+
+        ul.navbar-nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+            ul.navbar-nav li {
+                margin-right: 20px;
+            }
+
+                ul.navbar-nav li:last-child {
+                    margin-right: 0;
+                }
+
+                ul.navbar-nav li a {
+                    text-decoration: none;
+                    color: #fff;
+                }
+
+        .container {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            padding: 20px;
+        }
+
+        .logout-btn {
+            background-color: #d9534f;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+            .logout-btn:hover {
+                background-color: #c9302c;
+            }
+
+            .wrapper{
+                padding:10px;
+            }
+    </style>    
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a asp-action="Display" asp-controller="Dashboard">Home</a>
+                </li>
+              <li>
+                    <a asp-action="Index" asp-controller="BSTU">BSTU</a>
+                </li>
+                @if (User.IsInRole("Administrator"))
+                {   
+                    <li>
+                        Admin :)
+                    </li>
+                }
+               
+            </ul>
+
+                @if (!string.IsNullOrEmpty(User.Identity.Name))
+                {
+
+                    <a asp-action="Logout" asp-controller="Account" class="logout-btn">Logout</a>
+                }
+        
+        </div>
+    </nav>
+
+    @RenderSection("scripts", required: false)
+    <div class="wrapper">
+         @RenderBody()
+    </div>
+</body>
+</html>

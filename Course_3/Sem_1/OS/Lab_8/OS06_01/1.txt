@@ -1,0 +1,16 @@
+--------------------------------------  TASK 1  --------------------------------------
+
+wmic memorychip get banklabel, capacity, speed, manufacturer, devicelocator, partnumber, configuredvoltage, serialnumber
+Ту же информацию можно посмотреть в AIDA64: Компьютер -> DMI -> Устройства памяти
+// Инфа о кэше ЦП:   wmic memcache get purpose, maxcachesize
+
+
+
+--------------------------------------  TASK 2  --------------------------------------
+
+Get-WmiObject -Class "Win32_PhysicalMemory"
+
+
+--------------------------------------  TASK 3  --------------------------------------
+
+systeminfo | findstr "памят"

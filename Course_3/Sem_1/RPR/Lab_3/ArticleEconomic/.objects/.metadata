@@ -1,0 +1,21 @@
+﻿{
+  "Type": "Library",
+<<<<<<< HEAD:3 курс/1 семестр/РПР/Lab_3/ArticleEconomic/.objects/.metadata
+  "Id": "eI_pz3jyP0WUWFpeMOWyNQ",
+  "Created": "2023-09-01T06:00:28.4749529Z",
+  "Updated": "2023-09-01T06:00:28.4749529Z",
+=======
+<<<<<<<< HEAD:3 курс/1 семестр/РПР/Lab_4/GlobalException/.objects/.metadata
+  "Id": "l5wa-o-2n0KAb6W9JcM4Ag",
+  "Created": "2023-09-03T17:47:14.1421041Z",
+  "Updated": "2023-09-03T17:47:14.1421041Z",
+========
+  "Id": "eI_pz3jyP0WUWFpeMOWyNQ",
+  "Created": "2023-09-01T06:00:28.4749529Z",
+  "Updated": "2023-09-01T06:00:28.4749529Z",
+>>>>>>>> eacde637 (last):Course_3/Sem_1/RPR/Lab_3/ArticleEconomic/.objects/.metadata
+>>>>>>> eacde637 (last):Course_3/Sem_1/RPR/Lab_3/ArticleEconomic/.objects/.metadata
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.8.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

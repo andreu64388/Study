@@ -1,0 +1,104 @@
+﻿@{
+}
+
+
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        text-align: center;
+        color: #337ab7;
+    }
+
+    table {
+        margin: 20px auto;
+        border-collapse: collapse;
+        width: 80%;
+    }
+
+    table, th, td {
+        border: 1px solid #ccc;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #337ab7;
+        color: white;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    div {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #337ab7;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+</style>
+
+<h1>FLT</h1>
+<table>
+    <tr>
+        <th>Описание</th>
+        <th>Значение</th>
+    </tr>
+    <tr>
+        <td>Текущий пользователь</td>
+        <td>@(!String.IsNullOrEmpty(User.Identity.Name) ? User.Identity.Name : "--")</td>
+    </tr>
+    <tr>
+        <td>Текущие роли пользователя</td>
+        <td>
+            @if (User.IsInRole("Administrator"))
+            {
+                <text>Administrator</text>
+
+            }
+            @if (User.IsInRole("Employer"))
+            {
+                <text>Employer</text>
+
+            }
+            @if (User.IsInRole("Guest"))
+            {
+                <text>Guest</text>
+
+
+            }
+        </td>
+    </tr>
+</table>
+
+<div>
+    @if (User.IsInRole("Employer") || User.IsInRole("Guest"))
+    {
+        <a asp-action="FLT_LV" asp-controller="FLT">FLT_LV</a> <br/>
+        <a asp-action="FLT_LU" asp-controller="FLT">FLT_LU</a><br/>
+        <a asp-action="FLT_LZ" asp-controller="FLT">FLT_LZ</a>
+
+        <br />
+    }
+    <a asp-action="Index" asp-controller="BSTU">BSTU/Index</a>
+</div>
+
+

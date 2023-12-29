@@ -1,10 +1,15 @@
 *.avi
 *.rar
 .vs
-2 семестр/КМС/Laba_10
-2 семестр/КМС/Laba_11/Laba_11
-2 семестр/КМС/Laba_12/Laba_12
-2 семестр/КМС/Laba_13/Laba_13
-2 семестр/КМС/Laba_10
-2 семестр/КМС/Laba_11/Laba_11
-2 семестр/КМС/Laba_13/Laba_13
+**/KMS/Laba_10
+**/KMS/Laba_11/Laba_11
+**/KMS/Laba_12/Laba_12
+**/KMS/Laba_13/Laba_13
+**/KMS/Laba_10
+**/KMS/Laba_11/Laba_11
+**/Laba_13/Laba_13
+Course_3/Sem_1/OKG/Lab_5/lab6/lab6/Lab01/x64/Debug/Lab5.pch
+Course_3/Sem_1/OKG/Lab_3/Lab3_2/Lab01/x64/Debug/Lab03.pch
+Course_3/Sem_1/OKG/Lab_7/Lab01/x64/Debug/Lab08.pch
+Course_3/Sem_1/OKG/Lab_3/Lab3_2/Lab01/x64/Debug/Lab04.pch 
+Course_3/Sem_1/OKG/Lab_8/Lab01/x64/Debug/Lab09.pch

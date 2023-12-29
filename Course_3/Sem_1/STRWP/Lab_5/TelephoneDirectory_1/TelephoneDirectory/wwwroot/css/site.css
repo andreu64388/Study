@@ -1,0 +1,163 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  background: #ff5722;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+table th, table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+table th {
+  background-color: #00796b;
+  color: #fff;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 5px;
+  border: none;
+  background-color: #00796b;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #005b51;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: #00796b;
+}
+
+.btn-danger {
+  background-color: #00796b;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+
+.add_main {
+  background-color: #fff;
+  padding: 24px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.add_main p {
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.add_main input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add_main button[type="submit"] {
+  background-color: #00796b;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add_main button[type="submit"]:hover {
+  background-color: #005b51;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.contact-details {
+  border: 1px solid #ccc;
+  padding: 12px;
+  margin-bottom: 24px;
+}
+
+.detail-row {
+  margin-bottom: 12px;
+}
+
+.detail-label {
+  font-weight: bold;
+}
+
+.detail-value {
+  margin-left: 12px;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: black;
+}

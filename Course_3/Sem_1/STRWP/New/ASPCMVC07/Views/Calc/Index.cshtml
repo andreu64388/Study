@@ -1,0 +1,101 @@
+﻿@{
+    Layout = null;
+    float? x = ViewBag.x;
+    float? y = ViewBag.y;
+    float? z = ViewBag.z;
+    string action = "Sum";
+    string press = (string)ViewBag.press;
+
+    if (!String.IsNullOrEmpty(press))
+    {
+        switch (press)
+        {
+            case "+":
+                action = "Sum";
+                break;
+            case "_":
+                action = "Sub";
+                break;
+            case "*":
+                action = "Mul";
+                break;
+            case "/":
+                action = "Div";
+                break;
+            default:
+                action = "Index";
+                break;
+        }
+    }
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Calc</title>
+    <style>
+        .calc-form {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <a href="#" class="operation-link" data-operation="sum">Sum</a>
+        <a href="#" class="operation-link" data-operation="sub">Sub</a>
+        <a href="#" class="operation-link" data-operation="mul">Mul</a>
+        <a href="#" class="operation-link" data-operation="div">Div</a>
+    </div>
+
+    <form id="sum-form" class="calc-form" method="post" action="@Url.Action("Sum", "Calc")">
+        <input type="text" name="x" placeholder="Number X" />
+        <input type="text" name="y" placeholder="Number Y" />
+        <input type="submit" name="press" value="+" />
+    </form>
+
+    <form id="sub-form" class="calc-form" method="post" action="@Url.Action("Sub", "Calc")">
+        <input type="text" name="x" placeholder="Number X" />
+        <input type="text" name="y" placeholder "Number Y" />
+        <input type="submit" name="press" value="-" />
+    </form>
+
+    <form id="mul-form" class="calc-form" method="post" action="@Url.Action("Mul", "Calc")">
+        <input type="text" name="x" placeholder="Number X" />
+        <input type="text" name="y" placeholder="Number Y" />
+        <input type="submit" name="press" value="*" />
+    </form>
+
+    <form id="div-form" class="calc-form" method="post" action="@Url.Action("Div", "Calc")">
+        <input type="text" name="x" placeholder="Number X" />
+        <input type="text" name="y" placeholder="Number Y" />
+        <input type="submit" name="press" value="/" />
+    </form>
+
+    <p>
+        @if (!String.IsNullOrEmpty(ViewBag.Error))
+        {
+            <span>@ViewBag.Error</span>
+        }
+        @if (ViewBag.Result != null)
+        {
+            <span>Result: @ViewBag.Result</span>
+        }
+    </p>
+
+    <script>
+        const operationLinks = document.querySelectorAll(".operation-link");
+        const calcForms = document.querySelectorAll(".calc-form");
+
+        operationLinks.forEach((link) => {
+            link.addEventListener("click", (e) => {
+                e.preventDefault();
+                const operation = link.getAttribute("data-operation");
+                calcForms.forEach((form) => {
+                    form.style.display = form.id === `${operation}-form` ? "block" : "none";
+                });
+            });
+        });
+    </script>
+</body>
+</html>
