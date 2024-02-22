@@ -3,11 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-<<<<<<< HEAD
-		{name:"test_atlas_1", frames: [[1433,786,249,132],[1684,919,248,130],[1433,1050,246,128],[1681,1179,244,126],[1433,1180,243,124],[1681,1051,245,126],[1433,1306,243,123],[1433,920,247,128],[1678,1307,241,121],[1026,786,405,572],[1684,786,249,131],[1026,452,926,332],[0,0,1024,495],[0,497,1024,495],[0,994,1024,495],[0,1491,1024,495],[1026,0,798,450]]}
-=======
-		{name:"test_atlas_1", frames: [[1433,1050,246,128],[1681,1179,244,126],[1433,1180,243,124],[1678,1307,241,121],[1681,1051,245,126],[1433,786,249,132],[1433,920,247,128],[1684,919,248,130],[1026,786,405,572],[1684,786,249,131],[1433,1306,243,123],[1026,452,926,332],[1026,0,798,450],[0,0,1024,495],[0,497,1024,495],[0,994,1024,495],[0,1491,1024,495]]}
->>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
+		{name:"test_atlas_1", frames: [[1681,1179,244,126],[1433,1050,246,128],[1433,920,247,128],[1684,919,248,130],[1433,1180,243,124],[1681,1051,245,126],[1433,786,249,132],[1684,786,249,131],[1678,1307,241,121],[1433,1306,243,123],[1026,786,405,572],[1026,452,926,332],[1026,0,798,450],[0,0,1024,495],[0,497,1024,495],[0,994,1024,495],[0,1491,1024,495]]}
 ];
 
 
@@ -141,121 +137,77 @@ lib.ssMetadata = [
 
 
 
-<<<<<<< HEAD
-(lib.CachedBmp_22 = function() {
-=======
-(lib.CachedBmp_20 = function() {
->>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
+(lib.CachedBmp_19 = function() {
 	this.initialize(ss["test_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-<<<<<<< HEAD
-(lib.CachedBmp_21 = function() {
-=======
-(lib.CachedBmp_19 = function() {
->>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
+(lib.CachedBmp_20 = function() {
 	this.initialize(ss["test_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-<<<<<<< HEAD
-(lib.CachedBmp_20 = function() {
-=======
-(lib.CachedBmp_16 = function() {
->>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
+(lib.CachedBmp_14 = function() {
 	this.initialize(ss["test_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-<<<<<<< HEAD
-(lib.CachedBmp_19 = function() {
-=======
-(lib.CachedBmp_17 = function() {
->>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
+(lib.CachedBmp_21 = function() {
 	this.initialize(ss["test_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-<<<<<<< HEAD
 (lib.CachedBmp_16 = function() {
-=======
-(lib.CachedBmp_15 = function() {
->>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 	this.initialize(ss["test_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-<<<<<<< HEAD
 (lib.CachedBmp_15 = function() {
-=======
-(lib.CachedBmp_22 = function() {
->>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 	this.initialize(ss["test_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-<<<<<<< HEAD
-(lib.CachedBmp_18 = function() {
-=======
-(lib.CachedBmp_14 = function() {
->>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
+(lib.CachedBmp_22 = function() {
 	this.initialize(ss["test_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-<<<<<<< HEAD
-(lib.CachedBmp_14 = function() {
-=======
-(lib.CachedBmp_21 = function() {
->>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
+(lib.CachedBmp_13 = function() {
 	this.initialize(ss["test_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-<<<<<<< HEAD
 (lib.CachedBmp_17 = function() {
-=======
-(lib.CachedBmp_23 = function() {
->>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 	this.initialize(ss["test_atlas_1"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-<<<<<<< HEAD
-(lib.CachedBmp_23 = function() {
-=======
-(lib.CachedBmp_13 = function() {
->>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
+(lib.CachedBmp_18 = function() {
 	this.initialize(ss["test_atlas_1"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-<<<<<<< HEAD
-(lib.CachedBmp_13 = function() {
-=======
-(lib.CachedBmp_18 = function() {
->>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
+(lib.CachedBmp_23 = function() {
 	this.initialize(ss["test_atlas_1"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
@@ -269,51 +221,35 @@ lib.ssMetadata = [
 
 
 
-<<<<<<< HEAD
-(lib.CachedBmp_4 = function() {
-=======
 (lib.CachedBmp_8 = function() {
->>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 	this.initialize(ss["test_atlas_1"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
-<<<<<<< HEAD
 (lib.CachedBmp_3 = function() {
-=======
-(lib.CachedBmp_4 = function() {
->>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 	this.initialize(ss["test_atlas_1"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
-<<<<<<< HEAD
-(lib.CachedBmp_1 = function() {
-=======
-(lib.CachedBmp_3 = function() {
->>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
+(lib.CachedBmp_2 = function() {
 	this.initialize(ss["test_atlas_1"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2 = function() {
+(lib.CachedBmp_4 = function() {
 	this.initialize(ss["test_atlas_1"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
-<<<<<<< HEAD
-(lib.CachedBmp_8 = function() {
-=======
 (lib.CachedBmp_1 = function() {
->>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
 	this.initialize(ss["test_atlas_1"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
@@ -593,15 +529,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-<<<<<<< HEAD
-		{src:"images/test_atlas_1.png?1676995835017", id:"test_atlas_1"},
-		{src:"sounds/Жук1.mp3?1676995835067", id:"Жук1"},
-		{src:"sounds/Жук2.mp3?1676995835067", id:"Жук2"}
-=======
-		{src:"images/test_atlas_1.png?1677532010785", id:"test_atlas_1"},
-		{src:"sounds/Жук1.mp3?1677532010811", id:"Жук1"},
-		{src:"sounds/Жук2.mp3?1677532010811", id:"Жук2"}
->>>>>>> 26290635e388230624d9f6ed673ae32d64783ced
+		{src:"images/test_atlas_1.png", id:"test_atlas_1"},
+		{src:"sounds/Жук2.mp3", id:"Жук2"},
+		{src:"sounds/Жук1.mp3", id:"Жук1"}
 	],
 	preloads: []
 };
