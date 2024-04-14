@@ -1,0 +1,168 @@
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.exe
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.deps.json
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.runtimeconfig.json
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.runtimeconfig.dev.json
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.dll
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\ref\SecondClien.dll
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.pdb
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.csproj.AssemblyReference.cache
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.GeneratedMSBuildEditorConfig.editorconfig
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.AssemblyInfoInputs.cache
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.AssemblyInfo.cs
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.csproj.CoreCompileInputs.cache
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.dll
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\obj\Debug\net5.0\ref\SecondClien.dll
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.pdb
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.genruntimeconfig.cache
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.dll.config
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\EntityFramework.dll
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.CodeDom.dll
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.Drawing.Common.dll
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.Security.Permissions.dll
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.Windows.Extensions.dll
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\DatabaseClasses.dll
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\Models.dll
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\DatabaseClasses.pdb
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\bin\Debug\net5.0\Models.pdb
+D:\Labs\2 sem\RIS\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.csproj.CopyComplete
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.exe
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.dll.config
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.deps.json
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.runtimeconfig.json
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.runtimeconfig.dev.json
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.dll
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\ref\SecondClien.dll
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.pdb
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\EntityFramework.dll
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.CodeDom.dll
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.Drawing.Common.dll
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.Security.Permissions.dll
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.Windows.Extensions.dll
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\DatabaseClasses.dll
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\Models.dll
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\DatabaseClasses.pdb
+D:\Рабочий стол\4-6\SecondClien\SecondClien\bin\Debug\net5.0\Models.pdb
+D:\Рабочий стол\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.csproj.AssemblyReference.cache
+D:\Рабочий стол\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.GeneratedMSBuildEditorConfig.editorconfig
+D:\Рабочий стол\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.AssemblyInfoInputs.cache
+D:\Рабочий стол\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.AssemblyInfo.cs
+D:\Рабочий стол\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.csproj.CoreCompileInputs.cache
+D:\Рабочий стол\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.csproj.CopyComplete
+D:\Рабочий стол\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.dll
+D:\Рабочий стол\4-6\SecondClien\SecondClien\obj\Debug\net5.0\ref\SecondClien.dll
+D:\Рабочий стол\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.pdb
+D:\Рабочий стол\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.genruntimeconfig.cache
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.exe
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.dll.config
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.deps.json
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.runtimeconfig.json
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.runtimeconfig.dev.json
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\ref\SecondClien.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.pdb
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\EntityFramework.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.CodeDom.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.Drawing.Common.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.Security.Permissions.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.Windows.Extensions.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\DatabaseClasses.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\Models.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\DatabaseClasses.pdb
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\Models.pdb
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.csproj.AssemblyReference.cache
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.GeneratedMSBuildEditorConfig.editorconfig
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.AssemblyInfoInputs.cache
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.AssemblyInfo.cs
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.csproj.CoreCompileInputs.cache
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.csproj.CopyComplete
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\obj\Debug\net5.0\ref\SecondClien.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.pdb
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.genruntimeconfig.cache
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.exe
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.dll.config
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.deps.json
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.runtimeconfig.json
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.runtimeconfig.dev.json
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\SecondClien.pdb
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\EntityFramework.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.CodeDom.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.Drawing.Common.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.Security.Permissions.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\System.Windows.Extensions.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\DatabaseClasses.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\Models.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\DatabaseClasses.pdb
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\bin\Debug\net5.0\Models.pdb
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.csproj.AssemblyReference.cache
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.GeneratedMSBuildEditorConfig.editorconfig
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.AssemblyInfoInputs.cache
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.AssemblyInfo.cs
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.csproj.CoreCompileInputs.cache
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.csproj.CopyComplete
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\obj\Debug\net5.0\refint\SecondClien.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.pdb
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\obj\Debug\net5.0\SecondClien.genruntimeconfig.cache
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\SecondClien\SecondClien\obj\Debug\net5.0\ref\SecondClien.dll

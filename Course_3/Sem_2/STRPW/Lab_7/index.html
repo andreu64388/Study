@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 500px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        #username {
+            flex-grow: 1;
+            margin-right: 10px;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 5px 10px;
+            border: none;
+            border-radius: 3px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        #messages-container {
+            height: 200px;
+            overflow-y: auto;
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+
+        #messages {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+            padding: 5px;
+            border-radius: 3px;
+            background-color: #f0f0f0;
+        }
+
+        #message {
+            width: calc(100% - 40px);
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Chat</h1>
+    <main>
+        <input type="text" id="username" placeholder="Enter your name"/>
+        <button id="joinButton" onclick="joinChat()">Join Chat</button>
+    </main>
+    <div id="messages-container">
+        <ul id="messages"></ul>
+    </div>
+    <input id="message" autocomplete="off" disabled>
+    <button id="sendButton" onclick="sendMessage()" disabled>Send</button>
+    <button id="leaveButton" onclick="leaveChat()" disabled>Leave Chat</button>
+</div>
+
+<script src="https://cdn.socket.io/4.1.2/socket.io.min.js"></script>
+<script>
+    let socket;
+    let messageListener;
+
+    const sendMessage = () => {
+        let message = document.getElementById('message').value.trim(); // Убираем лишние пробелы
+        if (message) {
+            socket.emit('message', message);
+            document.getElementById('message').value = '';
+        }
+    };
+
+    function joinChat() {
+        let username = document.getElementById('username').value.trim(); // Убираем лишние пробелы
+
+        if (username) {
+            socket = io('http://localhost:4000');
+
+            socket.on('connect', () => {
+                socket.emit('joinRoom', { username });
+                document.getElementById('message').removeAttribute('disabled');
+                document.getElementById('sendButton').removeAttribute('disabled');
+                document.getElementById('leaveButton').removeAttribute('disabled');
+                document.getElementById('joinButton').setAttribute('disabled', 'disabled');
+
+
+                messageListener = (data) => {
+                    console.log('Message from the server:', data);
+                    let messages = document.getElementById('messages');
+                    messages.innerHTML += `<li>${data.user}: ${data.text}</li>`;
+                    messages.scrollTop = messages.scrollHeight; 
+                };
+                socket.on('message', messageListener);
+            });
+        } else {
+            alert("Please enter your name before joining the chat.");
+        }
+    }
+
+    function leaveChat() {
+        socket.emit('leaveRoom');
+        document.getElementById('message').setAttribute('disabled', 'disabled');
+        document.getElementById('sendButton').setAttribute('disabled', 'disabled');
+        document.getElementById('leaveButton').setAttribute('disabled', 'disabled');
+        document.getElementById('joinButton').removeAttribute('disabled');
+
+
+        if (messageListener) {
+            socket.off('message', messageListener);
+        }
+    }
+</script>
+
+</body>
+</html>

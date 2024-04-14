@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turtles Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .turtle-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: flex-start;
+            padding: 20px;
+        }
+
+        .turtle-card {
+            width: calc(30% - 20px);
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .turtle-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .turtle-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .turtle-card-content {
+            padding: 15px;
+        }
+
+        .turtle-card h2 {
+            margin: 0;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .turtle-card p {
+            margin: 5px 0;
+            color: #666;
+        }
+
+        .pagination {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .pagination button {
+            padding: 10px 20px;
+            margin: 0 5px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .pagination button:hover {
+            background-color: #0056b3;
+        }
+
+        .pagination button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+<div class="turtle-container"></div>
+<div class="pagination">
+    <button id="prevButton" onclick="previousPage()" disabled>Previous</button>
+    <button id="nextButton" onclick="nextPage()" disabled>Next</button>
+</div>
+<script>
+    let currentPage = 0;
+    let totalPages = 0;
+    const turtlesPerPage = 3;
+
+    function displayTurtles(page, data) {
+        const startIndex = page * turtlesPerPage;
+        const endIndex = startIndex + turtlesPerPage;
+        const turtleContainer = document.querySelector('.turtle-container');
+        turtleContainer.innerHTML = ''; // Очищаем содержимое контейнера перед добавлением новых данных
+        data.slice(startIndex, endIndex).forEach(turtle => {
+            const turtleDiv = document.createElement('div');
+            turtleDiv.classList.add('turtle-card');
+            turtleDiv.innerHTML = `
+                    <img src="${turtle.image}" alt="${turtle.name}">
+                    <div class="turtle-card-content">
+                        <h2>${turtle.name}</h2>
+                        <p>Color: ${turtle.color}</p>
+                    </div>
+                `;
+            turtleContainer.appendChild(turtleDiv);
+        });
+
+        // Обновляем видимость кнопок Previous и Next
+        document.getElementById('prevButton').disabled = currentPage === 0;
+        document.getElementById('nextButton').disabled = currentPage === totalPages - 1;
+    }
+
+    function previousPage() {
+        if (currentPage > 0) {
+            currentPage--;
+            fetchTurtles(currentPage);
+        }
+    }
+
+    function nextPage() {
+        if (currentPage < totalPages - 1) {
+            currentPage++;
+            fetchTurtles(currentPage);
+        }
+    }
+
+    function fetchTurtles(page) {
+        fetch(`/api/turtles?page=${page}`)
+            .then(response => response.json())
+            .then(data => {
+                displayTurtles(page, data);
+            })
+            .catch(error => console.error('Error fetching turtles:', error));
+    }
+
+
+    window.onload = function() {
+        fetch('/api/turtles')
+            .then(response => response.json())
+            .then(data => {
+                totalPages = Math.ceil(data.length / turtlesPerPage);
+                fetchTurtles(currentPage);
+            })
+            .catch(error => console.error('Error fetching turtles:', error));
+    };
+</script>
+</body>
+</html>

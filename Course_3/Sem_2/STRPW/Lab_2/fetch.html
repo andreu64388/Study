@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02-05</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        h2 {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+<h1>ФИО: </h1>
+<h2 id="fio"></h2>
+<script>
+
+    const fio = document.getElementById("fio");
+
+    const getFio = async () => {
+        try {
+            const response = await fetch('http://localhost:5000/api/name');
+            const data = await response.text();
+            fio.textContent = data;
+        } catch (error) {
+            console.error('Error:', error);
+        }
+    }
+
+    getFio();
+</script>
+</body>
+</html>

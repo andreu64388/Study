@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03-03</title>
+</head>
+<body>
+<script>
+    let n = 1;
+    const start_time = Date.now();
+    const FactorialForTwenty = () => {
+
+        for (let k = 1; k <= 20; k++) {
+            fetch(`/fact?k=${k}`,
+                {
+                    method: 'GET',
+                    headers: {'Content-Type': 'application/json', 'Accept': 'aplication/json'}
+                })
+                .then(response => {
+                    return response.json();
+                })
+                .then((data) => {
+                    document.body.innerHTML += `${n++}.Результат: ${Date.now() - start_time}-${data.k}/${data.fact}<br/>`;
+                });
+        }
+    };
+    FactorialForTwenty();
+</script>
+</body>
+</html>

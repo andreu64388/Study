@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02-04</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        h2 {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+<h1>ФИО: </h1>
+<h2 id="fio"></h2>
+<script>
+    var xhr = new XMLHttpRequest();
+
+    xhr.open('GET', 'http://localhost:5000/api/name', true);
+    xhr.send();
+
+    let input = document.getElementById("fio");
+
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            var response = xhr.responseText;
+            document.getElementById("fio").textContent = response;
+            console.log(response);
+        } else {
+            console.log("Ответ сервера: " + xhr.statusText);
+        }
+    };
+</script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+﻿  NTP protocol-client.cpp
+E:\student\learn\3_course\2_sem\RIS\Lab_1\NTP protocol-client\NTP protocol-client.cpp(86,24): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+E:\student\learn\3_course\2_sem\RIS\Lab_1\NTP protocol-client\NTP protocol-client.cpp(87,24): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+  NTP protocol-client.vcxproj -> E:\student\learn\3_course\2_sem\RIS\Lab_1\x64\Debug\NTP protocol-client.exe

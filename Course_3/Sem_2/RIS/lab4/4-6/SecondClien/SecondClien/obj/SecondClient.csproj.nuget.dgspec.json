@@ -1,0 +1,190 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\student\\learn\\3_course\\2_sem\\RIS\\lab4\\4-6\\SecondClien\\SecondClien\\SecondClient.csproj": {}
+  },
+  "projects": {
+    "E:\\student\\learn\\3_course\\2_sem\\RIS\\lab4\\4-6\\Generator\\DatabaseClasses\\DatabaseClasses.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\student\\learn\\3_course\\2_sem\\RIS\\lab4\\4-6\\Generator\\DatabaseClasses\\DatabaseClasses.csproj",
+        "projectName": "DatabaseClasses",
+        "projectPath": "E:\\student\\learn\\3_course\\2_sem\\RIS\\lab4\\4-6\\Generator\\DatabaseClasses\\DatabaseClasses.csproj",
+        "packagesPath": "C:\\Users\\andry\\.nuget\\packages\\",
+        "outputPath": "E:\\student\\learn\\3_course\\2_sem\\RIS\\lab4\\4-6\\Generator\\DatabaseClasses\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "E:\\student\\learn\\3_course\\1_sem\\РПР\\Lab_4\\Hello\\HelloLibrary": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\student\\learn\\3_course\\2_sem\\RIS\\lab4\\4-6\\Generator\\Models\\Models.csproj": {
+                "projectPath": "E:\\student\\learn\\3_course\\2_sem\\RIS\\lab4\\4-6\\Generator\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\student\\learn\\3_course\\2_sem\\RIS\\lab4\\4-6\\Generator\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\student\\learn\\3_course\\2_sem\\RIS\\lab4\\4-6\\Generator\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "E:\\student\\learn\\3_course\\2_sem\\RIS\\lab4\\4-6\\Generator\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\andry\\.nuget\\packages\\",
+        "outputPath": "E:\\student\\learn\\3_course\\2_sem\\RIS\\lab4\\4-6\\Generator\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "E:\\student\\learn\\3_course\\1_sem\\РПР\\Lab_4\\Hello\\HelloLibrary": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\student\\learn\\3_course\\2_sem\\RIS\\lab4\\4-6\\SecondClien\\SecondClien\\SecondClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\student\\learn\\3_course\\2_sem\\RIS\\lab4\\4-6\\SecondClien\\SecondClien\\SecondClient.csproj",
+        "projectName": "SecondClient",
+        "projectPath": "E:\\student\\learn\\3_course\\2_sem\\RIS\\lab4\\4-6\\SecondClien\\SecondClien\\SecondClient.csproj",
+        "packagesPath": "C:\\Users\\andry\\.nuget\\packages\\",
+        "outputPath": "E:\\student\\learn\\3_course\\2_sem\\RIS\\lab4\\4-6\\SecondClien\\SecondClien\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "E:\\student\\learn\\3_course\\1_sem\\РПР\\Lab_4\\Hello\\HelloLibrary": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\student\\learn\\3_course\\2_sem\\RIS\\lab4\\4-6\\Generator\\DatabaseClasses\\DatabaseClasses.csproj": {
+                "projectPath": "E:\\student\\learn\\3_course\\2_sem\\RIS\\lab4\\4-6\\Generator\\DatabaseClasses\\DatabaseClasses.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

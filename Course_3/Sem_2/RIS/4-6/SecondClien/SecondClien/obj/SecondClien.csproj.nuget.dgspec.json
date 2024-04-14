@@ -1,0 +1,190 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\учеба\\РИС\\Лабораторные\\ЛР4-6\\4-6\\SecondClien\\SecondClien\\SecondClien.csproj": {}
+  },
+  "projects": {
+    "D:\\учеба\\РИС\\Лабораторные\\ЛР4-6\\4-6\\Generator\\DatabaseClasses\\DatabaseClasses.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\учеба\\РИС\\Лабораторные\\ЛР4-6\\4-6\\Generator\\DatabaseClasses\\DatabaseClasses.csproj",
+        "projectName": "DatabaseClasses",
+        "projectPath": "D:\\учеба\\РИС\\Лабораторные\\ЛР4-6\\4-6\\Generator\\DatabaseClasses\\DatabaseClasses.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\учеба\\РИС\\Лабораторные\\ЛР4-6\\4-6\\Generator\\DatabaseClasses\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\учеба\\РПР\\лаба 7": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\учеба\\РИС\\Лабораторные\\ЛР4-6\\4-6\\Generator\\Models\\Models.csproj": {
+                "projectPath": "D:\\учеба\\РИС\\Лабораторные\\ЛР4-6\\4-6\\Generator\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\учеба\\РИС\\Лабораторные\\ЛР4-6\\4-6\\Generator\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\учеба\\РИС\\Лабораторные\\ЛР4-6\\4-6\\Generator\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "D:\\учеба\\РИС\\Лабораторные\\ЛР4-6\\4-6\\Generator\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\учеба\\РИС\\Лабораторные\\ЛР4-6\\4-6\\Generator\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\учеба\\РПР\\лаба 7": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\учеба\\РИС\\Лабораторные\\ЛР4-6\\4-6\\SecondClien\\SecondClien\\SecondClien.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\учеба\\РИС\\Лабораторные\\ЛР4-6\\4-6\\SecondClien\\SecondClien\\SecondClien.csproj",
+        "projectName": "SecondClien",
+        "projectPath": "D:\\учеба\\РИС\\Лабораторные\\ЛР4-6\\4-6\\SecondClien\\SecondClien\\SecondClien.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\учеба\\РИС\\Лабораторные\\ЛР4-6\\4-6\\SecondClien\\SecondClien\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\учеба\\РПР\\лаба 7": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\учеба\\РИС\\Лабораторные\\ЛР4-6\\4-6\\Generator\\DatabaseClasses\\DatabaseClasses.csproj": {
+                "projectPath": "D:\\учеба\\РИС\\Лабораторные\\ЛР4-6\\4-6\\Generator\\DatabaseClasses\\DatabaseClasses.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

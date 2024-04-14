@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <title>02-06</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        h2 {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+<h1>ФИО: </h1>
+<h2 id="fio"></h2>
+<script>
+    $.ajax({
+        method: 'GET',
+        url: "http://localhost:5000/api/name",
+        success: (data) => {
+            $('#fio').html(data);
+        },
+        error: (err) => {
+            console.error("Error:", error);
+        }
+    });
+</script>
+</body>
+</html>

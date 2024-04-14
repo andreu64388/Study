@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab4</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        #get_result {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            max-width: 500px;
+            overflow-wrap: break-word;
+            background-color: #fff;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            color: #3498db;
+        }
+
+        input {
+            margin-bottom: 10px;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        button {
+            padding: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+
+<body>
+<h1>Lab4</h1>
+<div id="get_result"></div>
+<button onclick="GET()">GET</button>
+
+<div>
+    <label for="ID">ID</label>
+    <input type="number" id="ID" min="0" oninput="LoadInput()">
+    </br>
+
+    <label for="FIO">FIO</label>
+    <input type="text" id="FIO">
+    </br>
+
+    <label for="BDay">BDay</label>
+    <input type="date" id="BDay">
+    </br>
+
+    <button onclick="Post()">Insert</button>
+    <button onclick="Update()">Update</button>
+    <button onclick="Delete()">Delete</button>
+</div>
+
+<script>
+    function GET() {
+        console.log('GET');
+        fetch('http://localhost:5000/api/db', {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            }
+        })
+            .then(response => response.json())
+            .then((pdata) => {
+                console.log('pdata', pdata);
+                const getResult = document.getElementById('get_result');
+                getResult.innerHTML = pdata.map(el => `${el.ID} ${el.FIO} ${el.BDay}<br>`).join('');
+            });
+    }
+
+    function Post() {
+        console.log('POST');
+        fetch('http://localhost:5000/api/db', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
+            body: JSON.stringify({
+                ID: ID.value,
+                FIO: FIO.value,
+                BDay: BDay.value
+            })
+        })
+            .then(response => response.json())
+            .then((pdata) => console.log('POST.pdata', pdata));
+    }
+
+    function Update() {
+        console.log('PUT');
+        fetch('http://localhost:5000/api/db', {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
+            body: JSON.stringify({
+                ID: ID.value,
+                FIO: FIO.value,
+                BDay: BDay.value
+            })
+        })
+            .then(response => response.json())
+            .then((pdata) => console.log('PUT.pdata', pdata));
+    }
+
+    function Delete() {
+        console.log('DELETE');
+        fetch('http://localhost:5000/api/db', {
+            method: 'DELETE',
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
+            body: JSON.stringify({
+                ID: ID.value,
+                FIO: FIO.value,
+                BDay: BDay.value
+            })
+        })
+            .then(response => response.json())
+            .then((pdata) => console.log('DELETE.pdata', pdata));
+    }
+
+    function LoadInput() {
+        const idValue = document.getElementById('ID').value;
+        console.log('LoadInput');
+        fetch('http://localhost:5000/api/db', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
+            body: JSON.stringify({
+                ID: idValue,
+                FIO: -1,
+                BDay: -1
+            })
+        })
+            .then(response => response.json())
+            .then((pdata) => {
+                console.log('LoadInput.pdata', pdata);
+                if (pdata !== null) {
+                    ID.value = pdata.ID;
+                    FIO.value = pdata.FIO;
+                    BDay.value = pdata.BDay;
+                }
+            });
+    }
+</script>
+</body>
+</html>

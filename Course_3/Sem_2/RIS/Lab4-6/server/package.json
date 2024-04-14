@@ -1,0 +1,21 @@
+{
+  "name": "qwe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serv.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.3",
+    "sequelize": "^6.17.0",
+    "sequelize-auto": "^0.8.8",
+    "tedious": "^14.3.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "qwe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serv.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.17.1",
+    "log4js": "^2.8.0",
+    "moment": "^2.29.1",
+    "mysql2": "^1.5.3",
+    "pg": "^7.4.3",
+    "sequelize": "^4.37.10",
+    "sqlite3": "^4.2.0"
+  }
+}

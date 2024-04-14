@@ -1,0 +1,4 @@
+﻿  NTP.cpp
+E:\student\learn\3_course\2_sem\RIS\Lab_1\NTP\NTP\NTP.cpp(55,17): warning C4307: "*": переполнение целой константы со знаком
+E:\student\learn\3_course\2_sem\RIS\Lab_1\NTP\NTP\NTP.cpp(76,21): warning C4309: =: усечение константного значения
+  NTP.vcxproj -> E:\student\learn\3_course\2_sem\RIS\Lab_1\NTP\x64\Debug\NTP.exe

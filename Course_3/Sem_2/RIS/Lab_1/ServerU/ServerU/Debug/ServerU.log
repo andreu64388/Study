@@ -1,0 +1,3 @@
+﻿  ServerU.cpp
+E:\student\learn\3_course\2_sem\RIS\Lab_1\ServerU\ServerU\ServerU.cpp(165,12): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  ServerU.vcxproj -> E:\student\learn\3_course\2_sem\RIS\Lab_1\ServerU\Debug\ServerU.exe

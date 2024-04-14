@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Sender</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            display: inline-block;
+            text-align: left;
+            width: 100%;
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+<h1>Email Sender</h1>
+<form action="/send" method="post">
+    <label for="sender">Sender Email:</label>
+    <input type="email" name="sender" id="sender" required><br>
+
+    <label for="receiver">Receiver Email:</label>
+    <input type="email" name="receiver" id="receiver" required><br>
+
+    <label for="message">Message:</label><br>
+    <textarea name="message" id="message" rows="4" required></textarea><br>
+
+    <button type="submit">Send Email</button>
+</form>
+</body>
+</html>

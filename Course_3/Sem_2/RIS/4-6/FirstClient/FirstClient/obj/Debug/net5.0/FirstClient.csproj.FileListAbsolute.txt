@@ -1,0 +1,253 @@
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.exe
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.dll.config
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.deps.json
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.runtimeconfig.json
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.runtimeconfig.dev.json
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.dll
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\ref\FirstClient.dll
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.pdb
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\EntityFramework.dll
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.CodeDom.dll
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Drawing.Common.dll
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Security.Permissions.dll
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Windows.Extensions.dll
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\DatabaseClasses.dll
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\Models.dll
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\Models.pdb
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.csproj.AssemblyReference.cache
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.AssemblyInfoInputs.cache
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.AssemblyInfo.cs
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.csproj.CoreCompileInputs.cache
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.csproj.CopyComplete
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.dll
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\obj\Debug\net5.0\ref\FirstClient.dll
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.pdb
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.genruntimeconfig.cache
+D:\Labs\2 sem\RIS\4-6\FirstClient\FirstClient\bin\Debug\net5.0\DatabaseClasses.pdb
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.exe
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.dll.config
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.deps.json
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.runtimeconfig.json
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.runtimeconfig.dev.json
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\ref\FirstClient.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.pdb
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\EntityFramework.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.CodeDom.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Drawing.Common.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Security.Permissions.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Windows.Extensions.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\DatabaseClasses.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\Models.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\DatabaseClasses.pdb
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\Models.pdb
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.csproj.AssemblyReference.cache
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.AssemblyInfoInputs.cache
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.AssemblyInfo.cs
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.csproj.CoreCompileInputs.cache
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.csproj.CopyComplete
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\ref\FirstClient.dll
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.pdb
+D:\Учеба\Распределенные информационные системы\Лабораторная работа №4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.genruntimeconfig.cache
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.exe
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.dll.config
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.deps.json
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.runtimeconfig.json
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.runtimeconfig.dev.json
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.pdb
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\EntityFramework.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.CodeDom.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Drawing.Common.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Security.Permissions.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Windows.Extensions.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\DatabaseClasses.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\Models.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\DatabaseClasses.pdb
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\Models.pdb
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.csproj.AssemblyReference.cache
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.AssemblyInfoInputs.cache
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.AssemblyInfo.cs
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.csproj.CoreCompileInputs.cache
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.csproj.CopyComplete
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\refint\FirstClient.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.pdb
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.genruntimeconfig.cache
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\ref\FirstClient.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.exe
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.dll.config
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.deps.json
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.runtimeconfig.json
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.runtimeconfig.dev.json
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.pdb
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\EntityFramework.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.CodeDom.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Data.SqlClient.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Drawing.Common.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Security.Permissions.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Windows.Extensions.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\DatabaseClasses.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\Models.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\DatabaseClasses.pdb
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\Models.pdb
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.csproj.AssemblyReference.cache
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.GeneratedMSBuildEditorConfig.editorconfig
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.AssemblyInfoInputs.cache
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.AssemblyInfo.cs
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.csproj.CoreCompileInputs.cache
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.csproj.CopyComplete
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\refint\FirstClient.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.pdb
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.genruntimeconfig.cache
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\ref\FirstClient.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.exe
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.dll.config
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.deps.json
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.runtimeconfig.json
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.runtimeconfig.dev.json
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.pdb
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\EntityFramework.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.CodeDom.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Data.SqlClient.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Drawing.Common.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Security.Permissions.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Windows.Extensions.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\DatabaseClasses.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\Models.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\DatabaseClasses.pdb
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\bin\Debug\net5.0\Models.pdb
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.csproj.AssemblyReference.cache
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.GeneratedMSBuildEditorConfig.editorconfig
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.AssemblyInfoInputs.cache
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.AssemblyInfo.cs
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.csproj.CoreCompileInputs.cache
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.csproj.CopyComplete
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\refint\FirstClient.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.pdb
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.genruntimeconfig.cache
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\FirstClient\FirstClient\obj\Debug\net5.0\ref\FirstClient.dll
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.exe
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.dll.config
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.deps.json
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.runtimeconfig.json
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.runtimeconfig.dev.json
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.dll
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\FirstClient.pdb
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\EntityFramework.dll
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.CodeDom.dll
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Drawing.Common.dll
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Security.Permissions.dll
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\System.Windows.Extensions.dll
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\DatabaseClasses.dll
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\Models.dll
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\DatabaseClasses.pdb
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\bin\Debug\net5.0\Models.pdb
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.csproj.AssemblyReference.cache
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.AssemblyInfoInputs.cache
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.AssemblyInfo.cs
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.csproj.CoreCompileInputs.cache
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.sourcelink.json
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.csproj.CopyComplete
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.dll
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\obj\Debug\net5.0\refint\FirstClient.dll
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.pdb
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\obj\Debug\net5.0\FirstClient.genruntimeconfig.cache
+D:\study\sem6\RIS\lab4\4-6\FirstClient\FirstClient\obj\Debug\net5.0\ref\FirstClient.dll

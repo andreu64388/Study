@@ -1,0 +1,193 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4\\4-6\\FirstClient\\FirstClient\\FirstClient.csproj": {}
+  },
+  "projects": {
+    "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4\\4-6\\FirstClient\\FirstClient\\FirstClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4\\4-6\\FirstClient\\FirstClient\\FirstClient.csproj",
+        "projectName": "FirstClient",
+        "projectPath": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4\\4-6\\FirstClient\\FirstClient\\FirstClient.csproj",
+        "packagesPath": "C:\\Users\\halal\\.nuget\\packages\\",
+        "outputPath": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4\\4-6\\FirstClient\\FirstClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\halal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4\\4-6\\Generator\\DatabaseClasses\\DatabaseClasses.csproj": {
+                "projectPath": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4\\4-6\\Generator\\DatabaseClasses\\DatabaseClasses.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4\\4-6\\Generator\\DatabaseClasses\\DatabaseClasses.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4\\4-6\\Generator\\DatabaseClasses\\DatabaseClasses.csproj",
+        "projectName": "DatabaseClasses",
+        "projectPath": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4\\4-6\\Generator\\DatabaseClasses\\DatabaseClasses.csproj",
+        "packagesPath": "C:\\Users\\halal\\.nuget\\packages\\",
+        "outputPath": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4\\4-6\\Generator\\DatabaseClasses\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\halal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4\\4-6\\Generator\\Models\\Models.csproj": {
+                "projectPath": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4\\4-6\\Generator\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4\\4-6\\Generator\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4\\4-6\\Generator\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4\\4-6\\Generator\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\halal\\.nuget\\packages\\",
+        "outputPath": "D:\\My Files\\Univer\\3 COURSE\\6 sem\\РИС\\lab4\\4-6\\Generator\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\halal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

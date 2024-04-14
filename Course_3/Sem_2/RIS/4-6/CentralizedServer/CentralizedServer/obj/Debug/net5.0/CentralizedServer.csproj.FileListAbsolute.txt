@@ -1,0 +1,337 @@
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.exe
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.deps.json
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.runtimeconfig.json
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.runtimeconfig.dev.json
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.dll
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\ref\CentralizedServer.dll
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.pdb
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.csproj.AssemblyReference.cache
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.AssemblyInfoInputs.cache
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.AssemblyInfo.cs
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.csproj.CoreCompileInputs.cache
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.dll
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\ref\CentralizedServer.dll
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.pdb
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.genruntimeconfig.cache
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\Models.dll
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\Models.pdb
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.csproj.CopyComplete
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.dll.config
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\EntityFramework.dll
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.CodeDom.dll
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Drawing.Common.dll
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Security.Permissions.dll
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Windows.Extensions.dll
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\DatabaseClasses.dll
+D:\Labs\2 sem\RIS\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\DatabaseClasses.pdb
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.exe
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.dll.config
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.deps.json
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.runtimeconfig.json
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.runtimeconfig.dev.json
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.dll
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\ref\CentralizedServer.dll
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.pdb
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\EntityFramework.dll
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.CodeDom.dll
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Drawing.Common.dll
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Security.Permissions.dll
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Windows.Extensions.dll
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\DatabaseClasses.dll
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\Models.dll
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\DatabaseClasses.pdb
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\Models.pdb
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.csproj.AssemblyReference.cache
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.AssemblyInfoInputs.cache
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.AssemblyInfo.cs
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.csproj.CoreCompileInputs.cache
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.csproj.CopyComplete
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.dll
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\ref\CentralizedServer.dll
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.pdb
+D:\Рабочий стол\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.genruntimeconfig.cache
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.exe
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.dll.config
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.deps.json
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.runtimeconfig.json
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.runtimeconfig.dev.json
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.pdb
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\EntityFramework.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.CodeDom.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Drawing.Common.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Security.Permissions.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Windows.Extensions.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\DatabaseClasses.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\Models.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\DatabaseClasses.pdb
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\Models.pdb
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.csproj.AssemblyReference.cache
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.AssemblyInfoInputs.cache
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.AssemblyInfo.cs
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.csproj.CoreCompileInputs.cache
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.csproj.CopyComplete
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\refint\CentralizedServer.dll
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.pdb
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.genruntimeconfig.cache
+D:\учеба\РИС\Лабораторные\ЛР4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\ref\CentralizedServer.dll
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.exe
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.dll.config
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.deps.json
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.runtimeconfig.json
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.runtimeconfig.dev.json
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.dll
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.pdb
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\EntityFramework.dll
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.CodeDom.dll
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Drawing.Common.dll
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Security.Permissions.dll
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Windows.Extensions.dll
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\DatabaseClasses.dll
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\Models.dll
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\DatabaseClasses.pdb
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\Models.pdb
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.csproj.AssemblyReference.cache
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.AssemblyInfoInputs.cache
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.AssemblyInfo.cs
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.csproj.CoreCompileInputs.cache
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.csproj.CopyComplete
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.dll
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\refint\CentralizedServer.dll
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.pdb
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.genruntimeconfig.cache
+D:\универ\РИС\лабы\4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\ref\CentralizedServer.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.exe
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.dll.config
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.deps.json
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.runtimeconfig.json
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.runtimeconfig.dev.json
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.pdb
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\EntityFramework.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.CodeDom.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Data.SqlClient.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Drawing.Common.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Security.Permissions.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Windows.Extensions.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\DatabaseClasses.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\Models.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\DatabaseClasses.pdb
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\Models.pdb
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.csproj.AssemblyReference.cache
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.GeneratedMSBuildEditorConfig.editorconfig
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.AssemblyInfoInputs.cache
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.AssemblyInfo.cs
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.csproj.CoreCompileInputs.cache
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.csproj.CopyComplete
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\refint\CentralizedServer.dll
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.pdb
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.genruntimeconfig.cache
+E:\BSTU\3_course\РИС\RIS-6sem-main\4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\ref\CentralizedServer.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.exe
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.dll.config
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.deps.json
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.runtimeconfig.json
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.runtimeconfig.dev.json
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.pdb
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\EntityFramework.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.CodeDom.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Data.SqlClient.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Drawing.Common.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Security.Permissions.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Windows.Extensions.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\DatabaseClasses.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\Models.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\DatabaseClasses.pdb
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\Models.pdb
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.csproj.AssemblyReference.cache
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.GeneratedMSBuildEditorConfig.editorconfig
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.AssemblyInfoInputs.cache
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.AssemblyInfo.cs
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.csproj.CoreCompileInputs.cache
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.csproj.CopyComplete
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\refint\CentralizedServer.dll
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.pdb
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.genruntimeconfig.cache
+E:\BSTU\3_course\РИС\Labs\Lab_4-6\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\ref\CentralizedServer.dll
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.exe
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.dll.config
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.deps.json
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.runtimeconfig.json
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.runtimeconfig.dev.json
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.dll
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.pdb
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\EntityFramework.dll
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.CodeDom.dll
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Drawing.Common.dll
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Security.Permissions.dll
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Windows.Extensions.dll
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\DatabaseClasses.dll
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\Models.dll
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\DatabaseClasses.pdb
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\Models.pdb
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.csproj.AssemblyReference.cache
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.AssemblyInfoInputs.cache
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.AssemblyInfo.cs
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.csproj.CoreCompileInputs.cache
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.sourcelink.json
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.csproj.CopyComplete
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.dll
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\refint\CentralizedServer.dll
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.pdb
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.genruntimeconfig.cache
+D:\study\sem6\RIS\lab4\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\ref\CentralizedServer.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\EntityFramework.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.CodeDom.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Drawing.Common.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Security.Permissions.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\System.Windows.Extensions.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\DatabaseClasses.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\Models.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\DatabaseClasses.pdb
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\Models.pdb
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.csproj.AssemblyReference.cache
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.AssemblyInfoInputs.cache
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.AssemblyInfo.cs
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.csproj.CoreCompileInputs.cache
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.csproj.CopyComplete
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\refint\CentralizedServer.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.pdb
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.exe
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.dll.config
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.deps.json
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.runtimeconfig.json
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.runtimeconfig.dev.json
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.dll
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\bin\Debug\net5.0\CentralizedServer.pdb
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\CentralizedServer.genruntimeconfig.cache
+D:\My Files\Univer\3 COURSE\6 sem\РИС\lab4\4-6\CentralizedServer\CentralizedServer\obj\Debug\net5.0\ref\CentralizedServer.dll

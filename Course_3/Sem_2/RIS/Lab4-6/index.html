@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="cl1">get from client 1</button>
+<button id="cl2">get from client 2</button>
+<button id="ser">get from central server</button>
+<button id="listen">server listen</button>
+<button id="sync">sync clients</button>
+<p>status: <span id="status"></span></p>
+<pre id="content"></pre>
+<script>
+    document.querySelector("#cl1").addEventListener("click", async () => {
+      await fetch("http://localhost:8001/get")
+        .then(res => {
+          document.querySelector("#status").innerHTML = res.statusText
+          return res
+        })
+        .then(res => res.json())
+        .then(res => {
+          document.querySelector("#content").innerHTML = JSON.stringify(res, null, 2)
+        })
+    })
+
+    document.querySelector("#cl2").addEventListener("click", async () => {
+      await fetch("http://localhost:8003/get")
+        .then(res => {
+          document.querySelector("#status").innerHTML = res.statusText
+          return res
+        })
+        .then(res => res.json())
+        .then(res => {
+          document.querySelector("#content").innerHTML = JSON.stringify(res, null, 2)
+        })
+    })
+
+    document.querySelector("#ser").addEventListener("click", async () => {
+      await fetch("http://localhost:8005/get")
+        .then(res => {
+          document.querySelector("#status").innerHTML = res.statusText
+          return res
+        })
+        .then(res => res.json())
+        .then(res => {
+          document.querySelector("#content").innerHTML = JSON.stringify(res, null, 2)
+        })
+    })
+
+    document.querySelector("#sync").addEventListener("click", async () => {
+      await fetch("http://localhost:8001/sync")
+        .then(res => {
+          document.querySelector("#status").innerHTML = res.statusText
+          return res
+        })
+      await fetch("http://localhost:8003/sync")
+        .then(res => {
+          document.querySelector("#status").innerHTML = res.statusText
+          return res
+        })
+    })
+
+    document.querySelector("#listen").addEventListener("click", async () => {
+      await fetch("http://localhost:8005/listen")
+        .then(res => {
+          document.querySelector("#status").innerHTML = res.statusText
+          return res
+        })
+    })
+</script>
+</body>
+</html>

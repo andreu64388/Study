@@ -1,0 +1,12 @@
+{
+  "name": "lab_1",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "01-01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
